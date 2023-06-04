@@ -1,0 +1,9 @@
+variation-normalizer == 0.5.5
+civicpy ~= 3.0.0
+python-dotenv
+ipykernel
+jupyter
+plotly
+pandas
+nbformat
+requests
