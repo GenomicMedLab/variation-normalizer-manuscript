@@ -1,0 +1,40 @@
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.vim/
+
+dist/
+*.egg-info/
+
+.DS_Store
+
+.mypy_cache/
+
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Zip
+*.zip
+
+build/
+dynamodb_local_latest/
+
+# Env files
+.env
+
+# pickle files
+*.pkl
+
+# venv
+.venv
