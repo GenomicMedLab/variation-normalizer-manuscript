@@ -33,6 +33,8 @@ variant_id	gene_name	variant_name	variant_accepted
 996	EGFR	A289V	True
 4402	CDH1	A298T	False
 4126	TP53	A347G	False
+1607	ABL1	A365V	False
+1608	ABL1	A366G	False
 4023	FGFR3	A391E	True
 752	MLH1	A424T	True
 1588	SMO	A459V	False
@@ -49,7 +51,10 @@ variant_id	gene_name	variant_name	variant_accepted
 2332	EGFR	A750T	False
 1515	EGFR	A763_Y764insFQEA	True
 3725	AR	A765T	False
+4485	ERBB2	A775_G776ins YVMA	False
+4484	ERBB2	A775_G776insIVMA	False
 2658	ERBB2	A775_G776insYVMA	False
+4483	ERBB2	A775_G776insYVMA	False
 3591	RIT1	A77P	False
 3592	RIT1	A77S	False
 990	KIT	A829P	True
@@ -65,8 +70,6 @@ variant_id	gene_name	variant_name	variant_accepted
 204	NCOA3	AMPLIFICATION	True
 224	TTF1	AMPLIFICATION	True
 2655	MYB	AMPLIFICATION	True
-842	BRAF	APC	False
-2758	BRCA1	ATM	False
 18	CCND1	Amplification	True
 180	AURKA	Amplification	True
 187	CCNE1	Amplification	True
@@ -118,6 +121,7 @@ variant_id	gene_name	variant_name	variant_accepted
 3687	KMT2A	Amplification	False
 4301	ALK	Amplification	True
 4423	TBXT	Amplification	False
+4517	ROS1	Amplification	False
 4331	ALK	C1156Y	True
 627	MAP2K1	C121S	True
 4113	TP53	C124R	True
@@ -205,6 +209,8 @@ variant_id	gene_name	variant_name	variant_accepted
 3625	BRCA2	D2723A	False
 3631	BRCA2	D2723G	False
 3639	BRCA2	D2723H	False
+4218	ABL1	D276G	True
+4513	ERBB2	D277H	False
 1044	TP53	D281E	True
 1045	TP53	D281G	False
 3792	TP53	D281N	True
@@ -381,6 +387,7 @@ variant_id	gene_name	variant_name	variant_accepted
 3332	CDKN2A	E88K	False
 3537	PTEN	E91A	False
 3484	FN1	EDB	False
+2943	EWSR1	EWSR1-ATF1	False
 4005	EWSR1	EWSR1-ERG	False
 1158	ATM	F1025L	True
 3082	BCL2	F104I	True
@@ -409,10 +416,12 @@ variant_id	gene_name	variant_name	variant_accepted
 2617	EGFR	F404V	False
 1538	ABL1	F486Y	False
 3240	KIT	F504A	False
+4514	KIT	F522C	False
 1270	MAP2K1	F53L	False
 2839	MAP2K1	F53Y	False
 4223	AKT1	F55Y	False
 1398	MAP2K2	F57C	False
+4510	NTRK1	F589L	False
 3450	BRAF	F594L	False
 1121	BRAF	F595L	False
 3468	NTRK3	F617L	True
@@ -484,7 +493,7 @@ variant_id	gene_name	variant_name	variant_accepted
 1036	TP53	G245D	True
 879	TP53	G245S	True
 3331	LZTR1	G248R	False
-2279	CRLF2	G24R	False
+1023	ABL1	G250E	True
 1599	ABL1	G250V	False
 3523	SMAD4	G252*	False
 141	DDR2	G253C	True
@@ -557,6 +566,7 @@ variant_id	gene_name	variant_name	variant_accepted
 3699	FGFR3	G637W	False
 3488	EGFR	G63R	False
 759	MLH1	G65D	True
+4511	NTRK1	G667C	False
 757	MLH1	G67R	True
 1692	FGFR3	G691R	False
 4030	FGFR3	G697C	False
@@ -570,6 +580,8 @@ variant_id	gene_name	variant_name	variant_accepted
 144	DDR2	G774V	True
 816	ERBB2	G776L	True
 4470	ERBB2	G776V	False
+4489	ERBB2	G776delinsVC	False
+4487	ERBB2	G778-779 insCPG	False
 3649	KDR	G800D	False
 3650	KDR	G800R	False
 4298	FGFR3	G802_X807del	False
@@ -686,6 +698,7 @@ variant_id	gene_name	variant_name	variant_accepted
 1549	KIT	K558delinsNP	True
 1272	MAP2K1	K57N	True
 824	MAP2K1	K57T	False
+4475	MAP2K1	K57_G61del	False
 3455	BRAF	K600E	False
 584	BRAF	K601E	True
 733	MLH1	K618DEL	True
@@ -802,6 +815,7 @@ variant_id	gene_name	variant_name	variant_accepted
 1008	EGFR	L747_T751delinsQ	False
 1313	ERBB2	L753E	False
 1304	ERBB2	L755P	False
+4490	ERBB2	L755P	False
 39	ERBB2	L755S	True
 40	ERBB2	L755W	True
 37	ERBB2	L755_T759del	True
@@ -838,6 +852,7 @@ variant_id	gene_name	variant_name	variant_accepted
 3789	TP53	M246L	True
 4105	TP53	M246R	False
 3399	TP53	M246T	False
+1029	ABL1	M351T	True
 1610	ABL1	M388L	False
 1622	ABL1	M472I	False
 769	MLH1	M490T	True
@@ -852,7 +867,6 @@ variant_id	gene_name	variant_name	variant_accepted
 818	ERBB2	M774DELINSWLV	True
 3588	RIT1	M90I	False
 113	RET	M918T	True
-3435	MYOD1	MYOD1 L122R	False
 3438	PIK3CA	N1044K	False
 2924	PRPS1	N114D	False
 2843	MAP2K2	N126D	False
@@ -963,7 +977,6 @@ variant_id	gene_name	variant_name	variant_accepted
 3644	PIM1	P81S	True
 3384	CDKN2A	P81T	False
 1465	EGFR	P848L	False
-480	DNMT3A	P904L	False
 3348	SPOP	P94A	False
 4304	SRSF2	P95H	True
 3533	PTEN	P95L	False
@@ -1054,6 +1067,7 @@ variant_id	gene_name	variant_name	variant_accepted
 880	IDH1	R132L	False
 4433	IDH1	R132Q	False
 928	IDH1	R132S	False
+4512	ERBB2	R143Q	False
 4102	TP53	R156H	True
 3795	TP53	R156P	True
 1170	ATM	R1575H	False
@@ -1087,7 +1101,6 @@ variant_id	gene_name	variant_name	variant_accepted
 826	GNAS	R201C	True
 1319	GNAS	R201H	True
 4305	CIC	R201W	False
-2857	ROS1	R2033N	False
 1161	ATM	R2034P	False
 3661	ACVR1	R206H	True
 3575	PMS2	R20Q	False
@@ -1105,7 +1118,6 @@ variant_id	gene_name	variant_name	variant_accepted
 2896	NT5C2	R238W	True
 1156	ATM	R2459C	False
 2403	FGFR3	R248C	True
-3069	NTRK3	R248C	False
 920	TP53	R248L	False
 117	TP53	R248Q	True
 118	TP53	R248W	True
@@ -1140,7 +1152,6 @@ variant_id	gene_name	variant_name	variant_accepted
 4149	TP53	R337S	False
 3579	TP53	R342P	True
 1656	ABL1	R351W	True
-2276	AMER1	R358X	False
 2851	SMAD4	R361C	True
 238	NT5C2	R367Q	True
 812	ETV6	R369Q	False
@@ -1186,8 +1197,10 @@ variant_id	gene_name	variant_name	variant_accepted
 1178	PIK3CA	R93W	True
 502	KDR	R961W	True
 2790	PIK3CA	R975S	False
+4515	MET	R988C	False
 3685	PTPRD	R995C	False
 3429	ARHGAP35	R997*	False
+4542	DICER1	RNase IIIb Mutation	False
 2925	PRPS1	S103I	True
 2926	PRPS1	S103N	True
 2927	PRPS1	S103T	True
@@ -1225,8 +1238,11 @@ variant_id	gene_name	variant_name	variant_accepted
 4312	SMAD2	S276L	True
 1562	SMO	S278I	False
 3709	AR	S296R	False
+4492	ERBB2	S310F	False
+1215	ERBB2	S310Y	False
 2946	FGFR2	S320C	False
 3710	AR	S334P	False
+4493	ERBB2	S335C	False
 3254	CTNNB1	S33F	False
 2281	CTNNB1	S37C	False
 1495	ABL1	S438C	False
@@ -1249,6 +1265,7 @@ variant_id	gene_name	variant_name	variant_accepted
 1659	KIT	S628N	True
 4408	EGFR	S645C	True
 2956	JAK1	S646F	False
+4541	ERBB2	S653C	False
 980	KIT	S692L	False
 822	JAK1	S703I	True
 3680	JAK1	S729C	False
@@ -1264,6 +1281,7 @@ variant_id	gene_name	variant_name	variant_accepted
 262	ABCB1	S893T	True
 3652	KDR	S925F	False
 3645	PIM1	S97N	True
+4516	MET	T1010I	False
 4330	ALK	T1151K	False
 1493	ALK	T1151M	False
 743	MLH1	T117M	True
@@ -1396,6 +1414,7 @@ variant_id	gene_name	variant_name	variant_accepted
 64	JAK2	V617F	True
 73	KIT	V654A	True
 3205	PDGFRA	V658A	False
+4491	ERBB2	V659E	False
 1289	JAK3	V722I	False
 3230	RET	V738A	False
 1001	EGFR	V742A	True
@@ -1409,7 +1428,7 @@ variant_id	gene_name	variant_name	variant_accepted
 1894	EGFR	V774M	True
 1567	EGFR	V774_C775insHV	False
 44	ERBB2	V777L	True
-2568	RET	V804M	False
+2568	RET	V804M	True
 1897	EGFR	V834I	True
 45	ERBB2	V842I	True
 1466	EGFR	V851I	True
@@ -1443,7 +1462,11 @@ variant_id	gene_name	variant_name	variant_accepted
 2703	CBL	W802*	False
 3250	VHL	W88*	False
 2913	MET	Y1003H	False
+4525	MET	Y1003N	False
+4523	MET	Y1003S	False
 935	PIK3CA	Y1021C	False
+4519	MET	Y1230C	False
+4520	MET	Y1230H	False
 3762	TP53	Y126D	True
 3763	TP53	Y126S	True
 3456	EP300	Y1414C	False
@@ -1461,6 +1484,7 @@ variant_id	gene_name	variant_name	variant_accepted
 3781	TP53	Y234H	True
 3770	TP53	Y236S	True
 3501	ERCC2	Y24C	False
+4529	ABL1	Y253H	True
 803	RUNX1	Y260*	True
 3614	BRCA2	Y2660D	False
 3609	BRCA2	Y2726C	False
@@ -1509,6 +1533,4 @@ variant_id	gene_name	variant_name	variant_accepted
 3535	PTEN	Y88C	False
 1642	POLD1	Y956N	False
 3045	VHL	p.F76del	False
-4475	MAP2K1	p.K57_G61del	False
 3310	HDAC9	p.L33R	False
-4474	BRAF	p.N486_P490	False
