@@ -5,13 +5,13 @@ variant_id	query	moa_feature_type	category	vrs_id
 76	ABL1 p.F317V	somatic_variant	Protein Consequence	ga4gh:VA.ZQYG0E49jxi2VTHK3Fmfktzg5KBW0is5
 77	ABL1 p.F317I	somatic_variant	Protein Consequence	ga4gh:VA.KNp3-VqwztR6vlk9k4x1XhebBhFX3nFe
 78	ABL1 p.F317C	somatic_variant	Protein Consequence	ga4gh:VA.yabDtFWLSKupTecNEMcVNAz9cfqKp6zN
-80	ABL1 p.E255K	somatic_variant	Protein Consequence	ga4gh:VA.egYObxBPDqf6cCMPijlIZ0QyLPa3-wO7
-81	ABL1 p.E255V	somatic_variant	Protein Consequence	ga4gh:VA.9pODtea47dZXXpsMJ667fBidWbvshZS2
+80	ABL1 p.E255K	somatic_variant	Protein Consequence	ga4gh:VA.sfWAmVm20zWQeAEbuwWohEshCqIg6yzA
+81	ABL1 p.E255V	somatic_variant	Protein Consequence	ga4gh:VA.mfifaaTO3eDAeGL_y_n50hQw5_6SD5zD
 82	ABL1 p.Y253H	somatic_variant	Protein Consequence	ga4gh:VA.R14JDsYJaw2AXsnZnsryvMsWDm3QHZDI
 83	ABL1 p.F359V	somatic_variant	Protein Consequence	ga4gh:VA.hjWYzEi6IM-mGx_QsWNNrBLTQEClE3S3
 84	ABL1 p.F359C	somatic_variant	Protein Consequence	ga4gh:VA.Pd684Wlp6DAMMDYWF9O4aAMvrpA25ydF
 85	ABL1 p.F359I	somatic_variant	Protein Consequence	ga4gh:VA.lFh0aJl2ac78dIMyomiZGrDyCz6hA_U1
-97	ABL1 p.V299L	somatic_variant	Protein Consequence	ga4gh:VA.sBWM34QhP2rjVTFWajgauhJ3QeN61TxY
+97	ABL1 p.V299L	somatic_variant	Protein Consequence	ga4gh:VA._3fTo5TrSSxQmrVDHsNdjhapCPrP6J9U
 108	ABL1 p.T315I	somatic_variant	Protein Consequence	ga4gh:VA.M3CbaYfwomLqvJbdK4w-W7V-zw7LdjGj
 112	AKT1 p.E17K	somatic_variant	Protein Consequence	ga4gh:VA.ulPeadFf5rMg7tG-WFIvGOPgFBgFBmvm
 115	ALK p.G1202R	somatic_variant	Protein Consequence	ga4gh:VA.otN-O6TmlrfPGEU-YDDmtdaXLY7zk4Zc
@@ -35,7 +35,7 @@ variant_id	query	moa_feature_type	category	vrs_id
 300	EZH2 p.Y646*	somatic_variant	Protein Consequence	ga4gh:VA.AmHnsLSTJCx_-X2xBhyx9HmhY8kn3iy4
 301	EZH2 p.Y646F	somatic_variant	Protein Consequence	ga4gh:VA.fIFZFyzJRiGTt2CRRD2DUSSQ_1cA2dDi
 302	EZH2 p.Y646N	somatic_variant	Protein Consequence	ga4gh:VA.zjbm34xh4ZI54ihvCj8XA-nZQMdSF97I
-303	EZH2 p.A682G	somatic_variant	Protein Consequence	ga4gh:VA.BMvnGn1upgP_4DhUZzqq7nTrBZeGwlgM
+303	EZH2 p.A682G	somatic_variant	Protein Consequence	ga4gh:VA.quv15qCKvn0_x59qzT1hkiEc3QTtCaGu
 304	EZH2 p.A692V	somatic_variant	Protein Consequence	ga4gh:VA.tHiuDXC6Tt9d5I2QSfMA3oPqwFojDoBp
 307	FGFR3 p.R248C	somatic_variant	Protein Consequence	ga4gh:VA.Ef_9GdbuoBbTePILS-NaQJn-_NhrdpoO
 308	FGFR3 p.S249C	somatic_variant	Protein Consequence	ga4gh:VA.g3wMkTfExru4z6L-cpP5OgujLJyvQQfV
@@ -65,8 +65,8 @@ variant_id	query	moa_feature_type	category	vrs_id
 365	KIT p.V559G	somatic_variant	Protein Consequence	ga4gh:VA.rdmWjmfv5r1vV2x97NdpqzKodyj5DMPp
 366	KIT p.L576P	somatic_variant	Protein Consequence	ga4gh:VA.z2MmOn-EKde3j5N0335DbKXvMRHZ8sfg
 367	KIT p.K642E	somatic_variant	Protein Consequence	ga4gh:VA._9KiRvPkoZgN3sRLRN28HKM0uQ1Ndq5-
-369	KIT p.D816H	somatic_variant	Protein Consequence	ga4gh:VA.vHPfPMGRksMr4zLq-aO7BKHeBS5GoEle
-374	KIT p.D816V	somatic_variant	Protein Consequence	ga4gh:VA.QSLb0bR-CRIFfKIENdHhcuUZwW3IS1aP
+369	KIT p.D816H	somatic_variant	Protein Consequence	ga4gh:VA.1AfKNJfYC37MNslxaUqB5GYxVFICpQe3
+374	KIT p.D816V	somatic_variant	Protein Consequence	ga4gh:VA.qbdPXPnOB7BbVgJJjOTrKe4ok5nrm71b
 387	KRAS p.G12C	somatic_variant	Protein Consequence	ga4gh:VA.GtaY-fkmnMXM-bRKyu5qvya6Zd47AM_X
 390	KRAS p.G12D	somatic_variant	Protein Consequence	ga4gh:VA.NtQTqsdO_Z8G0KpBQ1_z7QsHo_bVN43m
 402	MAP2K1 p.P124L	somatic_variant	Protein Consequence	ga4gh:VA.Uhggl0kfMZ_MaFNo57-aSkvjs3BtjdGj
@@ -178,3 +178,5 @@ variant_id	query	moa_feature_type	category	vrs_id
 868	IDH1 p.R132G	somatic_variant	Protein Consequence	ga4gh:VA.nB9f7uL9HBJj70ZqSimBFCEwv_1W0KMC
 869	IDH1 p.R132S	somatic_variant	Protein Consequence	ga4gh:VA.jNPuoVr44MWaWXmffeUgLdN9lxYisgaa
 870	IDH1 p.R132L	somatic_variant	Protein Consequence	ga4gh:VA.My7Dz91of1BesZ9PVk5u_vovguNywRCr
+895	ABL1 Amplification	copy_number	Copy Number	ga4gh:CX.6QYFDq8RRGyrm6JjazfWI3dvG4DUW1l_
+896	AR Amplification	copy_number	Copy Number	ga4gh:CX.VIJD6vu8rhtcw-preGLm1j3GOJ15s8nc

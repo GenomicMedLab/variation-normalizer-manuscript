@@ -243,3 +243,8 @@ variant_id	query	moa_feature_type	category
 862	RB1 Deletion	copy_number	Copy Number
 863	FGFR1	rearrangement	Protein Consequence
 873	ESR1	somatic_variant	Protein Consequence
+884	ATR	somatic_variant	Protein Consequence
+889	FANCA	somatic_variant	Protein Consequence
+890	MLH1	somatic_variant	Protein Consequence
+891	MRE11A	somatic_variant	Protein Consequence
+892	NBN	somatic_variant	Protein Consequence
