@@ -1,13 +1,13 @@
 variant_id	query	query_type	variant_accepted	vrs_id
 2489	NC_000003.11:g.10191648_10191649insC	genomic	True	ga4gh:VA.A34ZoIhq4xBuQbcE3bkj29n6diS6RzLB
 1988	NC_000003.11:g.10191649A>T	genomic	True	ga4gh:VA.JcEpDvhUtgDWU4A-bxqLUuczBNb8QqRf
-2488	3-10191647-T-G	genomic	True	ga4gh:VA.MxbEL0NnlGXBnIiHv7KKjH4Lg0X2Gw-V
+2488	3-10191647-T-G	genomic	True	ga4gh:VA.7nGd8dgHbqtxMHk_rLxrB6_IMAzJ8XnH
 1986	NC_000003.11:g.10191648G>T	genomic	True	ga4gh:VA.AmLtooLEvgdnEHD5YVWk6u1e2XBe7FiP
 1987	NC_000003.11:g.10191649A>G	genomic	True	ga4gh:VA.KIz00usFWEmJHNyqmVL61obfgfRPgOIa
 2152	NC_000003.11:g.10191719C>A	genomic	True	ga4gh:VA.LhSu37F8f7qk0QLH27y1HdrMjDbBWUV5
-2024	3-10191656-C-G	genomic	True	ga4gh:VA.Cyk0ZDX-PZ_5_xFnKlG4CSnCIIdEuECV
+2024	3-10191656-C-G	genomic	True	ga4gh:VA.mMgxF5ZBI_mKkQlGzsngtBjfRendQJGb
 467	KDR A1065T	protein	True	ga4gh:VA.0t16H6jwVSU0sD45K7pp07qmX4301P56
-807	RUNX1 A107P	protein	True	ga4gh:VA.hYsi0AHF_TmZatUburyb_PAq9Hf01b6X
+807	RUNX1 A107P	protein	True	ga4gh:VA.zi8wZQKyKuBRMdo_L3S13xswDznXoAOH
 3683	JAK1 A1086S	protein	False	ga4gh:VA.zWoYigi80ulUVPy8jlfcKOYAIuz3gU_W
 3030	BCL2 A113G	protein	False	ga4gh:VA.D_DoojBG2xQC1JRVg9iFrYa8DpGtQQys
 3342	KRAS A11_G12insGA	protein	True	ga4gh:VA.nxQsSbH-LHRGyR_9D2ibbCv5tx_QbY4r
@@ -201,7 +201,7 @@ variant_id	query	query_type	variant_accepted	vrs_id
 1813	NC_000003.11:g.10188219A>G	genomic	True	ga4gh:VA.J7udzQ0gYLqQJ5zFrX5He-CcqK7lLtFE
 2154	NC_000003.11:g.10188218G>C	genomic	False	ga4gh:VA.flcjMZpvHswRwAWPrl2AQgt5gTy7LQG4
 2446	NC_000003.11:g.10188218delG	genomic	False	ga4gh:VA.q5Nw4e4jIGvvBG1WT5KEmMc-S1-ZleDs
-3133	3-10188218-G-A	genomic	False	ga4gh:VA.s8O2fJIIx5Lkz0cooCRENPJ-WOQ9R4Vm
+3133	3-10188218-G-A	genomic	False	ga4gh:VA.SLkXLheUR-ve173FoEbI1_0Pay64aM7G
 649	MET D1228N	protein	True	ga4gh:VA.2l1B1FHypzP4IY1Mi3NofkBeENuAwGVn
 798	MET D1228V	protein	True	ga4gh:VA.0FMKIgklL5eehaIvidwnb9I5pJbcin5a
 2554	NC_000003.11:g.10188234A>G	genomic	False	ga4gh:VA.0OZfcOiWgtT0Iql9r5y6PKSVCGHuv-pi
@@ -838,7 +838,7 @@ variant_id	query	query_type	variant_accepted	vrs_id
 2508	NC_000003.11:g.10188243T>C	genomic	True	ga4gh:VA.LpLmEeHdkdsndxf4wn7_7tVDQ497eywD
 3660	CYSLTR2 L129Q	protein	False	ga4gh:VA.nkBk1Qj_otg8T9PZuwGxRY35F2j7le9h
 1099	TP53 L130V	protein	False	ga4gh:VA.Hi9_MYGPH-IoYmOf3tc8DhTuEaF8l3Jl
-3078	VHL L135*	protein	False	ga4gh:VA.hwa_m54wRTPvq25vUXbFI9mO6hs-IJTD
+3078	VHL L135*	protein	False	ga4gh:VA.UqFdD0IuHDi6cQSOCc3ZlziyR4_BOQv_
 1769	NC_000003.11:g.10188261T>A	genomic	True	ga4gh:VA.Cih1ycHkkMDhJ82WMEBHwtz0V7BDmRzw
 1906	NC_000003.11:g.10188261del	genomic	True	ga4gh:VA.ibAsNQ-bNaLMSdQMYM3yTmE88BlQidec
 4273	BRCA1 L1407P	protein	False	ga4gh:VA.4KmM_6VsbuYF54Z8UMVQJh3HsndeeLay
@@ -1032,7 +1032,7 @@ variant_id	query	query_type	variant_accepted	vrs_id
 3694	FGFR3 N540S	protein	False	ga4gh:VA.bJpJV9vSppRvKw6DiOM5lyd2yFxpghEV
 515	FGFR1 N546K	protein	True	ga4gh:VA.JPzzw-FRUFdVOXu89zoXj0TOiLsOuvAg
 2780	FGFR2 N549H	protein	False	ga4gh:VA.GNY52dYs9Xu_GfL5OC5z7a4UfLtE9QH1
-545	FGFR2 N550K	protein	True	ga4gh:VA.r5TonVdCbR9ku7wD6VR7u7miAfuOfXW5
+545	FGFR2 N550K	protein	True	ga4gh:VA.KgIvSK3IpqStlLrzMb1u_j4a0JsBGXm1
 751	MLH1 N551T	protein	True	ga4gh:VA.FAZ9HS9O-z-KtIAGUQj0xghohk3X3ITj
 1652	PIK3R2 N561D	protein	True	ga4gh:VA.-rjiZ2l3leWMFBN2eOTc3mGggbONc-yc
 4014	PLCG2 N571S	protein	False	ga4gh:VA.Uuag5Juaxfn7WrJgfZlVick2wju0BIyi
