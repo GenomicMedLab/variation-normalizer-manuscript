@@ -35,3 +35,6 @@ dynamodb_local_latest/
 
 # venv
 .venv
+
+# json files
+*.json
