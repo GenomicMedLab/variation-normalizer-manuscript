@@ -38,3 +38,8 @@ dynamodb_local_latest/
 
 # json files
 *.json
+
+# GENIE data
+analysis/genie/data_mutations_extended.txt
+analysis/genie/*.csv
+analysis/genie/*.zip
