@@ -7,4 +7,5 @@ To create the venv:
 ```shell
 make devready
 source .venv/bin/activate
+pre-commit install
 ```

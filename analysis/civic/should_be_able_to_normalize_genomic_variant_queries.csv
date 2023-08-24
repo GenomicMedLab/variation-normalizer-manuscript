@@ -37,7 +37,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2105	NC_000003.11:g.10191596G>A	False	Missense Variant
 2126	NC_000003.11:g.10191599_10191600del	False	Frameshift Truncation
 2449	NC_000003.11:g.10183806A>G	True	Missense Variant
-2514	3-10183806-A-CC	False	
+2514	3-10183806-A-CC	False
 1694	NC_000003.11:g.10183567G>C	False	Missense Variant
 1884	NC_000003.11:g.10188257G>T	False	Stop Gained
 2524	NC_000003.12:g.10146575_10146601del	False	Disruptive Inframe Deletion
@@ -84,7 +84,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2491	NC_000003.11:g.10188198G>T	False	Missense Variant
 2555	NC_000003.11:g.10188238delG	False	Frameshift Truncation
 1850	NC_000003.11:g.10188287G>T	True	Stop Gained
-2290	3-10188288-G-A	True	
+2290	3-10188288-G-A	True
 2059	NC_000003.11:g.10188287G>A	False	Missense Variant
 3197	3-10188287-G-C	False	Missense Variant
 3247	NC_000003.12:g.10146602_10146612del	True	Frameshift Truncation;Minus 2 Frameshift Variant
@@ -235,7 +235,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2128	NC_000003.11:g.10183822C>G	False	Synonymous Variant
 2069	NC_000003.11:g.10183821C>T	False	Missense Variant
 1994	NC_000003.11:g.10188251C>T	True	Stop Gained
-1882	3-10188252-A-C	False	
+1882	3-10188252-A-C	False
 2125	NC_000003.11:g.10188252A>C	True	Missense Variant
 1883	NC_000003.11:g.10188290C>T	True	Stop Gained
 1781	NC_000003.11:g.10188292_10188293delGC	False	Frameshift Variant
@@ -321,7 +321,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2511	NC_000003.11:g.10183770del	True	Minus 1 Frameshift Variant;Frameshift Truncation
 2534	NC_000003.11:g.10183874_10183881delinsCG	False	Splice Donor Variant
 2104	NC_000003.11:g.10183876G>C	True	Intron Variant
-2461	NC_000003.11:g.10188323A>C	False	
+2461	NC_000003.11:g.10188323A>C	False
 2065	NC_000003.12:g.10146639A>G	False	Splice Donor Region Variant
 2146	NC_000003.11:g.10188323A>T	False	Splice Donor Region Variant
 2292	NC_000003.11:g.10188328C>T	True	Splicing Variant
@@ -334,7 +334,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2017	NC_000003.12:g.10146513G>A	False	Splice Acceptor Variant
 2454	NC_000003.12:g.10146513G>T	False	Splice Acceptor Variant
 2133	NC_000003.11:g.10188196A>C	True	Splice Acceptor Variant
-2504	NC_000003.11:g.10188196A>G	False	
+2504	NC_000003.11:g.10188196A>G	False
 1972	NC_000003.11:g.10188321G>A	False	Splice Donor Variant
 1998	NC_000003.11:g.10188321G>C	True	Splice Donor Variant
 2048	NC_000003.11:g.10188321G>T	False	Splice Donor Variant
@@ -421,7 +421,7 @@ variant_id	hgvs_g	variant_accepted	civic_variant_types
 2484	NC_000003.11:g.10183823T>A	False	Missense Variant
 2480	NC_000003.11:g.10183824A>C	False	Missense Variant
 3022	NC_000003.11:g.10191943G>A	False	3 Prime UTR Variant
-615	NC_000009.11:g.5070053_5070054insG	True	
-3161	3-10183878-G-A	False	
+615	NC_000009.11:g.5070053_5070054insG	True
+3161	3-10183878-G-A	False
 877	NC_000020.11:g.58903752C>T	True	Synonymous Variant
 731	NC_000003.11:g.37056036G>A	True	Splice Donor Variant
