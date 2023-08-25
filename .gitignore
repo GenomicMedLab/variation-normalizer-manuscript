@@ -24,9 +24,6 @@ dist/
 # Logs
 *.log
 
-# Zip
-*.zip
-
 build/
 dynamodb_local_latest/
 
@@ -38,3 +35,11 @@ dynamodb_local_latest/
 
 # venv
 .venv
+
+# json files
+*.json
+
+# GENIE data
+analysis/genie/data_mutations_extended.txt
+analysis/genie/*.csv
+analysis/genie/*.zip

@@ -1,4 +1,4 @@
-variation-normalizer == 0.5.5
+# variation-normalizer == 0.5.5
 civicpy ~= 3.0.0
 python-dotenv
 ipykernel
@@ -7,3 +7,4 @@ plotly
 pandas
 nbformat
 requests
+pre-commit

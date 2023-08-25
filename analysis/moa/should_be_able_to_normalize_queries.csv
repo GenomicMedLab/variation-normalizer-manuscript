@@ -178,3 +178,5 @@ variant_id	query	moa_feature_type	category
 868	IDH1 p.R132G	somatic_variant	Protein Consequence
 869	IDH1 p.R132S	somatic_variant	Protein Consequence
 870	IDH1 p.R132L	somatic_variant	Protein Consequence
+895	ABL1 Amplification	copy_number	Copy Number
+896	AR Amplification	copy_number	Copy Number
