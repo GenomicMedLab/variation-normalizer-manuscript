@@ -797,7 +797,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id
 3695	FGFR3 K650N	protein	True	Missense Variant	ga4gh:VA._4MAPkaIctu1BWoR0HVf-DlsPrYS2rij
 4019	FGFR3 K650Q	protein	True	Missense Variant	ga4gh:VA.Ycx0GimZ5mEj2qWsdHmiX0B1_dCEZOIG
 4021	FGFR3 K650T	protein	False	Missense Variant	ga4gh:VA.gbLzuaVs9J1IlJQ-iKpolPieeGFJRp3_
-2947	FGFR2 K660E	protein	False		ga4gh:VA.ao-3yhKSqK4TkcNNHA1TYx4EpHk-kiQz
+2947	FGFR2 K660E	protein	False		ga4gh:VA.GkGeMXVSNC8HbQiNkVtpJmOgaZpYCMIf
 3166	FLT3 K663Q	protein	False		ga4gh:VA.FMnRMOr3rTGVayWvCfBuep9v7Hdu2IVT
 114	SF3B1 K666N	protein	True	Missense Variant	ga4gh:VA.9-Y2ZQvL5kCe0GLuveRxI9yUovIu2nyp
 565	SF3B1 K700E	protein	True	Missense Variant	ga4gh:VA.whO8Hvl7PXuKA_tJf4Iy7VeyU-aWfFNT
@@ -838,7 +838,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id
 2508	NC_000003.11:g.10188243T>C	genomic	True	Missense Variant	ga4gh:VA.LpLmEeHdkdsndxf4wn7_7tVDQ497eywD
 3660	CYSLTR2 L129Q	protein	False		ga4gh:VA.nkBk1Qj_otg8T9PZuwGxRY35F2j7le9h
 1099	TP53 L130V	protein	False		ga4gh:VA.Hi9_MYGPH-IoYmOf3tc8DhTuEaF8l3Jl
-3078	VHL L135*	protein	False		ga4gh:VA.UqFdD0IuHDi6cQSOCc3ZlziyR4_BOQv_
+3078	VHL L135*	protein	False		ga4gh:VA.hwa_m54wRTPvq25vUXbFI9mO6hs-IJTD
 1769	NC_000003.11:g.10188261T>A	genomic	True	Stop Gained	ga4gh:VA.Cih1ycHkkMDhJ82WMEBHwtz0V7BDmRzw
 1906	NC_000003.11:g.10188261del	genomic	True	Minus 1 Frameshift Variant;Frameshift Truncation	ga4gh:VA.ibAsNQ-bNaLMSdQMYM3yTmE88BlQidec
 4273	BRCA1 L1407P	protein	False		ga4gh:VA.4KmM_6VsbuYF54Z8UMVQJh3HsndeeLay
@@ -936,7 +936,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id
 1007	EGFR L747_T751delLREAT	protein	False		ga4gh:VA.bm2LEMqrbwCupLdsz9p7_ah6vf_M3iAZ
 1010	EGFR L747_T751delinsP	protein	False		ga4gh:VA.eDMXxJw9shlSKF3znIg5abniGoyJ3GQ4
 1008	EGFR L747_T751delinsQ	protein	False		ga4gh:VA.nTmRFyjPrx0IJSZN6kNVmI59dU4Y3EAm
-1313	ERBB2 L753E	protein	False		ga4gh:VA.fb1zUr-f82hMRgMjEM1wQ_6_fPCJ9-Sn
+1313	ERBB2 L753E	protein	False		ga4gh:VA.z8snPVtSyudcbbIO4rUSCAvc-P3nEuny
 1304	ERBB2 L755P	protein	False	Missense Variant	ga4gh:VA._zGg2DBna8lXy-XhoYpOWqpWrrBJl5AB
 4490	ERBB2 L755P	protein	False		ga4gh:VA._zGg2DBna8lXy-XhoYpOWqpWrrBJl5AB
 39	ERBB2 L755S	protein	True	Missense Variant	ga4gh:VA.2H6jC4r6bxSvihY72MAGuTrAPedjjCnE

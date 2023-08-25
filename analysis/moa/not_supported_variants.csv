@@ -209,7 +209,7 @@ variant_id	query	moa_feature_type	category
 771	PTEN Deletion	copy_number	Copy Number Variants
 778	RB1 Deletion	copy_number	Copy Number Variants
 779	TP53 Deletion	copy_number	Copy Number Variants
-781	MSI-High	microsatellite_stability	Rearrangement Variants
+781	MSI-High	microsatellite_stability	Other Variants
 786	COSMIC Signature (version 2) 10	mutational_signature	Sequence Variants
 789	COSMIC Signature (version 2) 2	mutational_signature	Sequence Variants
 791	COSMIC Signature (version 2) 3	mutational_signature	Sequence Variants
@@ -219,18 +219,18 @@ variant_id	query	moa_feature_type	category
 805	High (>= 178 mutations)	mutational_burden	Other Variants
 806	High (>= 100 mutations)	mutational_burden	Other Variants
 808	High (>= 10 mutations/Mb)	mutational_burden	Other Variants
-809	ATM (shRNA)	knockdown	Expression
-810	B2M (CRISPR-Cas9)	knockdown	Expression
-811	CDK12 (shRNA)	knockdown	Expression
-812	CDK12 (siRNA)	knockdown	Expression
-813	CPT1A (shRNA)	knockdown	Expression
-814	RAD17 (shRNA)	knockdown	Expression
-816	RAD50 (shRNA)	knockdown	Expression
-817	TAP2 (CRISPR-Cas9)	knockdown	Expression
-818	PPARGC1A (CRSPR-Cas9)	knockdown	Expression
+809	ATM (shRNA)	knockdown	Expression Variants
+810	B2M (CRISPR-Cas9)	knockdown	Expression Variants
+811	CDK12 (shRNA)	knockdown	Expression Variants
+812	CDK12 (siRNA)	knockdown	Expression Variants
+813	CPT1A (shRNA)	knockdown	Expression Variants
+814	RAD17 (shRNA)	knockdown	Expression Variants
+816	RAD50 (shRNA)	knockdown	Expression Variants
+817	TAP2 (CRISPR-Cas9)	knockdown	Expression Variants
+818	PPARGC1A (CRSPR-Cas9)	knockdown	Expression Variants
 819	Whole genome doubling	aneuploidy	Copy Number Variants
-833	RB1 (shRNA)	knockdown	Expression
-834	USP11 (siRNA)	knockdown	Expression
+833	RB1 (shRNA)	knockdown	Expression Variants
+834	USP11 (siRNA)	knockdown	Expression Variants
 835	ALK--EML4 Fusion	rearrangement	Rearrangement Variants
 836	BRCA1	somatic_variant	Sequence Variants
 837	BRCA1	somatic_variant	Sequence Variants

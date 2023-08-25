@@ -7,17 +7,17 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4232	BRCA1			Transcript Variants	False
 3196	VHL		Stop Lost	Transcript Variants	False
 2930	VHL			Transcript Variants	True
-4188	VHL	10kb Deletion		Region Defined Variants	False
+4188	VHL	10kb Deletion		Sequence Variants	False
 785	CHEK2	1100DELC	Frameshift Truncation	Sequence Variants	True
 3083	VHL			Transcript Variants	False
-4186	VHL	2kb Deletion		Region Defined Variants	False
+4186	VHL	2kb Deletion		Sequence Variants	False
 823	EPCAM	3' Exon Deletion	Disruptive Inframe Deletion	Region Defined Variants	True
 433	HIF1A	3' UTR Polymorphism	3 Prime UTR Variant;Snp	Region Defined Variants	True
 3102	VHL			Transcript Variants	False
-2367	VHL	3p26.3-25.3 11Mb del		Region Defined Variants	True
+2367	VHL	3p26.3-25.3 11Mb del		Sequence Variants	True
 265	TYMS	5' TANDEM REPEAT	5 Prime UTR Variant;Short Tandem Repeat Variation	Other Variants	True
 2390	MAP2K1	56_61QKQKVG>R		Rearrangement Variants	False
-4187	VHL	5kb Deletion		Region Defined Variants	False
+4187	VHL	5kb Deletion		Sequence Variants	False
 2729	TP53	A129		Sequence Variants	False
 2979	KRAS	A146		Sequence Variants	True
 3195	VHL	A149fs (c.444dup)	Plus 1 Frameshift Variant;Frameshift Truncation	Copy Number Variants	False
@@ -128,15 +128,15 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2630	CBFA2T3	CBFA2T3::GLIS2	Transcript Fusion	Fusion Variants	False
 431	CBFB	CBFB::MYH11	Transcript Fusion	Fusion Variants	True
 626	RET	CCDC6::RET	Transcript Fusion	Fusion Variants	True
-3385	CD44	CD44s		Expression	False
-341	CD44	CD44s Expression	N/A	Expression	True
-3386	CD44	CD44v5 and CD44v6		Expression	False
+3385	CD44	CD44s		Expression Variants	False
+341	CD44	CD44s Expression	N/A	Expression Variants	True
+3386	CD44	CD44v5 and CD44v6		Expression Variants	False
 3373	CD44	CD44v6		Other Variants	True
-3388	CD44	CD44v6 and CD44v10		Expression	False
-3387	CD44	CD44v6+/CD44s-		Expression	False
-3369	CD44	CD44v8-10		Expression	False
+3388	CD44	CD44v6 and CD44v10		Expression Variants	False
+3387	CD44	CD44v6+/CD44s-		Expression Variants	False
+3369	CD44	CD44v8-10		Expression Variants	False
 3368	CD44	CD44v9		Other Variants	False
-3367	CD44	CD4v8-v10 and CD44v3-v10		Expression	False
+3367	CD44	CD4v8-v10 and CD44v3-v10		Expression Variants	False
 2771	NRG1	CD74::NRG1	Transcript Fusion	Other Variants	False
 465	ROS1	CD74::ROS1 G2032R	Missense Variant;Transcript Fusion	Other Variants	True
 518	ROS1	CD74::ROS1 G2101A	Missense Variant;Transcript Fusion	Other Variants	True
@@ -154,8 +154,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 821	HLA-C	COPY-NEUTRAL LOSS OF HETEROZYGOSITY		Genotype Variants	True
 599	CTLA4	CTLA4::CD28	Transcript Fusion	Fusion Variants	True
 2229	BRAF	CUX1::BRAF	Transcript Fusion	Fusion Variants	True
-447	FGF13	CYTOPLASMIC EXPRESSION	N/A	Expression	True
-1283	CDK2	CYTOPLASMIC EXPRESSION	N/A	Expression	False
+447	FGF13	CYTOPLASMIC EXPRESSION	N/A	Expression Variants	True
+1283	CDK2	CYTOPLASMIC EXPRESSION	N/A	Expression Variants	False
 360	CDKN1B	CYTOPLASMIC MISLOCALIZATION	N/A	Other Variants	True
 3408	TEK	Cis double mutants		Other Variants	False
 2800	BRAF	Class 2 Mutations		Other Variants	False
@@ -184,8 +184,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4495	ALK	DCTN1::ALK		Fusion Variants	False
 2394	NTRK1	DDR2::NTRK1	Transcript Fusion	Fusion Variants	True
 2706	DEK	DEK::AFF2	Transcript Fusion	Fusion Variants	False
-522	BRAF	DEL 485-490	Inframe Deletion	Region Defined Variants	True
-954	KIT	DEL 554-558	Inframe Deletion	Region Defined Variants	False
+522	BRAF	DEL 485-490	Inframe Deletion	Sequence Variants	True
+954	KIT	DEL 554-558	Inframe Deletion	Sequence Variants	False
 647	LRP1B	DELETION	Transcript Ablation	Gene Function Variants	True
 1663	BRAF	DELNVTAP	Inframe Deletion	Other Variants	False
 2685	DGKH	DGKH::ZFAND3	Transcript Fusion	Fusion Variants	False
@@ -195,7 +195,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 737	DPYD	DPYD*2A HOMOZYGOSITY	Splice Donor Variant	Genotype Variants	True
 2589	DUX4	DUX4::IGH	Transcript Fusion	Fusion Variants	False
 3509	AIMP2	DX2		Sequence Variants	False
-334	VEGFA	Decreased Peri-therapeutic Expression	N/A	Expression	True
+334	VEGFA	Decreased Peri-therapeutic Expression	N/A	Expression Variants	True
 221	TP53	Deleterious Mutation	N/A	Region Defined Variants	True
 200	IKZF1	Deletion	Transcript Ablation	Gene Function Variants	True
 213	PTEN	Deletion	Transcript Ablation	Gene Function Variants	True
@@ -292,77 +292,77 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 74	KRAS	EXON 2 Mutations		Region Defined Variants	False
 1940	VHL	EXON 2-3 DELETION		Region Defined Variants	True
 559	CALR	EXON 9 FRAMESHIFT	Exon Variant	Other Variants	True
-25	CDK4	EXPRESSION	N/A	Expression	True
-57	GATA2	EXPRESSION	N/A	Expression	True
-158	AURKA	EXPRESSION	N/A	Expression	True
-182	BAP1	EXPRESSION	N/A	Expression	True
-278	AKT2	EXPRESSION	N/A	Expression	True
-316	TGFA	EXPRESSION	N/A	Expression	True
-318	EREG	EXPRESSION	N/A	Expression	True
-326	CBLC	EXPRESSION	N/A	Expression	True
-328	DEFA1	EXPRESSION	N/A	Expression	True
-335	DNMT1	EXPRESSION	N/A	Expression	True
-337	PDCD4	EXPRESSION	N/A	Expression	True
-339	TFF3	EXPRESSION	N/A	Expression	True
-342	EGF	EXPRESSION	N/A	Expression	True
-343	MDM2	EXPRESSION	N/A	Expression	True
-344	HMOX1	EXPRESSION	N/A	Expression	True
-355	CDKN1A	EXPRESSION	N/A	Expression	True
-356	ALCAM	EXPRESSION	N/A	Expression	True
-357	STMN1	EXPRESSION	N/A	Expression	True
-361	ERBB3	EXPRESSION	N/A	Expression	True
-363	UGT1A	EXPRESSION	N/A	Expression	True
-365	ERBB4	EXPRESSION	N/A	Expression	True
-366	SLFN11	EXPRESSION	N/A	Expression	True
-372	CDKN1B	EXPRESSION	N/A	Expression	True
-373	AGR2	EXPRESSION	N/A	Expression	True
-380	IGF1R	EXPRESSION	N/A	Expression	True
-381	EPHB4	EXPRESSION	N/A	Expression	True
-383	TOP2A	EXPRESSION	N/A	Expression	True
-384	TOP1	EXPRESSION	N/A	Expression	True
-386	HSPA5	EXPRESSION	N/A	Expression	True
-389	TUBB3	EXPRESSION	N/A	Expression	True
-392	CFLAR	EXPRESSION	N/A	Expression	True
-393	PROM1	EXPRESSION	N/A	Expression	True
-394	FOXP3	EXPRESSION	N/A	Expression	True
-398	DUSP6	EXPRESSION	N/A	Expression	True
-400	HSPB1	EXPRESSION	N/A	Expression	True
-401	NQO1	EXPRESSION	N/A	Expression	True
-405	CXCR4	EXPRESSION	N/A	Expression	True
-406	MAGEH1	EXPRESSION	N/A	Expression	True
-410	CDX2	EXPRESSION	N/A	Expression	True
-412	POU5F1	EXPRESSION	N/A	Expression	True
-423	HLA-DRA	EXPRESSION	N/A	Expression	True
-429	KIT	EXPRESSION	N/A	Expression	True
-444	NEDD9	EXPRESSION	N/A	Expression	True
-474	CIP2A	EXPRESSION	N/A	Expression	True
-476	MIR218-1	EXPRESSION	N/A	Expression	True
-492	ECSCR	EXPRESSION	N/A	Expression	True
-493	ROBO4	EXPRESSION	N/A	Expression	True
-537	RB1	EXPRESSION	N/A	Expression	True
-546	ACTA1	EXPRESSION	N/A	Expression	True
-624	MKI67	EXPRESSION	N/A	Expression	True
-625	RAD23B	EXPRESSION	N/A	Expression	True
-651	AXL	EXPRESSION	N/A	Expression	True
-652	GAS6	EXPRESSION	N/A	Expression	True
-660	HIF1A	EXPRESSION	N/A	Expression	True
-662	MLH1	EXPRESSION	N/A	Expression	True
-670	MYCL	EXPRESSION	N/A	Expression	True
-671	HGF	EXPRESSION	N/A	Expression	True
-673	FGF2	EXPRESSION	N/A	Expression	True
-700	KIF23	EXPRESSION	N/A	Expression	True
-857	NTRK3	EXPRESSION	N/A	Expression	False
-1258	PTPRF	EXPRESSION	N/A	Expression	False
-1262	MDM4	EXPRESSION		Expression	False
-1284	DCC	EXPRESSION		Expression	True
-2163	CTLA4	EXPRESSION	N/A	Expression	False
-2207	PDCD1LG2	EXPRESSION		Expression	False
-2208	LAG3	EXPRESSION		Expression	False
-2594	ASCL1	EXPRESSION		Expression	False
-2984	CXCL10	EXPRESSION		Expression	False
-3042	CDK6	EXPRESSION		Expression	True
-3330	TCF19	EXPRESSION		Expression	False
-1854	EGFR	Ex19 del L858R	Missense Variant;Inframe Deletion	Region Defined Variants	True
+25	CDK4	EXPRESSION	N/A	Expression Variants	True
+57	GATA2	EXPRESSION	N/A	Expression Variants	True
+158	AURKA	EXPRESSION	N/A	Expression Variants	True
+182	BAP1	EXPRESSION	N/A	Expression Variants	True
+278	AKT2	EXPRESSION	N/A	Expression Variants	True
+316	TGFA	EXPRESSION	N/A	Expression Variants	True
+318	EREG	EXPRESSION	N/A	Expression Variants	True
+326	CBLC	EXPRESSION	N/A	Expression Variants	True
+328	DEFA1	EXPRESSION	N/A	Expression Variants	True
+335	DNMT1	EXPRESSION	N/A	Expression Variants	True
+337	PDCD4	EXPRESSION	N/A	Expression Variants	True
+339	TFF3	EXPRESSION	N/A	Expression Variants	True
+342	EGF	EXPRESSION	N/A	Expression Variants	True
+343	MDM2	EXPRESSION	N/A	Expression Variants	True
+344	HMOX1	EXPRESSION	N/A	Expression Variants	True
+355	CDKN1A	EXPRESSION	N/A	Expression Variants	True
+356	ALCAM	EXPRESSION	N/A	Expression Variants	True
+357	STMN1	EXPRESSION	N/A	Expression Variants	True
+361	ERBB3	EXPRESSION	N/A	Expression Variants	True
+363	UGT1A	EXPRESSION	N/A	Expression Variants	True
+365	ERBB4	EXPRESSION	N/A	Expression Variants	True
+366	SLFN11	EXPRESSION	N/A	Expression Variants	True
+372	CDKN1B	EXPRESSION	N/A	Expression Variants	True
+373	AGR2	EXPRESSION	N/A	Expression Variants	True
+380	IGF1R	EXPRESSION	N/A	Expression Variants	True
+381	EPHB4	EXPRESSION	N/A	Expression Variants	True
+383	TOP2A	EXPRESSION	N/A	Expression Variants	True
+384	TOP1	EXPRESSION	N/A	Expression Variants	True
+386	HSPA5	EXPRESSION	N/A	Expression Variants	True
+389	TUBB3	EXPRESSION	N/A	Expression Variants	True
+392	CFLAR	EXPRESSION	N/A	Expression Variants	True
+393	PROM1	EXPRESSION	N/A	Expression Variants	True
+394	FOXP3	EXPRESSION	N/A	Expression Variants	True
+398	DUSP6	EXPRESSION	N/A	Expression Variants	True
+400	HSPB1	EXPRESSION	N/A	Expression Variants	True
+401	NQO1	EXPRESSION	N/A	Expression Variants	True
+405	CXCR4	EXPRESSION	N/A	Expression Variants	True
+406	MAGEH1	EXPRESSION	N/A	Expression Variants	True
+410	CDX2	EXPRESSION	N/A	Expression Variants	True
+412	POU5F1	EXPRESSION	N/A	Expression Variants	True
+423	HLA-DRA	EXPRESSION	N/A	Expression Variants	True
+429	KIT	EXPRESSION	N/A	Expression Variants	True
+444	NEDD9	EXPRESSION	N/A	Expression Variants	True
+474	CIP2A	EXPRESSION	N/A	Expression Variants	True
+476	MIR218-1	EXPRESSION	N/A	Expression Variants	True
+492	ECSCR	EXPRESSION	N/A	Expression Variants	True
+493	ROBO4	EXPRESSION	N/A	Expression Variants	True
+537	RB1	EXPRESSION	N/A	Expression Variants	True
+546	ACTA1	EXPRESSION	N/A	Expression Variants	True
+624	MKI67	EXPRESSION	N/A	Expression Variants	True
+625	RAD23B	EXPRESSION	N/A	Expression Variants	True
+651	AXL	EXPRESSION	N/A	Expression Variants	True
+652	GAS6	EXPRESSION	N/A	Expression Variants	True
+660	HIF1A	EXPRESSION	N/A	Expression Variants	True
+662	MLH1	EXPRESSION	N/A	Expression Variants	True
+670	MYCL	EXPRESSION	N/A	Expression Variants	True
+671	HGF	EXPRESSION	N/A	Expression Variants	True
+673	FGF2	EXPRESSION	N/A	Expression Variants	True
+700	KIF23	EXPRESSION	N/A	Expression Variants	True
+857	NTRK3	EXPRESSION	N/A	Expression Variants	False
+1258	PTPRF	EXPRESSION	N/A	Expression Variants	False
+1262	MDM4	EXPRESSION		Expression Variants	False
+1284	DCC	EXPRESSION		Expression Variants	True
+2163	CTLA4	EXPRESSION	N/A	Expression Variants	False
+2207	PDCD1LG2	EXPRESSION		Expression Variants	False
+2208	LAG3	EXPRESSION		Expression Variants	False
+2594	ASCL1	EXPRESSION		Expression Variants	False
+2984	CXCL10	EXPRESSION		Expression Variants	False
+3042	CDK6	EXPRESSION		Expression Variants	True
+3330	TCF19	EXPRESSION		Expression Variants	False
+1854	EGFR	Ex19 del L858R	Missense Variant;Inframe Deletion	Sequence Variants	True
 2870	VHL	Exon 1 (Frameshift)		Other Variants	False
 844	VHL	Exon 1 Deletion	Exon Loss Variant	Region Defined Variants	True
 2465	VHL	Exon 1 del (151nt)		Region Defined Variants	False
@@ -402,30 +402,30 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 130	WT1	Exon 9 Mutation	Exon Variant	Region Defined Variants	True
 509	KIT	Exon 9 Mutation	Exon Variant	Region Defined Variants	True
 3100	VHL	Exon Deletion		Region Defined Variants	False
-19	CCND1	Expression	N/A	Expression	True
-210	PGR	Expression	N/A	Expression	True
-268	FGFR1	Expression	N/A	Expression	True
-276	CD274	Expression	N/A	Expression	True
-313	PTEN	Expression	N/A	Expression	True
-314	NRG1	Expression	N/A	Expression	True
-315	AREG	Expression	N/A	Expression	True
-329	ERCC1	Expression	N/A	Expression	True
-354	EGFR	Expression	N/A	Expression	True
-376	ZEB1	Expression	N/A	Expression	True
-397	BRCA1	Expression	N/A	Expression	True
-533	SMAD4	Expression	N/A	Expression	True
-683	PAX8	Expression	N/A	Expression	True
-2209	DLL3	Expression		Expression	False
-2595	HDAC2	Expression		Expression	False
-2914	ALK	Expression		Expression	False
-2966	MGMT	Expression	N/A	Expression	False
-2993	CDK5	Expression		Expression	False
-3014	CSF1R	Expression		Expression	False
-3319	BTK	Expression		Expression	False
-3320	BLK	Expression		Expression	False
-3992	STAT1	Expression		Expression	False
-4336	FLT3LG	Expression		Expression	False
-4422	TBXT	Expression		Expression	False
+19	CCND1	Expression	N/A	Expression Variants	True
+210	PGR	Expression	N/A	Expression Variants	True
+268	FGFR1	Expression	N/A	Expression Variants	True
+276	CD274	Expression	N/A	Expression Variants	True
+313	PTEN	Expression	N/A	Expression Variants	True
+314	NRG1	Expression	N/A	Expression Variants	True
+315	AREG	Expression	N/A	Expression Variants	True
+329	ERCC1	Expression	N/A	Expression Variants	True
+354	EGFR	Expression	N/A	Expression Variants	True
+376	ZEB1	Expression	N/A	Expression Variants	True
+397	BRCA1	Expression	N/A	Expression Variants	True
+533	SMAD4	Expression	N/A	Expression Variants	True
+683	PAX8	Expression	N/A	Expression Variants	True
+2209	DLL3	Expression		Expression Variants	False
+2595	HDAC2	Expression		Expression Variants	False
+2914	ALK	Expression		Expression Variants	False
+2966	MGMT	Expression	N/A	Expression Variants	False
+2993	CDK5	Expression		Expression Variants	False
+3014	CSF1R	Expression		Expression Variants	False
+3319	BTK	Expression		Expression Variants	False
+3320	BLK	Expression		Expression Variants	False
+3992	STAT1	Expression		Expression Variants	False
+4336	FLT3LG	Expression		Expression Variants	False
+4422	TBXT	Expression		Expression Variants	False
 3984	VHL			Transcript Variants	False
 3363	VHL			Transcript Variants	False
 3295	VHL			Transcript Variants	False
@@ -548,7 +548,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2581	NCOA2	HEY1::NCOA2	Transcript Fusion	Fusion Variants	True
 4405	ALK	HIP1::ALK		Fusion Variants	True
 2969	HMGA2	HMGA2::LPP	Transcript Fusion	Fusion Variants	False
-3597	DDR2	High expression		Expression	False
+3597	DDR2	High expression		Expression Variants	False
 1965	VHL		Frameshift Variant	Transcript Variants	False
 527	ALK	I1171	Missense Variant	Sequence Variants	True
 2095	VHL			Transcript Variants	False
@@ -596,7 +596,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4100	VHL			Transcript Variants	False
 1872	VHL	K159fs (c.473dup)	Frameshift Variant	Copy Number Variants	True
 2040	VHL		Frameshift Variant	Transcript Variants	True
-2988	PCNA	K164R LOSS-OF-MODIFICATION		Other Variants	False
+2988	PCNA	K164R LOSS-OF-MODIFICATION		Sequence Variants	False
 2327	VHL			Transcript Variants	False
 2140	VHL		Frameshift Variant	Transcript Variants	True
 2499	VHL			Transcript Variants	False
@@ -665,13 +665,13 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 1925	VHL			Transcript Variants	False
 2305	VHL			Transcript Variants	False
 1866	EGFR	L861		Sequence Variants	True
-3483	LGR5	LGR5FL		Expression	False
+3483	LGR5	LGR5FL		Expression Variants	False
 1278	NTRK1	LMNA::NTRK1	Transcript Fusion	Fusion Variants	True
 1282	NTRK1	LMNA::NTRK1 G595R and G667C	Missense Variant;Transcript Fusion	Fusion Variants	True
 302	PTCH1	LOH	Loss Of Heterozygosity	Genotype Variants	True
 564	SMAD4	LOSS	Loss Of Function Variant	Gene Function Variants	True
 809	MSH6	LOSS	Loss Of Function Variant	Gene Function Variants	True
-3659	SMARCB1	LOSS OF NUCLEAR PROTEIN EXPRESSION		Expression	False
+3659	SMARCB1	LOSS OF NUCLEAR PROTEIN EXPRESSION		Expression Variants	False
 2596	LZTR1	LOSS-OF-FUNCTION		Gene Function Variants	False
 2755	FUBP1	LOSS-OF-FUNCTION		Gene Function Variants	False
 2968	HMGA2	LPP::HMGA2	Transcript Fusion	Fusion Variants	False
@@ -880,13 +880,13 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 1320	ERBB2	NON-AMPLIFICATION		Copy Number Variants	False
 513	ALK	NPM::ALK	Transcript Fusion	Fusion Variants	True
 2883	BRAF	NRF1::BRAF	Transcript Fusion	Fusion Variants	True
-340	DKK1	NUCLEAR EXPRESSION	N/A	Expression	True
-368	BIRC5	NUCLEAR EXPRESSION	N/A	Expression	True
-391	IGF1R	NUCLEAR EXPRESSION	N/A	Expression	True
-438	PSMB8	NUCLEAR EXPRESSION	N/A	Expression	True
-439	PBK	NUCLEAR EXPRESSION	N/A	Expression	True
-490	HSPH1	NUCLEAR EXPRESSION	N/A	Expression	True
-494	PIM1	NUCLEAR EXPRESSION	N/A	Expression	True
+340	DKK1	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+368	BIRC5	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+391	IGF1R	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+438	PSMB8	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+439	PBK	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+490	HSPH1	NUCLEAR EXPRESSION	N/A	Expression Variants	True
+494	PIM1	NUCLEAR EXPRESSION	N/A	Expression Variants	True
 364	ERBB4	NUCLEAR TRANSLOCATION	N/A	Rearrangement Variants	True
 3271	ABL1	NUP153::ABL1	Transcript Fusion	Fusion Variants	True
 2660	ABL1	NUP214::ABL1	Transcript Fusion	Fusion Variants	True
@@ -913,136 +913,136 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3262	VHL	Null (point mutation codon 238)		Gene Function Variants	False
 3296	VHL	Null (rearrangement)		Other Variants	False
 2974	JAK2	OFD1::JAK2	Transcript Fusion	Fusion Variants	True
-21	CCND2	OVEREXPRESSION	N/A	Expression	True
-205	NCOA3	OVEREXPRESSION	N/A	Expression	True
-296	RIT1	OVEREXPRESSION	N/A	Expression	True
-305	SYK	OVEREXPRESSION	N/A	Expression	True
-345	SPHK1	OVEREXPRESSION	N/A	Expression	True
-348	PBK	OVEREXPRESSION	N/A	Expression	True
-359	AR	OVEREXPRESSION	N/A	Expression	True
-378	PTP4A3	OVEREXPRESSION	N/A	Expression	True
-396	JAK1	OVEREXPRESSION	N/A	Expression	True
-434	HIF1A	OVEREXPRESSION	N/A	Expression	True
-440	PTTG1	OVEREXPRESSION	N/A	Expression	True
-796	RRM2	OVEREXPRESSION	N/A	Expression	True
-1299	MERTK	OVEREXPRESSION	N/A	Expression	True
-2419	NR2F2	OVEREXPRESSION		Expression	False
-2586	PARP1	OVEREXPRESSION		Expression	True
-2917	LYN	OVEREXPRESSION		Expression	True
-2981	WDR12	OVEREXPRESSION		Expression	False
-2982	PLK1	OVEREXPRESSION		Expression	False
+21	CCND2	OVEREXPRESSION	N/A	Expression Variants	True
+205	NCOA3	OVEREXPRESSION	N/A	Expression Variants	True
+296	RIT1	OVEREXPRESSION	N/A	Expression Variants	True
+305	SYK	OVEREXPRESSION	N/A	Expression Variants	True
+345	SPHK1	OVEREXPRESSION	N/A	Expression Variants	True
+348	PBK	OVEREXPRESSION	N/A	Expression Variants	True
+359	AR	OVEREXPRESSION	N/A	Expression Variants	True
+378	PTP4A3	OVEREXPRESSION	N/A	Expression Variants	True
+396	JAK1	OVEREXPRESSION	N/A	Expression Variants	True
+434	HIF1A	OVEREXPRESSION	N/A	Expression Variants	True
+440	PTTG1	OVEREXPRESSION	N/A	Expression Variants	True
+796	RRM2	OVEREXPRESSION	N/A	Expression Variants	True
+1299	MERTK	OVEREXPRESSION	N/A	Expression Variants	True
+2419	NR2F2	OVEREXPRESSION		Expression Variants	False
+2586	PARP1	OVEREXPRESSION		Expression Variants	True
+2917	LYN	OVEREXPRESSION		Expression Variants	True
+2981	WDR12	OVEREXPRESSION		Expression Variants	False
+2982	PLK1	OVEREXPRESSION		Expression Variants	False
 3112	PALB2	Oncogenic Mutations (loss of function alterations)		Other Variants	False
-20	CCND1	Overexpression	N/A	Expression	True
-24	CCNE1	Overexpression	N/A	Expression	True
-152	BCL2	Overexpression	N/A	Expression	True
-156	IGF2	Overexpression	N/A	Expression	True
-181	AURKA	Overexpression	N/A	Expression	True
-193	EGFR	Overexpression	N/A	Expression	True
-289	ERBB3	Overexpression	N/A	Expression	True
-290	NT5E	Overexpression	N/A	Expression	True
-291	EZH2	Overexpression	N/A	Expression	True
-292	MYD88	Overexpression	N/A	Expression	True
-325	FGFR3	Overexpression	N/A	Expression	True
-346	CASP8	Overexpression	N/A	Expression	True
-347	TYMS	Overexpression	N/A	Expression	True
-377	TIMP1	Overexpression	N/A	Expression	True
-408	ABCC10	Overexpression	N/A	Expression	True
-435	EPAS1	Overexpression	N/A	Expression	True
-472	ALDH1A2	Overexpression	N/A	Expression	True
-481	DDX43	Overexpression	N/A	Expression	True
-483	TBK1	Overexpression	N/A	Expression	True
-486	HAVCR2	Overexpression	N/A	Expression	True
-525	B4GALT1	Overexpression	N/A	Expression	True
-529	SIRT1	Overexpression	N/A	Expression	True
-539	PTPN11	Overexpression	N/A	Expression	True
-547	RB1	Overexpression	N/A	Expression	True
-578	BIRC5	Overexpression	N/A	Expression	True
-597	RET	Overexpression	N/A	Expression	True
-602	CDK6	Overexpression	N/A	Expression	True
-603	FLT3	Overexpression	N/A	Expression	True
-607	ESR1	Overexpression	N/A	Expression	True
-619	PTGS2	Overexpression	N/A	Expression	False
-621	MET	Overexpression	N/A	Expression	True
-639	JUN	Overexpression	N/A	Expression	True
-640	FOS	Overexpression	N/A	Expression	True
-653	ETV4	Overexpression	N/A	Expression	True
-693	SGK1	Overexpression	N/A	Expression	True
-795	RRM1	Overexpression	N/A	Expression	True
-858	CSF1	Overexpression	N/A	Expression	False
-859	ROS1	Overexpression	N/A	Expression	False
-860	NTRK1	Overexpression	N/A	Expression	True
-866	MITF	Overexpression	N/A	Expression	False
-869	YAP1	Overexpression	N/A	Expression	False
-875	ERBB2	Overexpression	N/A	Expression	True
-1256	TERT	Overexpression	N/A	Expression	False
-1259	AEBP1	Overexpression	N/A	Expression	False
-1273	CTAG1B	Overexpression	N/A	Expression	True
-1274	CTAG2	Overexpression	N/A	Expression	True
-1279	BRD4	Overexpression	N/A	Expression	False
-1301	AKT3	Overexpression		Expression	True
-1303	MYC	Overexpression		Expression	True
-1306	TP53	Overexpression	N/A	Expression	True
-1693	CHEK1	Overexpression		Expression	True
-1877	ETV1	Overexpression		Expression	False
-1878	ETV5	Overexpression		Expression	False
-2167	FGFR4	Overexpression	N/A	Expression	False
-2204	KDR	Overexpression		Expression	False
-2239	TPT1	Overexpression		Expression	False
-2360	AKT1	Overexpression		Expression	True
-2363	PIK3R2	Overexpression		Expression	True
-2410	ERCC1	Overexpression	N/A	Expression	False
-2417	FGFR2	Overexpression		Expression	False
-2578	NOTCH3	Overexpression		Expression	False
-2584	CDK9	Overexpression		Expression	False
-2585	VEGFA	Overexpression		Expression	False
-2588	EPOR	Overexpression		Expression	False
-2635	ALK	Overexpression		Expression	False
-2636	CDK4	Overexpression		Expression	False
-2679	WEE1	Overexpression		Expression	False
-2717	PSMD4	Overexpression		Expression	False
-2739	CRLF2	Overexpression		Expression	False
-2784	FGF19	Overexpression		Expression	True
-2808	WNT11	Overexpression		Expression	False
-2904	FGFR1	Overexpression		Expression	False
-2908	TACSTD2	Overexpression		Expression	False
-2911	IL6	Overexpression		Expression	True
-2915	ABCB1	Overexpression	N/A	Expression	True
-2944	PDGFRA	Overexpression		Expression	True
-2955	STAT1	Overexpression		Expression	False
-2970	VEGFC	Overexpression		Expression	False
-2973	PDGFRB	Overexpression		Expression	True
-2978	MIR21	Overexpression		Expression	False
-2980	IL33	Overexpression		Expression	False
-2985	CCN2	Overexpression		Expression	False
-3006	FOXC2	Overexpression		Expression	False
-3007	ZEB1	Overexpression		Expression	False
-3008	CUL7	Overexpression		Expression	False
-3139	MECOM	Overexpression		Expression	False
-3243	ACTL6A	Overexpression		Expression	False
-3249	MYCN	Overexpression		Expression	False
-3259	IGF1R	Overexpression		Expression	True
-3277	ZHX2	Overexpression		Expression	False
-3279	HDAC2	Overexpression		Expression	False
-3306	HDAC9	Overexpression		Expression	False
-3307	FOXF1	Overexpression		Expression	False
-3568	JAK2	Overexpression		Expression	False
-3569	STAT5B	Overexpression		Expression	False
-3598	DDR2	Overexpression		Expression	False
-3599	HDAC6	Overexpression		Expression	False
-3646	HOXC10	Overexpression		Expression	False
-3728	SLC29A1	Overexpression		Expression	True
-3731	KIT	Overexpression		Expression	False
-3732	HSP90B1	Overexpression		Expression	False
-3733	KRAS	Overexpression		Expression	False
-3734	COX2	Overexpression		Expression	False
-3735	BRAF	Overexpression		Expression	False
-3746	CCNE2	Overexpression		Expression	False
-4237	AURKB	Overexpression		Expression	False
-4297	FGFR1	Overexpression		Expression	False
-4522	CD274	Overexpression		Expression	False
-3415	AR	Overexpression of AR-V9		Expression	False
-3324	VEGFA	Overexpression of VEGF121		Expression	False
-3325	VEGFA	Overexpression of VEGF121 and VEGF110		Expression	False
+20	CCND1	Overexpression	N/A	Expression Variants	True
+24	CCNE1	Overexpression	N/A	Expression Variants	True
+152	BCL2	Overexpression	N/A	Expression Variants	True
+156	IGF2	Overexpression	N/A	Expression Variants	True
+181	AURKA	Overexpression	N/A	Expression Variants	True
+193	EGFR	Overexpression	N/A	Expression Variants	True
+289	ERBB3	Overexpression	N/A	Expression Variants	True
+290	NT5E	Overexpression	N/A	Expression Variants	True
+291	EZH2	Overexpression	N/A	Expression Variants	True
+292	MYD88	Overexpression	N/A	Expression Variants	True
+325	FGFR3	Overexpression	N/A	Expression Variants	True
+346	CASP8	Overexpression	N/A	Expression Variants	True
+347	TYMS	Overexpression	N/A	Expression Variants	True
+377	TIMP1	Overexpression	N/A	Expression Variants	True
+408	ABCC10	Overexpression	N/A	Expression Variants	True
+435	EPAS1	Overexpression	N/A	Expression Variants	True
+472	ALDH1A2	Overexpression	N/A	Expression Variants	True
+481	DDX43	Overexpression	N/A	Expression Variants	True
+483	TBK1	Overexpression	N/A	Expression Variants	True
+486	HAVCR2	Overexpression	N/A	Expression Variants	True
+525	B4GALT1	Overexpression	N/A	Expression Variants	True
+529	SIRT1	Overexpression	N/A	Expression Variants	True
+539	PTPN11	Overexpression	N/A	Expression Variants	True
+547	RB1	Overexpression	N/A	Expression Variants	True
+578	BIRC5	Overexpression	N/A	Expression Variants	True
+597	RET	Overexpression	N/A	Expression Variants	True
+602	CDK6	Overexpression	N/A	Expression Variants	True
+603	FLT3	Overexpression	N/A	Expression Variants	True
+607	ESR1	Overexpression	N/A	Expression Variants	True
+619	PTGS2	Overexpression	N/A	Expression Variants	False
+621	MET	Overexpression	N/A	Expression Variants	True
+639	JUN	Overexpression	N/A	Expression Variants	True
+640	FOS	Overexpression	N/A	Expression Variants	True
+653	ETV4	Overexpression	N/A	Expression Variants	True
+693	SGK1	Overexpression	N/A	Expression Variants	True
+795	RRM1	Overexpression	N/A	Expression Variants	True
+858	CSF1	Overexpression	N/A	Expression Variants	False
+859	ROS1	Overexpression	N/A	Expression Variants	False
+860	NTRK1	Overexpression	N/A	Expression Variants	True
+866	MITF	Overexpression	N/A	Expression Variants	False
+869	YAP1	Overexpression	N/A	Expression Variants	False
+875	ERBB2	Overexpression	N/A	Expression Variants	True
+1256	TERT	Overexpression	N/A	Expression Variants	False
+1259	AEBP1	Overexpression	N/A	Expression Variants	False
+1273	CTAG1B	Overexpression	N/A	Expression Variants	True
+1274	CTAG2	Overexpression	N/A	Expression Variants	True
+1279	BRD4	Overexpression	N/A	Expression Variants	False
+1301	AKT3	Overexpression		Expression Variants	True
+1303	MYC	Overexpression		Expression Variants	True
+1306	TP53	Overexpression	N/A	Expression Variants	True
+1693	CHEK1	Overexpression		Expression Variants	True
+1877	ETV1	Overexpression		Expression Variants	False
+1878	ETV5	Overexpression		Expression Variants	False
+2167	FGFR4	Overexpression	N/A	Expression Variants	False
+2204	KDR	Overexpression		Expression Variants	False
+2239	TPT1	Overexpression		Expression Variants	False
+2360	AKT1	Overexpression		Expression Variants	True
+2363	PIK3R2	Overexpression		Expression Variants	True
+2410	ERCC1	Overexpression	N/A	Expression Variants	False
+2417	FGFR2	Overexpression		Expression Variants	False
+2578	NOTCH3	Overexpression		Expression Variants	False
+2584	CDK9	Overexpression		Expression Variants	False
+2585	VEGFA	Overexpression		Expression Variants	False
+2588	EPOR	Overexpression		Expression Variants	False
+2635	ALK	Overexpression		Expression Variants	False
+2636	CDK4	Overexpression		Expression Variants	False
+2679	WEE1	Overexpression		Expression Variants	False
+2717	PSMD4	Overexpression		Expression Variants	False
+2739	CRLF2	Overexpression		Expression Variants	False
+2784	FGF19	Overexpression		Expression Variants	True
+2808	WNT11	Overexpression		Expression Variants	False
+2904	FGFR1	Overexpression		Expression Variants	False
+2908	TACSTD2	Overexpression		Expression Variants	False
+2911	IL6	Overexpression		Expression Variants	True
+2915	ABCB1	Overexpression	N/A	Expression Variants	True
+2944	PDGFRA	Overexpression		Expression Variants	True
+2955	STAT1	Overexpression		Expression Variants	False
+2970	VEGFC	Overexpression		Expression Variants	False
+2973	PDGFRB	Overexpression		Expression Variants	True
+2978	MIR21	Overexpression		Expression Variants	False
+2980	IL33	Overexpression		Expression Variants	False
+2985	CCN2	Overexpression		Expression Variants	False
+3006	FOXC2	Overexpression		Expression Variants	False
+3007	ZEB1	Overexpression		Expression Variants	False
+3008	CUL7	Overexpression		Expression Variants	False
+3139	MECOM	Overexpression		Expression Variants	False
+3243	ACTL6A	Overexpression		Expression Variants	False
+3249	MYCN	Overexpression		Expression Variants	False
+3259	IGF1R	Overexpression		Expression Variants	True
+3277	ZHX2	Overexpression		Expression Variants	False
+3279	HDAC2	Overexpression		Expression Variants	False
+3306	HDAC9	Overexpression		Expression Variants	False
+3307	FOXF1	Overexpression		Expression Variants	False
+3568	JAK2	Overexpression		Expression Variants	False
+3569	STAT5B	Overexpression		Expression Variants	False
+3598	DDR2	Overexpression		Expression Variants	False
+3599	HDAC6	Overexpression		Expression Variants	False
+3646	HOXC10	Overexpression		Expression Variants	False
+3728	SLC29A1	Overexpression		Expression Variants	True
+3731	KIT	Overexpression		Expression Variants	False
+3732	HSP90B1	Overexpression		Expression Variants	False
+3733	KRAS	Overexpression		Expression Variants	False
+3734	COX2	Overexpression		Expression Variants	False
+3735	BRAF	Overexpression		Expression Variants	False
+3746	CCNE2	Overexpression		Expression Variants	False
+4237	AURKB	Overexpression		Expression Variants	False
+4297	FGFR1	Overexpression		Expression Variants	False
+4522	CD274	Overexpression		Expression Variants	False
+3415	AR	Overexpression of AR-V9		Expression Variants	False
+3324	VEGFA	Overexpression of VEGF121		Expression Variants	False
+3325	VEGFA	Overexpression of VEGF121 and VEGF110		Expression Variants	False
 2375	ABL1	P-Loop Mutation		Region Defined Variants	True
 3248	VHL			Transcript Variants	False
 1682	ARID1A	P1175FS*5	Frameshift Variant	Sequence Variants	True
@@ -1112,21 +1112,21 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2683	PTK2B	PTK2B::KDM6A	Transcript Fusion	Fusion Variants	False
 2684	PTK2B	PTK2B::STAG2	Transcript Fusion	Fusion Variants	False
 4189	VHL			Transcript Variants	False
-2184	VHL	Partial deletion of 0.7 Kb		Region Defined Variants	False
-4200	VHL	Partial deletion of 0.8 kb		Region Defined Variants	False
-2185	VHL	Partial deletion of 1 Kb		Region Defined Variants	False
-2186	VHL	Partial deletion of 1.2 Kb		Region Defined Variants	False
-2187	VHL	Partial deletion of 1.5 Kb		Region Defined Variants	False
-3999	VHL	Partial deletion of 10 Kb		Region Defined Variants	False
-2188	VHL	Partial deletion of 11 Kb		Region Defined Variants	False
-2189	VHL	Partial deletion of 12 Kb		Region Defined Variants	False
-3095	VHL	Partial deletion of 2 Kb		Region Defined Variants	False
-2191	VHL	Partial deletion of 3 Kb		Region Defined Variants	False
-2190	VHL	Partial deletion of 3.5 Kb		Region Defined Variants	False
-2492	VHL	Partial deletion of 4 Kb		Region Defined Variants	False
-2193	VHL	Partial deletion of 7 Kb		Region Defined Variants	False
-2192	VHL	Partial deletion of 7.5 Kb		Region Defined Variants	False
-2194	VHL	Partial deletion of 8.2 Kb		Region Defined Variants	False
+2184	VHL	Partial deletion of 0.7 Kb		Sequence Variants	False
+4200	VHL	Partial deletion of 0.8 kb		Sequence Variants	False
+2185	VHL	Partial deletion of 1 Kb		Sequence Variants	False
+2186	VHL	Partial deletion of 1.2 Kb		Sequence Variants	False
+2187	VHL	Partial deletion of 1.5 Kb		Sequence Variants	False
+3999	VHL	Partial deletion of 10 Kb		Sequence Variants	False
+2188	VHL	Partial deletion of 11 Kb		Sequence Variants	False
+2189	VHL	Partial deletion of 12 Kb		Sequence Variants	False
+3095	VHL	Partial deletion of 2 Kb		Sequence Variants	False
+2191	VHL	Partial deletion of 3 Kb		Sequence Variants	False
+2190	VHL	Partial deletion of 3.5 Kb		Sequence Variants	False
+2492	VHL	Partial deletion of 4 Kb		Sequence Variants	False
+2193	VHL	Partial deletion of 7 Kb		Sequence Variants	False
+2192	VHL	Partial deletion of 7.5 Kb		Sequence Variants	False
+2194	VHL	Partial deletion of 8.2 Kb		Sequence Variants	False
 3466	NTRK1	Point Mutations		Other Variants	False
 3467	NTRK3	Point Mutations		Other Variants	False
 27	CDKN2A	Promoter Hypermethylation	N/A	Epigenetic Modification	True
@@ -1276,9 +1276,9 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4253	NTRK1	SCP2::NTRK1		Fusion Variants	False
 2179	NRG1	SDC4::NRG1	Transcript Fusion	Fusion Variants	True
 4251	EGFR	SEC61G::EGFR		Fusion Variants	False
-416	ERBB2	SERUM LEVELS	N/A	Expression	True
-487	MMP2	SERUM LEVELS	N/A	Expression	True
-488	MMP9	SERUM LEVELS	N/A	Expression	True
+416	ERBB2	SERUM LEVELS	N/A	Expression Variants	True
+487	MMP2	SERUM LEVELS	N/A	Expression Variants	True
+488	MMP9	SERUM LEVELS	N/A	Expression Variants	True
 3287	ABL1	SFPQ::ABL1	Transcript Fusion	Fusion Variants	True
 411	STAT3	SH2 DOMAIN MUTATION	Protein Altering Variant	Region Defined Variants	True
 3986	SH3PXD2A	SH3PXD2A::HTRA1		Fusion Variants	False
@@ -1297,7 +1297,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2218	ALK	STRN::ALK	Transcript Fusion	Fusion Variants	True
 2287	NTRK2	STRN::NTRK2	Transcript Fusion	Fusion Variants	True
 3108	VHL	Single Allele Deletion		Genotype Variants	False
-4425	SMARCB1	Single nucleotide variant		Region Defined Variants	False
+4425	SMARCB1	Single nucleotide variant		Sequence Variants	False
 2518	VHL			Transcript Variants	False
 4162	VHL			Transcript Variants	False
 4226	VHL			Transcript Variants	False
@@ -1330,7 +1330,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 810	RUNX1	T148HFSX9	Frameshift Truncation	Sequence Variants	True
 2091	VHL			Transcript Variants	True
 2092	VHL			Transcript Variants	True
-491	HSPH1	T17 DELETION	Short Tandem Repeat Variation	Region Defined Variants	True
+491	HSPH1	T17 DELETION	Short Tandem Repeat Variation	Sequence Variants	True
 2733	TP53	T170		Sequence Variants	False
 385	PRKAA2	T172 PHOSPHORYLATION	N/A	Epigenetic Modification	True
 2142	VHL			Transcript Variants	True
@@ -1346,7 +1346,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2371	ABL1	TKD MUTATION		Gene Function Variants	True
 3128	TLX3	TLX3::BCL11B	Transcript Fusion	Fusion Variants	False
 195	ERG	TMPRSS2::ERG	Transcript Fusion	Fusion Variants	True
-3473	TNC	TNC-L		Expression	False
+3473	TNC	TNC-L		Expression Variants	False
 774	PDGFRA	TNKS2::PDGFRA	Transcript Fusion	Fusion Variants	True
 3486	TOP2A	TOP2A/90		Other Variants	False
 2992	NTRK1	TPM3::NTRK1	Transcript Fusion	Fusion Variants	True
@@ -1370,37 +1370,37 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 223	TP53	Truncating Mutation	Frameshift Truncation	Sequence Variants	True
 729	UGT1A1	UGT1A1*28	Microsatellite	Genotype Variants	True
 732	UGT1A1	UGT1A1*60	Microsatellite	Genotype Variants	True
-417	THBS2	UNDEREXPRESSION	N/A	Expression	True
-441	LEPR	UNDEREXPRESSION	N/A	Expression	True
-446	KRT18	UNDEREXPRESSION	N/A	Expression	True
-498	MIR218-1	UNDEREXPRESSION	N/A	Expression	True
-2418	SPRY2	UNDEREXPRESSION		Expression	False
+417	THBS2	UNDEREXPRESSION	N/A	Expression Variants	True
+441	LEPR	UNDEREXPRESSION	N/A	Expression Variants	True
+446	KRT18	UNDEREXPRESSION	N/A	Expression Variants	True
+498	MIR218-1	UNDEREXPRESSION	N/A	Expression Variants	True
+2418	SPRY2	UNDEREXPRESSION		Expression Variants	False
 2863	JAK2	USP25::JAK2	Transcript Fusion	Fusion Variants	True
-179	ATM	Underexpression	N/A	Expression	True
-282	SMAD4	Underexpression	N/A	Expression	True
-304	STK11	Underexpression	N/A	Expression	True
-349	SMARCA4	Underexpression	N/A	Expression	True
-382	TYMS	Underexpression	N/A	Expression	True
-403	BRCA1	Underexpression	N/A	Expression	True
-422	STAG2	Underexpression	N/A	Expression	True
-473	ALDH1A2	Underexpression	N/A	Expression	True
-475	CIP2A	Underexpression	N/A	Expression	True
-648	ATRX	Underexpression	N/A	Expression	True
-654	STAG3	Underexpression	N/A	Expression	True
-695	SMARCB1	Underexpression	N/A	Expression	True
-867	MTAP	Underexpression		Expression	True
-868	VPS37A	Underexpression	N/A	Expression	True
-1255	MGMT	Underexpression	N/A	Expression	True
-1257	RRM1	Underexpression	N/A	Expression	True
-2108	ARID1A	Underexpression	N/A	Expression	True
-2164	CX3CL1	Underexpression		Expression	False
-2384	PBLD	Underexpression		Expression	False
-2386	ERRFI1	Underexpression		Expression	False
-2392	PTPN6	Underexpression		Expression	False
-2409	ERCC1	Underexpression	N/A	Expression	True
-2412	FGFR2	Underexpression		Expression	False
-2718	CCNE1	Underexpression		Expression	False
-3459	AR	V1 expression		Expression	False
+179	ATM	Underexpression	N/A	Expression Variants	True
+282	SMAD4	Underexpression	N/A	Expression Variants	True
+304	STK11	Underexpression	N/A	Expression Variants	True
+349	SMARCA4	Underexpression	N/A	Expression Variants	True
+382	TYMS	Underexpression	N/A	Expression Variants	True
+403	BRCA1	Underexpression	N/A	Expression Variants	True
+422	STAG2	Underexpression	N/A	Expression Variants	True
+473	ALDH1A2	Underexpression	N/A	Expression Variants	True
+475	CIP2A	Underexpression	N/A	Expression Variants	True
+648	ATRX	Underexpression	N/A	Expression Variants	True
+654	STAG3	Underexpression	N/A	Expression Variants	True
+695	SMARCB1	Underexpression	N/A	Expression Variants	True
+867	MTAP	Underexpression		Expression Variants	True
+868	VPS37A	Underexpression	N/A	Expression Variants	True
+1255	MGMT	Underexpression	N/A	Expression Variants	True
+1257	RRM1	Underexpression	N/A	Expression Variants	True
+2108	ARID1A	Underexpression	N/A	Expression Variants	True
+2164	CX3CL1	Underexpression		Expression Variants	False
+2384	PBLD	Underexpression		Expression Variants	False
+2386	ERRFI1	Underexpression		Expression Variants	False
+2392	PTPN6	Underexpression		Expression Variants	False
+2409	ERCC1	Underexpression	N/A	Expression Variants	True
+2412	FGFR2	Underexpression		Expression Variants	False
+2718	CCNE1	Underexpression		Expression Variants	False
+3459	AR	V1 expression		Expression Variants	False
 1167	ATM	V1268FS	Frameshift Variant	Sequence Variants	False
 2086	VHL		Missense Variant	Transcript Variants	False
 4246	VHL			Transcript Variants	False
@@ -1422,7 +1422,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 762	MSH2	V273FS	Frameshift Variant	Sequence Variants	True
 605	PTEN	V317FS	Frameshift Variant	Sequence Variants	True
 1316	KIT	V559		Sequence Variants	False
-3461	AR	V567es expression		Expression	False
+3461	AR	V567es expression		Expression Variants	False
 17	BRAF	V600	Protein Altering Variant	Sequence Variants	True
 2820	BRAF	V600_K601>E		Rearrangement Variants	True
 2821	BRAF	V600_S602>DT		Rearrangement Variants	False
@@ -1432,17 +1432,17 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3261	VHL			Transcript Variants	False
 2447	VHL			Transcript Variants	True
 2099	VHL		Inframe Deletion	Transcript Variants	True
-362	AR	V7 EXPRESSION		Expression	True
+362	AR	V7 EXPRESSION		Expression Variants	True
 2445	VHL			Transcript Variants	False
 4281	VHL			Transcript Variants	False
 1310	ERBB2	V773		Sequence Variants	False
 2548	VHL			Transcript Variants	False
 4179	VHL			Transcript Variants	False
 3741	VHL			Transcript Variants	False
-2159	AR	V9 EXPRESSION		Expression	False
+2159	AR	V9 EXPRESSION		Expression Variants	False
 3701	NTRK2	VCL::NTRK2	Transcript Fusion	Fusion Variants	True
 3303	CHD7	VCV000625197, Translocation (t(8;X)(q12.2;p22.13)), CHD7–BEND2 fusion		Other Variants	False
-3321	VEGFA	VEGF165b Overexpression		Expression	False
+3321	VEGFA	VEGF165b Overexpression		Expression Variants	False
 312	EGFR	VIII	Disruptive Inframe Deletion	Gene Function Variants	True
 4242	EGFR	VOPP1::EGFR		Fusion Variants	False
 2470	VHL			Transcript Variants	False
@@ -1527,22 +1527,22 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3487	BRCA1	delta11q		Other Variants	False
 3482	LGR5	delta5		Other Variants	False
 2349	IL7R	exon 6 mutations		Region Defined Variants	False
-3752	SSTR5	expression		Expression	True
-4416	EZH2	expression		Expression	True
+3752	SSTR5	expression		Expression Variants	True
+4416	EZH2	expression		Expression Variants	True
 4406	EGFR	fusion		Fusion Variants	False
 2226	BRAF	intron 10 rearrangement		Rearrangement Variants	True
 2225	BRAF	intron 9 rearrangement		Rearrangement Variants	True
-2814	DRD5	low expression		Expression	False
-3323	VEGFA	low ratio of VEGF165b/VEGFtotal		Expression	False
+2814	DRD5	low expression		Expression Variants	False
+3323	VEGFA	low ratio of VEGF165b/VEGFtotal		Expression Variants	False
 2845	HOXD8	mutation		Region Defined Variants	False
 4436	CHEK2	mutation		Region Defined Variants	True
 4463	TSC1	mutation		Region Defined Variants	False
 4464	TSC2	mutation		Region Defined Variants	False
-3322	VEGFA	overexpression of VEGF-Axxxa		Expression	False
+3322	VEGFA	overexpression of VEGF-Axxxa		Expression Variants	False
 2411	SDHB	p.193_196dupSTSC (c.577_588dupAGCACCAGCTGC)	Inframe Insertion	Copy Number Variants	True
 4247	VHL			Transcript Variants	False
 3057	GATA1	p.Ser51Alafs*86		Sequence Variants	False
-272	CDKN2A	p16 Expression	N/A	Expression	True
+272	CDKN2A	p16 Expression	N/A	Expression Variants	True
 3512	BRAF	p61BRAF(V600E)		Genotype Variants	False
 3313	CDKN1A	rs1059234		Other Variants	True
 2787	PRNCR1	rs1456315		Other Variants	False
