@@ -7,17 +7,17 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4232	BRCA1			Transcript Variants	False
 3196	VHL		Stop Lost	Transcript Variants	False
 2930	VHL			Transcript Variants	True
-4188	VHL	10kb Deletion		Sequence Variants	False
+4188	VHL	10kb Deletion		Rearrangement Variants	False
 785	CHEK2	1100DELC	Frameshift Truncation	Sequence Variants	True
 3083	VHL			Transcript Variants	False
-4186	VHL	2kb Deletion		Sequence Variants	False
-823	EPCAM	3' Exon Deletion	Disruptive Inframe Deletion	Region Defined Variants	True
+4186	VHL	2kb Deletion		Rearrangement Variants	False
+823	EPCAM	3' Exon Deletion	Disruptive Inframe Deletion	Rearrangement Variants	True
 433	HIF1A	3' UTR Polymorphism	3 Prime UTR Variant;Snp	Region Defined Variants	True
 3102	VHL			Transcript Variants	False
-2367	VHL	3p26.3-25.3 11Mb del		Sequence Variants	True
+2367	VHL	3p26.3-25.3 11Mb del		Rearrangement Variants	True
 265	TYMS	5' TANDEM REPEAT	5 Prime UTR Variant;Short Tandem Repeat Variation	Other Variants	True
 2390	MAP2K1	56_61QKQKVG>R		Rearrangement Variants	False
-4187	VHL	5kb Deletion		Sequence Variants	False
+4187	VHL	5kb Deletion		Rearrangement Variants	False
 2729	TP53	A129		Sequence Variants	False
 2979	KRAS	A146		Sequence Variants	True
 3195	VHL	A149fs (c.444dup)	Plus 1 Frameshift Variant;Frameshift Truncation	Copy Number Variants	False
@@ -283,14 +283,14 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 164	FLI1	EWSR1::FLI1 e7-e6	Transcript Fusion	Fusion Variants	True
 2385	EWSR1	EWSR1::NR4A3	Transcript Fusion	Fusion Variants	False
 2941	EWSR1	EWSR1::WT1	Transcript Fusion	Fusion Variants	False
-2472	VHL	EXON 1-2 DELETION and BRK1 DELETION		Region Defined Variants	False
-303	STK11	EXON 1-2 MUTATION	Exon Variant	Region Defined Variants	True
-2893	DPYD	EXON 11-19 DELETION	Inframe Deletion	Region Defined Variants	True
-86	NPM1	EXON 12 MUTATION	Exon Variant	Region Defined Variants	True
-557	ASXL1	EXON 12 MUTATION	Exon Variant	Region Defined Variants	True
-266	LRP1B	EXON 12-22 DELETION	Exon Loss Variant	Region Defined Variants	True
-74	KRAS	EXON 2 Mutations		Region Defined Variants	False
-1940	VHL	EXON 2-3 DELETION		Region Defined Variants	True
+2472	VHL	EXON 1-2 DELETION and BRK1 DELETION		Rearrangement Variants	False
+303	STK11	EXON 1-2 MUTATION	Exon Variant	Rearrangement Variants	True
+2893	DPYD	EXON 11-19 DELETION	Inframe Deletion	Rearrangement Variants	True
+86	NPM1	EXON 12 MUTATION	Exon Variant	Rearrangement Variants	True
+557	ASXL1	EXON 12 MUTATION	Exon Variant	Rearrangement Variants	True
+266	LRP1B	EXON 12-22 DELETION	Exon Loss Variant	Rearrangement Variants	True
+74	KRAS	EXON 2 Mutations		Rearrangement Variants	False
+1940	VHL	EXON 2-3 DELETION		Rearrangement Variants	True
 559	CALR	EXON 9 FRAMESHIFT	Exon Variant	Other Variants	True
 25	CDK4	EXPRESSION	N/A	Expression Variants	True
 57	GATA2	EXPRESSION	N/A	Expression Variants	True
@@ -364,44 +364,44 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3330	TCF19	EXPRESSION		Expression Variants	False
 1854	EGFR	Ex19 del L858R	Missense Variant;Inframe Deletion	Sequence Variants	True
 2870	VHL	Exon 1 (Frameshift)		Other Variants	False
-844	VHL	Exon 1 Deletion	Exon Loss Variant	Region Defined Variants	True
-2465	VHL	Exon 1 del (151nt)		Region Defined Variants	False
-845	VHL	Exon 1-2 Deletion	Exon Loss Variant	Region Defined Variants	True
-843	VHL	Exon 1-3 Deletion	Exon Loss Variant	Region Defined Variants	True
+844	VHL	Exon 1 Deletion	Exon Loss Variant	Rearrangement Variants	True
+2465	VHL	Exon 1 del (151nt)		Rearrangement Variants	False
+845	VHL	Exon 1-2 Deletion	Exon Loss Variant	Rearrangement Variants	True
+843	VHL	Exon 1-3 Deletion	Exon Loss Variant	Rearrangement Variants	True
 4169	VHL			Transcript Variants	False
-106	PIK3CA	Exon 10 Mutation	Exon Variant	Region Defined Variants	True
-1991	PIK3CA	Exon 10 and Exon 21 Mutation		Region Defined Variants	True
-3311	PIK3CA	Exon 10 or Exon 21 Mutation		Region Defined Variants	True
-66	KIT	Exon 11 Mutation	Coding Sequence Variant	Region Defined Variants	True
-2643	KIT	Exon 13 Mutation		Region Defined Variants	True
-69	KIT	Exon 14 Mutation	Exon Variant	Region Defined Variants	True
-2778	MET	Exon 14 Mutation		Region Defined Variants	False
-324	MET	Exon 14 Skipping Mutation	Exon Loss Variant	Region Defined Variants	True
-2650	BRAF	Exon 15 Mutation		Region Defined Variants	True
-2623	PDGFRA	Exon 18 Mutation		Region Defined Variants	True
+106	PIK3CA	Exon 10 Mutation	Exon Variant	Rearrangement Variants	True
+1991	PIK3CA	Exon 10 and Exon 21 Mutation		Rearrangement Variants	True
+3311	PIK3CA	Exon 10 or Exon 21 Mutation		Rearrangement Variants	True
+66	KIT	Exon 11 Mutation	Coding Sequence Variant	Rearrangement Variants	True
+2643	KIT	Exon 13 Mutation		Rearrangement Variants	True
+69	KIT	Exon 14 Mutation	Exon Variant	Rearrangement Variants	True
+2778	MET	Exon 14 Mutation		Rearrangement Variants	False
+324	MET	Exon 14 Skipping Mutation	Exon Loss Variant	Rearrangement Variants	True
+2650	BRAF	Exon 15 Mutation		Rearrangement Variants	True
+2623	PDGFRA	Exon 18 Mutation		Rearrangement Variants	True
 375	EGFR	Exon 18 Overexpression	Exon Variant	Other Variants	True
-2257	EGFR	Exon 18 deletion		Region Defined Variants	False
-133	EGFR	Exon 19 Deletion	Inframe Deletion	Region Defined Variants	True
-1938	VHL	Exon 2 Deletion		Region Defined Variants	True
-75	KRAS	Exon 2 Mutation	Missense Variant	Region Defined Variants	True
-1971	VHL	Exon 2-3 Deletion		Region Defined Variants	False
-726	EGFR	Exon 20 Insertion	Inframe Insertion	Other Variants	True
-2854	ERBB2	Exon 20 Insertion		Other Variants	True
-105	PIK3CA	Exon 21 Mutation	Exon Variant	Region Defined Variants	True
-1939	VHL	Exon 3 Deletion		Region Defined Variants	True
-1973	VHL	Exon 3 Deletion		Region Defined Variants	False
-2047	CTNNB1	Exon 3 Deletion		Region Defined Variants	False
-2892	CTNNB1	Exon 3 Mutation		Region Defined Variants	True
-3749	VHL	Exon 3 Variant		Region Defined Variants	False
+2257	EGFR	Exon 18 deletion		Rearrangement Variants	False
+133	EGFR	Exon 19 Deletion	Inframe Deletion	Rearrangement Variants	True
+1938	VHL	Exon 2 Deletion		Rearrangement Variants	True
+75	KRAS	Exon 2 Mutation	Missense Variant	Rearrangement Variants	True
+1971	VHL	Exon 2-3 Deletion		Rearrangement Variants	False
+726	EGFR	Exon 20 Insertion	Inframe Insertion	Rearrangement Variants	True
+2854	ERBB2	Exon 20 Insertion		Rearrangement Variants	True
+105	PIK3CA	Exon 21 Mutation	Exon Variant	Rearrangement Variants	True
+1939	VHL	Exon 3 Deletion		Rearrangement Variants	True
+1973	VHL	Exon 3 Deletion		Rearrangement Variants	False
+2047	CTNNB1	Exon 3 Deletion		Rearrangement Variants	False
+2892	CTNNB1	Exon 3 Mutation		Rearrangement Variants	True
+3749	VHL	Exon 3 Variant		Rearrangement Variants	False
 4250	VHL			Transcript Variants	False
 4245	VHL			Transcript Variants	False
-252	EGFR	Exon 4 Deletion	Exon Loss Variant	Region Defined Variants	True
-350	SETBP1	Exon 4 Mutation	Exon Variant	Region Defined Variants	True
-550	ALK	Exon 4-11 Deletion	Inframe Deletion	Region Defined Variants	True
-129	WT1	Exon 7 Mutation	Exon Variant	Region Defined Variants	True
-130	WT1	Exon 9 Mutation	Exon Variant	Region Defined Variants	True
-509	KIT	Exon 9 Mutation	Exon Variant	Region Defined Variants	True
-3100	VHL	Exon Deletion		Region Defined Variants	False
+252	EGFR	Exon 4 Deletion	Exon Loss Variant	Rearrangement Variants	True
+350	SETBP1	Exon 4 Mutation	Exon Variant	Rearrangement Variants	True
+550	ALK	Exon 4-11 Deletion	Inframe Deletion	Rearrangement Variants	True
+129	WT1	Exon 7 Mutation	Exon Variant	Rearrangement Variants	True
+130	WT1	Exon 9 Mutation	Exon Variant	Rearrangement Variants	True
+509	KIT	Exon 9 Mutation	Exon Variant	Rearrangement Variants	True
+3100	VHL	Exon Deletion		Rearrangement Variants	False
 19	CCND1	Expression	N/A	Expression Variants	True
 210	PGR	Expression	N/A	Expression Variants	True
 268	FGFR1	Expression	N/A	Expression Variants	True
@@ -1112,21 +1112,21 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2683	PTK2B	PTK2B::KDM6A	Transcript Fusion	Fusion Variants	False
 2684	PTK2B	PTK2B::STAG2	Transcript Fusion	Fusion Variants	False
 4189	VHL			Transcript Variants	False
-2184	VHL	Partial deletion of 0.7 Kb		Sequence Variants	False
-4200	VHL	Partial deletion of 0.8 kb		Sequence Variants	False
-2185	VHL	Partial deletion of 1 Kb		Sequence Variants	False
-2186	VHL	Partial deletion of 1.2 Kb		Sequence Variants	False
-2187	VHL	Partial deletion of 1.5 Kb		Sequence Variants	False
-3999	VHL	Partial deletion of 10 Kb		Sequence Variants	False
-2188	VHL	Partial deletion of 11 Kb		Sequence Variants	False
-2189	VHL	Partial deletion of 12 Kb		Sequence Variants	False
-3095	VHL	Partial deletion of 2 Kb		Sequence Variants	False
-2191	VHL	Partial deletion of 3 Kb		Sequence Variants	False
-2190	VHL	Partial deletion of 3.5 Kb		Sequence Variants	False
-2492	VHL	Partial deletion of 4 Kb		Sequence Variants	False
-2193	VHL	Partial deletion of 7 Kb		Sequence Variants	False
-2192	VHL	Partial deletion of 7.5 Kb		Sequence Variants	False
-2194	VHL	Partial deletion of 8.2 Kb		Sequence Variants	False
+2184	VHL	Partial deletion of 0.7 Kb		Rearrangement Variants	False
+4200	VHL	Partial deletion of 0.8 kb		Rearrangement Variants	False
+2185	VHL	Partial deletion of 1 Kb		Rearrangement Variants	False
+2186	VHL	Partial deletion of 1.2 Kb		Rearrangement Variants	False
+2187	VHL	Partial deletion of 1.5 Kb		Rearrangement Variants	False
+3999	VHL	Partial deletion of 10 Kb		Rearrangement Variants	False
+2188	VHL	Partial deletion of 11 Kb		Rearrangement Variants	False
+2189	VHL	Partial deletion of 12 Kb		Rearrangement Variants	False
+3095	VHL	Partial deletion of 2 Kb		Rearrangement Variants	False
+2191	VHL	Partial deletion of 3 Kb		Rearrangement Variants	False
+2190	VHL	Partial deletion of 3.5 Kb		Rearrangement Variants	False
+2492	VHL	Partial deletion of 4 Kb		Rearrangement Variants	False
+2193	VHL	Partial deletion of 7 Kb		Rearrangement Variants	False
+2192	VHL	Partial deletion of 7.5 Kb		Rearrangement Variants	False
+2194	VHL	Partial deletion of 8.2 Kb		Rearrangement Variants	False
 3466	NTRK1	Point Mutations		Other Variants	False
 3467	NTRK3	Point Mutations		Other Variants	False
 27	CDKN2A	Promoter Hypermethylation	N/A	Epigenetic Modification	True
@@ -1240,7 +1240,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 740	DPYD	RS67376798 HOMOZYGOSITY	Polymorphic Sequence Variant	Other Variants	True
 255	ERCC5	RS751402	5 Prime UTR Variant;Snp	Other Variants	True
 3126	RUNX1	RUNX1::RUNX1T1	Transcript Fusion	Fusion Variants	False
-1863	EGFR	Rare Exon 18-21 Mutation	Exon Variant	Region Defined Variants	True
+1863	EGFR	Rare Exon 18-21 Mutation	Exon Variant	Rearrangement Variants	True
 2334	EGFR	Rare Mutation		Other Variants	True
 3222	PIK3CA	Rare Mutation		Other Variants	True
 269	ROS1	Rearrangement	Transcript Fusion	Rearrangement Variants	True
@@ -1526,7 +1526,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3511	CD19	delta-ex2, delta-ex5-6		Other Variants	False
 3487	BRCA1	delta11q		Other Variants	False
 3482	LGR5	delta5		Other Variants	False
-2349	IL7R	exon 6 mutations		Region Defined Variants	False
+2349	IL7R	exon 6 mutations		Rearrangement Variants	False
 3752	SSTR5	expression		Expression Variants	True
 4416	EZH2	expression		Expression Variants	True
 4406	EGFR	fusion		Fusion Variants	False
