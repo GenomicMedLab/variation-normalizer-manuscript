@@ -936,7 +936,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id
 1007	EGFR L747_T751delLREAT	protein	False		ga4gh:VA.bm2LEMqrbwCupLdsz9p7_ah6vf_M3iAZ
 1010	EGFR L747_T751delinsP	protein	False		ga4gh:VA.eDMXxJw9shlSKF3znIg5abniGoyJ3GQ4
 1008	EGFR L747_T751delinsQ	protein	False		ga4gh:VA.nTmRFyjPrx0IJSZN6kNVmI59dU4Y3EAm
-1313	ERBB2 L753E	protein	False		ga4gh:VA.fb1zUr-f82hMRgMjEM1wQ_6_fPCJ9-Sn
+1313	ERBB2 L753E	protein	False		ga4gh:VA.z8snPVtSyudcbbIO4rUSCAvc-P3nEuny
 1304	ERBB2 L755P	protein	False	Missense Variant	ga4gh:VA._zGg2DBna8lXy-XhoYpOWqpWrrBJl5AB
 4490	ERBB2 L755P	protein	False		ga4gh:VA._zGg2DBna8lXy-XhoYpOWqpWrrBJl5AB
 39	ERBB2 L755S	protein	True	Missense Variant	ga4gh:VA.2H6jC4r6bxSvihY72MAGuTrAPedjjCnE
@@ -1658,7 +1658,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id
 3790	TP53 V274F	protein	True		ga4gh:VA.Q3YKPFaFzlw7l3mKDOBgx5oyqtJhkGfy
 2751	TP53 V274S	protein	False		ga4gh:VA.qbJjBDilsNn6tFlMErMvshYzJGsl-fHe
 1604	ABL1 V289I	protein	False	Missense Variant	ga4gh:VA.xfuFhQfN-kE-z4szAZ6xYHN0UxzY786j
-2277	CRLF2 V2del	protein	False		ga4gh:VA.o4UIqVMQ-D8nDgb2K2BaqzoaydiZHFWu
+2277	CRLF2 V2del	protein	False		ga4gh:VA.je-LVhT14HXZ49lznpjTHUReUTQ8oQ-m
 1576	SMO V321M	protein	False	Missense Variant	ga4gh:VA.fhYNohKpNTUFO8MkC_5ypxX90aaVfElG
 775	MSH6 V352I	protein	True	Missense Variant	ga4gh:VA.UJ6RM2f-PblQ6BYS2zZIQkVjdpSHOmQI
 2841	MAP2K2 V35M	protein	False		ga4gh:VA.XqiT1RejtUDafaZtfvefnNI0a-_wcDmJ

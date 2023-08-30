@@ -22,7 +22,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	exception_raise
 3773	TP53 G262D	protein	True		False	unable to normalize	['Unable to translate variation']
 3443	BRAF G465A	protein	False		False	unable to normalize	['Unable to translate BRAF G465A']
 3441	BRAF G468A	protein	False		False	unable to normalize	['Unable to translate BRAF G468A']
-4487	ERBB2 G778-779 insCPG	protein	False		False	unable to normalize	['Unable to tokenize: insCPG', 'Unable to tokenize: G778-779']
+4487	ERBB2 G778-779 insCPG	protein	False		False	unable to normalize	['Unable to tokenize: G778-779', 'Unable to tokenize: insCPG']
 4298	FGFR3 G802_X807del	protein	False	Stop Lost;Inframe Deletion	False	unable to normalize	['Unable to translate FGFR3 G802_X807del']
 3448	BRAF I462S	protein	False		False	unable to normalize	['Unable to translate BRAF I462S']
 3023	PML K227_T233del	protein	False	Inframe Deletion	False	unable to normalize	['Unable to translate PML K227_T233del']
