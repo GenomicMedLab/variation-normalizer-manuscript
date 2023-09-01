@@ -1,0 +1,13 @@
+Category,MOA Total Sum Impact Score,Average Impact Score per Feature,Average Impact Score per Assertion,Total Number Assertions,Total Number Features
+Expression,11.0,1.00,1.00,12,11
+Epigenetic Modification,0.0,0,0,0,0
+Fusion,0.0,0,0,0,0
+Protein Consequence,1104.5,6.35,6.35,424,174
+Gene Function,0.0,0,0,0,0
+Rearrangements,291.0,7.66,7.66,81,38
+Copy Number,44.5,2.62,2.62,29,17
+Other,32.5,3.61,3.61,23,9
+Genotypes Easy,0.0,0,0,0,0
+Genotypes Compound,0.0,0,0,0,0
+Region Defined Variant,0.0,0,0,0,0
+Transcript Variant,0.0,0,0,0,0
