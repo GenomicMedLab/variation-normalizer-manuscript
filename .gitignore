@@ -40,6 +40,9 @@ dynamodb_local_latest/
 *.json
 
 # GENIE data
-analysis/genie/data_mutations_extended.txt
-analysis/genie/*.csv
-analysis/genie/*.zip
+analysis/genie/pre_variant_analysis/*.txt
+analysis/genie/pre_variant_analysis/*.csv
+analysis/genie/pre_variant_analysis/*.zip
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.txt
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.zip
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.csv
