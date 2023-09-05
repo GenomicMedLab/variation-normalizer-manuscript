@@ -569,8 +569,8 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 141	DDR2 G253C	protein	True	Missense Variant	ga4gh:VA.OusOOi6elBACqbc0H_9zV8N1Wol0Zpj-	normalize
 3615	BRCA2 G2585R	protein	False	Not provided	ga4gh:VA.O4gGtmqtQkKaun-g-cUblSIWt_untotZ	normalize
 3628	BRCA2 G2609D	protein	False	Not provided	ga4gh:VA.g-9jhkiLCa-zv5els-2k50qNOW7G-wOk	normalize
-4144	TP53 G262C	protein	False	Not provided	ga4gh:VA.Feef9HFRqbxNNpj6HyakHv21K1jxmuLd	normalize
-3773	TP53 G262D	protein	True	Not provided	ga4gh:VA.MTM9ZeLnZjPiOO0iWI80gQPDsnWGI4Q3	normalize
+4144	TP53 G262C	protein	False	Not provided	ga4gh:VA.M_aggPZhA47fKQbmDhajHujncmFjMtB7	normalize
+3773	TP53 G262D	protein	True	Not provided	ga4gh:VA.G29TF_UXi4zxNDIN6y2xZqyBF34hb1Ok	normalize
 3774	TP53 G266E	protein	True	Not provided	ga4gh:VA.AzVF_w9EgkKTIFN7BA8WSWxAHMegmyfd	normalize
 1055	TP53 G266R	protein	True	Not provided	ga4gh:VA.y4V5fepSgvf9DZRKIIRvyN-q47KtKVs1	normalize
 4122	TP53 G266V	protein	True	Not provided	ga4gh:VA.jWtRcCUlI90M6ovnogZDUIO0YrmAtDXW	normalize
@@ -783,8 +783,8 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 581	BRAF K483M	protein	True	Missense Variant;Loss Of Function Variant	ga4gh:VA.9MTrOofqLU_m6vGUbh-FlS3pc4acH84x	normalize
 2607	EGFR K489E	protein	False	Missense Variant	ga4gh:VA.bJanWJHfARqjpquwADQlSHvU536YPCa6	normalize
 2606	EGFR K489Q	protein	False	Missense Variant	ga4gh:VA.AAaQg1XBybewXD2x2x9tvYKMw9qcwKuF	normalize
-949	KIT K550_K558del	protein	True	Inframe Deletion	ga4gh:VA.o8JWKKOJ1HefCBgM5r6WbOzIH02PKRV7	normalize
-948	KIT K550_W557del	protein	True	Inframe Deletion	ga4gh:VA.8wQagLQ2eG0pZq4euEZJkmFJG8m3PEcF	normalize
+949	KIT K550_K558del	protein	True	Inframe Deletion	ga4gh:VA.kzOUyMi_ArHUeO_-yKL9HE9-pYh5YiPG	normalize
+948	KIT K550_W557del	protein	True	Inframe Deletion	ga4gh:VA.UfOCeBzaPcpLMQy04coI64Sqnmh8LBEl	normalize
 963	KIT K558Q	protein	False	Missense Variant	ga4gh:VA.4GEWxmBfjNVR82bCWxOT6swXFgQU-mZ9	normalize
 965	KIT K558R	protein	False	Missense Variant	ga4gh:VA.6JqpTBRNeRDGjVe6tYWEh91z7xDLdS8n	normalize
 964	KIT K558_V559del	protein	True	Not provided	ga4gh:VA.w8t9IO71QG5bHkf81lvLHMfzyfhdCMA5	normalize
