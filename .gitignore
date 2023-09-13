@@ -44,3 +44,6 @@ analysis/genie/*
 
 # html files
 *.html
+
+# CNVC analysis and output data
+analysis/cnvs/cnv_data
