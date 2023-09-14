@@ -1,7 +1,7 @@
 Category,CIVIC Total Sum Impact Score,Average Impact Score per Variant,Average Impact Score per Evidence Item,Total Number Evidence Items,% Accepted Evidence Items,Total Number Variants
 Expression Variants,3618.0,9.89,8.11,610,56.07%,287
 Epigenetic Modification,285.5,0.78,0.64,23,95.65%,14
-Fusion Variants,6558.75,17.92,14.71,1218,61.33%,294
+Fusion Variants,6576.25,17.97,14.74,1218,61.33%,294
 Sequence Variants,2746.75,7.5,6.16,302,64.90%,133
 Gene Function Variants,1805.5,4.93,4.05,345,44.64%,91
 Rearrangement Variants,2794.0,7.63,6.26,531,38.04%,116
