@@ -1,0 +1,22 @@
+in.variation_type,in.id
+Complex,77
+CompoundHeterozygote,249
+Deletion,1720
+Diplotype,596
+Distinct chromosomes,1
+Duplication,431
+Haplotype,565
+"Haplotype, single variant",21
+Indel,178
+Insertion,688
+Inversion,92
+Microsatellite,482
+Phase unknown,8
+Tandem duplication,1
+Translocation,273
+Variation,208
+copy number gain,2916
+copy number loss,1756
+fusion,6
+protein only,95
+single nucleotide variant,287
