@@ -46,3 +46,9 @@ analysis/genie/pre_variant_analysis/*.zip
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.txt
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.zip
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.csv
+
+# html files
+*.html
+
+# CNVC analysis and output data
+analysis/cnvs/cnv_data
