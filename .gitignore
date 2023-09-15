@@ -39,8 +39,13 @@ dynamodb_local_latest/
 # json files
 *.json
 
-# GENIE data (ignore all for now until issue-7 is merged)
-analysis/genie/*
+# GENIE data
+analysis/genie/pre_variant_analysis/*.txt
+analysis/genie/pre_variant_analysis/*.csv
+analysis/genie/pre_variant_analysis/*.zip
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.txt
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.zip
+analysis/genie/pre_variant_analysis/variation_normalizer_output/*.csv
 
 # html files
 *.html
