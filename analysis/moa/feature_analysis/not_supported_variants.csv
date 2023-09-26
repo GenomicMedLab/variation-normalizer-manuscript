@@ -137,114 +137,114 @@ variant_id	query	moa_feature_type	category
 527	RAD54L	somatic_variant	Sequence Variants
 528	RBM10	somatic_variant	Sequence Variants
 531	RET	somatic_variant	Sequence Variants
+532	RUNX1	somatic_variant	Sequence Variants
 533	RUNX1	somatic_variant	Sequence Variants
-534	RUNX1	somatic_variant	Sequence Variants
-537	SETBP1	somatic_variant	Sequence Variants
-542	SETBP1	somatic_variant	Sequence Variants
-557	SF3B1	somatic_variant	Sequence Variants
+536	SETBP1	somatic_variant	Sequence Variants
+541	SETBP1	somatic_variant	Sequence Variants
+556	SF3B1	somatic_variant	Sequence Variants
+561	SMARCA4	somatic_variant	Sequence Variants
 562	SMARCA4	somatic_variant	Sequence Variants
 563	SMARCA4	somatic_variant	Sequence Variants
-564	SMARCA4	somatic_variant	Sequence Variants
-565	SPOP	somatic_variant	Sequence Variants
+564	SPOP	somatic_variant	Sequence Variants
+567	STAG2	somatic_variant	Sequence Variants
 568	STAG2	somatic_variant	Sequence Variants
 569	STAG2	somatic_variant	Sequence Variants
-570	STAG2	somatic_variant	Sequence Variants
-571	TET2	somatic_variant	Sequence Variants
+570	TET2	somatic_variant	Sequence Variants
+571	TP53	somatic_variant	Sequence Variants
 572	TP53	somatic_variant	Sequence Variants
 573	TP53	somatic_variant	Sequence Variants
 574	TP53	somatic_variant	Sequence Variants
 575	TP53	somatic_variant	Sequence Variants
-576	TP53	somatic_variant	Sequence Variants
+579	TSC1	somatic_variant	Sequence Variants
 580	TSC1	somatic_variant	Sequence Variants
 581	TSC1	somatic_variant	Sequence Variants
-582	TSC1	somatic_variant	Sequence Variants
-585	TSC1	somatic_variant	Sequence Variants
+584	TSC1	somatic_variant	Sequence Variants
+585	TSC2	somatic_variant	Sequence Variants
 586	TSC2	somatic_variant	Sequence Variants
 587	TSC2	somatic_variant	Sequence Variants
 588	TSC2	somatic_variant	Sequence Variants
-589	TSC2	somatic_variant	Sequence Variants
+591	ZRSR2	somatic_variant	Sequence Variants
 592	ZRSR2	somatic_variant	Sequence Variants
-593	ZRSR2	somatic_variant	Sequence Variants
+593	ATM	germline_variant	Sequence Variants
 594	ATM	germline_variant	Sequence Variants
 595	ATM	germline_variant	Sequence Variants
-596	ATM	germline_variant	Sequence Variants
-597	BARD1	germline_variant	Sequence Variants
-603	BRCA1	germline_variant	Sequence Variants
-612	BRCA1	germline_variant	Sequence Variants
-622	BRCA2	germline_variant	Sequence Variants
-634	BRCA2	germline_variant	Sequence Variants
-640	CHEK1	germline_variant	Sequence Variants
-646	CHEK2	germline_variant	Sequence Variants
-652	CHEK2	germline_variant	Sequence Variants
-653	EPCAM	germline_variant	Sequence Variants
-656	LIMK2 p.G574Rfs*12	germline_variant	Sequence Variants
-657	LIMK2 p.C582Lfs*4	germline_variant	Sequence Variants
-658	LIMK2 p.G684Tfs*16	germline_variant	Sequence Variants
-659	MLH1	germline_variant	Sequence Variants
-660	MLH3	germline_variant	Sequence Variants
-662	MRE11 p.H356Tfs*34	germline_variant	Sequence Variants
-663	MRE11 p.L7fs*18	germline_variant	Sequence Variants
-664	MSH2	germline_variant	Sequence Variants
-666	MSH6	germline_variant	Sequence Variants
-668	NF1	germline_variant	Sequence Variants
-669	PALB2	germline_variant	Sequence Variants
-676	PALB2	germline_variant	Sequence Variants
-677	PMS2	germline_variant	Sequence Variants
-678	POLE2 p.L469Ffs*17	germline_variant	Sequence Variants
-679	POT1 p.D617Efs*9	germline_variant	Sequence Variants
-681	POT1 p.N75Kfs*16	germline_variant	Sequence Variants
-682	RAD51C	germline_variant	Sequence Variants
-688	RAD51D	germline_variant	Sequence Variants
-694	RB1	germline_variant	Sequence Variants
-695	TP53	germline_variant	Sequence Variants
-700	ARID1A Deletion	copy_number	Copy Number Variants
-706	BRCA2 Deletion	copy_number	Copy Number Variants
-720	CDKN2A Deletion	copy_number	Copy Number Variants
+596	BARD1	germline_variant	Sequence Variants
+602	BRCA1	germline_variant	Sequence Variants
+611	BRCA1	germline_variant	Sequence Variants
+621	BRCA2	germline_variant	Sequence Variants
+633	BRCA2	germline_variant	Sequence Variants
+639	CHEK1	germline_variant	Sequence Variants
+645	CHEK2	germline_variant	Sequence Variants
+651	CHEK2	germline_variant	Sequence Variants
+652	EPCAM	germline_variant	Sequence Variants
+655	LIMK2 p.G574Rfs*12	germline_variant	Sequence Variants
+656	LIMK2 p.C582Lfs*4	germline_variant	Sequence Variants
+657	LIMK2 p.G684Tfs*16	germline_variant	Sequence Variants
+658	MLH1	germline_variant	Sequence Variants
+659	MLH3	germline_variant	Sequence Variants
+661	MRE11 p.H356Tfs*34	germline_variant	Sequence Variants
+662	MRE11 p.L7fs*18	germline_variant	Sequence Variants
+663	MSH2	germline_variant	Sequence Variants
+665	MSH6	germline_variant	Sequence Variants
+667	NF1	germline_variant	Sequence Variants
+668	PALB2	germline_variant	Sequence Variants
+675	PALB2	germline_variant	Sequence Variants
+676	PMS2	germline_variant	Sequence Variants
+677	POLE2 p.L469Ffs*17	germline_variant	Sequence Variants
+678	POT1 p.D617Efs*9	germline_variant	Sequence Variants
+680	POT1 p.N75Kfs*16	germline_variant	Sequence Variants
+681	RAD51C	germline_variant	Sequence Variants
+687	RAD51D	germline_variant	Sequence Variants
+693	RB1	germline_variant	Sequence Variants
+694	TP53	germline_variant	Sequence Variants
+699	ARID1A Deletion	copy_number	Copy Number Variants
+705	BRCA2 Deletion	copy_number	Copy Number Variants
+719	CDKN2A Deletion	copy_number	Copy Number Variants
+721	CDKN2C Deletion	copy_number	Copy Number Variants
 722	CDKN2C Deletion	copy_number	Copy Number Variants
-723	CDKN2C Deletion	copy_number	Copy Number Variants
-745	FBXW7 Deletion	copy_number	Copy Number Variants
-755	KEAP1 Deletion	copy_number	Copy Number Variants
-763	MIR17HG Deletion	copy_number	Copy Number Variants
-769	PBRM1 Deletion	copy_number	Copy Number Variants
-771	PTEN Deletion	copy_number	Copy Number Variants
-778	RB1 Deletion	copy_number	Copy Number Variants
-779	TP53 Deletion	copy_number	Copy Number Variants
-781	MSI-High	microsatellite_stability	Other Variants
-786	COSMIC Signature (version 2) 10	mutational_signature	Sequence Variants
-789	COSMIC Signature (version 2) 2	mutational_signature	Sequence Variants
-791	COSMIC Signature (version 2) 3	mutational_signature	Sequence Variants
-797	COSMIC Signature (version 2) 4	mutational_signature	Sequence Variants
-799	COSMIC Signature (version 2) 5	mutational_signature	Sequence Variants
-803	High	mutational_burden	Other Variants
-805	High (>= 178 mutations)	mutational_burden	Other Variants
-806	High (>= 100 mutations)	mutational_burden	Other Variants
-808	High (>= 10 mutations/Mb)	mutational_burden	Other Variants
-809	ATM (shRNA)	knockdown	Expression Variants
-810	B2M (CRISPR-Cas9)	knockdown	Expression Variants
-811	CDK12 (shRNA)	knockdown	Expression Variants
-812	CDK12 (siRNA)	knockdown	Expression Variants
-813	CPT1A (shRNA)	knockdown	Expression Variants
-814	RAD17 (shRNA)	knockdown	Expression Variants
-816	RAD50 (shRNA)	knockdown	Expression Variants
-817	TAP2 (CRISPR-Cas9)	knockdown	Expression Variants
-818	PPARGC1A (CRSPR-Cas9)	knockdown	Expression Variants
-819	Whole genome doubling	aneuploidy	Copy Number Variants
-833	RB1 (shRNA)	knockdown	Expression Variants
-834	USP11 (siRNA)	knockdown	Expression Variants
-835	ALK--EML4 Fusion	rearrangement	Rearrangement Variants
+744	FBXW7 Deletion	copy_number	Copy Number Variants
+754	KEAP1 Deletion	copy_number	Copy Number Variants
+762	MIR17HG Deletion	copy_number	Copy Number Variants
+768	PBRM1 Deletion	copy_number	Copy Number Variants
+770	PTEN Deletion	copy_number	Copy Number Variants
+777	RB1 Deletion	copy_number	Copy Number Variants
+778	TP53 Deletion	copy_number	Copy Number Variants
+780	MSI-High	microsatellite_stability	Other Variants
+785	COSMIC Signature (version 2) 10	mutational_signature	Sequence Variants
+788	COSMIC Signature (version 2) 2	mutational_signature	Sequence Variants
+790	COSMIC Signature (version 2) 3	mutational_signature	Sequence Variants
+796	COSMIC Signature (version 2) 4	mutational_signature	Sequence Variants
+798	COSMIC Signature (version 2) 5	mutational_signature	Sequence Variants
+802	High	mutational_burden	Other Variants
+804	High (>= 178 mutations)	mutational_burden	Other Variants
+805	High (>= 100 mutations)	mutational_burden	Other Variants
+807	High (>= 10 mutations/Mb)	mutational_burden	Other Variants
+808	ATM (shRNA)	knockdown	Expression Variants
+809	B2M (CRISPR-Cas9)	knockdown	Expression Variants
+810	CDK12 (shRNA)	knockdown	Expression Variants
+811	CDK12 (siRNA)	knockdown	Expression Variants
+812	CPT1A (shRNA)	knockdown	Expression Variants
+813	RAD17 (shRNA)	knockdown	Expression Variants
+815	RAD50 (shRNA)	knockdown	Expression Variants
+816	TAP2 (CRISPR-Cas9)	knockdown	Expression Variants
+817	PPARGC1A (CRSPR-Cas9)	knockdown	Expression Variants
+818	Whole genome doubling	aneuploidy	Copy Number Variants
+832	RB1 (shRNA)	knockdown	Expression Variants
+833	USP11 (siRNA)	knockdown	Expression Variants
+834	ALK--EML4 Fusion	rearrangement	Rearrangement Variants
+835	BRCA1	somatic_variant	Sequence Variants
 836	BRCA1	somatic_variant	Sequence Variants
-837	BRCA1	somatic_variant	Sequence Variants
-841	BRCA2	somatic_variant	Sequence Variants
+840	BRCA2	somatic_variant	Sequence Variants
+845	RB1	somatic_variant	Sequence Variants
 846	RB1	somatic_variant	Sequence Variants
-847	RB1	somatic_variant	Sequence Variants
-848	ATRX Deletion	copy_number	Copy Number Variants
-849	BRCA1 Deletion	copy_number	Copy Number Variants
-853	CDKN2C Deletion	copy_number	Copy Number Variants
-862	RB1 Deletion	copy_number	Copy Number Variants
-863	FGFR1	rearrangement	Sequence Variants
-873	ESR1	somatic_variant	Sequence Variants
-884	ATR	somatic_variant	Sequence Variants
-889	FANCA	somatic_variant	Sequence Variants
-890	MLH1	somatic_variant	Sequence Variants
-891	MRE11A	somatic_variant	Sequence Variants
-892	NBN	somatic_variant	Sequence Variants
+847	ATRX Deletion	copy_number	Copy Number Variants
+848	BRCA1 Deletion	copy_number	Copy Number Variants
+852	CDKN2C Deletion	copy_number	Copy Number Variants
+861	RB1 Deletion	copy_number	Copy Number Variants
+862	FGFR1	rearrangement	Sequence Variants
+872	ESR1	somatic_variant	Sequence Variants
+883	ATR	somatic_variant	Sequence Variants
+888	FANCA	somatic_variant	Sequence Variants
+889	MLH1	somatic_variant	Sequence Variants
+890	MRE11A	somatic_variant	Sequence Variants
+891	NBN	somatic_variant	Sequence Variants
