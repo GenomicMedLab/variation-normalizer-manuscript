@@ -8,3 +8,7 @@ pandas
 nbformat
 requests
 pre-commit
+ndjson
+datetime
+logging
+csv
