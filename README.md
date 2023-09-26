@@ -23,6 +23,7 @@ We use [python-dotenv](https://pypi.org/project/python-dotenv/) to load environm
 Some environment variables that need to be set are (replace with actual values):
 
 ```env
+GENE_NORM_DB_URL=http://localhost:8000
 UTA_DB_URL=driver://user:password@host:port/database/schema
 AWS_ACCESS_KEY_ID=dummy
 AWS_SECRET_ACCESS_KEY=dummy
