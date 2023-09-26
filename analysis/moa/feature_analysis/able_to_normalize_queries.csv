@@ -117,66 +117,64 @@ variant_id	query	moa_feature_type	category	vrs_id
 495	POLE p.L424V	somatic_variant	Sequence Variants	ga4gh:VA.lN1M09gvpGPkL4elvta2DbATRC2akF8y
 529	RET p.V804M	somatic_variant	Sequence Variants	ga4gh:VA.i3Wijz4w7QwMom0qmvd-DYEU2WPWDuIP
 530	RET p.M918T	somatic_variant	Sequence Variants	ga4gh:VA.GweduWrfxV58YnSvUBfHPGOA-KCH_iIl
-535	SETBP1 p.E858K	somatic_variant	Sequence Variants	ga4gh:VA.zFFngSUVJ67HaDGFyYq-5GSMjVvFtoWA
-536	SETBP1 p.T864M	somatic_variant	Sequence Variants	ga4gh:VA.5XU0aGLWrdDTqnyeptt6gt2Z5J1wIszf
-538	SETBP1 p.D868N	somatic_variant	Sequence Variants	ga4gh:VA.4pM7_VkkVJ2H06gTP9haIh57dOYgD5mT
-539	SETBP1 p.D868Y	somatic_variant	Sequence Variants	ga4gh:VA.o28LVBUPirbBW6oLfh940Ggo3s9ML11X
-540	SETBP1 p.S869C	somatic_variant	Sequence Variants	ga4gh:VA.HTY8eskMSTD6cCxzHyJumXBOH2ye01Ok
-541	SETBP1 p.G870S	somatic_variant	Sequence Variants	ga4gh:VA.PeKwQARIuzTLu2IfearnmVqdQ324sAnS
-543	SF3B1 p.E622Q	somatic_variant	Sequence Variants	ga4gh:VA.8NQehrkhe8JGaf0u92j5aFq9yZpdFl3G
-544	SF3B1 p.E622D	somatic_variant	Sequence Variants	ga4gh:VA.MXUqXc80HWqWjSEMUoKwyz8ieeFWhdEF
-545	SF3B1 p.Y623C	somatic_variant	Sequence Variants	ga4gh:VA.zwD01W295y5y1_eeOhsOfW1PCUH0D9Tb
-546	SF3B1 p.R625C	somatic_variant	Sequence Variants	ga4gh:VA.uxmbcPMjgDJ7JTCXuAv-QQis5elwK6V7
-547	SF3B1 p.R625H	somatic_variant	Sequence Variants	ga4gh:VA.DKiDwvrdV0VlYyLfX1NG3rXRkbpW4xPo
-548	SF3B1 p.N626H	somatic_variant	Sequence Variants	ga4gh:VA.S_qr-JKNuboc_SJKFTzuWq12BClLJzNG
-549	SF3B1 p.N626Y	somatic_variant	Sequence Variants	ga4gh:VA.X_11i7OBao6O0lUNPmzBDo2eW7rx08Ci
-550	SF3B1 p.N626D	somatic_variant	Sequence Variants	ga4gh:VA.nE_DhEarl40lgTYDD-2yKRZXCc5U4nkH
-551	SF3B1 p.H662R	somatic_variant	Sequence Variants	ga4gh:VA.IH1ZOBNFeQz_fSe_LMnbwKXPd70oatyd
-552	SF3B1 p.T663P	somatic_variant	Sequence Variants	ga4gh:VA.IJxOQXdNwWyM1tmZ6NdBrIsU9XcxHHHw
-553	SF3B1 p.K666N	somatic_variant	Sequence Variants	ga4gh:VA.9-Y2ZQvL5kCe0GLuveRxI9yUovIu2nyp
-554	SF3B1 p.K666T	somatic_variant	Sequence Variants	ga4gh:VA.5c3U7EZPFQl3gdxKeMXiho3SdINNy6PQ
-555	SF3B1 p.K666E	somatic_variant	Sequence Variants	ga4gh:VA.9g43GsUYgSrLkkr5l9A_NQn3IxTWeUmK
-556	SF3B1 p.K700E	somatic_variant	Sequence Variants	ga4gh:VA.whO8Hvl7PXuKA_tJf4Iy7VeyU-aWfFNT
-558	SF3B1 p.G740E	somatic_variant	Sequence Variants	ga4gh:VA.gxstydORFgAtfgAsP385BpHrKEaZ2SzQ
-559	SF3B1 p.G740V	somatic_variant	Sequence Variants	ga4gh:VA.EdObQ12d63WVDCd1ReKihBSDtq0mSa92
-560	SF3B1 p.G742D	somatic_variant	Sequence Variants	ga4gh:VA.E-PTd0OMD4XYok50BVfrY7QyzKYzOMbK
-561	SF3B1 p.D781E	somatic_variant	Sequence Variants	ga4gh:VA.MGqDRndHFa22Kigl6mqte5iYPfNBkvZr
-654	IL12RB1 p.Q32*	germline_variant	Sequence Variants	ga4gh:VA.SeRUlUdAJjHAitGJLijohmdGBJftazH3
-655	IL12RB1 p.Q542*	germline_variant	Sequence Variants	ga4gh:VA.CsBzsgPC15Bn2QEKWbrnRX4ejGWLffXM
-661	MRE11 p.R576*	germline_variant	Sequence Variants	ga4gh:VA.bSNc2R2mVCuudfIlJf6TQ4U1y08-InaN
-680	POT1 p.R363*	germline_variant	Sequence Variants	ga4gh:VA.fsScHMChEdKitMrP_ZmBwg2G1uKA5_zi
-696	AR Amplification	copy_number	Copy Number Variants	ga4gh:CX.VIJD6vu8rhtcw-preGLm1j3GOJ15s8nc
-701	AURKA Amplification	copy_number	Copy Number Variants	ga4gh:CX.uLiJZi49tL7UJtcC8qmt0dXigJLG17AW
-703	AURKB Amplification	copy_number	Copy Number Variants	ga4gh:CX.LiOYJ5mIepwd7OoWzYvPTNoAyL19QHWN
-704	BRAF Amplification	copy_number	Copy Number Variants	ga4gh:CX.TZBOQe5xFojvFJ1XjQQD0633rStHtGUs
+534	SETBP1 p.E858K	somatic_variant	Sequence Variants	ga4gh:VA.zFFngSUVJ67HaDGFyYq-5GSMjVvFtoWA
+535	SETBP1 p.T864M	somatic_variant	Sequence Variants	ga4gh:VA.5XU0aGLWrdDTqnyeptt6gt2Z5J1wIszf
+537	SETBP1 p.D868N	somatic_variant	Sequence Variants	ga4gh:VA.4pM7_VkkVJ2H06gTP9haIh57dOYgD5mT
+538	SETBP1 p.D868Y	somatic_variant	Sequence Variants	ga4gh:VA.o28LVBUPirbBW6oLfh940Ggo3s9ML11X
+539	SETBP1 p.S869C	somatic_variant	Sequence Variants	ga4gh:VA.HTY8eskMSTD6cCxzHyJumXBOH2ye01Ok
+540	SETBP1 p.G870S	somatic_variant	Sequence Variants	ga4gh:VA.PeKwQARIuzTLu2IfearnmVqdQ324sAnS
+542	SF3B1 p.E622Q	somatic_variant	Sequence Variants	ga4gh:VA.8NQehrkhe8JGaf0u92j5aFq9yZpdFl3G
+543	SF3B1 p.E622D	somatic_variant	Sequence Variants	ga4gh:VA.MXUqXc80HWqWjSEMUoKwyz8ieeFWhdEF
+544	SF3B1 p.Y623C	somatic_variant	Sequence Variants	ga4gh:VA.zwD01W295y5y1_eeOhsOfW1PCUH0D9Tb
+545	SF3B1 p.R625C	somatic_variant	Sequence Variants	ga4gh:VA.uxmbcPMjgDJ7JTCXuAv-QQis5elwK6V7
+546	SF3B1 p.R625H	somatic_variant	Sequence Variants	ga4gh:VA.DKiDwvrdV0VlYyLfX1NG3rXRkbpW4xPo
+547	SF3B1 p.N626H	somatic_variant	Sequence Variants	ga4gh:VA.S_qr-JKNuboc_SJKFTzuWq12BClLJzNG
+548	SF3B1 p.N626Y	somatic_variant	Sequence Variants	ga4gh:VA.X_11i7OBao6O0lUNPmzBDo2eW7rx08Ci
+549	SF3B1 p.N626D	somatic_variant	Sequence Variants	ga4gh:VA.nE_DhEarl40lgTYDD-2yKRZXCc5U4nkH
+550	SF3B1 p.H662R	somatic_variant	Sequence Variants	ga4gh:VA.IH1ZOBNFeQz_fSe_LMnbwKXPd70oatyd
+551	SF3B1 p.T663P	somatic_variant	Sequence Variants	ga4gh:VA.IJxOQXdNwWyM1tmZ6NdBrIsU9XcxHHHw
+552	SF3B1 p.K666N	somatic_variant	Sequence Variants	ga4gh:VA.9-Y2ZQvL5kCe0GLuveRxI9yUovIu2nyp
+553	SF3B1 p.K666T	somatic_variant	Sequence Variants	ga4gh:VA.5c3U7EZPFQl3gdxKeMXiho3SdINNy6PQ
+554	SF3B1 p.K666E	somatic_variant	Sequence Variants	ga4gh:VA.9g43GsUYgSrLkkr5l9A_NQn3IxTWeUmK
+555	SF3B1 p.K700E	somatic_variant	Sequence Variants	ga4gh:VA.whO8Hvl7PXuKA_tJf4Iy7VeyU-aWfFNT
+557	SF3B1 p.G740E	somatic_variant	Sequence Variants	ga4gh:VA.gxstydORFgAtfgAsP385BpHrKEaZ2SzQ
+558	SF3B1 p.G740V	somatic_variant	Sequence Variants	ga4gh:VA.EdObQ12d63WVDCd1ReKihBSDtq0mSa92
+559	SF3B1 p.G742D	somatic_variant	Sequence Variants	ga4gh:VA.E-PTd0OMD4XYok50BVfrY7QyzKYzOMbK
+560	SF3B1 p.D781E	somatic_variant	Sequence Variants	ga4gh:VA.MGqDRndHFa22Kigl6mqte5iYPfNBkvZr
+653	IL12RB1 p.Q32*	germline_variant	Sequence Variants	ga4gh:VA.SeRUlUdAJjHAitGJLijohmdGBJftazH3
+654	IL12RB1 p.Q542*	germline_variant	Sequence Variants	ga4gh:VA.CsBzsgPC15Bn2QEKWbrnRX4ejGWLffXM
+660	MRE11 p.R576*	germline_variant	Sequence Variants	ga4gh:VA.bSNc2R2mVCuudfIlJf6TQ4U1y08-InaN
+679	POT1 p.R363*	germline_variant	Sequence Variants	ga4gh:VA.fsScHMChEdKitMrP_ZmBwg2G1uKA5_zi
+695	AR Amplification	copy_number	Copy Number Variants	ga4gh:CX.VIJD6vu8rhtcw-preGLm1j3GOJ15s8nc
+700	AURKA Amplification	copy_number	Copy Number Variants	ga4gh:CX.uLiJZi49tL7UJtcC8qmt0dXigJLG17AW
+702	AURKB Amplification	copy_number	Copy Number Variants	ga4gh:CX.LiOYJ5mIepwd7OoWzYvPTNoAyL19QHWN
+703	BRAF Amplification	copy_number	Copy Number Variants	ga4gh:CX.TZBOQe5xFojvFJ1XjQQD0633rStHtGUs
+706	CCND1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.juMpRJTQe-cXd5NwCZLkW4rYlSF3Wy0r
 707	CCND1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.juMpRJTQe-cXd5NwCZLkW4rYlSF3Wy0r
-708	CCND1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.juMpRJTQe-cXd5NwCZLkW4rYlSF3Wy0r
-709	CCNE1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.V9Dwgo088Y2XOdhS1NYQgsMFj48ApJKb
-710	CD274 Amplification	copy_number	Copy Number Variants	ga4gh:CX.w0PrNyAG-TMPenT0y89L4KYjhKvMWoyq
-716	CDK4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.ms7wmVsTZc_x0cpgfDQFvplp8ptIHBH9
-724	CRKL Amplification	copy_number	Copy Number Variants	ga4gh:CX.co0a3VJT3K1f2Yo9PV_45vJfCM9j22p9
-725	EGFR Amplification	copy_number	Copy Number Variants	ga4gh:CX.sEHT64Lm86QaTXzw39uKLkBUbEkp4h_X
-726	ERBB2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.sfdL4tI7NYIKXtcL2jJyo3tzeoeYOOcS
-744	ESR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.umsb1R9tid2EeT3JNFHgcMbbvxyB9AKr
-746	FGFR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.H2AKyhB78TWf738tf7xGCXiqTN35A4fF
-750	FGFR2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.cd2wF23PpDn8-Y3HxFAhYi4hRBkxrx7e
-754	HIF1a Amplification	copy_number	Copy Number Variants	ga4gh:CX.wylIQHINjN8vb7U3AcRwWhGz98KxS7QW
-756	KIT Amplification	copy_number	Copy Number Variants	ga4gh:CX.TEy03PVyUmjHBTxanGyWzVMp20MHyio2
-757	MDM2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.pVj4Qo53bz9VqFkyHuzH-MdahZnLwKIG
-758	MET Amplification	copy_number	Copy Number Variants	ga4gh:CX.yUMibVYKc6dUxE982VhjXK-exeJydtQh
-762	MIR17HG Amplification	copy_number	Copy Number Variants	ga4gh:CX.nYHmBCnU83iiMlywuEpF_sjnwEt1XuO9
-764	MRE11 Amplification	copy_number	Copy Number Variants	ga4gh:CX.Dm15EUtMB9BwDnYF3HkqoAWrHcPbyfbY
+708	CCNE1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.V9Dwgo088Y2XOdhS1NYQgsMFj48ApJKb
+709	CD274 Amplification	copy_number	Copy Number Variants	ga4gh:CX.w0PrNyAG-TMPenT0y89L4KYjhKvMWoyq
+715	CDK4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.ms7wmVsTZc_x0cpgfDQFvplp8ptIHBH9
+723	CRKL Amplification	copy_number	Copy Number Variants	ga4gh:CX.co0a3VJT3K1f2Yo9PV_45vJfCM9j22p9
+724	EGFR Amplification	copy_number	Copy Number Variants	ga4gh:CX.sEHT64Lm86QaTXzw39uKLkBUbEkp4h_X
+725	ERBB2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.sfdL4tI7NYIKXtcL2jJyo3tzeoeYOOcS
+743	ESR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.umsb1R9tid2EeT3JNFHgcMbbvxyB9AKr
+745	FGFR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.H2AKyhB78TWf738tf7xGCXiqTN35A4fF
+749	FGFR2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.cd2wF23PpDn8-Y3HxFAhYi4hRBkxrx7e
+753	HIF1a Amplification	copy_number	Copy Number Variants	ga4gh:CX.wylIQHINjN8vb7U3AcRwWhGz98KxS7QW
+755	KIT Amplification	copy_number	Copy Number Variants	ga4gh:CX.TEy03PVyUmjHBTxanGyWzVMp20MHyio2
+756	MDM2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.pVj4Qo53bz9VqFkyHuzH-MdahZnLwKIG
+757	MET Amplification	copy_number	Copy Number Variants	ga4gh:CX.yUMibVYKc6dUxE982VhjXK-exeJydtQh
+761	MIR17HG Amplification	copy_number	Copy Number Variants	ga4gh:CX.nYHmBCnU83iiMlywuEpF_sjnwEt1XuO9
+763	MRE11 Amplification	copy_number	Copy Number Variants	ga4gh:CX.Dm15EUtMB9BwDnYF3HkqoAWrHcPbyfbY
+764	MYC Amplification	copy_number	Copy Number Variants	ga4gh:CX.dtGMpye8n2iy2Ly5SzUrzguxuVtflgST
 765	MYC Amplification	copy_number	Copy Number Variants	ga4gh:CX.dtGMpye8n2iy2Ly5SzUrzguxuVtflgST
-766	MYC Amplification	copy_number	Copy Number Variants	ga4gh:CX.dtGMpye8n2iy2Ly5SzUrzguxuVtflgST
-767	PAK1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.7JflBccSlSdqQR2SHSRbzjdwaPYAUEdq
-770	PIK3CA Amplification	copy_number	Copy Number Variants	ga4gh:CX.lLfUpR9E3ehVCteToRHhWUuRiePR0I7e
-780	TPX2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.mYdl9j8nh9kZKnmiyGgzX_oxn0EtTR_7
-854	MAP2K4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.WLHYftcZOmFlGRrAC-tBoTdNRUieb5JG
-857	MAPK7 Amplification	copy_number	Copy Number Variants	ga4gh:CX.RuiJ4Gam5-Oz1OugoMar16cjVaJfSBvF
-858	MYOCD Amplification	copy_number	Copy Number Variants	ga4gh:CX.tMvgk273y1Gjt0GIj5GRxvSRb3UqsI84
-859	PDGFRA Amplification	copy_number	Copy Number Variants	ga4gh:CX.djhRFuSjFfI6vLoBQjIPD4krb7Unxkvu
-868	IDH1 p.R132G	somatic_variant	Sequence Variants	ga4gh:VA.nB9f7uL9HBJj70ZqSimBFCEwv_1W0KMC
-869	IDH1 p.R132S	somatic_variant	Sequence Variants	ga4gh:VA.jNPuoVr44MWaWXmffeUgLdN9lxYisgaa
-870	IDH1 p.R132L	somatic_variant	Sequence Variants	ga4gh:VA.My7Dz91of1BesZ9PVk5u_vovguNywRCr
-895	ABL1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.6QYFDq8RRGyrm6JjazfWI3dvG4DUW1l_
-896	AR Amplification	copy_number	Copy Number Variants	ga4gh:CX.VIJD6vu8rhtcw-preGLm1j3GOJ15s8nc
+766	PAK1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.7JflBccSlSdqQR2SHSRbzjdwaPYAUEdq
+769	PIK3CA Amplification	copy_number	Copy Number Variants	ga4gh:CX.lLfUpR9E3ehVCteToRHhWUuRiePR0I7e
+779	TPX2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.mYdl9j8nh9kZKnmiyGgzX_oxn0EtTR_7
+853	MAP2K4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.WLHYftcZOmFlGRrAC-tBoTdNRUieb5JG
+856	MAPK7 Amplification	copy_number	Copy Number Variants	ga4gh:CX.RuiJ4Gam5-Oz1OugoMar16cjVaJfSBvF
+857	MYOCD Amplification	copy_number	Copy Number Variants	ga4gh:CX.tMvgk273y1Gjt0GIj5GRxvSRb3UqsI84
+858	PDGFRA Amplification	copy_number	Copy Number Variants	ga4gh:CX.djhRFuSjFfI6vLoBQjIPD4krb7Unxkvu
+867	IDH1 p.R132G	somatic_variant	Sequence Variants	ga4gh:VA.nB9f7uL9HBJj70ZqSimBFCEwv_1W0KMC
+868	IDH1 p.R132S	somatic_variant	Sequence Variants	ga4gh:VA.jNPuoVr44MWaWXmffeUgLdN9lxYisgaa
+869	IDH1 p.R132L	somatic_variant	Sequence Variants	ga4gh:VA.My7Dz91of1BesZ9PVk5u_vovguNywRCr
