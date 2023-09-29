@@ -117,66 +117,64 @@ variant_id	query	moa_feature_type	category
 495	POLE p.L424V	somatic_variant	Sequence Variants
 529	RET p.V804M	somatic_variant	Sequence Variants
 530	RET p.M918T	somatic_variant	Sequence Variants
-535	SETBP1 p.E858K	somatic_variant	Sequence Variants
-536	SETBP1 p.T864M	somatic_variant	Sequence Variants
-538	SETBP1 p.D868N	somatic_variant	Sequence Variants
-539	SETBP1 p.D868Y	somatic_variant	Sequence Variants
-540	SETBP1 p.S869C	somatic_variant	Sequence Variants
-541	SETBP1 p.G870S	somatic_variant	Sequence Variants
-543	SF3B1 p.E622Q	somatic_variant	Sequence Variants
-544	SF3B1 p.E622D	somatic_variant	Sequence Variants
-545	SF3B1 p.Y623C	somatic_variant	Sequence Variants
-546	SF3B1 p.R625C	somatic_variant	Sequence Variants
-547	SF3B1 p.R625H	somatic_variant	Sequence Variants
-548	SF3B1 p.N626H	somatic_variant	Sequence Variants
-549	SF3B1 p.N626Y	somatic_variant	Sequence Variants
-550	SF3B1 p.N626D	somatic_variant	Sequence Variants
-551	SF3B1 p.H662R	somatic_variant	Sequence Variants
-552	SF3B1 p.T663P	somatic_variant	Sequence Variants
-553	SF3B1 p.K666N	somatic_variant	Sequence Variants
-554	SF3B1 p.K666T	somatic_variant	Sequence Variants
-555	SF3B1 p.K666E	somatic_variant	Sequence Variants
-556	SF3B1 p.K700E	somatic_variant	Sequence Variants
-558	SF3B1 p.G740E	somatic_variant	Sequence Variants
-559	SF3B1 p.G740V	somatic_variant	Sequence Variants
-560	SF3B1 p.G742D	somatic_variant	Sequence Variants
-561	SF3B1 p.D781E	somatic_variant	Sequence Variants
-654	IL12RB1 p.Q32*	germline_variant	Sequence Variants
-655	IL12RB1 p.Q542*	germline_variant	Sequence Variants
-661	MRE11 p.R576*	germline_variant	Sequence Variants
-680	POT1 p.R363*	germline_variant	Sequence Variants
-696	AR Amplification	copy_number	Copy Number Variants
-701	AURKA Amplification	copy_number	Copy Number Variants
-703	AURKB Amplification	copy_number	Copy Number Variants
-704	BRAF Amplification	copy_number	Copy Number Variants
+534	SETBP1 p.E858K	somatic_variant	Sequence Variants
+535	SETBP1 p.T864M	somatic_variant	Sequence Variants
+537	SETBP1 p.D868N	somatic_variant	Sequence Variants
+538	SETBP1 p.D868Y	somatic_variant	Sequence Variants
+539	SETBP1 p.S869C	somatic_variant	Sequence Variants
+540	SETBP1 p.G870S	somatic_variant	Sequence Variants
+542	SF3B1 p.E622Q	somatic_variant	Sequence Variants
+543	SF3B1 p.E622D	somatic_variant	Sequence Variants
+544	SF3B1 p.Y623C	somatic_variant	Sequence Variants
+545	SF3B1 p.R625C	somatic_variant	Sequence Variants
+546	SF3B1 p.R625H	somatic_variant	Sequence Variants
+547	SF3B1 p.N626H	somatic_variant	Sequence Variants
+548	SF3B1 p.N626Y	somatic_variant	Sequence Variants
+549	SF3B1 p.N626D	somatic_variant	Sequence Variants
+550	SF3B1 p.H662R	somatic_variant	Sequence Variants
+551	SF3B1 p.T663P	somatic_variant	Sequence Variants
+552	SF3B1 p.K666N	somatic_variant	Sequence Variants
+553	SF3B1 p.K666T	somatic_variant	Sequence Variants
+554	SF3B1 p.K666E	somatic_variant	Sequence Variants
+555	SF3B1 p.K700E	somatic_variant	Sequence Variants
+557	SF3B1 p.G740E	somatic_variant	Sequence Variants
+558	SF3B1 p.G740V	somatic_variant	Sequence Variants
+559	SF3B1 p.G742D	somatic_variant	Sequence Variants
+560	SF3B1 p.D781E	somatic_variant	Sequence Variants
+653	IL12RB1 p.Q32*	germline_variant	Sequence Variants
+654	IL12RB1 p.Q542*	germline_variant	Sequence Variants
+660	MRE11 p.R576*	germline_variant	Sequence Variants
+679	POT1 p.R363*	germline_variant	Sequence Variants
+695	AR Amplification	copy_number	Copy Number Variants
+700	AURKA Amplification	copy_number	Copy Number Variants
+702	AURKB Amplification	copy_number	Copy Number Variants
+703	BRAF Amplification	copy_number	Copy Number Variants
+706	CCND1 Amplification	copy_number	Copy Number Variants
 707	CCND1 Amplification	copy_number	Copy Number Variants
-708	CCND1 Amplification	copy_number	Copy Number Variants
-709	CCNE1 Amplification	copy_number	Copy Number Variants
-710	CD274 Amplification	copy_number	Copy Number Variants
-716	CDK4 Amplification	copy_number	Copy Number Variants
-724	CRKL Amplification	copy_number	Copy Number Variants
-725	EGFR Amplification	copy_number	Copy Number Variants
-726	ERBB2 Amplification	copy_number	Copy Number Variants
-744	ESR1 Amplification	copy_number	Copy Number Variants
-746	FGFR1 Amplification	copy_number	Copy Number Variants
-750	FGFR2 Amplification	copy_number	Copy Number Variants
-754	HIF1a Amplification	copy_number	Copy Number Variants
-756	KIT Amplification	copy_number	Copy Number Variants
-757	MDM2 Amplification	copy_number	Copy Number Variants
-758	MET Amplification	copy_number	Copy Number Variants
-762	MIR17HG Amplification	copy_number	Copy Number Variants
-764	MRE11 Amplification	copy_number	Copy Number Variants
+708	CCNE1 Amplification	copy_number	Copy Number Variants
+709	CD274 Amplification	copy_number	Copy Number Variants
+715	CDK4 Amplification	copy_number	Copy Number Variants
+723	CRKL Amplification	copy_number	Copy Number Variants
+724	EGFR Amplification	copy_number	Copy Number Variants
+725	ERBB2 Amplification	copy_number	Copy Number Variants
+743	ESR1 Amplification	copy_number	Copy Number Variants
+745	FGFR1 Amplification	copy_number	Copy Number Variants
+749	FGFR2 Amplification	copy_number	Copy Number Variants
+753	HIF1a Amplification	copy_number	Copy Number Variants
+755	KIT Amplification	copy_number	Copy Number Variants
+756	MDM2 Amplification	copy_number	Copy Number Variants
+757	MET Amplification	copy_number	Copy Number Variants
+761	MIR17HG Amplification	copy_number	Copy Number Variants
+763	MRE11 Amplification	copy_number	Copy Number Variants
+764	MYC Amplification	copy_number	Copy Number Variants
 765	MYC Amplification	copy_number	Copy Number Variants
-766	MYC Amplification	copy_number	Copy Number Variants
-767	PAK1 Amplification	copy_number	Copy Number Variants
-770	PIK3CA Amplification	copy_number	Copy Number Variants
-780	TPX2 Amplification	copy_number	Copy Number Variants
-854	MAP2K4 Amplification	copy_number	Copy Number Variants
-857	MAPK7 Amplification	copy_number	Copy Number Variants
-858	MYOCD Amplification	copy_number	Copy Number Variants
-859	PDGFRA Amplification	copy_number	Copy Number Variants
-868	IDH1 p.R132G	somatic_variant	Sequence Variants
-869	IDH1 p.R132S	somatic_variant	Sequence Variants
-870	IDH1 p.R132L	somatic_variant	Sequence Variants
-895	ABL1 Amplification	copy_number	Copy Number Variants
-896	AR Amplification	copy_number	Copy Number Variants
+766	PAK1 Amplification	copy_number	Copy Number Variants
+769	PIK3CA Amplification	copy_number	Copy Number Variants
+779	TPX2 Amplification	copy_number	Copy Number Variants
+853	MAP2K4 Amplification	copy_number	Copy Number Variants
+856	MAPK7 Amplification	copy_number	Copy Number Variants
+857	MYOCD Amplification	copy_number	Copy Number Variants
+858	PDGFRA Amplification	copy_number	Copy Number Variants
+867	IDH1 p.R132G	somatic_variant	Sequence Variants
+868	IDH1 p.R132S	somatic_variant	Sequence Variants
+869	IDH1 p.R132L	somatic_variant	Sequence Variants
