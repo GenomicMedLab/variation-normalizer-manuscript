@@ -3,6 +3,7 @@ civicpy ~= 3.0.0
 python-dotenv
 ipykernel
 jupyter
+kaleido
 plotly
 pandas
 nbformat
