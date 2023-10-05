@@ -56,3 +56,6 @@ analysis/cnvs/cnv_data
 #clinvar data
 output-variation_identity-vrs-1.3.ndjson
 output-variation_identity-vrs-1.3.ndjson.gz
+
+#merged data
+impact_scatterpie_plot.jpeg

@@ -8,3 +8,16 @@ pandas
 nbformat
 requests
 pre-commit
+pathlib
+numpy
+matplotlib.pyplot
+matplotlib.patches
+matplotlib.lines
+matplotlib.path
+matplotlib.offsetbox
+matplotlib.colors
+typing
+json
+zipfile
+ga4gh.core
+scipy.special
