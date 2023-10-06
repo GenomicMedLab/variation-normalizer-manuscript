@@ -8,3 +8,4 @@ pandas
 nbformat
 requests
 pre-commit
+ndjson
