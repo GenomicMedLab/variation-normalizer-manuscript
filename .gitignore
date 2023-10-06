@@ -46,7 +46,6 @@ analysis/genie/pre_variant_analysis/*.zip
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.txt
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.zip
 analysis/genie/pre_variant_analysis/variation_normalizer_output/*.csv
-analysis/clinvar/output-variation_identity-vrs-1.3.ndjson.gz
 
 # html files
 *.html
