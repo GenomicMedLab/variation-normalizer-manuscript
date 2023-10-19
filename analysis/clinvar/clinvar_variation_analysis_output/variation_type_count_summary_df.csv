@@ -1,22 +1,22 @@
 in.variation_type,supported,supported_not_normalized,not_supported
-Complex,,,77
-CompoundHeterozygote,,,249
+Complex,0.0,0.0,77
+CompoundHeterozygote,0.0,0.0,249
 Deletion,109127.0,89.0,1720
-Diplotype,,,596
-Distinct chromosomes,,,1
+Diplotype,0.0,0.0,596
+Distinct chromosomes,0.0,0.0,1
 Duplication,51305.0,72.0,431
-Haplotype,,,565
-"Haplotype, single variant",,,21
-Indel,11326.0,,178
+Haplotype,0.0,0.0,565
+"Haplotype, single variant",0.0,0.0,21
+Indel,11326.0,0.0,178
 Insertion,9056.0,1.0,688
-Inversion,1051.0,,92
-Microsatellite,26678.0,,482
-Phase unknown,,,8
-Tandem duplication,,,1
-Translocation,,,273
+Inversion,1051.0,0.0,92
+Microsatellite,26678.0,0.0,482
+Phase unknown,0.0,0.0,8
+Tandem duplication,0.0,0.0,1
+Translocation,0.0,0.0,273
 Variation,338.0,1.0,208
 copy number gain,26586.0,361.0,2916
 copy number loss,28381.0,506.0,1756
-fusion,,,6
-protein only,,,95
+fusion,0.0,0.0,6
+protein only,0.0,0.0,95
 single nucleotide variant,1935088.0,11.0,287
