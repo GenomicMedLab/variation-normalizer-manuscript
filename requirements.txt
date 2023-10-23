@@ -1,3 +1,4 @@
+cool-seq-tool == 0.1.14.dev1
 variation-normalizer == 0.6.0.dev0
 civicpy == 3.0.0
 python-dotenv
@@ -8,12 +9,4 @@ pandas
 nbformat
 requests
 pre-commit
-pathlib
-numpy
-matplotlib
-typing
-json
-zipfile
-ga4gh.vrs
-scipy
 ndjson
