@@ -28,7 +28,6 @@ UTA_DB_URL=driver://user:password@host:port/database/schema
 AWS_ACCESS_KEY_ID=dummy
 AWS_SECRET_ACCESS_KEY=dummy
 AWS_SESSION_TOKEN=dummy
-PARSED_TO_CN_VAR_ENDPOINT=http://normalize.cancervariants.org/variation/parsed_to_cn_var
 ```
 
 ### Running the Variation Normalizer
