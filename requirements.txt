@@ -13,3 +13,4 @@ matplotlib
 ga4gh.vrs
 scipy
 ndjson
+numpy
