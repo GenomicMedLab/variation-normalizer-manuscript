@@ -72,7 +72,7 @@ variant_id	query	moa_feature_type	category
 260	EGFR	somatic_variant	Sequence Variants
 280	EGFR	somatic_variant	Gene Function Variants
 283	EGFR	somatic_variant	Gene Function Variants
-285	EGFR	somatic_variant	Gene Function Variants
+285	EGFR	somatic_variant	Sequence Variants
 289	ERBB2	somatic_variant	Sequence Variants
 290	ERBB2	somatic_variant	Sequence Variants
 291	ERBB3	somatic_variant	Sequence Variants
@@ -105,7 +105,7 @@ variant_id	query	moa_feature_type	category
 393	KRAS p.Q61	somatic_variant	Sequence Variants
 412	MC1R	somatic_variant	Region Defined Variants
 414	MET	somatic_variant	Other Variants
-415	MET	somatic_variant	Gene Function Variants
+415	MET	somatic_variant	Sequence Variants
 416	MET	somatic_variant	Gene Function Variants
 420	MLH3	somatic_variant	Sequence Variants
 422	MSH2	somatic_variant	Sequence Variants
