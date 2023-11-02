@@ -9,4 +9,8 @@ pandas
 nbformat
 requests
 pre-commit
+matplotlib
+ga4gh.vrs
+scipy
 ndjson
+numpy
