@@ -31,8 +31,8 @@ variant_id	query	moa_feature_type	category
 267	EGFR p.L858R	somatic_variant	Sequence Variants
 284	EGFR p.L858R	somatic_variant	Sequence Variants
 286	EGFR p.L858R	somatic_variant	Sequence Variants
-294	ERRFI1 p.E384*	somatic_variant	Sequence Variants
-300	EZH2 p.Y646*	somatic_variant	Sequence Variants
+294	ERRFI1 p.E384*	somatic_variant	Gene Function Variants
+300	EZH2 p.Y646*	somatic_variant	Gene Function Variants
 301	EZH2 p.Y646F	somatic_variant	Sequence Variants
 302	EZH2 p.Y646N	somatic_variant	Sequence Variants
 303	EZH2 p.A682G	somatic_variant	Sequence Variants
@@ -141,10 +141,10 @@ variant_id	query	moa_feature_type	category
 558	SF3B1 p.G740V	somatic_variant	Sequence Variants
 559	SF3B1 p.G742D	somatic_variant	Sequence Variants
 560	SF3B1 p.D781E	somatic_variant	Sequence Variants
-653	IL12RB1 p.Q32*	germline_variant	Sequence Variants
-654	IL12RB1 p.Q542*	germline_variant	Sequence Variants
-660	MRE11 p.R576*	germline_variant	Sequence Variants
-679	POT1 p.R363*	germline_variant	Sequence Variants
+653	IL12RB1 p.Q32*	germline_variant	Gene Function Variants
+654	IL12RB1 p.Q542*	germline_variant	Gene Function Variants
+660	MRE11 p.R576*	germline_variant	Gene Function Variants
+679	POT1 p.R363*	germline_variant	Gene Function Variants
 695	AR Amplification	copy_number	Copy Number Variants
 700	AURKA Amplification	copy_number	Copy Number Variants
 702	AURKB Amplification	copy_number	Copy Number Variants
