@@ -48,6 +48,8 @@ AWS_SECRET_ACCESS_KEY=dummy
 AWS_SESSION_TOKEN=dummy
 ```
 
+If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials.
+
 ### Running the Variation Normalizer
 
 Some notebooks involve running the variation-normalizer. See the [README](https://github.com/cancervariants/variation-normalization#backend-services) for setting up the backend services required.
