@@ -1,22 +1,38 @@
-in.variation_type,in.id
-Complex,77
-CompoundHeterozygote,249
-Deletion,1720
-Diplotype,596
-Distinct chromosomes,1
-Duplication,431
-Haplotype,565
-"Haplotype, single variant",21
-Indel,178
-Insertion,688
-Inversion,92
-Microsatellite,482
-Phase unknown,8
-Tandem duplication,1
-Translocation,273
-Variation,208
-copy number gain,2916
-copy number loss,1756
-fusion,6
-protein only,95
-single nucleotide variant,287
+,in.variation_type,in.vrs_xform_plan.policy,count
+0,copy number gain,NCBI36 genomic only,2897
+1,copy number loss,NCBI36 genomic only,1749
+2,Deletion,No hgvs or location info,1236
+3,Diplotype,Genotype/Haplotype,596
+4,Haplotype,Genotype/Haplotype,565
+5,Microsatellite,Invalid/unsupported hgvs,415
+6,Deletion,Invalid/unsupported hgvs,413
+7,Insertion,No hgvs or location info,382
+8,Insertion,Invalid/unsupported hgvs,306
+9,single nucleotide variant,No hgvs or location info,287
+10,Translocation,No hgvs or location info,271
+11,Duplication,No hgvs or location info,265
+12,CompoundHeterozygote,Genotype/Haplotype,249
+13,Variation,No hgvs or location info,206
+14,Indel,No hgvs or location info,138
+15,Duplication,Invalid/unsupported hgvs,116
+16,protein only,No hgvs or location info,95
+17,Complex,No hgvs or location info,72
+18,Deletion,NCBI36 genomic only,71
+19,Microsatellite,No hgvs or location info,67
+20,Inversion,No hgvs or location info,63
+21,Duplication,NCBI36 genomic only,50
+22,Indel,Invalid/unsupported hgvs,40
+23,Inversion,Invalid/unsupported hgvs,29
+24,"Haplotype, single variant",Genotype/Haplotype,21
+25,copy number gain,Min/max copy count range not supported,14
+26,Phase unknown,Genotype/Haplotype,8
+27,copy number loss,Invalid/unsupported hgvs,7
+28,fusion,No hgvs or location info,6
+29,copy number gain,Invalid/unsupported hgvs,5
+30,Complex,NCBI36 genomic only,3
+31,Variation,Invalid/unsupported hgvs,2
+32,Complex,Invalid/unsupported hgvs,2
+33,Translocation,Invalid/unsupported hgvs,1
+34,Translocation,NCBI36 genomic only,1
+35,Tandem duplication,No hgvs or location info,1
+36,Distinct chromosomes,Genotype/Haplotype,1

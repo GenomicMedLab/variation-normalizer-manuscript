@@ -1,22 +1,72 @@
-in.variation_type,supported,supported_not_normalized,not_supported
-Complex,0.0,0.0,77
-CompoundHeterozygote,0.0,0.0,249
-Deletion,109127.0,89.0,1720
-Diplotype,0.0,0.0,596
-Distinct chromosomes,0.0,0.0,1
-Duplication,51305.0,72.0,431
-Haplotype,0.0,0.0,565
-"Haplotype, single variant",0.0,0.0,21
-Indel,11326.0,0.0,178
-Insertion,9056.0,1.0,688
-Inversion,1051.0,0.0,92
-Microsatellite,26678.0,0.0,482
-Phase unknown,0.0,0.0,8
-Tandem duplication,0.0,0.0,1
-Translocation,0.0,0.0,273
-Variation,338.0,1.0,208
-copy number gain,26586.0,361.0,2916
-copy number loss,28381.0,506.0,1756
-fusion,0.0,0.0,6
-protein only,0.0,0.0,95
-single nucleotide variant,1935088.0,11.0,287
+,in.variation_type,in.vrs_xform_plan.policy_x,count_x,in.vrs_xform_plan.policy_y,count_y,in.vrs_xform_plan.policy,count
+0,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,NCBI36 genomic only,2897
+1,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,NCBI36 genomic only,2897
+2,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,NCBI36 genomic only,2897
+3,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,NCBI36 genomic only,2897
+4,copy number loss,Absolute copy count,26857.0,Absolute copy count,475.0,NCBI36 genomic only,1749
+5,copy number loss,Absolute copy count,26857.0,Copy number change (cn loss|del and cn gain|dup),31.0,NCBI36 genomic only,1749
+6,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Absolute copy count,475.0,NCBI36 genomic only,1749
+7,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Copy number change (cn loss|del and cn gain|dup),31.0,NCBI36 genomic only,1749
+8,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
+9,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
+10,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
+11,Diplotype,0,0.0,0,0.0,Genotype/Haplotype,596
+12,Haplotype,0,0.0,0,0.0,Genotype/Haplotype,565
+13,Microsatellite,Canonical SPDI,26678.0,0,0.0,Invalid/unsupported hgvs,415
+14,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
+15,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
+16,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
+17,Insertion,Canonical SPDI,8865.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,382
+18,Insertion,Remaining valid hgvs alleles,191.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,382
+19,Insertion,Canonical SPDI,8865.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,306
+20,Insertion,Remaining valid hgvs alleles,191.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,306
+21,single nucleotide variant,Canonical SPDI,1934692.0,Remaining valid hgvs alleles,11.0,No hgvs or location info,287
+22,single nucleotide variant,Remaining valid hgvs alleles,396.0,Remaining valid hgvs alleles,11.0,No hgvs or location info,287
+23,Translocation,0,0.0,0,0.0,No hgvs or location info,271
+24,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
+25,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
+26,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
+27,CompoundHeterozygote,0,0.0,0,0.0,Genotype/Haplotype,249
+28,Variation,Canonical SPDI,337.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,206
+29,Variation,Remaining valid hgvs alleles,1.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,206
+30,Indel,Canonical SPDI,10986.0,0,0.0,No hgvs or location info,138
+31,Indel,Remaining valid hgvs alleles,340.0,0,0.0,No hgvs or location info,138
+32,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
+33,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
+34,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
+35,protein only,0,0.0,0,0.0,No hgvs or location info,95
+36,Complex,0,0.0,0,0.0,No hgvs or location info,72
+37,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
+38,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
+39,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
+40,Microsatellite,Canonical SPDI,26678.0,0,0.0,No hgvs or location info,67
+41,Inversion,Canonical SPDI,1051.0,0,0.0,No hgvs or location info,63
+42,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
+43,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
+44,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
+45,Indel,Canonical SPDI,10986.0,0,0.0,Invalid/unsupported hgvs,40
+46,Indel,Remaining valid hgvs alleles,340.0,0,0.0,Invalid/unsupported hgvs,40
+47,Inversion,Canonical SPDI,1051.0,0,0.0,Invalid/unsupported hgvs,29
+48,"Haplotype, single variant",0,0.0,0,0.0,Genotype/Haplotype,21
+49,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,Min/max copy count range not supported,14
+50,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,Min/max copy count range not supported,14
+51,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,Min/max copy count range not supported,14
+52,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,Min/max copy count range not supported,14
+53,Phase unknown,0,0.0,0,0.0,Genotype/Haplotype,8
+54,copy number loss,Absolute copy count,26857.0,Absolute copy count,475.0,Invalid/unsupported hgvs,7
+55,copy number loss,Absolute copy count,26857.0,Copy number change (cn loss|del and cn gain|dup),31.0,Invalid/unsupported hgvs,7
+56,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Absolute copy count,475.0,Invalid/unsupported hgvs,7
+57,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Copy number change (cn loss|del and cn gain|dup),31.0,Invalid/unsupported hgvs,7
+58,fusion,0,0.0,0,0.0,No hgvs or location info,6
+59,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,Invalid/unsupported hgvs,5
+60,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,Invalid/unsupported hgvs,5
+61,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,Invalid/unsupported hgvs,5
+62,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,Invalid/unsupported hgvs,5
+63,Complex,0,0.0,0,0.0,NCBI36 genomic only,3
+64,Variation,Canonical SPDI,337.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,2
+65,Variation,Remaining valid hgvs alleles,1.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,2
+66,Complex,0,0.0,0,0.0,Invalid/unsupported hgvs,2
+67,Translocation,0,0.0,0,0.0,Invalid/unsupported hgvs,1
+68,Translocation,0,0.0,0,0.0,NCBI36 genomic only,1
+69,Tandem duplication,0,0.0,0,0.0,No hgvs or location info,1
+70,Distinct chromosomes,0,0.0,0,0.0,Genotype/Haplotype,1
