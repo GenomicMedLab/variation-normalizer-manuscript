@@ -2,10 +2,28 @@
 
 ## Set Up
 
+### Creating the virtual environment
+
+#### For Developers
+
+The [requirements-dev.txt](./requirements-dev.txt) specifies general package requirements.
+
 To create the venv:
 
 ```shell
 make devready
+source .venv/bin/activate
+pre-commit install
+```
+
+#### For reproducing analysis
+
+The [requirements.txt](./requirements.txt) is a lockfile containing exact versions used.
+
+To create the venv:
+
+```shell
+make reproduce
 source .venv/bin/activate
 pre-commit install
 ```
@@ -29,6 +47,8 @@ AWS_ACCESS_KEY_ID=dummy
 AWS_SECRET_ACCESS_KEY=dummy
 AWS_SESSION_TOKEN=dummy
 ```
+
+If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials.
 
 ### Running the Variation Normalizer
 

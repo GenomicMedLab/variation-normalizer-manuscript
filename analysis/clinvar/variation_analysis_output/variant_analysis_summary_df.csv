@@ -1,0 +1,10 @@
+support_status,in.vrs_xform_plan.policy,Allele,CopyNumberChange,CopyNumberCount,NONE,Text,NormalizedPercent
+False,Genotype/Haplotype,0,0,0,0,1440,0.0%
+False,Invalid/unsupported hgvs,0,0,0,19,1317,0.0%
+False,Min/max copy count range not supported,0,0,0,0,14,0.0%
+False,NCBI36 genomic only,0,0,0,0,4771,0.0%
+False,No hgvs or location info,0,0,0,0,3089,0.0%
+True,Absolute copy count,0,1,52440,819,3,98.46%
+True,Canonical SPDI,2118669,0,0,0,0,100.0%
+True,Copy number change (cn loss|del and cn gain|dup),0,26889,0,209,6,99.21%
+True,Remaining valid hgvs alleles,927,0,0,13,1,98.51%

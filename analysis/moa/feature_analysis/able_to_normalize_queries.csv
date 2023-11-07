@@ -31,8 +31,8 @@ variant_id	query	moa_feature_type	category	vrs_id
 267	EGFR p.L858R	somatic_variant	Sequence Variants	ga4gh:VA.kgjrhgf84CEndyLjKdAO0RxN-e3pJjxA
 284	EGFR p.L858R	somatic_variant	Sequence Variants	ga4gh:VA.kgjrhgf84CEndyLjKdAO0RxN-e3pJjxA
 286	EGFR p.L858R	somatic_variant	Sequence Variants	ga4gh:VA.kgjrhgf84CEndyLjKdAO0RxN-e3pJjxA
-294	ERRFI1 p.E384*	somatic_variant	Sequence Variants	ga4gh:VA.SfZhr3jxZr_-mGixUD0HDQwQIoirkBCB
-300	EZH2 p.Y646*	somatic_variant	Sequence Variants	ga4gh:VA.AmHnsLSTJCx_-X2xBhyx9HmhY8kn3iy4
+294	ERRFI1 p.E384*	somatic_variant	Gene Function Variants	ga4gh:VA.SfZhr3jxZr_-mGixUD0HDQwQIoirkBCB
+300	EZH2 p.Y646*	somatic_variant	Gene Function Variants	ga4gh:VA.AmHnsLSTJCx_-X2xBhyx9HmhY8kn3iy4
 301	EZH2 p.Y646F	somatic_variant	Sequence Variants	ga4gh:VA.fIFZFyzJRiGTt2CRRD2DUSSQ_1cA2dDi
 302	EZH2 p.Y646N	somatic_variant	Sequence Variants	ga4gh:VA.zjbm34xh4ZI54ihvCj8XA-nZQMdSF97I
 303	EZH2 p.A682G	somatic_variant	Sequence Variants	ga4gh:VA.quv15qCKvn0_x59qzT1hkiEc3QTtCaGu
@@ -141,10 +141,10 @@ variant_id	query	moa_feature_type	category	vrs_id
 558	SF3B1 p.G740V	somatic_variant	Sequence Variants	ga4gh:VA.EdObQ12d63WVDCd1ReKihBSDtq0mSa92
 559	SF3B1 p.G742D	somatic_variant	Sequence Variants	ga4gh:VA.E-PTd0OMD4XYok50BVfrY7QyzKYzOMbK
 560	SF3B1 p.D781E	somatic_variant	Sequence Variants	ga4gh:VA.MGqDRndHFa22Kigl6mqte5iYPfNBkvZr
-653	IL12RB1 p.Q32*	germline_variant	Sequence Variants	ga4gh:VA.SeRUlUdAJjHAitGJLijohmdGBJftazH3
-654	IL12RB1 p.Q542*	germline_variant	Sequence Variants	ga4gh:VA.CsBzsgPC15Bn2QEKWbrnRX4ejGWLffXM
-660	MRE11 p.R576*	germline_variant	Sequence Variants	ga4gh:VA.bSNc2R2mVCuudfIlJf6TQ4U1y08-InaN
-679	POT1 p.R363*	germline_variant	Sequence Variants	ga4gh:VA.fsScHMChEdKitMrP_ZmBwg2G1uKA5_zi
+653	IL12RB1 p.Q32*	germline_variant	Gene Function Variants	ga4gh:VA.SeRUlUdAJjHAitGJLijohmdGBJftazH3
+654	IL12RB1 p.Q542*	germline_variant	Gene Function Variants	ga4gh:VA.CsBzsgPC15Bn2QEKWbrnRX4ejGWLffXM
+660	MRE11 p.R576*	germline_variant	Gene Function Variants	ga4gh:VA.bSNc2R2mVCuudfIlJf6TQ4U1y08-InaN
+679	POT1 p.R363*	germline_variant	Gene Function Variants	ga4gh:VA.fsScHMChEdKitMrP_ZmBwg2G1uKA5_zi
 695	AR Amplification	copy_number	Copy Number Variants	ga4gh:CX.VIJD6vu8rhtcw-preGLm1j3GOJ15s8nc
 700	AURKA Amplification	copy_number	Copy Number Variants	ga4gh:CX.uLiJZi49tL7UJtcC8qmt0dXigJLG17AW
 702	AURKB Amplification	copy_number	Copy Number Variants	ga4gh:CX.LiOYJ5mIepwd7OoWzYvPTNoAyL19QHWN
