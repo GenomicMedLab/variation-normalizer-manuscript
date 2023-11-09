@@ -131,6 +131,7 @@ requests==2.31.0
 requests-html==0.10.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
+ruff==0.1.4
 s3transfer==0.7.0
 scipy==1.11.3
 Send2Trash==1.8.2
