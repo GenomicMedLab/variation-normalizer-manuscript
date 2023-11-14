@@ -51,11 +51,11 @@ analysis/genie/variant_analysis/variant_analysis_output
 # CNVC analysis and output data
 analysis/cnvs/cnv_data
 
-#ClinVar data
+# ClinVar data
 output-variation_identity-vrs-1.3.ndjson
 output-variation_identity-vrs-1.3.ndjson.gz
 
-#Merged soures
+# Merged soures
 impact_scatterpie_plot.jpeg
 
 # Data
