@@ -53,6 +53,10 @@ UTA_DB_URL=driver://user:password@host:port/database/schema
 AWS_ACCESS_KEY_ID=dummy  # only required if using gene-normalizer dynamodb
 AWS_SECRET_ACCESS_KEY=dummy  # only required if using gene-normalizer dynamodb
 AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
+TRANSCRIPT_MAPPINGS_PATH=variation-normalizer-manuscript/analysis/data/transcript_mapping.tsv  # Should be absolute path. For cool-seq-tool
+MANE_SUMMARY_PATH=variation-normalizer-manuscript/analysis/data/MANE.GRCh38.v1.3.summary.txt  # Should be absolute path. For cool-seq-tool
+LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene_20231114  # Should be absolute path. For cool-seq-tool
+
 ```
 
 #### Gene Normalizer Installation
@@ -63,13 +67,19 @@ Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_
 
 #### Cool-Seq-Tool installation
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+
+#### SeqRepo
+
+Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used `2021-01-29` SeqRepo data.
 
 ## Notebooks
 
 This section provides information about the notebooks and the order that they should be run in.
 
 1. Run the following notebook:
+    * [analysis/download_cool_seq_tool_data.ipynb](./analysis/download_cool_seq_tool_data.ipynb)
+      * Downloads `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
     * [analysis/cnvs/download_data_for_cnv_analysis_data.ipynb](./analysis/cnvs/download_data_for_cnv_analysis_data.ipynb)
       * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
       * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
