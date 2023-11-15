@@ -59,6 +59,8 @@ LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene
 
 ```
 
+In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `transcript_mapping.tsv`, `MANE.GRCh38.v1.3.summary.txt`, and `LRG_RefSeqGene_20231114` will be downloaded to `./analysis/data` directory. You must update the environment variables to use the full path.
+
 #### Gene Normalizer Installation
 
 You must set up [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39).
@@ -91,15 +93,15 @@ Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqR
 This section provides information about the notebooks and the order that they should be run in.
 
 1. Run the following notebook:
-    * [analysis/download_cool_seq_tool_data.ipynb](./analysis/download_cool_seq_tool_data.ipynb)
-      * Downloads `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
-    * [analysis/cnvs/download_data_for_cnv_analysis_data.ipynb](./analysis/cnvs/download_data_for_cnv_analysis_data.ipynb)
-      * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
-      * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
-        * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
-          * Creates `ClinVar-CNVs-normalized.csv`
-        * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
-          * Creates `NCH-microarray-CNVs-cleaned.csv`
+    * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
+      * Downloads files needed for notebooks.
+        * cool-seq-tool: `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
+        * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
+          * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
+            * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
+              * Creates `ClinVar-CNVs-normalized.csv`
+            * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
+              * Creates `NCH-microarray-CNVs-cleaned.csv`
 2. Run the following notebooks (order does not matter):
    * [analysis/civic/variation_analysis/civic_variation_analysis.ipynb](./analysis/civic/variation_analysis/civic_variation_analysis.ipynb)
      * Runs CIViC variant data through the Variation Normalizer
