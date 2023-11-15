@@ -1,5 +1,5 @@
-cool-seq-tool == 0.1.14.dev1
-variation-normalizer == 0.6.0.dev0
+cool-seq-tool == 0.1.14.dev3
+variation-normalizer == 0.6.0.dev1
 civicpy == 3.0.0
 python-dotenv
 ipykernel
