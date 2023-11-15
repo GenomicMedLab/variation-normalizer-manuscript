@@ -44,7 +44,7 @@ def load_civicpy_cache() -> None:
     latest_cache_zip_path = sorted(Path(f"{ROOT_PATH}/civic").glob("cache-*.pkl.zip"))[
         -1
     ]
-    print(f"Using {latest_cache_zip_path} for civicpy cache")
+    print(f"Using {latest_cache_zip_path.name[:-4]} for civicpy cache")
 
     with zipfile.ZipFile(latest_cache_zip_path, "r") as zip_ref:
         zip_ref.extractall(f"{ROOT_PATH}/civic")
