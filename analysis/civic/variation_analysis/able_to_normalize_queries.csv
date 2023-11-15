@@ -126,7 +126,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 2619	FLT3 Amplification	protein	False	Not provided	ga4gh:CX.sovvZfqJupfDZ2whLd9OmNGQPZrfBaBV	normalize
 2637	KDR Amplification	protein	False	Not provided	ga4gh:CX._xjVdkReb5SjrGhwTMrUNqKLl1-34rX1	normalize
 2746	CCND2 Amplification	protein	False	Not provided	ga4gh:CX.78Cd1pWrX9oFX8NQrNnmlvmyBP_PynoC	normalize
-2747	CCND3 Amplification	protein	False	Not provided	ga4gh:CX.snGEICIn_4wNAikMj_UUXrWz-JZaIMAj	normalize
+2747	CCND3 Amplification	protein	False	Not provided	ga4gh:CX.CIClUxP0kJhNTWO---DxvolwslfxSoqv	normalize
 2844	MITF Amplification	protein	False	Not provided	ga4gh:CX.fNN3I8xTtuDxPIzCY5KQ6z6ciECvyXTg	normalize
 2906	FGFR3 Amplification	protein	False	Not provided	ga4gh:CX.MgSZeG9hUFQlV6Ui--Z4Ctv-WsD5SFDV	normalize
 2907	FGFR4 Amplification	protein	False	Not provided	ga4gh:CX.Fa30JZmQ88unhirCQzCDMlkqUBTysZC4	normalize
