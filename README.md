@@ -63,6 +63,19 @@ LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene
 
 You must set up [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39).
 
+The source files used during ETL methods have been uploaded to the public s3 bucket. If you would like to re-run the ETL methods using the files in this analysis, download and extract the following:
+
+* Ensembl
+  * [ensembl_110.gff3.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ensembl_110.gff3.zip)
+* NCBI
+  * [ncbi_GRCh38.p14.gff.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_GRCh38.p14.gff.zip)
+  * [ncbi_history_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_history_20231114.tsv.zip)
+  * [ncbi_info_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_info_20231114.tsv.zip)
+* HGNC
+  * [hgnc_20231114.json.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/hgnc_20231114.json.zip)
+
+If you do not want to re-run the ETL methods and want to immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database.
+
 Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials. If using gene-normalizer with PostgreSQL database instance, you do not need to set these environment variables.
 
 #### Cool-Seq-Tool installation
