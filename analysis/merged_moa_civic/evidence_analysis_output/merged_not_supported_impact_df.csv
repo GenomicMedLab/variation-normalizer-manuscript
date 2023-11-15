@@ -1,12 +1,12 @@
 Category,MOA Total Sum Impact Score,Average Impact Score per Feature,Average Impact Score per Assertion,Total Number Assertions,Total Number Features,CIVIC Total Sum Impact Score,Average Impact Score per Variant,Average Impact Score per Evidence Item,Total Number Evidence Items,% Accepted Evidence Items,Total Number Variants,Sum Evidence Items,Sum Variants,Sum Impact Score,Ratio of MOA Features to MOA+CIVIC per Category
-Expression Variants,11.0,1.0,1.0,12,11,3618.0,9.89,8.11,610,56.07%,287,622,298,3629.0,0.03691275167785235
-Epigenetic Modification,0.0,0.0,0.0,0,0,285.5,0.78,0.64,23,95.65%,14,23,14,285.5,0.0
-Fusion Variants,0.0,0.0,0.0,0,0,6576.25,17.97,14.74,1218,61.33%,294,1218,294,6576.25,0.0
 Sequence Variants,746.0,6.02,6.02,310,124,2746.75,7.5,6.16,302,64.90%,133,612,257,3492.75,0.48249027237354086
-Gene Function Variants,67.0,6.7,6.7,19,10,1805.5,4.93,4.05,345,44.64%,91,364,101,1872.5,0.09900990099009901
-Rearrangement Variants,261.0,7.46,7.46,71,35,2794.0,7.63,6.26,531,38.04%,116,602,151,3055.0,0.23178807947019867
-Copy Number Variants,44.5,2.62,2.62,29,17,225.0,0.61,0.5,67,46.27%,34,96,51,269.5,0.3333333333333333
-Other Variants,76.0,7.6,7.6,23,10,653.5,1.79,1.47,144,40.28%,83,167,93,729.5,0.10752688172043011
 Genotype Variants,0.0,0.0,0.0,0,0,312.5,0.85,0.7,27,62.96%,16,27,16,312.5,0.0
-Region Defined Variants,278.0,6.62,6.62,109,42,6199.5,16.94,13.9,566,72.08%,129,675,171,6477.5,0.24561403508771928
+Fusion Variants,0.0,0.0,0.0,0,0,6576.25,17.97,14.74,1218,61.33%,294,1218,294,6576.25,0.0
+Rearrangement Variants,261.0,7.46,7.46,71,35,2794.0,7.63,6.26,531,38.04%,116,602,151,3055.0,0.23178807947019867
+Epigenetic Modification,0.0,0.0,0.0,0,0,285.5,0.78,0.64,23,95.65%,14,23,14,285.5,0.0
+Copy Number Variants,44.5,2.62,2.62,29,17,225.0,0.61,0.5,67,46.27%,34,96,51,269.5,0.3333333333333333
+Expression Variants,11.0,1.0,1.0,12,11,3618.0,9.89,8.11,610,56.07%,287,622,298,3629.0,0.03691275167785235
+Gene Function Variants,67.0,6.7,6.7,19,10,1805.5,4.93,4.05,345,44.64%,91,364,101,1872.5,0.09900990099009901
+Region-Defined Variants,278.0,6.62,6.62,109,42,6199.5,16.94,13.9,566,72.08%,129,675,171,6477.5,0.24561403508771928
+Other Variants,76.0,7.6,7.6,23,10,653.5,1.79,1.47,144,40.28%,83,167,93,729.5,0.10752688172043011
 Transcript Variants,0.0,0.0,0.0,0,0,356.5,0.97,0.8,446,12.11%,366,446,366,356.5,0.0

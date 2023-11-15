@@ -123,7 +123,7 @@
 121,122,122,somatic_variant,Clinical evidence,X8DTGWVGHsu65fG6-FhzUY5KwJkmWtqN,Sequence Variants
 122,123,123,somatic_variant,Preclinical,5IKmrkh-MmkHWXltT33MVVVFZn03OM1X,Gene Function Variants
 123,124,124,somatic_variant,Preclinical,DWVoWO3eD4T51fLkZ6pWGdK9TGcrIcIk,Sequence Variants
-124,125,125,somatic_variant,Clinical evidence,WbQnc6p6fyW8N5VYZtgJzFFwqpMLQHre,Region Defined Variants
+124,125,125,somatic_variant,Clinical evidence,WbQnc6p6fyW8N5VYZtgJzFFwqpMLQHre,Region-Defined Variants
 125,126,126,somatic_variant,Guideline,-A3AoT03ta3kOYoOXLrYqIm0hAD2fL5A,Sequence Variants
 126,127,127,somatic_variant,Guideline,y_BKeE3NYaKcXv_9wMq0QPf8yn_AbZqY,Sequence Variants
 127,128,128,somatic_variant,Clinical trial,dU2iR7EKRWpuwKyW7aMEIdhPX8igdYfQ,Sequence Variants
@@ -133,7 +133,7 @@
 131,132,132,somatic_variant,Clinical evidence,3S_LOXB0BoRguMHfnLg1Rp2fDtcSai7R,Other Variants
 132,133,133,somatic_variant,Clinical evidence,y2M1GnXkB3UP93HB_d5yfNSl2wry4iYh,Gene Function Variants
 133,134,134,somatic_variant,Preclinical,TLNEnKJtTj81lE08Hc21pkbZt-tMNYUP,Sequence Variants
-134,135,135,somatic_variant,FDA-Approved,7zzfuvoUDCwT7KOdkc_J6v15iCWlSdHo,Region Defined Variants
+134,135,135,somatic_variant,FDA-Approved,7zzfuvoUDCwT7KOdkc_J6v15iCWlSdHo,Region-Defined Variants
 135,136,136,somatic_variant,Inferential,Ru7m2r3M04OPMvvUTWL3ZHLr0cjlyygh,Sequence Variants
 136,137,137,somatic_variant,Inferential,Ru7m2r3M04OPMvvUTWL3ZHLr0cjlyygh,Sequence Variants
 137,138,138,somatic_variant,Inferential,Ru7m2r3M04OPMvvUTWL3ZHLr0cjlyygh,Sequence Variants
@@ -145,8 +145,8 @@
 143,144,144,somatic_variant,Guideline,QAgZ0ncy25bkYd5e6Th0gJ7cPcRgd85j,Sequence Variants
 144,145,145,somatic_variant,Guideline,PFPJ5XUIR6tr-YcB0wL5Qy7uYuql9IeN,Other Variants
 145,146,146,somatic_variant,Clinical evidence,WCzMkz8u8fhv03bTrGZ_jhOuPQerlDih,Sequence Variants
-146,147,147,somatic_variant,Clinical evidence,yG9RENCVDdCMkKA4eNPU0mdHMWWpvdZl,Region Defined Variants
-147,148,148,somatic_variant,Clinical evidence,oClL4PAk3c3tkdrghaecJPNYDg9WVpk8,Region Defined Variants
+146,147,147,somatic_variant,Clinical evidence,yG9RENCVDdCMkKA4eNPU0mdHMWWpvdZl,Region-Defined Variants
+147,148,148,somatic_variant,Clinical evidence,oClL4PAk3c3tkdrghaecJPNYDg9WVpk8,Region-Defined Variants
 148,149,149,somatic_variant,FDA-Approved,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 149,150,150,somatic_variant,FDA-Approved,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 150,151,151,somatic_variant,FDA-Approved,Tu113AeiWUeAJdlTpJX4BDssEQq_QA3U,Sequence Variants
@@ -170,7 +170,7 @@
 168,169,169,somatic_variant,Clinical trial,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 169,170,170,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 170,171,171,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
-171,172,172,somatic_variant,Preclinical,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region Defined Variants
+171,172,172,somatic_variant,Preclinical,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region-Defined Variants
 172,173,173,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 173,174,174,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 174,175,175,somatic_variant,Clinical trial,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
@@ -182,10 +182,10 @@
 180,181,181,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 181,182,182,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 182,183,183,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
-183,184,184,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region Defined Variants
-184,185,185,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region Defined Variants
-185,186,186,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region Defined Variants
-186,187,187,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region Defined Variants
+183,184,184,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region-Defined Variants
+184,185,185,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region-Defined Variants
+185,186,186,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region-Defined Variants
+186,187,187,somatic_variant,Clinical evidence,Hb1DEj27Wswiosz_Pgy_kFr7dcvzAMOS,Region-Defined Variants
 187,188,188,somatic_variant,Clinical evidence,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 188,189,189,somatic_variant,Preclinical,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
 189,190,190,somatic_variant,Guideline,IpbUYvcvcPuvnET_IyVv-Yi_IUKddyvg,Sequence Variants
@@ -253,23 +253,23 @@
 251,252,252,somatic_variant,Guideline,yRVhnRrpB5510fvJRVjE-OQUqf1g88J7,Sequence Variants
 252,253,253,somatic_variant,Guideline,WculgjfPhOr4Ie0BH8Ur_Vml4leqSbgK,Other Variants
 253,254,254,somatic_variant,FDA-Approved,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-254,255,255,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
-255,256,256,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+254,255,255,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
+255,256,256,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 256,257,257,somatic_variant,Guideline,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-257,258,258,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
-258,259,259,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+257,258,258,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
+258,259,259,somatic_variant,Guideline,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 259,260,260,somatic_variant,Guideline,BhL1-cG755UyMwLNzaTdc_gSRyxw8_pn,Sequence Variants
 260,261,261,somatic_variant,Clinical trial,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-261,262,262,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+261,262,262,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 262,263,263,somatic_variant,Clinical trial,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-263,264,264,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
-264,265,265,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
-265,266,266,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+263,264,264,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
+264,265,265,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
+265,266,266,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 266,267,267,somatic_variant,Clinical trial,yN7CEE742jwNSExNLaD2PcrOnyWsLthA,Sequence Variants
-267,268,268,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+267,268,268,somatic_variant,Clinical trial,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 268,269,269,somatic_variant,Clinical trial,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
 269,270,270,somatic_variant,Clinical trial,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-270,271,271,somatic_variant,Clinical evidence,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+270,271,271,somatic_variant,Clinical evidence,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 271,272,272,somatic_variant,Clinical evidence,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
 272,273,273,somatic_variant,Clinical evidence,yN7CEE742jwNSExNLaD2PcrOnyWsLthA,Sequence Variants
 273,274,274,somatic_variant,Clinical evidence,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
@@ -277,10 +277,10 @@
 275,276,276,somatic_variant,Clinical evidence,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
 276,277,277,somatic_variant,Clinical evidence,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
 277,278,278,somatic_variant,Clinical evidence,CA6GXRgc9cm1ATKiFiDHAxqaa2BwNlS2,Sequence Variants
-278,279,279,somatic_variant,FDA-Approved,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+278,279,279,somatic_variant,FDA-Approved,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 279,280,280,somatic_variant,FDA-Approved,hx6_3C8SxBqguf4_Yo43Cz1YyWSg-W-i,Gene Function Variants
 280,281,281,somatic_variant,FDA-Approved,yN7CEE742jwNSExNLaD2PcrOnyWsLthA,Sequence Variants
-281,282,282,somatic_variant,Clinical evidence,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region Defined Variants
+281,282,282,somatic_variant,Clinical evidence,ajASQTs3E5liPOoH9vYDsgYk_YTgxCPN,Region-Defined Variants
 282,283,283,somatic_variant,Clinical trial,epSlFQac8CSSgleyAG6SbW26vJTyHXie,Gene Function Variants
 283,284,284,somatic_variant,Clinical trial,dSapZ7jOnLYTiAlm952j0sy_LYccDU4T,Sequence Variants
 284,285,285,somatic_variant,FDA-Approved,gWfgY_iv8apRnrKp4ymu6_BnAG1hpWYv,Sequence Variants
@@ -303,7 +303,7 @@
 301,302,302,somatic_variant,FDA-Approved,loPI2tfHzit5CL3sZcpV5dq2LcemBk-n,Sequence Variants
 302,303,303,somatic_variant,FDA-Approved,FYWrKFuEZtY37fpglEHPXAr2kzP9lYA8,Sequence Variants
 303,304,304,somatic_variant,FDA-Approved,Tw19nntZq3XuticWJbk3Lk37tJf9aaXi,Sequence Variants
-304,305,305,somatic_variant,FDA-Approved,N6yrcgjXyIO69h-3xUAuKzqMIcs8yZD6,Region Defined Variants
+304,305,305,somatic_variant,FDA-Approved,N6yrcgjXyIO69h-3xUAuKzqMIcs8yZD6,Region-Defined Variants
 305,306,306,somatic_variant,Preclinical,3aZ-wRDGLHP2602SiH83Km9O5y_nf0AU,Sequence Variants
 306,307,307,somatic_variant,FDA-Approved,pcvTddijF9oILBoA_0RFLYXyzZ13ic38,Sequence Variants
 307,308,308,somatic_variant,FDA-Approved,7yRmtKj6XBtHMl2vKqm3_YX3AJHbZGHg,Sequence Variants
@@ -346,19 +346,19 @@
 344,345,345,somatic_variant,Preclinical,tHXleL4pCWmAXuVSNa7kBSWak8dWNjw9,Sequence Variants
 345,346,346,somatic_variant,Preclinical,s0im3cLAV7Gtr-3ZYX1DmvrxBniy3NzK,Sequence Variants
 346,347,347,somatic_variant,Preclinical,3TmsXwYSgDwismzYlFAItNei7XlgcDcJ,Sequence Variants
-347,348,348,somatic_variant,FDA-Approved,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
+347,348,348,somatic_variant,FDA-Approved,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
 348,349,349,somatic_variant,FDA-Approved,xgX8nejHHDaXeCUMVe5t-lvNZ3uAdEDE,Gene Function Variants
-349,350,350,somatic_variant,FDA-Approved,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
+349,350,350,somatic_variant,FDA-Approved,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
 350,351,351,somatic_variant,FDA-Approved,xgX8nejHHDaXeCUMVe5t-lvNZ3uAdEDE,Gene Function Variants
 351,352,352,somatic_variant,FDA-Approved,7DaMzcEXkI0K96pIDLYqrXublLUGxuuA,Sequence Variants
 352,353,353,somatic_variant,FDA-Approved,rwjIoNNuu57UEQwy6HowMlwdgKKcdM8i,Sequence Variants
 353,354,354,somatic_variant,FDA-Approved,xgX8nejHHDaXeCUMVe5t-lvNZ3uAdEDE,Gene Function Variants
 354,355,355,somatic_variant,FDA-Approved,7DaMzcEXkI0K96pIDLYqrXublLUGxuuA,Sequence Variants
 355,356,356,somatic_variant,FDA-Approved,rwjIoNNuu57UEQwy6HowMlwdgKKcdM8i,Sequence Variants
-356,357,357,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
-357,358,358,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
-358,359,359,somatic_variant,Guideline,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region Defined Variants
-359,360,360,somatic_variant,Guideline,IQxSmCCLUapm7akMQMKelHgPg1gPwGIz,Region Defined Variants
+356,357,357,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
+357,358,358,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
+358,359,359,somatic_variant,Guideline,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region-Defined Variants
+359,360,360,somatic_variant,Guideline,IQxSmCCLUapm7akMQMKelHgPg1gPwGIz,Region-Defined Variants
 360,361,361,somatic_variant,Guideline,tlQCcDXuiICn9tPO5K6qOZbk07cSEdPZ,Sequence Variants
 361,362,362,somatic_variant,Guideline,DdT7S2azgEU9SjFI-SjoktoluPngDd8k,Sequence Variants
 362,363,363,somatic_variant,Guideline,nSP_SSS-6m8mdNqEiW7aPcgOFj2r-umB,Sequence Variants
@@ -366,40 +366,40 @@
 364,365,365,somatic_variant,Guideline,Dsvvpkzv4LGBjykfH7SlHPMbu2ahF-IH,Sequence Variants
 365,366,366,somatic_variant,Guideline,aWllmN65hK58kNLQZqQUx4ZtvGIZBWsu,Sequence Variants
 366,367,367,somatic_variant,Guideline,RdoZ6C42_0XlczrQWCByw9LIjq3P4E_X,Sequence Variants
-367,368,368,somatic_variant,Guideline,k3YTR16QSym7EnYwtNCwJAH0DjcR3-GM,Region Defined Variants
+367,368,368,somatic_variant,Guideline,k3YTR16QSym7EnYwtNCwJAH0DjcR3-GM,Region-Defined Variants
 368,369,369,somatic_variant,Guideline,ddTcSkAnGip4Sfu6OMPj9wlsYj2oiGHA,Sequence Variants
-369,370,370,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
-370,371,371,somatic_variant,Guideline,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region Defined Variants
-371,372,372,somatic_variant,Guideline,Vlr_W05yLPW-bQRqayPEnl2cpUILSi6P,Region Defined Variants
-372,373,373,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
+369,370,370,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
+370,371,371,somatic_variant,Guideline,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region-Defined Variants
+371,372,372,somatic_variant,Guideline,Vlr_W05yLPW-bQRqayPEnl2cpUILSi6P,Region-Defined Variants
+372,373,373,somatic_variant,Guideline,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
 373,374,374,somatic_variant,Preclinical,6lOPAwIK3RUtg4yd_04HWPvq5Gtqb5j0,Sequence Variants
-374,375,375,somatic_variant,Preclinical,k3YTR16QSym7EnYwtNCwJAH0DjcR3-GM,Region Defined Variants
-375,376,376,somatic_variant,Preclinical,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region Defined Variants
-376,377,377,somatic_variant,Preclinical,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region Defined Variants
-377,378,378,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-378,379,379,somatic_variant,Clinical trial,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-379,380,380,somatic_variant,Guideline,eeg-oafZ-3D22nVAFqJNWTXyLinbZQHa,Region Defined Variants
-380,381,381,somatic_variant,Guideline,eeg-oafZ-3D22nVAFqJNWTXyLinbZQHa,Region Defined Variants
-381,382,382,somatic_variant,Guideline,ppk6p0D0ellIvd7_2TM4XxCPWlsMWzmh,Region Defined Variants
-382,383,383,somatic_variant,Guideline,ppk6p0D0ellIvd7_2TM4XxCPWlsMWzmh,Region Defined Variants
-383,384,384,somatic_variant,Guideline,89PwaowPz22KvPbsFpiaJ77-SAM7teDY,Region Defined Variants
-384,385,385,somatic_variant,Guideline,89PwaowPz22KvPbsFpiaJ77-SAM7teDY,Region Defined Variants
-385,386,386,somatic_variant,Guideline,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
+374,375,375,somatic_variant,Preclinical,k3YTR16QSym7EnYwtNCwJAH0DjcR3-GM,Region-Defined Variants
+375,376,376,somatic_variant,Preclinical,OhYZ4_vkgDtL5Lndk-j2lZhDdZogLxlw,Region-Defined Variants
+376,377,377,somatic_variant,Preclinical,KH5cDdTin0DOJUjksguu6lAlX0F7AJIy,Region-Defined Variants
+377,378,378,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+378,379,379,somatic_variant,Clinical trial,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+379,380,380,somatic_variant,Guideline,eeg-oafZ-3D22nVAFqJNWTXyLinbZQHa,Region-Defined Variants
+380,381,381,somatic_variant,Guideline,eeg-oafZ-3D22nVAFqJNWTXyLinbZQHa,Region-Defined Variants
+381,382,382,somatic_variant,Guideline,ppk6p0D0ellIvd7_2TM4XxCPWlsMWzmh,Region-Defined Variants
+382,383,383,somatic_variant,Guideline,ppk6p0D0ellIvd7_2TM4XxCPWlsMWzmh,Region-Defined Variants
+383,384,384,somatic_variant,Guideline,89PwaowPz22KvPbsFpiaJ77-SAM7teDY,Region-Defined Variants
+384,385,385,somatic_variant,Guideline,89PwaowPz22KvPbsFpiaJ77-SAM7teDY,Region-Defined Variants
+385,386,386,somatic_variant,Guideline,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
 386,387,387,somatic_variant,FDA-Approved,txWE0iDd8r36tzSRZw9tyMcMz9-L5M0g,Sequence Variants
 387,388,388,somatic_variant,Clinical trial,txWE0iDd8r36tzSRZw9tyMcMz9-L5M0g,Sequence Variants
-388,389,389,somatic_variant,Guideline,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
+388,389,389,somatic_variant,Guideline,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
 389,390,390,somatic_variant,Clinical evidence,i_eSRW_QfoMryhqKxHyMK2GhF2oDuer8,Sequence Variants
 390,391,391,somatic_variant,Clinical trial,XLDR_3CYrDRLR1W6OSy_G857RtXTxZRS,Sequence Variants
 391,392,392,somatic_variant,Clinical trial,b4D3mgUV9D85JQVqGEuK-Erdk3v4R0v9,Sequence Variants
 392,393,393,somatic_variant,Clinical trial,9-Wnuf1h3Q-_BsOtpjRS-ndPAt68Lucg,Sequence Variants
-393,394,394,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-394,395,395,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-395,396,396,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-396,397,397,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-397,398,398,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-398,399,399,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-399,400,400,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
-400,401,401,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region Defined Variants
+393,394,394,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+394,395,395,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+395,396,396,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+396,397,397,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+397,398,398,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+398,399,399,somatic_variant,Preclinical,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+399,400,400,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
+400,401,401,somatic_variant,Clinical evidence,Ch4JcsgRY1j9t-mbOYSc5PGPvrDUoB4S,Region-Defined Variants
 401,402,402,somatic_variant,Preclinical,_H63Puh0zQPE4C6m8hSBiKv5rbCNmQOO,Sequence Variants
 402,403,403,somatic_variant,Preclinical,6-unJZuwArgEy461BbG0iwfHz-LaZyjv,Sequence Variants
 403,404,404,somatic_variant,Clinical evidence,_H63Puh0zQPE4C6m8hSBiKv5rbCNmQOO,Sequence Variants
@@ -410,7 +410,7 @@
 408,409,409,somatic_variant,Preclinical,3hjl-vIDPzcOLqf3V4mlala0hyeqITU-,Sequence Variants
 409,410,410,somatic_variant,Clinical evidence,fxt-XWEa-GIHSeprsdahNoqln1ODtkBb,Sequence Variants
 410,411,411,somatic_variant,Preclinical,NVsY7slv2TzQiszoxOfSdCCedxuZFdyO,Sequence Variants
-411,412,412,somatic_variant,Clinical evidence,6dThk5ei-83JMyRaJqwD8UWCPPDJTq-D,Region Defined Variants
+411,412,412,somatic_variant,Clinical evidence,6dThk5ei-83JMyRaJqwD8UWCPPDJTq-D,Region-Defined Variants
 412,413,413,somatic_variant,Preclinical,1p2lzuJJ3xYpAc2j9YStPgVVtAuZUDaK,Sequence Variants
 413,414,414,somatic_variant,Guideline,YKugPQESlTUJqBNc19AJKkZ2x31zHwP5,Other Variants
 414,415,415,somatic_variant,Guideline,hmXorAKfznO_7WX-f5om2DHG8ZFpSIqa,Sequence Variants
@@ -422,11 +422,11 @@
 420,421,421,somatic_variant,Preclinical,ZLUXhQidHZcPZI3fNqHDkjSdniV75zAw,Sequence Variants
 421,422,422,somatic_variant,Clinical evidence,cgUDlsxiMhpjuk9lWPYIA7_Hz7VCOFj9,Sequence Variants
 422,423,423,somatic_variant,Clinical evidence,z4PehjbLk8hZhDwVqHhvqWNBgyOve7vO,Sequence Variants
-423,424,424,somatic_variant,Clinical trial,SeyvjqY1D23n8Bck7cvfRsZQHhJYuEnB,Region Defined Variants
-424,425,425,somatic_variant,Inferential,4ACkjf6yB8Tl-uwoHFH8DW2GFtkWkF39,Region Defined Variants
+423,424,424,somatic_variant,Clinical trial,SeyvjqY1D23n8Bck7cvfRsZQHhJYuEnB,Region-Defined Variants
+424,425,425,somatic_variant,Inferential,4ACkjf6yB8Tl-uwoHFH8DW2GFtkWkF39,Region-Defined Variants
 425,426,426,somatic_variant,Preclinical,aseEiKVwNZgBIBvWamwrXzaUUdS-_SWh,Sequence Variants
-426,427,427,somatic_variant,Guideline,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region Defined Variants
-427,428,428,somatic_variant,Guideline,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region Defined Variants
+426,427,427,somatic_variant,Guideline,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region-Defined Variants
+427,428,428,somatic_variant,Guideline,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region-Defined Variants
 428,429,429,somatic_variant,Guideline,_70pP7zFOCYObMQFid6gVx0vJM-gTLG4,Sequence Variants
 429,430,430,somatic_variant,Guideline,_70pP7zFOCYObMQFid6gVx0vJM-gTLG4,Sequence Variants
 430,431,431,somatic_variant,Guideline,_70pP7zFOCYObMQFid6gVx0vJM-gTLG4,Sequence Variants
@@ -446,7 +446,7 @@
 444,445,445,somatic_variant,Clinical evidence,7ObsHadxSFWVUT1J5bBs2w18AQOyzPZ6,Sequence Variants
 445,446,446,somatic_variant,Clinical evidence,zfCQ6wBJtJv4GfQVr7gdlhSAuAM6ZA0j,Sequence Variants
 446,447,447,somatic_variant,Clinical evidence,O7YkBO-ZiaHqthNy7OFAHDl0QLQsaLkN,Sequence Variants
-447,448,448,somatic_variant,Clinical evidence,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region Defined Variants
+447,448,448,somatic_variant,Clinical evidence,IczHNjOqXt6p219RTpF0y8WKjvYSGhin,Region-Defined Variants
 448,449,449,somatic_variant,Inferential,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
 449,450,450,somatic_variant,Inferential,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
 450,451,451,somatic_variant,Inferential,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
@@ -456,15 +456,15 @@
 454,455,455,somatic_variant,Clinical evidence,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
 455,456,456,somatic_variant,FDA-Approved,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
 456,457,457,somatic_variant,Clinical evidence,1d8qprONBVH0DCf33DxRrESsdKGmwq-w,Sequence Variants
-457,458,458,somatic_variant,Guideline,s7a-0im0qk6uZJKCjwU38ZDRhZOTPRgy,Region Defined Variants
+457,458,458,somatic_variant,Guideline,s7a-0im0qk6uZJKCjwU38ZDRhZOTPRgy,Region-Defined Variants
 458,459,459,somatic_variant,Guideline,lJ2CHg6lvjbJxxbakrDp7HI8APl3DbcE,Sequence Variants
 459,460,460,somatic_variant,Preclinical,lJ2CHg6lvjbJxxbakrDp7HI8APl3DbcE,Sequence Variants
-460,461,461,somatic_variant,FDA-Approved,0FC2ntgPhdwYWHZsU1ZWj5n95qDgJ3ef,Region Defined Variants
+460,461,461,somatic_variant,FDA-Approved,0FC2ntgPhdwYWHZsU1ZWj5n95qDgJ3ef,Region-Defined Variants
 461,462,462,somatic_variant,FDA-Approved,lJ2CHg6lvjbJxxbakrDp7HI8APl3DbcE,Sequence Variants
 462,463,463,somatic_variant,Clinical evidence,LcUlUJSOjCqsRLJmRnO96gb8Vkx93Tax,Sequence Variants
-463,464,464,somatic_variant,FDA-Approved,GFoQKE8QOMIG-9TMW-yRJKf8srTlmKjO,Region Defined Variants
-464,465,465,somatic_variant,Preclinical,MQzbXY-UhWu_RsIL7uZvgmhY9ERkVXpY,Region Defined Variants
-465,466,466,somatic_variant,Clinical trial,MQzbXY-UhWu_RsIL7uZvgmhY9ERkVXpY,Region Defined Variants
+463,464,464,somatic_variant,FDA-Approved,GFoQKE8QOMIG-9TMW-yRJKf8srTlmKjO,Region-Defined Variants
+464,465,465,somatic_variant,Preclinical,MQzbXY-UhWu_RsIL7uZvgmhY9ERkVXpY,Region-Defined Variants
+465,466,466,somatic_variant,Clinical trial,MQzbXY-UhWu_RsIL7uZvgmhY9ERkVXpY,Region-Defined Variants
 466,467,467,somatic_variant,Preclinical,pl6EApAp5Gs0hXZu11K48MMRjisSafWf,Sequence Variants
 467,468,468,somatic_variant,Preclinical,mPQ2_tTAkL-zEJXmNVhoKr2eEvpMq4Mx,Sequence Variants
 468,469,469,somatic_variant,Preclinical,G3imftXHyRbAoFDZe7ZkVv2HX0ajIonr,Sequence Variants
@@ -485,7 +485,7 @@
 483,484,484,somatic_variant,Preclinical,Ynfqwzszug_EFnTycKF_gfSKp8KNu1mS,Sequence Variants
 484,485,485,somatic_variant,Preclinical,7sAQco8aSgDzyUHIznLP2FTTfSGf8AWb,Sequence Variants
 485,486,486,somatic_variant,Preclinical,HvfbgB8dY5EkpmfNQg_k3OOl_6f4TW7Y,Sequence Variants
-486,487,487,somatic_variant,Preclinical,2-d-ckMKsse2YrgCCEBVDRHDx48B2K09,Region Defined Variants
+486,487,487,somatic_variant,Preclinical,2-d-ckMKsse2YrgCCEBVDRHDx48B2K09,Region-Defined Variants
 487,488,488,somatic_variant,Clinical evidence,_AN-uU4YjdeFkwj_rjtAq3QfT7dRBfK1,Sequence Variants
 488,489,489,somatic_variant,Clinical evidence,VcdozBvrNWYPg4qIFSymoJVHXpoHuGVy,Sequence Variants
 489,490,490,somatic_variant,Clinical evidence,nSPS4-G5aaqLaAY1C4YmUG9IAn4j8sF8,Sequence Variants
@@ -494,9 +494,9 @@
 492,493,493,somatic_variant,Inferential,KGCaHZMsoObEpd491MLOZVeSxa63NlYj,Sequence Variants
 493,494,494,somatic_variant,Inferential,KGCaHZMsoObEpd491MLOZVeSxa63NlYj,Sequence Variants
 494,495,495,somatic_variant,Clinical evidence,jrezEsrySwFPkKRfB-hmHD6lgNYLDwm5,Sequence Variants
-495,496,496,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region Defined Variants
-496,497,497,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region Defined Variants
-497,498,498,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region Defined Variants
+495,496,496,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region-Defined Variants
+496,497,497,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region-Defined Variants
+497,498,498,somatic_variant,Inferential,N1i1nKhMG7GQXxSJzRt-8006xVhl-Aio,Region-Defined Variants
 498,499,499,somatic_variant,Guideline,zuHzqS3SqirWZcTcDnD-jrCVaktuqza2,Sequence Variants
 499,500,500,somatic_variant,Preclinical,zym8g8peUxw3epBJ3G9c7t8ZVGdxxMqr,Gene Function Variants
 500,501,501,somatic_variant,Preclinical,QB_T2oCqP--I5z13QaeInPQuaEWl3n0F,Sequence Variants
@@ -504,32 +504,32 @@
 502,503,503,somatic_variant,Clinical evidence,zym8g8peUxw3epBJ3G9c7t8ZVGdxxMqr,Gene Function Variants
 503,504,504,somatic_variant,Clinical evidence,QB_T2oCqP--I5z13QaeInPQuaEWl3n0F,Sequence Variants
 504,505,505,somatic_variant,Clinical evidence,eKFPMq1HSg-lyFhmtFQWDpcHjWBGmXa8,Other Variants
-505,506,506,somatic_variant,Clinical trial,SFC9lWl2S1nf7tGvHmBj-oMEePHQ5pHS,Region Defined Variants
+505,506,506,somatic_variant,Clinical trial,SFC9lWl2S1nf7tGvHmBj-oMEePHQ5pHS,Region-Defined Variants
 506,507,507,somatic_variant,Clinical evidence,zym8g8peUxw3epBJ3G9c7t8ZVGdxxMqr,Gene Function Variants
 507,508,508,somatic_variant,Clinical evidence,QB_T2oCqP--I5z13QaeInPQuaEWl3n0F,Sequence Variants
 508,509,509,somatic_variant,Clinical evidence,eKFPMq1HSg-lyFhmtFQWDpcHjWBGmXa8,Other Variants
 509,510,510,somatic_variant,Clinical evidence,zym8g8peUxw3epBJ3G9c7t8ZVGdxxMqr,Gene Function Variants
 510,511,511,somatic_variant,Guideline,pRN0omqwrWZOXRGS0_F2ORrrD77cRhrs,Sequence Variants
-511,512,512,somatic_variant,FDA-Approved,G8b2oBtX3gDtkK_odJA8tv6-HIMa2591,Region Defined Variants
-512,513,513,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-513,514,514,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-514,515,515,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-515,516,516,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-516,517,517,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-517,518,518,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-518,519,519,somatic_variant,FDA-Approved,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
-519,520,520,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-520,521,521,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-521,522,522,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-522,523,523,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-523,524,524,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-524,525,525,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-525,526,526,somatic_variant,FDA-Approved,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region Defined Variants
-526,527,527,somatic_variant,FDA-Approved,xVY5x_YydD41NUlSh2z3AdlDtOpw0CdP,Region Defined Variants
+511,512,512,somatic_variant,FDA-Approved,G8b2oBtX3gDtkK_odJA8tv6-HIMa2591,Region-Defined Variants
+512,513,513,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+513,514,514,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+514,515,515,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+515,516,516,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+516,517,517,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+517,518,518,somatic_variant,Inferential,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+518,519,519,somatic_variant,FDA-Approved,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
+519,520,520,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+520,521,521,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+521,522,522,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+522,523,523,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+523,524,524,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+524,525,525,somatic_variant,Inferential,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+525,526,526,somatic_variant,FDA-Approved,1jNMg8SUwUqzKccRYHdjz0kjWeqIJjiQ,Region-Defined Variants
+526,527,527,somatic_variant,FDA-Approved,xVY5x_YydD41NUlSh2z3AdlDtOpw0CdP,Region-Defined Variants
 527,528,528,somatic_variant,Clinical evidence,On28EZ3x8H4M3egXT4db0PWT1DBpN9Fa,Sequence Variants
 528,529,529,somatic_variant,Clinical evidence,guO_dEF4gybR7C-BI0IOgt58LjdY2aPQ,Sequence Variants
 529,530,530,somatic_variant,Clinical evidence,IAs3pKrGS-tD9Ft31Hz8dozXoWHhTY1w,Sequence Variants
-530,531,531,somatic_variant,FDA-Approved,pgsbosANS9N6Bto9OWpE-g7V1geEyJTm,Region Defined Variants
+530,531,531,somatic_variant,FDA-Approved,pgsbosANS9N6Bto9OWpE-g7V1geEyJTm,Region-Defined Variants
 531,532,532,somatic_variant,Guideline,t_9cdCm2Mh0G2EAT5vxCPNTBwnWLPkDQ,Sequence Variants
 532,533,533,somatic_variant,Guideline,agUceR1VdZprF-x_4wT3P7CsGw-56hCn,Sequence Variants
 533,534,534,somatic_variant,Guideline,6WHEKeja3AFitGOUSuOJQDZHmz0sJhCJ,Sequence Variants
@@ -591,9 +591,9 @@
 589,590,590,somatic_variant,Clinical evidence,dJHBtsdg6F-etNFCc-5YbkR2dQkcI21X,Sequence Variants
 590,591,591,somatic_variant,Guideline,5CYfCkr6ObJJF0qdCUKGQrIAHGcvHWaJ,Sequence Variants
 591,592,592,somatic_variant,Guideline,fiIOLgOgMIL7tfgHB-4xIwKTh_dVII47,Sequence Variants
-592,593,593,germline_variant,Clinical evidence,Ey9F3N9DidgVt-CJ4kFR51idM9vTTbVD,Region Defined Variants
-593,594,594,germline_variant,Clinical evidence,90KaX_EQloNCf6kQE7r70qSUYi7e1dQP,Region Defined Variants
-594,595,595,germline_variant,Preclinical,iI5Teb--X0vwAurQKhx7ejx4MheNSnUL,Region Defined Variants
+592,593,593,germline_variant,Clinical evidence,Ey9F3N9DidgVt-CJ4kFR51idM9vTTbVD,Region-Defined Variants
+593,594,594,germline_variant,Clinical evidence,90KaX_EQloNCf6kQE7r70qSUYi7e1dQP,Region-Defined Variants
+594,595,595,germline_variant,Preclinical,iI5Teb--X0vwAurQKhx7ejx4MheNSnUL,Region-Defined Variants
 595,596,596,germline_variant,Inferential,PlJo40nv4oXsmxfr0QCzD2oII_eAHqkx,Sequence Variants
 596,597,597,germline_variant,Inferential,PlJo40nv4oXsmxfr0QCzD2oII_eAHqkx,Sequence Variants
 597,598,598,germline_variant,Inferential,PlJo40nv4oXsmxfr0QCzD2oII_eAHqkx,Sequence Variants
@@ -650,7 +650,7 @@
 648,649,649,germline_variant,Inferential,ilce3GzeWaqnJVKmNUEd3v6eoMiSTPoO,Sequence Variants
 649,650,650,germline_variant,Inferential,ilce3GzeWaqnJVKmNUEd3v6eoMiSTPoO,Sequence Variants
 650,651,651,germline_variant,Clinical evidence,21Dsk-EMxHX39g74q25xvvwO0y6DTj1W,Sequence Variants
-651,652,652,germline_variant,Guideline,THAXOo7-mz_eN5W-vv9xZGamw58EmHma,Region Defined Variants
+651,652,652,germline_variant,Guideline,THAXOo7-mz_eN5W-vv9xZGamw58EmHma,Region-Defined Variants
 652,653,653,germline_variant,Clinical evidence,feFkHIOWV4kBvbDHVewGLa52U8ZBt9Uo,Gene Function Variants
 653,654,654,germline_variant,Clinical evidence,5hzaroMLJ0ZYEpcpsH_2Jt9jLyW62MHv,Gene Function Variants
 654,655,655,germline_variant,Clinical evidence,8a97VEsDPJlUYwi12rRMrX0ja--y-7s0,Sequence Variants
@@ -679,18 +679,18 @@
 677,678,678,germline_variant,Clinical evidence,l8Mac3EePI09odrKvjqIWAxUM2BZZvCk,Sequence Variants
 678,679,679,germline_variant,Clinical evidence,ATwZUNIHq-0tiSDCPIrs0oWwPLFeBhP1,Gene Function Variants
 679,680,680,germline_variant,Clinical evidence,4L1PBseo1wfJZrv8O-7TmdGpUjXB0bn-,Sequence Variants
-680,681,681,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-681,682,682,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-682,683,683,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-683,684,684,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-684,685,685,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-685,686,686,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region Defined Variants
-686,687,687,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
-687,688,688,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
-688,689,689,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
-689,690,690,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
-690,691,691,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
-691,692,692,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region Defined Variants
+680,681,681,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+681,682,682,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+682,683,683,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+683,684,684,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+684,685,685,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+685,686,686,germline_variant,Inferential,lZBFySeQVGi5w-ninMEISorE9ZMsZ6V4,Region-Defined Variants
+686,687,687,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
+687,688,688,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
+688,689,689,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
+689,690,690,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
+690,691,691,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
+691,692,692,germline_variant,Inferential,Jon_uyZtkLScJPl8h5GjWeRukH0tf74W,Region-Defined Variants
 692,693,693,germline_variant,Clinical evidence,oX9oFrniePyXTvJAEBLfobxCSqw90-Ah,Sequence Variants
 693,694,694,germline_variant,Clinical evidence,U9J8YephCXjisrsIcdan_Emo95gGJcE3,Sequence Variants
 694,695,695,copy_number,Guideline,3UARkl5LfrN5fT94YHt3JJwST92U91uz,Copy Number Variants
@@ -880,18 +880,18 @@
 878,879,879,germline_variant,FDA-Approved,vJ-aBSTK3UlEGwrerRrVZCQ3wLi5om1L,Sequence Variants
 879,880,880,germline_variant,FDA-Approved,FIxwaPFCjwTm8QpOz99YTKVPmeViiPRj,Sequence Variants
 880,881,881,germline_variant,FDA-Approved,vJ-aBSTK3UlEGwrerRrVZCQ3wLi5om1L,Sequence Variants
-881,882,882,somatic_variant,FDA-Approved,7zzfuvoUDCwT7KOdkc_J6v15iCWlSdHo,Region Defined Variants
-882,883,883,somatic_variant,FDA-Approved,la1NEYWBdiIyc7pFY3WCEc07SMmRbHYv,Region Defined Variants
+881,882,882,somatic_variant,FDA-Approved,7zzfuvoUDCwT7KOdkc_J6v15iCWlSdHo,Region-Defined Variants
+882,883,883,somatic_variant,FDA-Approved,la1NEYWBdiIyc7pFY3WCEc07SMmRbHYv,Region-Defined Variants
 883,884,884,somatic_variant,FDA-Approved,OQ7B9XkAYOPvcmJES3ULOTn7Ai9ZQec9,Sequence Variants
 884,885,885,somatic_variant,FDA-Approved,3CBFHlLnAU0h_OurUo6SY_Wlo04P03N5,Sequence Variants
 885,886,886,somatic_variant,FDA-Approved,2oHle2wihNcrEMNDkHRMtZ9y9o822--L,Sequence Variants
 886,887,887,somatic_variant,FDA-Approved,fGmSXmL03h92tz1U9l3puJKrp6BKJd5Z,Sequence Variants
-887,888,888,somatic_variant,FDA-Approved,mPC4szjbEkf6R9N7LNhZ1Tbf5-1seh8u,Region Defined Variants
+887,888,888,somatic_variant,FDA-Approved,mPC4szjbEkf6R9N7LNhZ1Tbf5-1seh8u,Region-Defined Variants
 888,889,889,somatic_variant,FDA-Approved,c3CkYcMt4ssh4AL4gpacJtFil8xl2TB2,Sequence Variants
-889,890,890,somatic_variant,FDA-Approved,uAW4cOXId1N1MKo5fqHYdw9JGceCMmE5,Region Defined Variants
-890,891,891,somatic_variant,FDA-Approved,B5m8cSgi6w2xRCg0X_dPpQU2dwbvtXk1,Region Defined Variants
+889,890,890,somatic_variant,FDA-Approved,uAW4cOXId1N1MKo5fqHYdw9JGceCMmE5,Region-Defined Variants
+890,891,891,somatic_variant,FDA-Approved,B5m8cSgi6w2xRCg0X_dPpQU2dwbvtXk1,Region-Defined Variants
 891,892,892,somatic_variant,FDA-Approved,YLXf4Q8yr45bD0I_v6nkpDjBFuGPdFbd,Sequence Variants
-892,893,893,somatic_variant,FDA-Approved,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region Defined Variants
+892,893,893,somatic_variant,FDA-Approved,I4I_C5W3WTcrJrDzfwB2fGzi3asCjwy9,Region-Defined Variants
 893,894,894,germline_variant,FDA-Approved,5UD28MjD2bPMEnlA6enWWTEftU7JVXzi,Sequence Variants
 894,895,895,somatic_variant,FDA-Approved,OQ7B9XkAYOPvcmJES3ULOTn7Ai9ZQec9,Sequence Variants
 895,896,896,germline_variant,FDA-Approved,i3K0tcuhFKzBkb4jkwHaU0_NLz4NKKJj,Sequence Variants

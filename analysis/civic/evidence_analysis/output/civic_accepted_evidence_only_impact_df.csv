@@ -1,6 +1,6 @@
 category,number_of_variants,#_evidence_items,impact,average_impact_per_variant
 Fusion Variants,204,747,2304.5,11.3
-Region Defined Variants,99,408,1853.0,18.72
+Region-Defined Variants,99,408,1853.0,18.72
 Expression Variants,180,342,1235.0,6.86
 Rearrangement Variants,47,202,892.5,18.99
 Sequence Variants,73,196,856.5,11.73
