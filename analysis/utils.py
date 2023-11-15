@@ -19,18 +19,20 @@ class MoaItemType(StrEnum):
 
 
 class NotSupportedVariantCategory(StrEnum):
-    """Create enum for the kind of variants that are not supported by the variation-normalizer."""
+    """Create enum for the kind of variants that are not supported by the variation-normalizer.
+    Note: Order matters for performance final figure.
+    """
 
-    EXPRESSION = "Expression Variants"
-    EPIGENETIC_MODIFICATION = "Epigenetic Modification"
-    FUSION = "Fusion Variants"
     SEQUENCE_VARS = "Sequence Variants"
-    GENE_FUNC = "Gene Function Variants"
-    REARRANGEMENTS = "Rearrangement Variants"
-    COPY_NUMBER = "Copy Number Variants"
-    OTHER = "Other Variants"
     GENOTYPES = "Genotype Variants"
-    REGION_DEFINED_VAR = "Region Defined Variants"
+    FUSION = "Fusion Variants"
+    REARRANGEMENTS = "Rearrangement Variants"
+    EPIGENETIC_MODIFICATION = "Epigenetic Modification"
+    COPY_NUMBER = "Copy Number Variants"
+    EXPRESSION = "Expression Variants"
+    GENE_FUNC = "Gene Function Variants"
+    REGION_DEFINED_VAR = "Region-Defined Variants"
+    OTHER = "Other Variants"
     TRANSCRIPT_VAR = "Transcript Variants"  # no attempt to normalize these ones, since there is no query we could use
 
 
