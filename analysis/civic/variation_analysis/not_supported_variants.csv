@@ -12,7 +12,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3083	VHL		Not provided	Transcript Variants	False
 4186	VHL	2kb Deletion	Not provided	Rearrangement Variants	False
 823	EPCAM	3' Exon Deletion	Disruptive Inframe Deletion	Rearrangement Variants	True
-433	HIF1A	3' UTR Polymorphism	3 Prime UTR Variant;Snp	Region Defined Variants	True
+433	HIF1A	3' UTR Polymorphism	3 Prime UTR Variant;Snp	Region-Defined Variants	True
 3102	VHL		Not provided	Transcript Variants	False
 2367	VHL	3p26.3-25.3 11Mb del	Not provided	Rearrangement Variants	True
 265	TYMS	5' TANDEM REPEAT	5 Prime UTR Variant;Short Tandem Repeat Variation	Other Variants	True
@@ -33,7 +33,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2577	PDGFRB	AGGF1::PDGFRB C843G	Missense Variant;Transcript Fusion	Fusion Variants	False
 285	BRAF	AGK::BRAF	Transcript Fusion	Fusion Variants	True
 184	BRAF	AKAP9::BRAF	Transcript Fusion	Fusion Variants	True
-1307	TP53	ALTERATION	Not provided	Region Defined Variants	True
+1307	TP53	ALTERATION	Not provided	Region-Defined Variants	True
 2211	BAP1	ALTERNATIVE TRANSCRIPT (ATI)	Not provided	Other Variants	True
 2772	NRG1	APP::NRG1	Transcript Fusion	Fusion Variants	True
 3460	AR	AR alternative transcripts	Not provided	Other Variants	False
@@ -48,7 +48,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 839	ALK	Alternative Transcript (ATI)	Not provided	Other Variants	True
 3510	BCL2L11	Alternative splicing	Not provided	Other Variants	False
 709	BRCA1	Alu insertion	Not provided	Rearrangement Variants	True
-461	PML	B2 DOMAIN MUTATION	Missense Variant	Region Defined Variants	True
+461	PML	B2 DOMAIN MUTATION	Missense Variant	Region-Defined Variants	True
 3312	FGFR1	BAG4::FGFR1	Transcript Fusion	Fusion Variants	False
 3251	BCOR	BCOR::CCNB3	Transcript Fusion	Fusion Variants	False
 1	ABL1	BCR::ABL	Transcript Fusion	Fusion Variants	True
@@ -189,14 +189,14 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 647	LRP1B	DELETION	Transcript Ablation	Gene Function Variants	True
 1663	BRAF	DELNVTAP	Inframe Deletion	Other Variants	False
 2685	DGKH	DGKH::ZFAND3	Transcript Fusion	Fusion Variants	False
-242	TP53	DNA Binding Domain Mutation	Dna Binding Site	Region Defined Variants	True
+242	TP53	DNA Binding Domain Mutation	Dna Binding Site	Region-Defined Variants	True
 31	PRKACA	DNAJB1::PRKACA	Transcript Fusion	Fusion Variants	True
 738	DPYD	DPYD*13 HOMOZYGOSITY	Missense Variant	Genotype Variants	True
 737	DPYD	DPYD*2A HOMOZYGOSITY	Splice Donor Variant	Genotype Variants	True
 2589	DUX4	DUX4::IGH	Transcript Fusion	Fusion Variants	False
 3509	AIMP2	DX2	Not provided	Sequence Variants	False
 334	VEGFA	Decreased Peri-therapeutic Expression	N/A	Expression Variants	True
-221	TP53	Deleterious Mutation	N/A	Region Defined Variants	True
+221	TP53	Deleterious Mutation	N/A	Region-Defined Variants	True
 200	IKZF1	Deletion	Transcript Ablation	Gene Function Variants	True
 213	PTEN	Deletion	Transcript Ablation	Gene Function Variants	True
 250	GSTP1	Deletion	Transcript Ablation	Gene Function Variants	True
@@ -216,7 +216,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4192	VHL		Not provided	Transcript Variants	False
 4193	VHL		Not provided	Transcript Variants	False
 4194	VHL		Not provided	Transcript Variants	False
-526	BCL2L11	Deletion Polymorphism	Polymorphic Sequence Variant	Region Defined Variants	True
+526	BCL2L11	Deletion Polymorphism	Polymorphic Sequence Variant	Region-Defined Variants	True
 3009	ABL1	Double Ph	Not provided	Rearrangement Variants	True
 725	MLH1	E13fs	Minus 1 Frameshift Variant;Frameshift Truncation	Sequence Variants	True
 4155	VHL		Not provided	Transcript Variants	False
@@ -560,7 +560,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 151	BCL2	IGH::BCL2	Transcript Fusion;Transcript Regulatory Region Fusion	Fusion Variants	True
 2663	CRLF2	IGH::CRLF2	Transcript Fusion	Fusion Variants	True
 4309	FGFR3	IGHA1::FGFR3	Transcript Fusion	Fusion Variants	False
-2744	IKZF1	IKZF1 deletion and mutation	Not provided	Region Defined Variants	True
+2744	IKZF1	IKZF1 deletion and mutation	Not provided	Region-Defined Variants	True
 2686	IL2RB	IL2RB::MYH9	Transcript Fusion	Fusion Variants	False
 218	SMARCA4	INACTIVATING MUTATION	Loss Of Function Variant	Gene Function Variants	True
 55	FLT3	ITD	Inframe Insertion	Rearrangement Variants	True
@@ -585,7 +585,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2659	FGFR1	Internal Duplication	Not provided	Copy Number Variants	True
 4150	BCOR	Internal tandem duplication	Not provided	Copy Number Variants	False
 4229	BCOR	Internal tandem duplication (ITD)	Not provided	Other Variants	False
-257	EZH2	Intron 6 Mutation	Intron Variant	Region Defined Variants	True
+257	EZH2	Intron 6 Mutation	Intron Variant	Region-Defined Variants	True
 2134	VHL		Not provided	Transcript Variants	True
 2311	VHL		Not provided	Transcript Variants	False
 2722	TP53	K132	Not provided	Sequence Variants	False
@@ -623,7 +623,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3117	KMT2A	KMT2A::MLLT4	Transcript Fusion	Fusion Variants	False
 2210	ASNS	KMT2E::ASNS	Transcript Fusion	Fusion Variants	False
 3471	KRAS	KRAS4A underexpression	Not provided	Other Variants	False
-413	ERBB2	Kinase Domain Mutation	Protein Altering Variant	Region Defined Variants	True
+413	ERBB2	Kinase Domain Mutation	Protein Altering Variant	Region-Defined Variants	True
 3294	VHL		Not provided	Transcript Variants	False
 2731	TP53	L114	Not provided	Sequence Variants	False
 2312	VHL		Frameshift Truncation	Transcript Variants	False
@@ -652,7 +652,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3480	VHL		Not provided	Transcript Variants	False
 4225	VHL		Not provided	Transcript Variants	False
 2735	TP53	L206	Not provided	Sequence Variants	False
-1318	TP53	L3 Domain Mutation	Not provided	Region Defined Variants	False
+1318	TP53	L3 Domain Mutation	Not provided	Region-Defined Variants	False
 1677	FBXW7	L403FS*34	Not provided	Sequence Variants	False
 541	PALB2	L531FS*30	Minus 1 Frameshift Variant;Snp	Sequence Variants	True
 2766	BRAF	L597	Not provided	Sequence Variants	False
@@ -744,117 +744,117 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 784	CDKN2B	METHYLATION	N/A	Epigenetic Modification	True
 3114	MN1	MN1::CXXC5	Transcript Fusion	Fusion Variants	False
 4535	ZFTA	MN1::ZFTA	Not provided	Fusion Variants	True
-217	SMARCA4	MUTATION	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-521	U2AF1	MUTATION	Protein Altering Variant	Region Defined Variants	True
-595	SRSF2	MUTATION	Gene Variant	Region Defined Variants	True
-623	POT1	MUTATION	Protein Altering Variant;Loss Of Function Variant	Region Defined Variants	True
-644	PRDM1	MUTATION	Transcript Variant;Loss Of Function Variant	Region Defined Variants	True
-664	CDH1	MUTATION	Transcription Variant	Region Defined Variants	True
-665	RHOA	MUTATION	Transcription Variant;Gain Of Function Variant	Region Defined Variants	True
-668	KMT2C	MUTATION	Transcription Variant;Loss Of Function Variant	Region Defined Variants	True
-669	STAG2	MUTATION	Protein Altering Variant	Region Defined Variants	True
-674	EIF1AX	MUTATION	Transcript Variant	Region Defined Variants	True
-2169	BTK	MUTATION	Not provided	Region Defined Variants	True
-2170	PLCG2	MUTATION	Not provided	Region Defined Variants	True
-2652	H3-3A	MUTATION	Not provided	Region Defined Variants	True
-2761	ZRSR2	MUTATION	Not provided	Region Defined Variants	False
-2773	RABL3	MUTATION	Not provided	Region Defined Variants	False
-3052	CD79B	MUTATION	Not provided	Region Defined Variants	False
-3138	NPM1	MUTATION	Not provided	Region Defined Variants	False
-3910	ESR1	MUTATION	Not provided	Region Defined Variants	False
+217	SMARCA4	MUTATION	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+521	U2AF1	MUTATION	Protein Altering Variant	Region-Defined Variants	True
+595	SRSF2	MUTATION	Gene Variant	Region-Defined Variants	True
+623	POT1	MUTATION	Protein Altering Variant;Loss Of Function Variant	Region-Defined Variants	True
+644	PRDM1	MUTATION	Transcript Variant;Loss Of Function Variant	Region-Defined Variants	True
+664	CDH1	MUTATION	Transcription Variant	Region-Defined Variants	True
+665	RHOA	MUTATION	Transcription Variant;Gain Of Function Variant	Region-Defined Variants	True
+668	KMT2C	MUTATION	Transcription Variant;Loss Of Function Variant	Region-Defined Variants	True
+669	STAG2	MUTATION	Protein Altering Variant	Region-Defined Variants	True
+674	EIF1AX	MUTATION	Transcript Variant	Region-Defined Variants	True
+2169	BTK	MUTATION	Not provided	Region-Defined Variants	True
+2170	PLCG2	MUTATION	Not provided	Region-Defined Variants	True
+2652	H3-3A	MUTATION	Not provided	Region-Defined Variants	True
+2761	ZRSR2	MUTATION	Not provided	Region-Defined Variants	False
+2773	RABL3	MUTATION	Not provided	Region-Defined Variants	False
+3052	CD79B	MUTATION	Not provided	Region-Defined Variants	False
+3138	NPM1	MUTATION	Not provided	Region-Defined Variants	False
+3910	ESR1	MUTATION	Not provided	Region-Defined Variants	False
 2665	MYB	MYB::GATA1	Transcript Fusion	Fusion Variants	False
 4327	MYB	MYB::QKI	Not provided	Fusion Variants	False
-29	CEBPA	Mutation	Transcript Variant;Loss Of Function Variant	Region Defined Variants	True
-155	RUNX1	Mutation	Transcript Variant;Loss Of Function Variant	Region Defined Variants	True
-157	TET2	Mutation	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-160	VHL	Mutation	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-161	PBRM1	Mutation	Transcription Variant;Loss Of Function Variant	Region Defined Variants	True
-163	EZH2	Mutation	Protein Altering Variant	Region Defined Variants	True
-174	APC	Mutation	Not provided	Region Defined Variants	True
-177	ASXL1	Mutation	Protein Altering Variant	Region Defined Variants	True
-178	ATM	Mutation	Transcription Variant;Loss Of Function Variant	Region Defined Variants	True
-183	BAP1	Mutation	Protein Altering Variant;Loss Of Function Variant	Region Defined Variants	True
-185	BRCA1	Mutation	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-186	BRCA2	Mutation	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-189	DNMT3A	Mutation	Transcript Variant	Region Defined Variants	True
-206	NOTCH1	Mutation	Protein Altering Variant	Region Defined Variants	True
-208	NRAS	Mutation	Transcript Variant;Gain Of Function Variant	Region Defined Variants	True
-215	SF3B1	Mutation	Protein Altering Variant	Region Defined Variants	True
-216	SMAD4	Mutation	Transcript Variant;Loss Of Function Variant	Region Defined Variants	True
-222	TP53	Mutation	Protein Altering Variant	Region Defined Variants	True
-275	HRAS	Mutation	Coding Transcript Variant	Region Defined Variants	True
-277	MTOR	Mutation	Protein Altering Variant	Region Defined Variants	True
-281	FBXW7	Mutation	Protein Altering Variant;Loss Of Function Variant	Region Defined Variants	True
-297	RIT1	Mutation	Transcript Variant	Region Defined Variants	True
-300	SMO	Mutation	Coding Transcript Variant	Region Defined Variants	True
-301	PTCH1	Mutation	Gene Variant;Loss Of Function Variant	Region Defined Variants	True
-310	ERBB4	Mutation	Transcript Variant;Gain Of Function Variant	Region Defined Variants	True
-311	PIK3CA	Mutation	Transcript Variant;Gain Of Function Variant	Region Defined Variants	True
-323	MET	Mutation	Transcription Variant;Gain Of Function Variant	Region Defined Variants	True
-327	PTPRD	Mutation	Transcript Variant;Loss Of Function Variant	Region Defined Variants	True
-336	KRAS	Mutation	Protein Altering Variant	Region Defined Variants	True
-388	KIT	Mutation	Transcript Variant	Region Defined Variants	True
-399	BRAF	Mutation	Gene Variant;Gain Of Function Variant	Region Defined Variants	True
-442	EGFR	Mutation	Inframe Variant	Region Defined Variants	True
-505	GNAQ	Mutation	Not provided	Region Defined Variants	True
-506	GNA11	Mutation	Not provided	Region Defined Variants	True
-510	PTEN	Mutation	Protein Altering Variant	Region Defined Variants	True
-511	FGFR2	Mutation	Transcript Variant;Gain Of Function Variant	Region Defined Variants	True
-512	ALK	Mutation	Gene Variant;Gain Of Function Variant	Region Defined Variants	True
-519	FLT3	Mutation	Transcript Variant;Gain Of Function Variant	Region Defined Variants	True
-560	CSF3R	Mutation	Protein Altering Variant	Region Defined Variants	True
-570	IDH2	Mutation	Protein Altering Variant	Region Defined Variants	True
-587	NF1	Mutation	Protein Altering Variant;Loss Of Function Variant	Region Defined Variants	True
-600	AR	Mutation	Transcript Variant	Region Defined Variants	True
-633	PIK3R1	Mutation	Missense Variant;Gain Of Function Variant	Region Defined Variants	True
-645	IDH1	Mutation	Transcript Variant	Region Defined Variants	True
-663	BCOR	Mutation	Transcript Variant	Region Defined Variants	True
-666	ERBB2	Mutation	Missense Variant	Region Defined Variants	True
-713	CRBN	Mutation	Not provided	Region Defined Variants	True
-715	STK11	Mutation	Gene Variant	Region Defined Variants	True
-797	POLE	Mutation	Gene Variant	Region Defined Variants	True
-799	RB1	Mutation	Gene Variant	Region Defined Variants	True
-827	FGFR3	Mutation	Not provided	Region Defined Variants	True
-1690	RET	Mutation	Not provided	Region Defined Variants	True
-2231	FLCN	Mutation	Not provided	Region Defined Variants	False
-2233	BCL2	Mutation	Not provided	Region Defined Variants	True
-2237	KDM5C	Mutation	Not provided	Region Defined Variants	False
-2388	CALR	Mutation	Not provided	Region Defined Variants	True
-2567	ETV6	Mutation	Not provided	Region Defined Variants	False
-2641	FGFR1	Mutation	Not provided	Region Defined Variants	False
-2642	PTPN11	Mutation	Not provided	Region Defined Variants	False
-2692	B2M	Mutation	Not provided	Region Defined Variants	False
-2699	CBL	Mutation	Not provided	Region Defined Variants	False
-2704	CDKN2A	Mutation	Not provided	Region Defined Variants	True
-2749	NFE2L2	Mutation	Not provided	Region Defined Variants	True
-2759	PALB2	Mutation	Not provided	Region Defined Variants	True
-2760	MPL	Mutation	Not provided	Region Defined Variants	False
-2764	CDK12	Mutation	Not provided	Region Defined Variants	True
-2898	NT5C2	Mutation	Not provided	Region Defined Variants	True
-2958	SDHB	Mutation	Not provided	Region Defined Variants	False
-2983	ACVR1	Mutation	Not provided	Region Defined Variants	True
-3072	GATA2	Mutation	Protein Altering Variant	Region Defined Variants	False
-3115	GATA1	Mutation	Not provided	Region Defined Variants	False
-3203	ATRX	Mutation	Not provided	Region Defined Variants	True
-3274	PDGFRA	Mutation	Not provided	Region Defined Variants	True
-4018	MS4A1	Mutation	Not provided	Region Defined Variants	True
-4437	PPP2R2A	Mutation	Not provided	Region Defined Variants	True
-4438	RAD54L	Mutation	Not provided	Region Defined Variants	True
-4439	BRIP1	Mutation	Not provided	Region Defined Variants	True
-4440	BARD1	Mutation	Not provided	Region Defined Variants	True
-4441	CHEK1	Mutation	Not provided	Region Defined Variants	True
-4442	FANCL	Mutation	Not provided	Region Defined Variants	False
-4443	RAD51B	Mutation	Not provided	Region Defined Variants	True
-4444	RAD51C	Mutation	Not provided	Region Defined Variants	False
-4445	RAD51D	Mutation	Not provided	Region Defined Variants	True
-4471	ARAF	Mutation	Not provided	Region Defined Variants	False
-4503	RAF1	Mutation	Not provided	Region Defined Variants	False
-4504	MAP2K1	Mutation	Not provided	Region Defined Variants	False
-4505	MAP2K2	Mutation	Not provided	Region Defined Variants	False
-4506	GATA3	Mutation	Not provided	Region Defined Variants	False
-4507	GNAS	Mutation	Not provided	Region Defined Variants	False
-4530	ABL1	Mutation	Not provided	Region Defined Variants	False
-3127	WT1	Mutations	Not provided	Region Defined Variants	False
+29	CEBPA	Mutation	Transcript Variant;Loss Of Function Variant	Region-Defined Variants	True
+155	RUNX1	Mutation	Transcript Variant;Loss Of Function Variant	Region-Defined Variants	True
+157	TET2	Mutation	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+160	VHL	Mutation	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+161	PBRM1	Mutation	Transcription Variant;Loss Of Function Variant	Region-Defined Variants	True
+163	EZH2	Mutation	Protein Altering Variant	Region-Defined Variants	True
+174	APC	Mutation	Not provided	Region-Defined Variants	True
+177	ASXL1	Mutation	Protein Altering Variant	Region-Defined Variants	True
+178	ATM	Mutation	Transcription Variant;Loss Of Function Variant	Region-Defined Variants	True
+183	BAP1	Mutation	Protein Altering Variant;Loss Of Function Variant	Region-Defined Variants	True
+185	BRCA1	Mutation	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+186	BRCA2	Mutation	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+189	DNMT3A	Mutation	Transcript Variant	Region-Defined Variants	True
+206	NOTCH1	Mutation	Protein Altering Variant	Region-Defined Variants	True
+208	NRAS	Mutation	Transcript Variant;Gain Of Function Variant	Region-Defined Variants	True
+215	SF3B1	Mutation	Protein Altering Variant	Region-Defined Variants	True
+216	SMAD4	Mutation	Transcript Variant;Loss Of Function Variant	Region-Defined Variants	True
+222	TP53	Mutation	Protein Altering Variant	Region-Defined Variants	True
+275	HRAS	Mutation	Coding Transcript Variant	Region-Defined Variants	True
+277	MTOR	Mutation	Protein Altering Variant	Region-Defined Variants	True
+281	FBXW7	Mutation	Protein Altering Variant;Loss Of Function Variant	Region-Defined Variants	True
+297	RIT1	Mutation	Transcript Variant	Region-Defined Variants	True
+300	SMO	Mutation	Coding Transcript Variant	Region-Defined Variants	True
+301	PTCH1	Mutation	Gene Variant;Loss Of Function Variant	Region-Defined Variants	True
+310	ERBB4	Mutation	Transcript Variant;Gain Of Function Variant	Region-Defined Variants	True
+311	PIK3CA	Mutation	Transcript Variant;Gain Of Function Variant	Region-Defined Variants	True
+323	MET	Mutation	Transcription Variant;Gain Of Function Variant	Region-Defined Variants	True
+327	PTPRD	Mutation	Transcript Variant;Loss Of Function Variant	Region-Defined Variants	True
+336	KRAS	Mutation	Protein Altering Variant	Region-Defined Variants	True
+388	KIT	Mutation	Transcript Variant	Region-Defined Variants	True
+399	BRAF	Mutation	Gene Variant;Gain Of Function Variant	Region-Defined Variants	True
+442	EGFR	Mutation	Inframe Variant	Region-Defined Variants	True
+505	GNAQ	Mutation	Not provided	Region-Defined Variants	True
+506	GNA11	Mutation	Not provided	Region-Defined Variants	True
+510	PTEN	Mutation	Protein Altering Variant	Region-Defined Variants	True
+511	FGFR2	Mutation	Transcript Variant;Gain Of Function Variant	Region-Defined Variants	True
+512	ALK	Mutation	Gene Variant;Gain Of Function Variant	Region-Defined Variants	True
+519	FLT3	Mutation	Transcript Variant;Gain Of Function Variant	Region-Defined Variants	True
+560	CSF3R	Mutation	Protein Altering Variant	Region-Defined Variants	True
+570	IDH2	Mutation	Protein Altering Variant	Region-Defined Variants	True
+587	NF1	Mutation	Protein Altering Variant;Loss Of Function Variant	Region-Defined Variants	True
+600	AR	Mutation	Transcript Variant	Region-Defined Variants	True
+633	PIK3R1	Mutation	Missense Variant;Gain Of Function Variant	Region-Defined Variants	True
+645	IDH1	Mutation	Transcript Variant	Region-Defined Variants	True
+663	BCOR	Mutation	Transcript Variant	Region-Defined Variants	True
+666	ERBB2	Mutation	Missense Variant	Region-Defined Variants	True
+713	CRBN	Mutation	Not provided	Region-Defined Variants	True
+715	STK11	Mutation	Gene Variant	Region-Defined Variants	True
+797	POLE	Mutation	Gene Variant	Region-Defined Variants	True
+799	RB1	Mutation	Gene Variant	Region-Defined Variants	True
+827	FGFR3	Mutation	Not provided	Region-Defined Variants	True
+1690	RET	Mutation	Not provided	Region-Defined Variants	True
+2231	FLCN	Mutation	Not provided	Region-Defined Variants	False
+2233	BCL2	Mutation	Not provided	Region-Defined Variants	True
+2237	KDM5C	Mutation	Not provided	Region-Defined Variants	False
+2388	CALR	Mutation	Not provided	Region-Defined Variants	True
+2567	ETV6	Mutation	Not provided	Region-Defined Variants	False
+2641	FGFR1	Mutation	Not provided	Region-Defined Variants	False
+2642	PTPN11	Mutation	Not provided	Region-Defined Variants	False
+2692	B2M	Mutation	Not provided	Region-Defined Variants	False
+2699	CBL	Mutation	Not provided	Region-Defined Variants	False
+2704	CDKN2A	Mutation	Not provided	Region-Defined Variants	True
+2749	NFE2L2	Mutation	Not provided	Region-Defined Variants	True
+2759	PALB2	Mutation	Not provided	Region-Defined Variants	True
+2760	MPL	Mutation	Not provided	Region-Defined Variants	False
+2764	CDK12	Mutation	Not provided	Region-Defined Variants	True
+2898	NT5C2	Mutation	Not provided	Region-Defined Variants	True
+2958	SDHB	Mutation	Not provided	Region-Defined Variants	False
+2983	ACVR1	Mutation	Not provided	Region-Defined Variants	True
+3072	GATA2	Mutation	Protein Altering Variant	Region-Defined Variants	False
+3115	GATA1	Mutation	Not provided	Region-Defined Variants	False
+3203	ATRX	Mutation	Not provided	Region-Defined Variants	True
+3274	PDGFRA	Mutation	Not provided	Region-Defined Variants	True
+4018	MS4A1	Mutation	Not provided	Region-Defined Variants	True
+4437	PPP2R2A	Mutation	Not provided	Region-Defined Variants	True
+4438	RAD54L	Mutation	Not provided	Region-Defined Variants	True
+4439	BRIP1	Mutation	Not provided	Region-Defined Variants	True
+4440	BARD1	Mutation	Not provided	Region-Defined Variants	True
+4441	CHEK1	Mutation	Not provided	Region-Defined Variants	True
+4442	FANCL	Mutation	Not provided	Region-Defined Variants	False
+4443	RAD51B	Mutation	Not provided	Region-Defined Variants	True
+4444	RAD51C	Mutation	Not provided	Region-Defined Variants	False
+4445	RAD51D	Mutation	Not provided	Region-Defined Variants	True
+4471	ARAF	Mutation	Not provided	Region-Defined Variants	False
+4503	RAF1	Mutation	Not provided	Region-Defined Variants	False
+4504	MAP2K1	Mutation	Not provided	Region-Defined Variants	False
+4505	MAP2K2	Mutation	Not provided	Region-Defined Variants	False
+4506	GATA3	Mutation	Not provided	Region-Defined Variants	False
+4507	GNAS	Mutation	Not provided	Region-Defined Variants	False
+4530	ABL1	Mutation	Not provided	Region-Defined Variants	False
+3127	WT1	Mutations	Not provided	Region-Defined Variants	False
 28	CEBPA	N-TERMINAL FRAME SHIFT	Frameshift Truncation;Dominant Negative Variant	Sequence Variants	True
 1981	VHL		Not provided	Transcript Variants	False
 4271	VHL		Not provided	Transcript Variants	False
@@ -892,8 +892,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2660	ABL1	NUP214::ABL1	Transcript Fusion	Fusion Variants	True
 3111	NUP98	NUP98::KDM5A	Transcript Fusion	Fusion Variants	False
 2593	NUP98	NUP98::NSD1	Transcript Fusion	Fusion Variants	True
-2376	ABL1	Non-P-Loop Mutation	Not provided	Region Defined Variants	True
-2408	BRAF	Non-V600	Protein Altering Variant	Region Defined Variants	True
+2376	ABL1	Non-P-Loop Mutation	Not provided	Region-Defined Variants	True
+2408	BRAF	Non-V600	Protein Altering Variant	Region-Defined Variants	True
 3297	VHL	Null (11 kb 3' deletion)	Not provided	Gene Function Variants	False
 2016	VHL	Null (Complete deletion)	Not provided	Gene Function Variants	False
 2182	VHL	Null (Large deletion)	Not provided	Gene Function Variants	True
@@ -1043,7 +1043,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3415	AR	Overexpression of AR-V9	Not provided	Expression Variants	False
 3324	VEGFA	Overexpression of VEGF121	Not provided	Expression Variants	False
 3325	VEGFA	Overexpression of VEGF121 and VEGF110	Not provided	Expression Variants	False
-2375	ABL1	P-Loop Mutation	Not provided	Region Defined Variants	True
+2375	ABL1	P-Loop Mutation	Not provided	Region-Defined Variants	True
 3248	VHL		Not provided	Transcript Variants	False
 1682	ARID1A	P1175FS*5	Frameshift Variant	Sequence Variants	True
 4265	VHL		Not provided	Transcript Variants	False
@@ -1108,7 +1108,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3235	PRKAR1A	PRKAR1A LOH, allelic imbalance 17q	Not provided	Genotype Variants	False
 22	CCND2	PROMOTER DEMETHYLATION	N/A	Epigenetic Modification	True
 711	KLLN	PROMOTER METHYLATION	Gene Silenced By Dna Methylation	Epigenetic Modification	True
-2916	PRPS1	PRPS1 MUTATION	Not provided	Region Defined Variants	True
+2916	PRPS1	PRPS1 MUTATION	Not provided	Region-Defined Variants	True
 2683	PTK2B	PTK2B::KDM6A	Transcript Fusion	Fusion Variants	False
 2684	PTK2B	PTK2B::STAG2	Transcript Fusion	Fusion Variants	False
 4189	VHL		Not provided	Transcript Variants	False
@@ -1133,7 +1133,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 333	PTPRT	Promoter Hypermethylation	N/A	Epigenetic Modification	True
 374	NAPRT	Promoter Hypermethylation	N/A	Epigenetic Modification	True
 85	MGMT	Promoter Methylation	N/A	Epigenetic Modification	True
-220	TERT	Promoter Mutation	Regulatory Region Variant	Region Defined Variants	True
+220	TERT	Promoter Mutation	Regulatory Region Variant	Region-Defined Variants	True
 2443	VHL		Not provided	Transcript Variants	False
 2267	VHL		Not provided	Transcript Variants	False
 2321	VHL		Not provided	Transcript Variants	False
@@ -1280,7 +1280,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 487	MMP2	SERUM LEVELS	N/A	Expression Variants	True
 488	MMP9	SERUM LEVELS	N/A	Expression Variants	True
 3287	ABL1	SFPQ::ABL1	Transcript Fusion	Fusion Variants	True
-411	STAT3	SH2 DOMAIN MUTATION	Protein Altering Variant	Region Defined Variants	True
+411	STAT3	SH2 DOMAIN MUTATION	Protein Altering Variant	Region-Defined Variants	True
 3986	SH3PXD2A	SH3PXD2A::HTRA1	Not provided	Fusion Variants	False
 2166	NRG1	SLC3A2::NRG1	Transcript Fusion	Fusion Variants	True
 2975	JAK2	SMU1::JAK2	Transcript Fusion	Fusion Variants	True
@@ -1534,10 +1534,10 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2225	BRAF	intron 9 rearrangement	Not provided	Rearrangement Variants	True
 2814	DRD5	low expression	Not provided	Expression Variants	False
 3323	VEGFA	low ratio of VEGF165b/VEGFtotal	Not provided	Expression Variants	False
-2845	HOXD8	mutation	Not provided	Region Defined Variants	False
-4436	CHEK2	mutation	Not provided	Region Defined Variants	True
-4463	TSC1	mutation	Not provided	Region Defined Variants	False
-4464	TSC2	mutation	Not provided	Region Defined Variants	False
+2845	HOXD8	mutation	Not provided	Region-Defined Variants	False
+4436	CHEK2	mutation	Not provided	Region-Defined Variants	True
+4463	TSC1	mutation	Not provided	Region-Defined Variants	False
+4464	TSC2	mutation	Not provided	Region-Defined Variants	False
 3322	VEGFA	overexpression of VEGF-Axxxa	Not provided	Expression Variants	False
 2411	SDHB	p.193_196dupSTSC (c.577_588dupAGCACCAGCTGC)	Inframe Insertion	Copy Number Variants	True
 4247	VHL		Not provided	Transcript Variants	False
