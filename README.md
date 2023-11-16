@@ -49,7 +49,7 @@ The environment variables that will need to be set inside the `.env` file:
 
 ```env
 GENE_NORM_DB_URL=http://localhost:8000
-UTA_DB_URL=driver://user:password@host:port/database/schema
+UTA_DB_URL=driver://user:password@host:port/database/schema  # replace with actual values
 AWS_ACCESS_KEY_ID=dummy  # only required if using gene-normalizer dynamodb
 AWS_SECRET_ACCESS_KEY=dummy  # only required if using gene-normalizer dynamodb
 AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
@@ -82,7 +82,7 @@ Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_
 
 #### Cool-Seq-Tool installation
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). Be sure to update the `UTA_DB_URL` environment variable. 
 
 #### SeqRepo
 
