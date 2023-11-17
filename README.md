@@ -49,7 +49,7 @@ The environment variables that will need to be set inside the `.env` file:
 
 ```env
 GENE_NORM_DB_URL=http://localhost:8000
-UTA_DB_URL=driver://user:password@host:port/database/schema
+UTA_DB_URL=driver://user:password@host:port/database/schema  # replace with actual values
 AWS_ACCESS_KEY_ID=dummy  # only required if using gene-normalizer dynamodb
 AWS_SECRET_ACCESS_KEY=dummy  # only required if using gene-normalizer dynamodb
 AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
@@ -65,11 +65,41 @@ In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `tran
 
 You must set up [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39).
 
+The source files used during ETL methods have been uploaded to the public s3 bucket. If you would like to re-run the ETL methods using the files in this analysis, download and extract the following:
+
+* Ensembl
+  * [ensembl_110.gff3.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ensembl_110.gff3.zip)
+* NCBI
+  * [ncbi_GRCh38.p14.gff.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_GRCh38.p14.gff.zip)
+  * [ncbi_history_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_history_20231114.tsv.zip)
+  * [ncbi_info_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_info_20231114.tsv.zip)
+* HGNC
+  * [hgnc_20231114.json.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/hgnc_20231114.json.zip)
+
+##### Using Gene Normalizer DynamoDB in s3
+If you do not want to re-run the ETL methods and want to immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database. 
+
+When starting the DynamoDB database using the default configs, you should see the following:
+
+```
+Initializing DynamoDB Local with the following configuration:
+Port:   8000
+InMemory:       false
+DbPath: null
+SharedDb:       true
+shouldDelayTransientStatuses:   false
+CorsParams:     *
+
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+```
+
+Keep the database connected when running the notebooks.
+
 Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials. If using gene-normalizer with PostgreSQL database instance, you do not need to set these environment variables.
 
 #### Cool-Seq-Tool installation
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). Be sure to update the `UTA_DB_URL` environment variable. 
 
 #### SeqRepo
 
