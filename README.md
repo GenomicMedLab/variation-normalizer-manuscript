@@ -2,6 +2,8 @@
 
 This repo contains analysis notebooks used in the _The Clinical Genomic Variation Landscape_ manuscript.
 
+Small output files can be found in this repo. Larger files can be found in our public s3 bucket: `s3://nch-igm-wagner-lab-public/variation-normalizer-manuscript/`. There are notebooks that provide functions for programmatically downloading files from the s3 bucket.
+
 ## Set Up
 
 Before running the notebooks, you must set up your environment.
@@ -77,11 +79,12 @@ The source files used during ETL methods have been uploaded to the public s3 buc
   * [hgnc_20231114.json.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/hgnc_20231114.json.zip)
 
 ##### Using Gene Normalizer DynamoDB in s3
-If you do not want to re-run the ETL methods and want to immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database. 
+
+If you do not want to re-run the ETL methods and want to immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database.
 
 When starting the DynamoDB database using the default configs, you should see the following:
 
-```
+```shell
 Initializing DynamoDB Local with the following configuration:
 Port:   8000
 InMemory:       false
@@ -99,11 +102,11 @@ Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_
 
 #### Cool-Seq-Tool installation
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the `uta_20210129` version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). Be sure to update the `UTA_DB_URL` environment variable. 
+You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). Be sure to update the `UTA_DB_URL` environment variable.
 
 #### SeqRepo
 
-Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used `2021-01-29` SeqRepo data.
+Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used [2021-01-29](https://dl.biocommons.org/seqrepo/2021-01-29/) SeqRepo data.
 
 ## Notebooks
 
@@ -146,4 +149,4 @@ This section provides information about the notebooks and the order that they sh
 
 ## Help
 
-If you have any questions or problems, please make an issue in the repo and our team will be happy to assist.
+If you have any questions or problems, please [make an issue](https://github.com/GenomicMedLab/variation-normalizer-manuscript/issues/new) in the repo and our team will be happy to assist.
