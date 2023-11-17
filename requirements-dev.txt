@@ -1,6 +1,6 @@
-cool-seq-tool == 0.1.14.dev3
-variation-normalizer == 0.6.0.dev1
-civicpy == 3.0.0
+cool-seq-tool==0.1.14.dev3
+variation-normalizer==0.6.0.dev1
+civicpy==3.0.0
 python-dotenv
 ipykernel
 jupyter
@@ -10,7 +10,7 @@ nbformat
 requests
 pre-commit
 matplotlib
-ga4gh.vrs
+ga4gh.vrs==0.8.4
 scipy
 ndjson
 numpy
