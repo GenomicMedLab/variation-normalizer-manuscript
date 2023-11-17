@@ -27,7 +27,7 @@ coloredlogs==15.0.1
 comm==0.2.0
 configparser==6.0.0
 contourpy==1.2.0
-cool-seq-tool==0.1.14.dev1
+cool-seq-tool==0.1.14.dev3
 cssselect==1.2.0
 cycler==0.12.1
 debugpy==1.8.0
@@ -152,7 +152,7 @@ typing_extensions==4.8.0
 tzdata==2023.3
 urllib3==1.26.18
 uvicorn==0.24.0.post1
-variation-normalizer==0.6.0.dev0
+variation-normalizer==0.6.0.dev1
 vcfpy==0.13.6
 virtualenv==20.24.6
 w3lib==2.1.2
