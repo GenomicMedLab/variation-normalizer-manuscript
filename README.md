@@ -58,7 +58,7 @@ AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
 TRANSCRIPT_MAPPINGS_PATH=variation-normalizer-manuscript/analysis/data/transcript_mapping.tsv  # Should be absolute path. For cool-seq-tool
 MANE_SUMMARY_PATH=variation-normalizer-manuscript/analysis/data/MANE.GRCh38.v1.3.summary.txt  # Should be absolute path. For cool-seq-tool
 LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene_20231114  # Should be absolute path. For cool-seq-tool
-
+SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/latest  # replace if using different path
 ```
 
 In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `transcript_mapping.tsv`, `MANE.GRCh38.v1.3.summary.txt`, and `LRG_RefSeqGene_20231114` will be downloaded to `./analysis/data` directory. You must update the environment variables to use the full path.
@@ -100,15 +100,84 @@ Keep the database connected when running the notebooks.
 
 Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials. If using gene-normalizer with PostgreSQL database instance, you do not need to set these environment variables.
 
+##### DynamoDB Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+$ python3
+Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from gene.query import QueryHandler
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> from gene.database import create_db
+>>> q = QueryHandler(create_db())
+***Using Gene Database Endpoint: http://localhost:8000***
+>>> result = q.normalize("BRAF")
+>>> result.gene_descriptor.gene_id
+'hgnc:1097'
+```
+
 #### Cool-Seq-Tool installation
 
 You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
 
 Once set up, you must update the `UTA_DB_URL` environment variable in the `.env` file with your credentials. If following the [Local Installation README](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#local-installation), your `UTA_DB_URL` would be set to `postgresql://uta_admin@localhost:5432/uta/uta_20210129`.
 
+Note: Cool-Seq-Tool creates a new `genomic` table. To create, you can run the commands in the following [UTA Verification](#uta-verification) section.
+
+##### UTA Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+python3 -m asyncio
+asyncio REPL 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Use "await" directly instead of "asyncio.run()".
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import asyncio
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from cool_seq_tool.data_sources import UTADatabase
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> uta_db = await UTADatabase.create()
+>>> await uta_db.get_ac_from_gene("BRAF")
+['NC_000007.14', 'NC_000007.13']
+```
+
 #### SeqRepo
 
 Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used [2021-01-29](https://dl.biocommons.org/seqrepo/2021-01-29/) SeqRepo data.
+
+You must set `SEQREPO_ROOT_DIR` to the path, default is `/usr/local/share/seqrepo/latest`.
+
+#### SeqRepo Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+$ python3
+Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from os import environ
+>>> from cool_seq_tool.data_sources import SeqRepoAccess
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> from biocommons.seqrepo import SeqRepo
+>>> sr = SeqRepo(root_dir=environ["SEQREPO_ROOT_DIR"])
+>>> seqrepo_access = SeqRepoAccess(sr)
+>>> seqrepo_access.get_reference_sequence("NP_004324.2", 600, 600)
+('V', None)
+```
 
 ## Notebooks
 
