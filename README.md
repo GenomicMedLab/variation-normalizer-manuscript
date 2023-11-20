@@ -209,6 +209,8 @@ This section provides information about the notebooks and the order that they sh
    * [analysis/moa/feature_analysis/moa_feature_analysis.ipynb](./analysis/moa/feature_analysis/moa_feature_analysis.ipynb)
      * Runs MOA feature data through the Variation Normalizer
 3. Run the following notebooks (order does not matter):
+    * [analysis/civic/variation_analysis/transcript_variation_analysis.ipynb](./analysis/civic/variation_analysis/transcript_variation_analysis.ipynb)
+      * Analysis on CIViC variants in the Transcript category
     * [analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb](./analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb)
       * Analysis on CIViC evidence items
     * [analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb](./analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb)
