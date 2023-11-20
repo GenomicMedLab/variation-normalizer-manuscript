@@ -147,6 +147,11 @@ This section provides information about the notebooks and the order that they sh
     * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
       * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
 
+## Results
+
+![Example Results- Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
+Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOA, and ClinVar knowledgebases.
+
 ## Help
 
 If you have any questions or problems, please [make an issue](https://github.com/GenomicMedLab/variation-normalizer-manuscript/issues/new) in the repo and our team will be happy to assist.
