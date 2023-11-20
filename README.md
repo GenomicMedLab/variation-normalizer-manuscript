@@ -150,6 +150,7 @@ This section provides information about the notebooks and the order that they sh
 ## Results
 
 ![Example Results- Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
+
 Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOA, and ClinVar knowledgebases.
 
 ## Help
