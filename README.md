@@ -218,6 +218,15 @@ This section provides information about the notebooks and the order that they sh
     * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
       * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
 
+## Analysis with MacOS Environments
+
+These notebooks were run using these MacOS specs:
+
+| Model Year | CPU Architecture | Total RAM | Hard drive capacity |
+| --- | --- | --- | --- |
+| 2019 | 2.6 GHz 6-Core Intel Core i7 | 32 GB | 1 TB |
+| 2021 | M1 Pro | 32 GB | 1 TB |
+
 ## Help
 
 If you have any questions or problems, please [make an issue](https://github.com/GenomicMedLab/variation-normalizer-manuscript/issues/new) in the repo and our team will be happy to assist.
