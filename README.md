@@ -58,29 +58,22 @@ AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
 TRANSCRIPT_MAPPINGS_PATH=variation-normalizer-manuscript/analysis/data/transcript_mapping.tsv  # Should be absolute path. For cool-seq-tool
 MANE_SUMMARY_PATH=variation-normalizer-manuscript/analysis/data/MANE.GRCh38.v1.3.summary.txt  # Should be absolute path. For cool-seq-tool
 LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene_20231114  # Should be absolute path. For cool-seq-tool
-
+SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/latest  # replace if using different path
 ```
 
 In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `transcript_mapping.tsv`, `MANE.GRCh38.v1.3.summary.txt`, and `LRG_RefSeqGene_20231114` will be downloaded to `./analysis/data` directory. You must update the environment variables to use the full path.
 
-#### Gene Normalizer Installation
+#### Gene Normalizer DynamoDB Installation
 
-You must set up [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39).
+You must set up the [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39). The DynamoDB instance was used in this analysis. The PostgreSQL instance is not supported for running notebooks.
 
-The source files used during ETL methods have been uploaded to the public s3 bucket. If you would like to re-run the ETL methods using the files in this analysis, download and extract the following:
+##### AWS Environment Variables for DynamoDB
 
-* Ensembl
-  * [ensembl_110.gff3.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ensembl_110.gff3.zip)
-* NCBI
-  * [ncbi_GRCh38.p14.gff.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_GRCh38.p14.gff.zip)
-  * [ncbi_history_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_history_20231114.tsv.zip)
-  * [ncbi_info_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_info_20231114.tsv.zip)
-* HGNC
-  * [hgnc_20231114.json.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/hgnc_20231114.json.zip)
+If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials.
 
 ##### Using Gene Normalizer DynamoDB in s3
 
-If you do not want to re-run the ETL methods and want to immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database.
+To immediately connect to the DynamoDB instance used in this analysis, [download the instance](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/shared-local-instance.db.zip) and extract. You will then [download the local archive](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) (Download DynamoDB local v1.x was used), extract the contents, and move the `shared-local-instance.db` inside the `dynamodb_local_latest` directory (the relative path should be `dynamodb_local_latest/shared-local-instance.db`). Follow the [documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) on how to start the database (you can skip steps 4 and 5).
 
 When starting the DynamoDB database using the default configs, you should see the following:
 
@@ -96,9 +89,44 @@ CorsParams:     *
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ```
 
-Keep the database connected when running the notebooks.
+If your output looks a little different, you can verify the installation [here](#dynamodb-verification).
 
-Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` as is. Local DynamoDB instances will allow dummy credentials. If using gene-normalizer with PostgreSQL database instance, you do not need to set these environment variables.
+**Keep the database connected when running the notebooks.**
+
+##### Gene Normalizer ETL files
+
+The source files used during ETL methods have been uploaded to the public s3 bucket:
+
+* Ensembl
+  * [ensembl_110.gff3.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ensembl_110.gff3.zip)
+* NCBI
+  * [ncbi_GRCh38.p14.gff.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_GRCh38.p14.gff.zip)
+  * [ncbi_history_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_history_20231114.tsv.zip)
+  * [ncbi_info_20231114.tsv.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/ncbi_info_20231114.tsv.zip)
+* HGNC
+  * [hgnc_20231114.json.zip](https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/gene-normalizer/hgnc_20231114.json.zip)
+
+##### DynamoDB Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+$ python3
+Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from gene.query import QueryHandler
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> from gene.database import create_db
+>>> q = QueryHandler(create_db())
+***Using Gene Database Endpoint: http://localhost:8000***
+>>> result = q.normalize("BRAF")
+>>> result.gene_descriptor.gene_id
+'hgnc:1097'
+```
 
 #### Cool-Seq-Tool installation
 
@@ -106,9 +134,56 @@ You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/t
 
 Once set up, you must update the `UTA_DB_URL` environment variable in the `.env` file with your credentials. If following the [Local Installation README](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#local-installation), your `UTA_DB_URL` would be set to `postgresql://uta_admin@localhost:5432/uta/uta_20210129`.
 
+Note: Cool-Seq-Tool creates a new `genomic` table. To create, you can run the commands in the following [UTA Verification](#uta-verification) section.
+
+##### UTA Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+python3 -m asyncio
+asyncio REPL 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Use "await" directly instead of "asyncio.run()".
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import asyncio
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from cool_seq_tool.data_sources import UTADatabase
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> uta_db = await UTADatabase.create()
+>>> await uta_db.get_ac_from_gene("BRAF")
+['NC_000007.14', 'NC_000007.13']
+```
+
 #### SeqRepo
 
 Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used [2021-01-29](https://dl.biocommons.org/seqrepo/2021-01-29/) SeqRepo data.
+
+You must set `SEQREPO_ROOT_DIR` to the path, default is `/usr/local/share/seqrepo/latest`.
+
+#### SeqRepo Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+$ python3
+Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from os import environ
+>>> from cool_seq_tool.data_sources import SeqRepoAccess
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> from biocommons.seqrepo import SeqRepo
+>>> sr = SeqRepo(root_dir=environ["SEQREPO_ROOT_DIR"])
+>>> seqrepo_access = SeqRepoAccess(sr)
+>>> seqrepo_access.get_reference_sequence("NP_004324.2", 600, 600)
+('V', None)
+```
 
 ## Notebooks
 
@@ -148,6 +223,15 @@ This section provides information about the notebooks and the order that they sh
 5. Run the following notebook:
     * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
       * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
+
+## Analysis with MacOS Environments
+
+These notebooks were run using these MacOS specs:
+
+| Model Year | CPU Architecture | Total RAM | Hard drive capacity |
+| --- | --- | --- | --- |
+| 2019 | 2.6 GHz 6-Core Intel Core i7 | 32 GB | 1 TB |
+| 2021 | M1 Pro | 32 GB | 1 TB |
 
 ## Help
 
