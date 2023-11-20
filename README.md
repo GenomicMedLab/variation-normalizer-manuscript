@@ -102,7 +102,9 @@ Note: If you do not have an AWS account, you can keep `AWS_ACCESS_KEY_ID`, `AWS_
 
 #### Cool-Seq-Tool installation
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). Be sure to update the `UTA_DB_URL` environment variable.
+You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+
+Once set up, you must update the `UTA_DB_URL` environment variable in the `.env` file with your credentials. If following the [Local Installation README](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#local-installation), your `UTA_DB_URL` would be set to `postgresql://uta_admin@localhost:5432/uta/uta_20210129`.
 
 #### SeqRepo
 
