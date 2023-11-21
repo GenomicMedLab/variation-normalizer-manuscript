@@ -113,9 +113,9 @@ Or set `SEQREPO_ROOT_DIR` in the `.env` file to the versioned SeqRepo path, i.e.
 
 Verify that this works in [SeqRepo Verification](#seqrepo-verification).
 
-#### Gene Normalizer DynamoDB Installation
+#### Gene Normalizer DynamoDB
 
-You must set up the [VICC Gene Normalizer's](https://github.com/cancervariants/gene-normalization/tree/v0.1.39) database. The DynamoDB instance was used in this analysis. The PostgreSQL instance is not supported for running notebooks. We provide a quick way to get the DynamoDB instance running in [Using Gene Normalizer DynamoDB in s3](#using-gene-normalizer-dynamodb-in-s3).
+[VICC Gene Normalizer's](https://github.com/cancervariants/gene-normalization/tree/v0.1.39) is used to normalize genes and get gene concept data. You must set up the Gene Normalizer's database. The DynamoDB instance was used in this analysis. The PostgreSQL instance is not supported for running notebooks. We provide a quick way to get the DynamoDB instance running in [Using Gene Normalizer DynamoDB in s3](#using-gene-normalizer-dynamodb-in-s3).
 
 ##### AWS Environment Variables for DynamoDB
 
@@ -178,9 +178,13 @@ True
 'hgnc:1097'
 ```
 
-#### Cool-Seq-Tool UTA Database Installation
+#### Biocommons UTA Database
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+[Biocommons UTA](https://github.com/biocommons/uta) is used to get transcript alignment data. You must set up the UTA database for [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1). This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version.
+
+More information for a local UTA database installation can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+
+You can also install with Docker (faster set up) as described [here](https://github.com/biocommons/uta#installing-with-docker-preferred). The [uta_20210129b](https://hub.docker.com/layers/biocommons/uta/uta_20210129b/images/sha256-eee31414e43d794e88883e0c0c98e01ed525c7cbb98d072baced45f936d33255?context=explore) image should be used.
 
 Once set up, you must update the `UTA_DB_URL` environment variable in the `.env` file with your credentials. If following the [Local Installation README](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#local-installation), your `UTA_DB_URL` would be set to `postgresql://uta_admin@localhost:5432/uta/uta_20210129`.
 
