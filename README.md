@@ -226,9 +226,17 @@ This section provides information about the notebooks and the order that they sh
     * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
       * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
 
-## Analysis with MacOS Environments
+### Running Notebooks in Visual Studio Code (VS Code)
 
-These notebooks were run using these MacOS specs:
+[VS Code](https://code.visualstudio.com/) is a lightweight source code editor for Windows, Linux, and macOS.
+
+1. Download VS Code [here](https://code.visualstudio.com/Download)
+2. Open a notebook and click `Select Kernel` at the top right. Select the option where the path is `venv/3.11/bin/python`. See [here](https://code.visualstudio.com/docs/datascience/jupyter-kernel-management) for more information on managing Jupyter Kernels in VS Code.
+3. Run the notebooks
+
+## Analysis with macOS Environments
+
+These notebooks were run using these macOS specs:
 
 | Model Year | CPU Architecture | Total RAM | Hard drive capacity |
 | --- | --- | --- | --- |
