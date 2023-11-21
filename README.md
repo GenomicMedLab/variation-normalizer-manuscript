@@ -213,7 +213,7 @@ This section provides information about the notebooks and the order that they sh
 
 1. Run the following notebook:
     * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
-      * Downloads files from public s3 bucket that needed for notebooks.
+      * Downloads files from public s3 bucket that are needed for the notebooks.
         * cool-seq-tool: `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
         * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
           * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
