@@ -4,6 +4,11 @@ This repo contains analysis notebooks used in the _The Clinical Genomic Variatio
 
 Small output files can be found in this repo. Larger files can be found in our public s3 bucket: `s3://nch-igm-wagner-lab-public/variation-normalizer-manuscript/`. There are notebooks that provide functions for programmatically downloading files from the s3 bucket.
 
+### Results
+![Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
+
+Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOA, and ClinVar knowledgebases.
+
 ## Set Up
 
 Before running the notebooks, you must set up your environment.
@@ -226,10 +231,6 @@ This section provides information about the notebooks and the order that they sh
     * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
       * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
 
-## Results
-![Example Results- Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
-Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOA, and ClinVar knowledgebases.
- 
 ### Running Notebooks in Visual Studio Code (VS Code)
 
 [VS Code](https://code.visualstudio.com/) is a lightweight source code editor for Windows, Linux, and macOS.
