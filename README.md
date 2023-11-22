@@ -13,6 +13,10 @@ Variant normalization allows patient data from AACR Project GENIE to be matched 
 
 Before running the notebooks, you must set up your environment.
 
+### Install Python 3.11
+
+Python 3.11 was used for this analysis. We recommend using [Pyenv](https://github.com/pyenv/pyenv) to install.
+
 ### Creating the virtual environment
 
 First, create your virtual environment. The [requirements.txt](./requirements.txt) is a lockfile containing exact versions used. The [requirements-dev.txt](./requirements-dev.txt) contains the main third party packages.
@@ -24,7 +28,7 @@ make devready
 source .venv/bin/activate
 ```
 
-### Environment Variables and Installing Dependencies
+### Environment Variables
 
 We use [python-dotenv](https://pypi.org/project/python-dotenv/) to load environment variables needed for analysis notebooks that run the [Variation Normalizer](https://github.com/cancervariants/variation-normalization/tree/0.6.0-dev0).
 
@@ -57,20 +61,66 @@ The environment variables that will need to be set inside the `.env` file:
 ```env
 GENE_NORM_DB_URL=http://localhost:8000
 UTA_DB_URL=driver://user:password@host:port/database/schema  # replace with actual values
-AWS_ACCESS_KEY_ID=dummy  # only required if using gene-normalizer dynamodb
-AWS_SECRET_ACCESS_KEY=dummy  # only required if using gene-normalizer dynamodb
-AWS_SESSION_TOKEN=dummy  # only required if using gene-normalizer dynamodb
+AWS_ACCESS_KEY_ID=dummy
+AWS_SECRET_ACCESS_KEY=dummy
+AWS_SESSION_TOKEN=dummy
 TRANSCRIPT_MAPPINGS_PATH=variation-normalizer-manuscript/analysis/data/transcript_mapping.tsv  # Should be absolute path. For cool-seq-tool
 MANE_SUMMARY_PATH=variation-normalizer-manuscript/analysis/data/MANE.GRCh38.v1.3.summary.txt  # Should be absolute path. For cool-seq-tool
 LRG_REFSEQGENE_PATH=variation-normalizer-manuscript/analysis/data/LRG_RefSeqGene_20231114  # Should be absolute path. For cool-seq-tool
 SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/latest  # replace if using different path
 ```
 
-In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `transcript_mapping.tsv`, `MANE.GRCh38.v1.3.summary.txt`, and `LRG_RefSeqGene_20231114` will be downloaded to `./analysis/data` directory. You must update the environment variables to use the full path.
+In [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb), `transcript_mapping.tsv`, `MANE.GRCh38.v1.3.summary.txt`, and `LRG_RefSeqGene_20231114` will be downloaded to `./analysis/data` directory. You must update the associated environment variables (`TRANSCRIPT_MAPPINGS_PATH`, `MANE_SUMMARY_PATH`, `LRG_REFSEQGENE_PATH`) to use the absolute path.
 
-#### Gene Normalizer DynamoDB Installation
+### Set Up Backend Services
 
-You must set up the [VICC Gene Normalizer](https://github.com/cancervariants/gene-normalization/tree/v0.1.39). The DynamoDB instance was used in this analysis. The PostgreSQL instance is not supported for running notebooks.
+This analysis relies on several backend services, which you must set up yourself.
+
+#### Biocommons SeqRepo
+
+[Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) is used for fast access to sequence data. This analysis used [2021-01-29](https://dl.biocommons.org/seqrepo/2021-01-29/) SeqRepo data.
+
+Follow the [Quick Start Documentation](https://github.com/biocommons/biocommons.seqrepo/tree/0.6.5) for setting up SeqRepo. The VICC Gene Normalizer also provides some additional setup help [here](https://gene-normalizer.readthedocs.io/en/v0.1.39/full_install.html#seqrepo).
+
+Update the `SEQREPO_ROOT_DIR` in the `.env` file with the path to SeqRepo. The default path is `/usr/local/share/seqrepo/latest`.
+
+##### SeqRepo Verification
+
+To verify, run the following inside your virtual environment:
+
+```shell
+$ python3
+Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dotenv import load_dotenv
+>>> load_dotenv()
+True
+>>> from os import environ
+>>> from cool_seq_tool.data_sources import SeqRepoAccess
+.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
+  warnings.warn(
+>>> from biocommons.seqrepo import SeqRepo
+>>> sr = SeqRepo(root_dir=environ["SEQREPO_ROOT_DIR"])
+>>> seqrepo_access = SeqRepoAccess(sr)
+>>> seqrepo_access.get_reference_sequence("NP_004324.2", 600, 600)
+('V', None)
+```
+
+##### SeqRepo Issues
+
+If you have trouble using the default path, try creating a symlink, by running the following:
+
+```shell
+seqrepo update-latest
+```
+
+Or set `SEQREPO_ROOT_DIR` in the `.env` file to the versioned SeqRepo path, i.e. `SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/latest/2021-01-29`.
+
+Verify that this works in [SeqRepo Verification](#seqrepo-verification).
+
+#### Gene Normalizer DynamoDB
+
+[VICC Gene Normalizer's](https://github.com/cancervariants/gene-normalization/tree/v0.1.39) is used to normalize genes and get gene concept data. You must set up the Gene Normalizer's database. The DynamoDB instance was used in this analysis. The PostgreSQL instance is not supported for running notebooks. We provide a quick way to get the DynamoDB instance running in [Using Gene Normalizer DynamoDB in s3](#using-gene-normalizer-dynamodb-in-s3).
 
 ##### AWS Environment Variables for DynamoDB
 
@@ -133,13 +183,17 @@ True
 'hgnc:1097'
 ```
 
-#### Cool-Seq-Tool installation
+#### Biocommons UTA Database
 
-You must set up [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1) UTA database. This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version. More information can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation).
+[Biocommons UTA](https://github.com/biocommons/uta) is used to get transcript alignment data. You must set up the UTA database for [Cool-Seq-Tool](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1). This analysis used the [uta_20210129](https://dl.biocommons.org/uta/uta_20210129.pgd.gz) version.
+
+More information for a local UTA database installation can be found [here](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#uta-database-installation). A local installation was used when running this analysis.
+
+You can also install with Docker (faster set up) as described [here](https://github.com/biocommons/uta#installing-with-docker-preferred). The [uta_20210129b](https://hub.docker.com/layers/biocommons/uta/uta_20210129b/images/sha256-eee31414e43d794e88883e0c0c98e01ed525c7cbb98d072baced45f936d33255?context=explore) image should be used. This option was not used when running this analysis.
 
 Once set up, you must update the `UTA_DB_URL` environment variable in the `.env` file with your credentials. If following the [Local Installation README](https://github.com/GenomicMedLab/cool-seq-tool/tree/v0.1.14-dev1#local-installation), your `UTA_DB_URL` would be set to `postgresql://uta_admin@localhost:5432/uta/uta_20210129`.
 
-Note: Cool-Seq-Tool creates a new `genomic` table. To create, you can run the commands in the following [UTA Verification](#uta-verification) section.
+**_Note: Cool-Seq-Tool creates a new `genomic` table. To create, follow all of the steps in [UTA Verification](#uta-verification) section._**
 
 ##### UTA Verification
 
@@ -162,41 +216,13 @@ True
 ['NC_000007.14', 'NC_000007.13']
 ```
 
-#### SeqRepo
-
-Gene Normalizer and Cool-Seq-Tool provide steps for downloading [Biocommons SeqRepo](https://github.com/biocommons/biocommons.seqrepo) data. This analysis used [2021-01-29](https://dl.biocommons.org/seqrepo/2021-01-29/) SeqRepo data.
-
-You must set `SEQREPO_ROOT_DIR` to the path, default is `/usr/local/share/seqrepo/latest`.
-
-#### SeqRepo Verification
-
-To verify, run the following inside your virtual environment:
-
-```shell
-$ python3
-Python 3.11.5 (main, Aug 24 2023, 15:18:16) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> from dotenv import load_dotenv
->>> load_dotenv()
-True
->>> from os import environ
->>> from cool_seq_tool.data_sources import SeqRepoAccess
-.venv/lib/python3.11/site-packages/python_jsonschema_objects/__init__.py:46: UserWarning: Schema version http://json-schema.org/draft-07/schema not recognized. Some keywords and features may not be supported.
-  warnings.warn(
->>> from biocommons.seqrepo import SeqRepo
->>> sr = SeqRepo(root_dir=environ["SEQREPO_ROOT_DIR"])
->>> seqrepo_access = SeqRepoAccess(sr)
->>> seqrepo_access.get_reference_sequence("NP_004324.2", 600, 600)
-('V', None)
-```
-
-## Notebooks
+## Running Notebooks
 
 This section provides information about the notebooks and the order that they should be run in.
 
 1. Run the following notebook:
     * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
-      * Downloads files needed for notebooks.
+      * Downloads files from public s3 bucket that are needed for the notebooks.
         * cool-seq-tool: `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
         * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
           * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
