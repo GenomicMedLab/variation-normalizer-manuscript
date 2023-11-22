@@ -4,6 +4,12 @@ This repo contains analysis notebooks used in the _The Clinical Genomic Variatio
 
 Small output files can be found in this repo. Larger files can be found in our public s3 bucket: `s3://nch-igm-wagner-lab-public/variation-normalizer-manuscript/`. There are notebooks that provide functions for programmatically downloading files from the s3 bucket.
 
+After running these notebooks, users will be able to create figures such as this that demonstrate the results of this analysis.
+
+Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOA, and ClinVar knowledgebases.
+
+![Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
+
 ## Set Up
 
 Before running the notebooks, you must set up your environment.
