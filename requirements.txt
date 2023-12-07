@@ -8,3 +8,5 @@ pre-commit==3.5.0
 scipy==1.11.3
 kaleido==0.2.1
 nbformat==5.9.2
+ga4gh.vrs==0.8.4
+ga4gh.vrsatile.pydantic==0.0.13
