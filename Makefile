@@ -2,7 +2,7 @@
 
 venv:
 	rm -rf .venv
-	python3.11 -m venv .venv
+	python3.13 -m venv .venv
 
 devready: venv
 	.venv/bin/pip install -r requirements.txt

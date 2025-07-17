@@ -1,0 +1,3 @@
+services:
+  api:
+    image: cancervariants/variation-normalizer-api:0.14.2
