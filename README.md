@@ -34,6 +34,8 @@ source .venv/bin/activate
 git submodule update --init --recursive
 ```
 
+### Environment Variables
+
 We use [python-dotenv](https://pypi.org/project/python-dotenv/) to load environment variables needed for analysis notebooks that run the [Variation Normalizer](https://github.com/cancervariants/variation-normalization/tree/0.6.0-dev0).
 
 If you are running any of the following notebooks, this section is required:

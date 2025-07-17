@@ -1,3 +1,8 @@
 services:
   api:
     image: cancervariants/variation-normalizer-api:0.14.2
+
+  gene-dynamodb-local:
+    image: cancervariants/gene-normalizer-ddb:2025-05-08
+    ports:
+     - "8000:8000"
