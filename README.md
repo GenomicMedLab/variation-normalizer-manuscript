@@ -29,8 +29,10 @@ First, create your virtual environment. The [requirements.txt](./requirements.tx
 From the root directory, run the following to create the venv and install exact packages:
 
 ```shell
-make devready
+uv python pin 3.13
+uv venv
 source .venv/bin/activate
+uv pip sync requirements.txt
 git submodule update --init --recursive
 ```
 
