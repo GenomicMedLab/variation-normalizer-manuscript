@@ -31,6 +31,7 @@ From the root directory, run the following to create the venv and install exact 
 ```shell
 make devready
 source .venv/bin/activate
+git submodule update --init --recursive
 ```
 
 We use [python-dotenv](https://pypi.org/project/python-dotenv/) to load environment variables needed for analysis notebooks that run the [Variation Normalizer](https://github.com/cancervariants/variation-normalization/tree/0.6.0-dev0).
@@ -102,9 +103,12 @@ Verify that this works in [SeqRepo Verification](#seqrepo-verification).
 
 #### 2. Variation Normalizer: Docker Container
 
+To build, (re)create, and start containers
+
 ```shell
 docker volume create --name=uta_vol
 docker compose \
+  -p variation-normalizer-manuscript \
   -f submodules/compose.yaml \
   -f compose.yaml \
   up
@@ -122,7 +126,7 @@ you will get the following error:
 
 > [!TIP]
 > If you want a clean slate, run `docker compose down -v` to remove containers and
-> volumes, then `docker compose -f submodules/compose.yaml -f compose.yaml up` to rebuild and start fresh containers.
+> volumes, then `docker compose -p variation-normalizer-manuscript -f submodules/compose.yaml -f compose.yaml up` to rebuild and start fresh containers.
 
 ## Running Notebooks
 
@@ -131,7 +135,6 @@ This section provides information about the notebooks and the order that they sh
 1. Run the following notebook:
     * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
       * Downloads files from public s3 bucket that are needed for the notebooks.
-        * cool-seq-tool: `LRG_RefSeqGene_20231114`, `MANE.GRCh38.v1.3.summary.txt`, `transcript_mapping.tsv`
         * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
           * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
             * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
@@ -147,6 +150,11 @@ This section provides information about the notebooks and the order that they sh
      * Runs GENIE variant data through the Variation Normalizer
    * [analysis/moa/feature_analysis/moa_feature_analysis.ipynb](./analysis/moa/feature_analysis/moa_feature_analysis.ipynb)
      * Runs MOA feature data through the Variation Normalizer
+
+  > [!IMPORTANT]
+  > You must have the [Docker containers](#2-variation-normalizer-docker-container)
+  > running for these notebooks.
+
 3. Run the following notebooks (order does not matter):
     * [analysis/civic/variation_analysis/transcript_variation_analysis.ipynb](./analysis/civic/variation_analysis/transcript_variation_analysis.ipynb)
       * Analysis on CIViC variants in the Transcript category
