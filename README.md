@@ -94,6 +94,9 @@ The environment variables that will need to be set inside the `.env` file:
 
 ```env
 SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/2024-12-20
+AWS_ACCESS_KEY_ID=dummy
+AWS_SECRET_ACCESS_KEY=dummy
+AWS_SESSION_TOKEN=dummy
 ```
 
 ### Set Up Backend Services
