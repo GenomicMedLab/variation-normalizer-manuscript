@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
     "cool-seq-tool==0.14.2",
-    "variation-normalizer==0.14.2",
+    "variation-normalizer==0.15.0",
     "civicpy==5.0.0",
     "python-dotenv",
     "ipykernel",

@@ -2310,7 +2310,7 @@ wheels = [
 
 [[package]]
 name = "variation-normalizer"
-version = "0.14.2"
+version = "0.15.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "biocommons-seqrepo" },
@@ -2323,9 +2323,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/28/8b/51066ab33656a227af6c9f893673ca1c5c069b7663d38e991185c390d014/variation_normalizer-0.14.2.tar.gz", hash = "sha256:e7475218c690b7760e43f55eccb95576b896fc54f1e283485a39311eb85303d0", size = 126262, upload-time = "2025-07-17T12:46:43.412Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ab/94/9446602ed85c20ef12e90ed8af8cd2ddaac8ef747afa9aaa87f7fc4688bb/variation_normalizer-0.15.0.tar.gz", hash = "sha256:53f63cb87c337b316788e2500fe675026ca0fd1f88efea7d4ba545f68ad787b5", size = 127070, upload-time = "2025-07-18T19:14:51.493Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bf/65/60feaa2b7f3ac2cbefde797a9ad4b39df334cfbdc2eeaddfc06f27918519/variation_normalizer-0.14.2-py3-none-any.whl", hash = "sha256:1b5262858d3d9c6aea22b4de9e46b7c65a007327f5ed2810321ad4e036d212b9", size = 155462, upload-time = "2025-07-17T12:46:41.553Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/89/1a8085f09bd6b14ca53766f3926ac94cd5f9e4e1c6b8b7c6739c4065478a/variation_normalizer-0.15.0-py3-none-any.whl", hash = "sha256:11e67d070d41161a1aa6ec1d8a6cbe0ba88de2f4f588fdebe002420bf810031c", size = 154326, upload-time = "2025-07-18T19:14:50.084Z" },
 ]
 
 [[package]]
@@ -2376,7 +2376,7 @@ requires-dist = [
     { name = "requests" },
     { name = "ruff", marker = "extra == 'dev'", specifier = "==0.12.1" },
     { name = "scipy" },
-    { name = "variation-normalizer", specifier = "==0.14.2" },
+    { name = "variation-normalizer", specifier = "==0.15.0" },
 ]
 provides-extras = ["dev"]
 
