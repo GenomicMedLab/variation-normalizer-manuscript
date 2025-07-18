@@ -14,17 +14,34 @@ Variant normalization allows patient data from AACR Project GENIE to be matched 
 
 Before running the notebooks, you must set up your environment.
 
-### Install Docker
+### Prerequisites
 
-You must install [Docker](https://docs.docker.com/get-started/get-docker/).
+* [Docker](https://docs.docker.com/get-started/get-docker/)
+* Python 3.13
+  * We recommend using [uv](https://github.com/astral-sh/uv) to install.
+* libpq
+* postgresql
 
-### Install Python 3.13
+#### MacOS
 
-Python 3.13 was used for this analysis. We recommend using [uv](https://github.com/astral-sh/uv) to install.
+You can use Homebrew to install the prerequisites. See the
+[Homebrew documentation](https://docs.brew.sh/Installation) for how to install.
+Make sure Homebrew is up-to-date by running `brew update`.
+
+```shell
+brew install libpq
+brew install postgresql@14
+```
+
+#### Ubuntu
+
+```shell
+sudo apt install gcc libpq-dev python3-dev
+```
 
 ### Creating the virtual environment
 
-First, create your virtual environment. The [requirements.txt](./requirements.txt) is a lockfile containing exact versions used. The [requirements-dev.txt](./requirements-dev.txt) contains the main third party packages.
+#### uv
 
 From the root directory, run the following to create the venv and install exact packages:
 
@@ -32,7 +49,16 @@ From the root directory, run the following to create the venv and install exact 
 uv python pin 3.13
 uv venv
 source .venv/bin/activate
-uv pip sync requirements.txt
+uv sync --all-extras
+git submodule update --init --recursive
+```
+
+#### pip
+
+```shell
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
 git submodule update --init --recursive
 ```
 
