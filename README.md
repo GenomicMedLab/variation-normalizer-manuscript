@@ -272,8 +272,9 @@ These notebooks were run using these macOS specs:
 
 | Model Year | CPU Architecture | Total RAM | Hard drive capacity |
 | --- | --- | --- | --- |
-| 2019 | 2.6 GHz 6-Core Intel Core i7 | 32 GB | 1 TB |
-| 2021 | M1 Pro | 32 GB | 1 TB |
+| 2023 | M2 Pro | 32 GB | 1 TB |
+| 2023 | M3 Pro | 36 GB | 1 TB |
+| 2024 | M4 Pro | 48 GB | 1 TB |
 
 ## Help
 
