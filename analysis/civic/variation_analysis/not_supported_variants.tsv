@@ -4,10 +4,10 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4216	VHL		Not provided	Transcript Variants	False
 4278	VHL		Not provided	Transcript Variants	False
 4232	BRCA1		Not provided	Transcript Variants	False
-5005	HLA-A	*02:01P	Not provided	Other Variants	False
-5006	HLA-A	*02:02P	Not provided	Other Variants	False
-5007	HLA-A	*02:03P	Not provided	Other Variants	False
-5008	HLA-A	*02:06P	Not provided	Other Variants	False
+5005	HLA-A	*02:01P	Not provided	Genotypes/Haplotypes	False
+5006	HLA-A	*02:02P	Not provided	Genotypes/Haplotypes	False
+5007	HLA-A	*02:03P	Not provided	Genotypes/Haplotypes	False
+5008	HLA-A	*02:06P	Not provided	Genotypes/Haplotypes	False
 3196	VHL		Stop Lost	Transcript Variants	False
 5087	TOP1	-122fs	Not provided	Sequence Variants	False
 2930	VHL		Not provided	Transcript Variants	True
@@ -50,7 +50,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 839	ALK	Alternative Transcript (ATI)	Not provided	Other Variants	True
 3510	BCL2L11	Alternative splicing	Not provided	Other Variants	False
 709	BRCA1	Alu insertion	Not provided	Rearrangement Variants	True
-5157		Amplification	Not provided	Other Variants	True
+5157		Amplification	Not provided	Genome Features	True
 461	PML	B2 DOMAIN MUTATION	Missense Variant	Region-Defined Variants	True
 594	CEBPA	BIALLELIC INACTIVATION	Loss Of Function Variant	Other Variants	True
 532	PALB2	Biallelic Inactivation	Loss Of Function Variant	Other Variants	True
@@ -71,7 +71,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3474	CEACAM1	CEACAM1-L	Not provided	Other Variants	False
 3475	CEACAM1	CEACAM1-S	Not provided	Other Variants	False
 1300	TP53	CONSERVED DOMAIN MUT	Not provided	Other Variants	True
-821	HLA-C	COPY-NEUTRAL LOSS OF HETEROZYGOSITY	Not provided	Genotype Variants	True
+821	HLA-C	COPY-NEUTRAL LOSS OF HETEROZYGOSITY	Not provided	Genotypes/Haplotypes	True
 447	FGF13	CYTOPLASMIC EXPRESSION	N/A	Expression Variants	True
 1283	CDK2	CYTOPLASMIC EXPRESSION	N/A	Expression Variants	False
 360	CDKN1B	CYTOPLASMIC MISLOCALIZATION	N/A	Other Variants	True
@@ -106,8 +106,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 647	LRP1B	DELETION	Transcript Ablation	Gene Function Variants	True
 1663	BRAF	DELNVTAP	Inframe Deletion	Other Variants	False
 242	TP53	DNA Binding Domain Mutation	Dna Binding Site	Region-Defined Variants	True
-738	DPYD	DPYD*13 HOMOZYGOSITY	Missense Variant	Genotype Variants	True
-737	DPYD	DPYD*2A HOMOZYGOSITY	Splice Donor Variant	Genotype Variants	True
+738	DPYD	DPYD*13 HOMOZYGOSITY	Missense Variant	Genotypes/Haplotypes	True
+737	DPYD	DPYD*2A HOMOZYGOSITY	Splice Donor Variant	Genotypes/Haplotypes	True
 3509	AIMP2	DX2	Not provided	Sequence Variants	False
 334	VEGFA	Decreased Peri-therapeutic Expression	N/A	Expression Variants	True
 221	TP53	Deleterious Mutation	N/A	Region-Defined Variants	True
@@ -665,9 +665,9 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2136	VHL		Not provided	Transcript Variants	True
 4093	VHL		Not provided	Transcript Variants	False
 2328	VHL		Not provided	Transcript Variants	False
-4943		High	Not provided	Other Variants	True
-4944		High	Not provided	Other Variants	False
-4946		High	Not provided	Other Variants	True
+4943		High	Not provided	Genome Features	True
+4944		High	Not provided	Genome Features	False
+4946		High	Not provided	Genome Features	True
 5040	B2M	High Expression	Not provided	Expression Variants	False
 3597	DDR2	High expression	Not provided	Expression Variants	False
 1965	VHL		Frameshift Variant	Transcript Variants	False
@@ -769,7 +769,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2305	VHL		Not provided	Transcript Variants	False
 1866	EGFR	L861	Not provided	Sequence Variants	True
 3483	LGR5	LGR5FL	Not provided	Expression Variants	False
-302	PTCH1	LOH	Loss Of Heterozygosity	Genotype Variants	True
+302	PTCH1	LOH	Loss Of Heterozygosity	Genotypes/Haplotypes	True
 564	SMAD4	LOSS	Loss Of Function Variant	Gene Function Variants	True
 809	MSH6	LOSS	Loss Of Function Variant	Gene Function Variants	True
 3902	PPP2R2A	LOSS	Not provided	Gene Function Variants	False
@@ -840,7 +840,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 5068	ATR	Loss-of-function	Not provided	Gene Function Variants	False
 5081	LRP1B	Loss-of-function	Not provided	Gene Function Variants	True
 5118	BAP1	Loss-of-function	Not provided	Gene Function Variants	True
-4985		Low	Not provided	Other Variants	False
+4985		Low	Not provided	Genome Features	False
 1247	BRCA2	M1R	Missense Variant	Other Variants	True
 3720	VHL		Not provided	Transcript Variants	False
 2497	VHL		Not provided	Transcript Variants	False
@@ -1278,11 +1278,11 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 477	BRCA1	P968FS	Frameshift Truncation	Sequence Variants	True
 2515	VHL		Not provided	Transcript Variants	False
 3199	VHL		Not provided	Transcript Variants	False
-5089		PA-NF1	Not provided	Other Variants	False
+5089		PA-NF1	Not provided	Genome Features	False
 387	EIF4EBP1	PHOSPHORYLATION	N/A	Epigenetic Modification	True
 395	RPS6	PHOSPHORYLATION	N/A	Epigenetic Modification	True
 632	RB1	PHOSPHORYLATION	N/A	Epigenetic Modification	True
-3235	PRKAR1A	PRKAR1A LOH, allelic imbalance 17q	Not provided	Genotype Variants	False
+3235	PRKAR1A	PRKAR1A LOH, allelic imbalance 17q	Not provided	Genotypes/Haplotypes	False
 22	CCND2	PROMOTER DEMETHYLATION	N/A	Epigenetic Modification	True
 711	KLLN	PROMOTER METHYLATION	Gene Silenced By Dna Methylation	Epigenetic Modification	True
 2916	PRPS1	PRPS1 MUTATION	Not provided	Region-Defined Variants	True
@@ -1304,8 +1304,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2194	VHL	Partial deletion of 8.2 Kb	Not provided	Rearrangement Variants	False
 3466	NTRK1	Point Mutations	Not provided	Other Variants	False
 3467	NTRK3	Point Mutations	Not provided	Other Variants	False
-4945		Positive	Not provided	Other Variants	True
-4947		Positive	Not provided	Other Variants	False
+4945		Positive	Not provided	Genome Features	True
+4947		Positive	Not provided	Genome Features	False
 27	CDKN2A	Promoter Hypermethylation	N/A	Epigenetic Modification	True
 333	PTPRT	Promoter Hypermethylation	N/A	Epigenetic Modification	True
 374	NAPRT	Promoter Hypermethylation	N/A	Epigenetic Modification	True
@@ -1448,8 +1448,8 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 488	MMP9	SERUM LEVELS	N/A	Expression Variants	True
 411	STAT3	SH2 DOMAIN MUTATION	Protein Altering Variant	Region-Defined Variants	True
 495	MDM2	SNP309	Coding Transcript Intron Variant	Sequence Variants	True
-5049		ST-EPN-ZFTA	Not provided	Other Variants	True
-3108	VHL	Single Allele Deletion	Not provided	Genotype Variants	False
+5049		ST-EPN-ZFTA	Not provided	Genome Features	True
+3108	VHL	Single Allele Deletion	Not provided	Genotypes/Haplotypes	False
 4425	SMARCB1	Single nucleotide variant	Not provided	Sequence Variants	False
 2518	VHL		Not provided	Transcript Variants	False
 4162	VHL		Not provided	Transcript Variants	False
@@ -1512,10 +1512,10 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4500	FGFR1	Translocation	Not provided	Rearrangement Variants	True
 5066	KMT2A	Translocation	Not provided	Rearrangement Variants	False
 223	TP53	Truncating Mutation	Frameshift Truncation	Sequence Variants	True
-4998		Type 16	Not provided	Other Variants	False
-4997		Type 18	Not provided	Other Variants	False
-729	UGT1A1	UGT1A1*28	Microsatellite	Genotype Variants	True
-732	UGT1A1	UGT1A1*60	Microsatellite	Genotype Variants	True
+4998		Type 16	Not provided	Genome Features	False
+4997		Type 18	Not provided	Genome Features	False
+729	UGT1A1	UGT1A1*28	Microsatellite	Genotypes/Haplotypes	True
+732	UGT1A1	UGT1A1*60	Microsatellite	Genotypes/Haplotypes	True
 417	THBS2	UNDEREXPRESSION	N/A	Expression Variants	True
 441	LEPR	UNDEREXPRESSION	N/A	Expression Variants	True
 446	KRT18	UNDEREXPRESSION	N/A	Expression Variants	True
@@ -1594,15 +1594,15 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 87	NPM1	W288FS	Frameshift Elongation	Sequence Variants	True
 176	AR	W742	Missense Variant	Sequence Variants	True
 2299	VHL	W88fs (c.261dup)	Plus 1 Frameshift Variant;Frameshift Truncation	Copy Number Variants	True
-369	TP53	Wildtype	Wild Type	Genotype Variants	True
-426	BRAF	Wildtype	Wild Type	Genotype Variants	True
-2174	EGFR	Wildtype	Wild Type	Genotype Variants	True
-2590	PIK3CA	Wildtype	Wild Type	Genotype Variants	True
-2651	KIT	Wildtype	Wild Type	Genotype Variants	True
-3200	KRAS	Wildtype	Wild Type	Genotype Variants	True
-4465	NRAS	Wildtype	Not provided	Genotype Variants	False
-4647	RB1	Wildtype	Not provided	Genotype Variants	True
-4746	ARID1A	Wildtype	Not provided	Genotype Variants	True
+369	TP53	Wildtype	Wild Type	Genotypes/Haplotypes	True
+426	BRAF	Wildtype	Wild Type	Genotypes/Haplotypes	True
+2174	EGFR	Wildtype	Wild Type	Genotypes/Haplotypes	True
+2590	PIK3CA	Wildtype	Wild Type	Genotypes/Haplotypes	True
+2651	KIT	Wildtype	Wild Type	Genotypes/Haplotypes	True
+3200	KRAS	Wildtype	Wild Type	Genotypes/Haplotypes	True
+4465	NRAS	Wildtype	Not provided	Genotypes/Haplotypes	False
+4647	RB1	Wildtype	Not provided	Genotypes/Haplotypes	True
+4746	ARID1A	Wildtype	Not provided	Genotypes/Haplotypes	True
 390	EGFR	Y1092 PHOSPHORYLATION	N/A	Epigenetic Modification	True
 3739	VHL		Not provided	Transcript Variants	False
 245	NF2	Y177fs	Frameshift Elongation	Sequence Variants	True
@@ -1717,7 +1717,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4247	VHL		Not provided	Transcript Variants	False
 3057	GATA1	p.Ser51Alafs*86	Not provided	Sequence Variants	False
 272	CDKN2A	p16 Expression	N/A	Expression Variants	True
-3512	BRAF	p61BRAF(V600E)	Not provided	Genotype Variants	False
+3512	BRAF	p61BRAF(V600E)	Not provided	Genotypes/Haplotypes	False
 5168	MECOM	rearrangement	Not provided	Rearrangement Variants	True
 5162	EPOR	rearrangements	Not provided	Rearrangement Variants	True
 151	BCL2	reg_e@[IGH]::BCL2	Transcript Regulatory Region Fusion	Fusion Variants	True
