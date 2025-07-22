@@ -1004,6 +1004,7 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1899	EGFR	N842S	True	Missense Variant
 873	ERBB2	N857S	True	Missense Variant
 3532	PTEN	N94I	False	Not provided
+2762	NRG1	NRG1 FUSIONS	False	Not provided
 2837	MAP2K1	P124L	False	Not provided
 82	MAP2K1	P124S	True	Missense Variant
 734	MLH1	P138T	True	Not provided
@@ -1684,3 +1685,4 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 5102	NF1	p.W426*	False	Not provided
 4659	CDKN2A	p16 R80*	False	Not provided
 5067	CLDN18	positive	False	Not provided
+151	BCL2	reg_e@[IGH]::BCL2	True	Transcript Regulatory Region Fusion

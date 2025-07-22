@@ -46,11 +46,11 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4794	FGFR1	Alteration	Not provided	Region-Defined Variants	False
 4795	FGFR2	Alteration	Not provided	Region-Defined Variants	False
 4967	EGFR	Alteration	Not provided	Region-Defined Variants	False
-5163		Alterations	Not provided	Other Variants	False
+5163		Alterations	Not provided	Region-Defined Variants	False
 839	ALK	Alternative Transcript (ATI)	Not provided	Other Variants	True
 3510	BCL2L11	Alternative splicing	Not provided	Other Variants	False
 709	BRCA1	Alu insertion	Not provided	Rearrangement Variants	True
-5157		Amplification	Not provided	Genome Features	True
+5157		Amplification	Not provided	Region-Defined Variants	True
 461	PML	B2 DOMAIN MUTATION	Missense Variant	Region-Defined Variants	True
 594	CEBPA	BIALLELIC INACTIVATION	Loss Of Function Variant	Other Variants	True
 532	PALB2	Biallelic Inactivation	Loss Of Function Variant	Other Variants	True
@@ -1073,7 +1073,6 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4201	VHL		Not provided	Transcript Variants	False
 2309	VHL		Not provided	Transcript Variants	False
 1320	ERBB2	NON-AMPLIFICATION	Not provided	Copy Number Variants	False
-2762	NRG1	NRG1 FUSIONS	Not provided	Fusion Variants	False
 340	DKK1	NUCLEAR EXPRESSION	N/A	Expression Variants	True
 368	BIRC5	NUCLEAR EXPRESSION	N/A	Expression Variants	True
 391	IGF1R	NUCLEAR EXPRESSION	N/A	Expression Variants	True
@@ -1504,7 +1503,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3486	TOP2A	TOP2A/90	Not provided	Other Variants	False
 590	BIRC3	TRUNCATING MUTATION	Frameshift Variant	Sequence Variants	True
 708	BRCA2	TRUNCATING MUTATION	Feature Truncation	Sequence Variants	True
-5158		TTYH1::C19MC fusion	Not provided	Other Variants	True
+5158		TTYH1::C19MC fusion	Not provided	Region-Defined Variants	True
 4432	SNCAIP	Tandem duplication	Not provided	Copy Number Variants	False
 4428	MYC	Translocation	Not provided	Rearrangement Variants	False
 4429	BCL2	Translocation	Not provided	Rearrangement Variants	False
@@ -1720,7 +1719,6 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3512	BRAF	p61BRAF(V600E)	Not provided	Genotypes/Haplotypes	False
 5168	MECOM	rearrangement	Not provided	Rearrangement Variants	True
 5162	EPOR	rearrangements	Not provided	Rearrangement Variants	True
-151	BCL2	reg_e@[IGH]::BCL2	Transcript Regulatory Region Fusion	Fusion Variants	True
 3313	CDKN1A	rs1059234	Not provided	Other Variants	True
 4980	AXIN2	rs143348853	Not provided	Other Variants	False
 2787	PRNCR1	rs1456315	Not provided	Other Variants	False
@@ -1739,4 +1737,4 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3351	VHL	t(3;8)(p13;q24.1)	Not provided	Rearrangement Variants	False
 3478	ESR2	underexpression beta-1	Not provided	Other Variants	False
 3508	CD274	v242	Not provided	Sequence Variants	False
-5159		v::C19MC fusion	Not provided	Other Variants	True
+5159		v::C19MC fusion	Not provided	Region-Defined Variants	True

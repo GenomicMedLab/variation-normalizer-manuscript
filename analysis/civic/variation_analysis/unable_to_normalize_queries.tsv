@@ -40,6 +40,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	exception_raise
 3717	AR L744F	protein	False	Not provided	False	unable to normalize	['Unable to translate AR L744F']
 951	KIT M552_W557DEL	protein	False	Inframe Deletion	False	unable to normalize	['Unable to tokenize: M552_W557DEL']
 3719	AR N756D	protein	False	Not provided	False	unable to normalize	['Unable to translate AR N756D']
+2762	NRG1 NRG1 FUSIONS	protein	False	Not provided	False	unable to normalize	['Unable to tokenize: FUSIONS']
 3711	AR P340L	protein	False	Not provided	False	unable to normalize	['Unable to translate AR P340L']
 3712	AR P504L	protein	False	Not provided	False	unable to normalize	['Unable to translate AR P504L']
 2738	KIT P577_D579DEL	protein	False	Not provided	False	unable to normalize	['Unable to tokenize: P577_D579DEL']
@@ -88,3 +89,4 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	exception_raise
 4777	HNRNPH1 non-coding mutations	protein	False	Not provided	False	unable to normalize	['Unable to tokenize: mutations', 'Unable to tokenize: non-coding']
 4659	CDKN2A p16 R80*	protein	False	Not provided	False	unable to normalize	['Unable to find classification for: CDKN2A p16 R80*']
 5067	CLDN18 positive	protein	False	Not provided	False	unable to normalize	['Unable to tokenize: positive']
+151	BCL2 reg_e@[IGH]::BCL2	protein	True	Transcript Regulatory Region Fusion	False	unable to normalize	['Unable to tokenize: reg_e@[IGH]::BCL2']
