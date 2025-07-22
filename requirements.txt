@@ -20,6 +20,7 @@ botocore==1.39.8
 canonicaljson==2.0.0
 certifi==2025.7.14
 cffi==1.17.1
+cfgv==3.4.0
 charset-normalizer==3.4.2
 choreographer==1.0.9
 civicpy==5.0.0
@@ -35,9 +36,11 @@ decorator==5.2.1
 defusedxml==0.7.1
 deprecation==2.1.0
 dill==0.3.9
+distlib==0.4.0
 executing==2.2.0
 fastapi==0.116.1
 fastjsonschema==2.21.1
+filelock==3.18.0
 fonttools==4.59.0
 fqdn==1.5.1
 ga4gh-cat-vrs==0.6.0
@@ -49,6 +52,7 @@ hgvs==1.5.4
 httpcore==1.0.9
 httpx==0.28.1
 humanfriendly==10.0
+identify==2.6.12
 idna==3.10
 importlib-metadata==8.7.0
 ipykernel==6.29.5
@@ -88,6 +92,7 @@ nbformat==5.10.4
 ndjson==0.3.1
 nest-asyncio==1.6.0
 networkx==3.5
+nodeenv==1.9.1
 notebook==7.4.4
 notebook-shim==0.2.4
 numpy==2.3.1
@@ -104,6 +109,7 @@ pillow==11.3.0
 platformdirs==4.3.8
 plotly==6.2.0
 polars==1.31.0
+pre-commit==4.2.0
 prometheus-client==0.22.1
 prompt-toolkit==3.0.51
 psutil==7.0.0
@@ -128,6 +134,7 @@ requests==2.32.4
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.26.0
+ruff==0.12.1
 s3transfer==0.13.0
 scipy==1.16.0
 send2trash==1.8.3
@@ -154,6 +161,7 @@ urllib3==2.5.0
 uvicorn==0.35.0
 variation-normalizer==0.15.0
 vcfpy==0.13.8
+virtualenv==20.31.2
 wags-tails==0.4.0
 wcwidth==0.2.13
 webcolors==24.11.1
