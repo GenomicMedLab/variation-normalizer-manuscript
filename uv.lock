@@ -2371,7 +2371,7 @@ requires-dist = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "plotly" },
-    { name = "pre-commit", marker = "extra == 'dev'" },
+    { name = "pre-commit", marker = "extra == 'dev'", specifier = "==4.2.0" },
     { name = "python-dotenv" },
     { name = "requests" },
     { name = "ruff", marker = "extra == 'dev'", specifier = "==0.12.1" },
