@@ -78,27 +78,10 @@ In the analysis notebooks, you will see:
 ```python
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".env.shared")
 ```
 
-This will load environment variables from the `.env` file in the root directory. You will need to create this file yourself. The structure will look like:
-
-```markdown
-.
-├── analysis
-├── .env
-└── README.md
-```
-
-The environment variables that will need to be set inside the `.env` file:
-
-```env
-SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/2024-12-20
-AWS_ACCESS_KEY_ID=dummy
-AWS_SECRET_ACCESS_KEY=dummy
-AWS_SESSION_TOKEN=dummy
-UTA_DB_URL="postgresql://anonymous@localhost:5432/uta/uta_20241220"
-```
+This will load environment variables from the `.env.shared` file in the root directory.
 
 ### Set Up Backend Services
 
