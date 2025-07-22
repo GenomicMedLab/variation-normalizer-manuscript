@@ -9,22 +9,30 @@ import os
 
 BUCKET_NAME = "nch-igm-wagner-lab-public"
 PREFIX = "variation-normalizer-manuscript/2025/cool_seq_tool/"
-WAGS_TAIL_DIR = "wags_tails"
-COOL_SEQ_TOOL_FILES = [
-    "ncbi_mane_summary_1.4.txt",
-    "ncbi_mane_refseq_genomic_1.4.gff",
-    "ncbi_lrg_refseqgene_20250720.tsv",
-    "chainfile_hg19_to_hg38_.chain",
-    "chainfile_hg38_to_hg19_.chain",
+WAGS_TAIL_DIR = Path("wags_tails")
+# Cool-Seq-Tool environment variables and file name mappings
+CST_ENV_VAR_FILE_MAPPINGS = [
+    ("MANE_SUMMARY_PATH", "ncbi_mane_summary_1.4.txt"),
+    ("MANE_REFSEQ_GENOMIC_PATH", "ncbi_mane_refseq_genomic_1.4.gff"),
+    ("LRG_REFSEQGENE_PATH", "ncbi_lrg_refseqgene_20250720.tsv"),
+    ("LIFTOVER_CHAIN_37_TO_38", "chainfile_hg19_to_hg38_.chain"),
+    ("LIFTOVER_CHAIN_38_TO_37", "chainfile_hg38_to_hg19_.chain"),
 ]
 
 
-def download_cool_seq_tool_files():
-    Path(WAGS_TAIL_DIR).mkdir(exist_ok=True)
+def download_cool_seq_tool_files(is_docker_env: bool = True):
+    if is_docker_env:
+        wags_tails_dir = WAGS_TAIL_DIR
+    else:
+        wags_tails_dir = Path.home() / ".local" / "share" / "wags_tails"
+
+    wags_tails_dir.mkdir(exist_ok=True, parents=True)
     cst_files_not_downloaded = set()
 
-    for cst_fn in COOL_SEQ_TOOL_FILES:
-        if not os.path.exists(f"{WAGS_TAIL_DIR}/{cst_fn}"):
+    for env_var, cst_fn in CST_ENV_VAR_FILE_MAPPINGS:
+        filepath = f"{wags_tails_dir}/{cst_fn}"
+        os.environ[env_var] = filepath
+        if not os.path.exists(filepath):
             cst_files_not_downloaded.add(cst_fn)
 
     if cst_files_not_downloaded:
@@ -41,7 +49,7 @@ def download_cool_seq_tool_files():
             fn = key.split("/")[-1]
 
             if fn in cst_files_not_downloaded:
-                local_path = os.path.join(WAGS_TAIL_DIR, fn)
+                local_path = os.path.join(wags_tails_dir, fn)
                 s3.download_file(BUCKET_NAME, key, local_path)
 
 
