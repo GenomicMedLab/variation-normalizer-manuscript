@@ -70,6 +70,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 3368	CD44	CD44v9	Alternatively Spliced Transcript	Other Variants	False
 3474	CEACAM1	CEACAM1-L	Not provided	Other Variants	False
 3475	CEACAM1	CEACAM1-S	Not provided	Other Variants	False
+4697	RET	CLD1 Mutation	Not provided	Region-Defined Variants	False
 1300	TP53	CONSERVED DOMAIN MUT	Not provided	Other Variants	True
 821	HLA-C	COPY-NEUTRAL LOSS OF HETEROZYGOSITY	Not provided	Genotypes/Haplotypes	True
 447	FGF13	CYTOPLASMIC EXPRESSION	N/A	Expression Variants	True
@@ -650,6 +651,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 718	EGFR	G719	Protein Altering Variant	Sequence Variants	True
 1557	ERBB2	G776INSV_G/C	Inframe Insertion	Sequence Variants	False
 4488	ERBB2	G776_V777>VCV	Not provided	Rearrangement Variants	False
+4487	ERBB2	G778-779 insCPG	Not provided	Sequence Variants	False
 4486	ERBB2	G778_P780dup	Not provided	Copy Number Variants	True
 3033	RET	G810	Not provided	Sequence Variants	False
 3263	VHL		Not provided	Transcript Variants	False
@@ -665,6 +667,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2136	VHL		Not provided	Transcript Variants	True
 4093	VHL		Not provided	Transcript Variants	False
 2328	VHL		Not provided	Transcript Variants	False
+5104	CREBBP	HAT mutation	Not provided	Region-Defined Variants	False
 4943		High	Not provided	Genome Features	True
 4944		High	Not provided	Genome Features	False
 4946		High	Not provided	Genome Features	True
@@ -1386,6 +1389,7 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 2264	VHL		Inframe Deletion	Transcript Variants	True
 3411	TEK	R849W and R1108*	Not provided	Sequence Variants	False
 32	DNMT3A	R882	Missense Variant	Sequence Variants	True
+4542	DICER1	RNase IIIb Mutation	Not provided	Region-Defined Variants	False
 332	FNTB	RS11623866	Regulatory Region Variant	Other Variants	True
 338	MGMT	RS16906252	Synonymous Variant	Other Variants	True
 643	CBLB	RS2305035	Synonymous Variant;Polymorphic Sequence Variant	Other Variants	True
@@ -1511,8 +1515,10 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4500	FGFR1	Translocation	Not provided	Rearrangement Variants	True
 5066	KMT2A	Translocation	Not provided	Rearrangement Variants	False
 223	TP53	Truncating Mutation	Frameshift Truncation	Sequence Variants	True
+4882	MYB	Truncation	Not provided	Sequence Variants	True
 4998		Type 16	Not provided	Genome Features	False
 4997		Type 18	Not provided	Genome Features	False
+5056	UBTF	UBTF-TD	Not provided	Rearrangement Variants	False
 729	UGT1A1	UGT1A1*28	Microsatellite	Genotypes/Haplotypes	True
 732	UGT1A1	UGT1A1*60	Microsatellite	Genotypes/Haplotypes	True
 417	THBS2	UNDEREXPRESSION	N/A	Expression Variants	True
@@ -1716,7 +1722,9 @@ variant_id	gene_name	variant_name	civic_variant_types	category	variant_accepted
 4247	VHL		Not provided	Transcript Variants	False
 3057	GATA1	p.Ser51Alafs*86	Not provided	Sequence Variants	False
 272	CDKN2A	p16 Expression	N/A	Expression Variants	True
+4659	CDKN2A	p16 R80*	Not provided	Sequence Variants	False
 3512	BRAF	p61BRAF(V600E)	Not provided	Genotypes/Haplotypes	False
+5067	CLDN18	positive	Not provided	Expression Variants	False
 5168	MECOM	rearrangement	Not provided	Rearrangement Variants	True
 5162	EPOR	rearrangements	Not provided	Rearrangement Variants	True
 3313	CDKN1A	rs1059234	Not provided	Other Variants	True

@@ -188,7 +188,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 5025	PDGFRB	C843G	True	Missense Variant
 3756	BAP1	C91S	False	Not provided
 2789	PIK3CA	C971R	False	Missense Variant
-4697	RET	CLD1 Mutation	False	Not provided
 1660	MET	D1010H	False	Not provided
 1651	MET	D1010N	False	Missense Variant
 1649	MET	D1010Y	False	Not provided
@@ -642,7 +641,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4727	ERBB2	G776delinsCV	True	Not provided
 4728	ERBB2	G776delinsLC	True	Not provided
 4489	ERBB2	G776delinsVC	True	Not provided
-4487	ERBB2	G778-779 insCPG	False	Not provided
 4729	ERBB2	G778_S779insLPS	True	Not provided
 3649	KDR	G800D	False	Not provided
 3650	KDR	G800R	False	Not provided
@@ -688,7 +686,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3340	PTEN	H93R	False	Not provided
 3531	PTEN	H93Y	False	Not provided
 4323	CBL	H94Y	False	Not provided
-5104	CREBBP	HAT mutation	False	Not provided
 259	GSTP1	I105V	True	Missense Variant
 263	ABCB1	I1145I	True	Synonymous Variant
 588	ALK	I1171N	True	Missense Variant
@@ -1316,7 +1313,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4515	MET	R988C	False	Not provided
 3685	PTPRD	R995C	False	Not provided
 3429	ARHGAP35	R997*	False	Not provided
-4542	DICER1	RNase IIIb Mutation	False	Not provided
 2925	PRPS1	S103I	True	Not provided
 2926	PRPS1	S103N	True	Not provided
 2927	PRPS1	S103T	True	Not provided
@@ -1459,8 +1455,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4781	RET	T930K	False	Not provided
 4783	RET	T930M	False	Not provided
 4780	RET	T930P	False	Not provided
-4882	MYB	Truncation	True	Not provided
-5056	UBTF	UBTF-TD	False	Not provided
 701	ERBB3	V104M	True	Missense Variant
 528	ALK	V1180L	True	Missense Variant
 2624	TP53	V135A	False	Not provided
@@ -1683,6 +1677,4 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3045	VHL	p.F76del	False	Not provided
 3310	HDAC9	p.L33R	False	Not provided
 5102	NF1	p.W426*	False	Not provided
-4659	CDKN2A	p16 R80*	False	Not provided
-5067	CLDN18	positive	False	Not provided
 151	BCL2	reg_e@[IGH]::BCL2	True	Transcript Regulatory Region Fusion
