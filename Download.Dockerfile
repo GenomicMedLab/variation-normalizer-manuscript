@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY download_cool_seq_tool_files.py .
+COPY analysis/download_cool_seq_tool_files.py .
 
 RUN pip install boto3
 
