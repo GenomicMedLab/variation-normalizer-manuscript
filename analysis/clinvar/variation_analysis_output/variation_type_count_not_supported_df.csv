@@ -1,38 +1,55 @@
-,in.variation_type,in.vrs_xform_plan.policy,count
-0,copy number gain,NCBI36 genomic only,2897
-1,copy number loss,NCBI36 genomic only,1749
-2,Deletion,No hgvs or location info,1236
-3,Diplotype,Genotype/Haplotype,596
-4,Haplotype,Genotype/Haplotype,565
-5,Microsatellite,Invalid/unsupported hgvs,415
-6,Deletion,Invalid/unsupported hgvs,413
-7,Insertion,No hgvs or location info,382
-8,Insertion,Invalid/unsupported hgvs,306
-9,single nucleotide variant,No hgvs or location info,287
-10,Translocation,No hgvs or location info,271
-11,Duplication,No hgvs or location info,265
-12,CompoundHeterozygote,Genotype/Haplotype,249
-13,Variation,No hgvs or location info,206
-14,Indel,No hgvs or location info,138
-15,Duplication,Invalid/unsupported hgvs,116
-16,protein only,No hgvs or location info,95
-17,Complex,No hgvs or location info,72
-18,Deletion,NCBI36 genomic only,71
-19,Microsatellite,No hgvs or location info,67
-20,Inversion,No hgvs or location info,63
-21,Duplication,NCBI36 genomic only,50
-22,Indel,Invalid/unsupported hgvs,40
-23,Inversion,Invalid/unsupported hgvs,29
-24,"Haplotype, single variant",Genotype/Haplotype,21
-25,copy number gain,Min/max copy count range not supported,14
-26,Phase unknown,Genotype/Haplotype,8
-27,copy number loss,Invalid/unsupported hgvs,7
-28,fusion,No hgvs or location info,6
-29,copy number gain,Invalid/unsupported hgvs,5
-30,Complex,NCBI36 genomic only,3
-31,Variation,Invalid/unsupported hgvs,2
-32,Complex,Invalid/unsupported hgvs,2
-33,Translocation,Invalid/unsupported hgvs,1
-34,Translocation,NCBI36 genomic only,1
-35,Tandem duplication,No hgvs or location info,1
-36,Distinct chromosomes,Genotype/Haplotype,1
+,in.variation_type,in.issue,count
+0,Haplotype,haplotype and genotype variations are not supported.,617
+1,Diplotype,haplotype and genotype variations are not supported.,596
+2,Deletion,No viable variation members identified.,593
+3,Microsatellite,repeat expressions are not supported.,456
+4,Deletion,sequence for accession not supported by vrs-python release,336
+5,CompoundHeterozygote,haplotype and genotype variations are not supported.,297
+6,single nucleotide variant,No viable variation members identified.,290
+7,Translocation,No viable variation members identified.,282
+8,Insertion,No viable variation members identified.,264
+9,Deletion,intronic positions are not resolvable in sequence.,220
+10,Deletion,unsupported hgvs expression.,193
+11,Duplication,sequence for accession not supported by vrs-python release,157
+12,Variation,No viable variation members identified.,156
+13,Insertion,sequence for accession not supported by vrs-python release,137
+14,Duplication,No viable variation members identified.,116
+15,Indel,No viable variation members identified.,102
+16,protein only,No viable variation members identified.,93
+17,Complex,No viable variation members identified.,86
+18,copy number gain,range copies are not supported.,76
+19,Insertion,unsupported hgvs expression.,69
+20,Inversion,No viable variation members identified.,69
+21,Microsatellite,unsupported hgvs expression.,67
+22,Indel,unsupported hgvs expression.,43
+23,Duplication,unsupported hgvs expression.,42
+24,Microsatellite,No viable variation members identified.,33
+25,Duplication,intronic positions are not resolvable in sequence.,33
+26,Inversion,unsupported hgvs expression.,32
+27,Indel,sequence for accession not supported by vrs-python release,22
+28,"Haplotype, single variant",haplotype and genotype variations are not supported.,21
+29,copy number loss,range copies are not supported.,19
+30,Microsatellite,sequence for accession not supported by vrs-python release,11
+31,Phase unknown,haplotype and genotype variations are not supported.,8
+32,Insertion,intronic positions are not resolvable in sequence.,7
+33,Indel,intronic positions are not resolvable in sequence.,7
+34,Variation,unsupported hgvs expression.,6
+35,Insertion,repeat expressions are not supported.,5
+36,fusion,No viable variation members identified.,5
+37,Deletion,repeat expressions are not supported.,5
+38,Variation,sequence for accession not supported by vrs-python release,4
+39,Variation,repeat expressions are not supported.,4
+40,Deletion,expression contains unbalaned paretheses.,3
+41,copy number gain,No viable variation members identified.,3
+42,single nucleotide variant,intronic positions are not resolvable in sequence.,2
+43,Complex,unsupported hgvs expression.,2
+44,single nucleotide variant,unsupported hgvs expression.,2
+45,Variation,intronic positions are not resolvable in sequence.,2
+46,Duplication,repeat expressions are not supported.,2
+47,Complex,sequence for accession not supported by vrs-python release,1
+48,Indel,repeat expressions are not supported.,1
+49,copy number gain,repeat expressions are not supported.,1
+50,Translocation,unsupported hgvs expression.,1
+51,Distinct chromosomes,haplotype and genotype variations are not supported.,1
+52,Tandem duplication,No viable variation members identified.,1
+53,Microsatellite,intronic positions are not resolvable in sequence.,1

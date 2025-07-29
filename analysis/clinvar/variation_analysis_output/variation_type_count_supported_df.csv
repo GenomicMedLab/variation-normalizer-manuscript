@@ -1,21 +1,11 @@
-,in.variation_type,in.vrs_xform_plan.policy,count
-0,single nucleotide variant,Canonical SPDI,1934692
-1,Deletion,Canonical SPDI,92875
-2,Duplication,Canonical SPDI,43185
-3,copy number loss,Absolute copy count,26857
-4,Microsatellite,Canonical SPDI,26678
-5,copy number gain,Absolute copy count,25583
-6,Deletion,Copy number change (cn loss|del and cn gain|dup),16249
-7,Indel,Canonical SPDI,10986
-8,Insertion,Canonical SPDI,8865
-9,Duplication,Copy number change (cn loss|del and cn gain|dup),8119
-10,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524
-11,Inversion,Canonical SPDI,1051
-12,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003
-13,single nucleotide variant,Remaining valid hgvs alleles,396
-14,Indel,Remaining valid hgvs alleles,340
-15,Variation,Canonical SPDI,337
-16,Insertion,Remaining valid hgvs alleles,191
-17,Deletion,Absolute copy count,3
-18,Variation,Remaining valid hgvs alleles,1
-19,Duplication,Absolute copy count,1
+,in.variation_type,in.issue,count
+0,single nucleotide variant,None,3388754
+1,Deletion,None,159681
+2,Duplication,None,73241
+3,Microsatellite,None,36028
+4,copy number gain,None,21484
+5,copy number loss,None,20367
+6,Indel,None,17018
+7,Insertion,None,12982
+8,Inversion,None,1401
+9,Variation,None,379
