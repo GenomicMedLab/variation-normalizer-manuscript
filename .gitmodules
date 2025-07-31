@@ -1,0 +1,4 @@
+[submodule "submodules"]
+	path = submodules
+	url = https://github.com/cancervariants/variation-normalization.git
+	branch = staging
