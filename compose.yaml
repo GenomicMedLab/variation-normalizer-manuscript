@@ -1,8 +1,32 @@
 services:
   api:
     image: cancervariants/variation-normalizer-api:0.15.0
+    environment:
+      MANE_SUMMARY_PATH: /app/wags_tails/ncbi_mane_summary/ncbi_mane_summary_1.4.txt
+      MANE_REFSEQ_GENOMIC_PATH: /app/wags_tails/ncbi_mane_refseq_genomic/ncbi_mane_refseq_genomic_1.4.gff
+      LRG_REFSEQGENE_PATH: /app/wags_tails/ncbi_lrg_refseqgene/ncbi_lrg_refseqgene_20250720.tsv
+      LIFTOVER_CHAIN_37_TO_38: /app/wags_tails/ucsc-chainfile/chainfile_hg19_to_hg38_.chain
+      LIFTOVER_CHAIN_38_TO_37: /app/wags_tails/ucsc-chainfile/chainfile_hg38_to_hg19_.chain
+
+    depends_on:
+      cool-seq-tool-data:
+        condition: service_completed_successfully
+
+    volumes:
+      - manuscript_data:/app
 
   gene-dynamodb-local:
     image: cancervariants/gene-normalizer-ddb:2025-05-08
     ports:
      - "8000:8000"
+
+  cool-seq-tool-data:
+    build:
+      context: ${PWD}
+      dockerfile: ${PWD}/Download.Dockerfile
+    command: ["python", "download_cool_seq_tool_files.py"]
+    volumes:
+      - manuscript_data:/app
+
+volumes:
+  manuscript_data:

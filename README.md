@@ -78,27 +78,10 @@ In the analysis notebooks, you will see:
 ```python
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".env.shared")
 ```
 
-This will load environment variables from the `.env` file in the root directory. You will need to create this file yourself. The structure will look like:
-
-```markdown
-.
-├── analysis
-├── .env
-└── README.md
-```
-
-The environment variables that will need to be set inside the `.env` file:
-
-```env
-SEQREPO_ROOT_DIR=/usr/local/share/seqrepo/2024-12-20
-AWS_ACCESS_KEY_ID=dummy
-AWS_SECRET_ACCESS_KEY=dummy
-AWS_SESSION_TOKEN=dummy
-UTA_DB_URL="postgresql://anonymous@localhost:5432/uta/uta_20241220"
-```
+This will load environment variables from the `.env.shared` file in the root directory.
 
 ### Set Up Backend Services
 
@@ -137,6 +120,16 @@ Verify that this works in [SeqRepo Verification](#seqrepo-verification).
 
 #### 2. Variation Normalizer: Docker Container
 
+> [!IMPORTANT]
+> This section assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
+installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
+please update add a `SEQREPO_ROOT_DIR` environment variable in
+[compose.yaml](./compose.yaml).\
+> If you're using Docker Desktop, you'll want to go to Settings -> Resources -> File sharing
+and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Otherwise,
+you will get the following error:
+`OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
+
 To build, (re)create, and start containers
 
 ```shell
@@ -147,16 +140,6 @@ docker compose \
   -f compose.yaml \
   up
 ```
-
-> [!IMPORTANT]
-> This assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
-installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
-please update add a `SEQREPO_ROOT_DIR` environment variable in
-[compose.yaml](./compose.yaml).\
-> If you're using Docker Desktop, you'll want to go to Settings -> Resources -> File sharing
-and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Otherwise,
-you will get the following error:
-`OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
 
 > [!TIP]
 > If you want a clean slate, run `docker compose down -v` to remove containers and
@@ -221,8 +204,9 @@ These notebooks were run using these macOS specs:
 
 | Model Year | CPU Architecture | Total RAM | Hard drive capacity |
 | --- | --- | --- | --- |
-| 2019 | 2.6 GHz 6-Core Intel Core i7 | 32 GB | 1 TB |
-| 2021 | M1 Pro | 32 GB | 1 TB |
+| 2023 | M2 Pro | 32 GB | 1 TB |
+| 2023 | M3 Pro | 36 GB | 1 TB |
+| 2024 | M4 Pro | 48 GB | 1 TB |
 
 ## Help
 
