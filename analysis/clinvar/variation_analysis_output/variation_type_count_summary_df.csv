@@ -1,72 +1,55 @@
-,in.variation_type,in.vrs_xform_plan.policy_x,count_x,in.vrs_xform_plan.policy_y,count_y,in.vrs_xform_plan.policy,count
-0,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,NCBI36 genomic only,2897
-1,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,NCBI36 genomic only,2897
-2,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,NCBI36 genomic only,2897
-3,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,NCBI36 genomic only,2897
-4,copy number loss,Absolute copy count,26857.0,Absolute copy count,475.0,NCBI36 genomic only,1749
-5,copy number loss,Absolute copy count,26857.0,Copy number change (cn loss|del and cn gain|dup),31.0,NCBI36 genomic only,1749
-6,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Absolute copy count,475.0,NCBI36 genomic only,1749
-7,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Copy number change (cn loss|del and cn gain|dup),31.0,NCBI36 genomic only,1749
-8,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
-9,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
-10,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,No hgvs or location info,1236
-11,Diplotype,0,0.0,0,0.0,Genotype/Haplotype,596
-12,Haplotype,0,0.0,0,0.0,Genotype/Haplotype,565
-13,Microsatellite,Canonical SPDI,26678.0,0,0.0,Invalid/unsupported hgvs,415
-14,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
-15,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
-16,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,Invalid/unsupported hgvs,413
-17,Insertion,Canonical SPDI,8865.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,382
-18,Insertion,Remaining valid hgvs alleles,191.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,382
-19,Insertion,Canonical SPDI,8865.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,306
-20,Insertion,Remaining valid hgvs alleles,191.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,306
-21,single nucleotide variant,Canonical SPDI,1934692.0,Remaining valid hgvs alleles,11.0,No hgvs or location info,287
-22,single nucleotide variant,Remaining valid hgvs alleles,396.0,Remaining valid hgvs alleles,11.0,No hgvs or location info,287
-23,Translocation,0,0.0,0,0.0,No hgvs or location info,271
-24,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
-25,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
-26,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,No hgvs or location info,265
-27,CompoundHeterozygote,0,0.0,0,0.0,Genotype/Haplotype,249
-28,Variation,Canonical SPDI,337.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,206
-29,Variation,Remaining valid hgvs alleles,1.0,Remaining valid hgvs alleles,1.0,No hgvs or location info,206
-30,Indel,Canonical SPDI,10986.0,0,0.0,No hgvs or location info,138
-31,Indel,Remaining valid hgvs alleles,340.0,0,0.0,No hgvs or location info,138
-32,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
-33,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
-34,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,Invalid/unsupported hgvs,116
-35,protein only,0,0.0,0,0.0,No hgvs or location info,95
-36,Complex,0,0.0,0,0.0,No hgvs or location info,72
-37,Deletion,Canonical SPDI,92875.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
-38,Deletion,Copy number change (cn loss|del and cn gain|dup),16249.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
-39,Deletion,Absolute copy count,3.0,Copy number change (cn loss|del and cn gain|dup),89.0,NCBI36 genomic only,71
-40,Microsatellite,Canonical SPDI,26678.0,0,0.0,No hgvs or location info,67
-41,Inversion,Canonical SPDI,1051.0,0,0.0,No hgvs or location info,63
-42,Duplication,Canonical SPDI,43185.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
-43,Duplication,Copy number change (cn loss|del and cn gain|dup),8119.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
-44,Duplication,Absolute copy count,1.0,Copy number change (cn loss|del and cn gain|dup),72.0,NCBI36 genomic only,50
-45,Indel,Canonical SPDI,10986.0,0,0.0,Invalid/unsupported hgvs,40
-46,Indel,Remaining valid hgvs alleles,340.0,0,0.0,Invalid/unsupported hgvs,40
-47,Inversion,Canonical SPDI,1051.0,0,0.0,Invalid/unsupported hgvs,29
-48,"Haplotype, single variant",0,0.0,0,0.0,Genotype/Haplotype,21
-49,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,Min/max copy count range not supported,14
-50,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,Min/max copy count range not supported,14
-51,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,Min/max copy count range not supported,14
-52,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,Min/max copy count range not supported,14
-53,Phase unknown,0,0.0,0,0.0,Genotype/Haplotype,8
-54,copy number loss,Absolute copy count,26857.0,Absolute copy count,475.0,Invalid/unsupported hgvs,7
-55,copy number loss,Absolute copy count,26857.0,Copy number change (cn loss|del and cn gain|dup),31.0,Invalid/unsupported hgvs,7
-56,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Absolute copy count,475.0,Invalid/unsupported hgvs,7
-57,copy number loss,Copy number change (cn loss|del and cn gain|dup),1524.0,Copy number change (cn loss|del and cn gain|dup),31.0,Invalid/unsupported hgvs,7
-58,fusion,0,0.0,0,0.0,No hgvs or location info,6
-59,copy number gain,Absolute copy count,25583.0,Absolute copy count,344.0,Invalid/unsupported hgvs,5
-60,copy number gain,Absolute copy count,25583.0,Copy number change (cn loss|del and cn gain|dup),17.0,Invalid/unsupported hgvs,5
-61,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Absolute copy count,344.0,Invalid/unsupported hgvs,5
-62,copy number gain,Copy number change (cn loss|del and cn gain|dup),1003.0,Copy number change (cn loss|del and cn gain|dup),17.0,Invalid/unsupported hgvs,5
-63,Complex,0,0.0,0,0.0,NCBI36 genomic only,3
-64,Variation,Canonical SPDI,337.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,2
-65,Variation,Remaining valid hgvs alleles,1.0,Remaining valid hgvs alleles,1.0,Invalid/unsupported hgvs,2
-66,Complex,0,0.0,0,0.0,Invalid/unsupported hgvs,2
-67,Translocation,0,0.0,0,0.0,Invalid/unsupported hgvs,1
-68,Translocation,0,0.0,0,0.0,NCBI36 genomic only,1
-69,Tandem duplication,0,0.0,0,0.0,No hgvs or location info,1
-70,Distinct chromosomes,0,0.0,0,0.0,Genotype/Haplotype,1
+,in.variation_type,in.issue_x,count_x,in.issue_y,count_y,in.issue,count
+0,Haplotype,0,0.0,0,0.0,haplotype and genotype variations are not supported.,617
+1,Diplotype,0,0.0,0,0.0,haplotype and genotype variations are not supported.,596
+2,Deletion,None,159681.0,None,779.0,No viable variation members identified.,593
+3,Microsatellite,None,36028.0,0,0.0,repeat expressions are not supported.,456
+4,Deletion,None,159681.0,None,779.0,sequence for accession not supported by vrs-python release,336
+5,CompoundHeterozygote,0,0.0,0,0.0,haplotype and genotype variations are not supported.,297
+6,single nucleotide variant,None,3388754.0,None,80.0,No viable variation members identified.,290
+7,Translocation,0,0.0,0,0.0,No viable variation members identified.,282
+8,Insertion,None,12982.0,None,1.0,No viable variation members identified.,264
+9,Deletion,None,159681.0,None,779.0,intronic positions are not resolvable in sequence.,220
+10,Deletion,None,159681.0,None,779.0,unsupported hgvs expression.,193
+11,Duplication,None,73241.0,None,407.0,sequence for accession not supported by vrs-python release,157
+12,Variation,None,379.0,0,0.0,No viable variation members identified.,156
+13,Insertion,None,12982.0,None,1.0,sequence for accession not supported by vrs-python release,137
+14,Duplication,None,73241.0,None,407.0,No viable variation members identified.,116
+15,Indel,None,17018.0,None,2.0,No viable variation members identified.,102
+16,protein only,0,0.0,0,0.0,No viable variation members identified.,93
+17,Complex,0,0.0,0,0.0,No viable variation members identified.,86
+18,copy number gain,None,21484.0,None,3245.0,range copies are not supported.,76
+19,Insertion,None,12982.0,None,1.0,unsupported hgvs expression.,69
+20,Inversion,None,1401.0,0,0.0,No viable variation members identified.,69
+21,Microsatellite,None,36028.0,0,0.0,unsupported hgvs expression.,67
+22,Indel,None,17018.0,None,2.0,unsupported hgvs expression.,43
+23,Duplication,None,73241.0,None,407.0,unsupported hgvs expression.,42
+24,Microsatellite,None,36028.0,0,0.0,No viable variation members identified.,33
+25,Duplication,None,73241.0,None,407.0,intronic positions are not resolvable in sequence.,33
+26,Inversion,None,1401.0,0,0.0,unsupported hgvs expression.,32
+27,Indel,None,17018.0,None,2.0,sequence for accession not supported by vrs-python release,22
+28,"Haplotype, single variant",0,0.0,0,0.0,haplotype and genotype variations are not supported.,21
+29,copy number loss,None,20367.0,None,2243.0,range copies are not supported.,19
+30,Microsatellite,None,36028.0,0,0.0,sequence for accession not supported by vrs-python release,11
+31,Phase unknown,0,0.0,0,0.0,haplotype and genotype variations are not supported.,8
+32,Insertion,None,12982.0,None,1.0,intronic positions are not resolvable in sequence.,7
+33,Indel,None,17018.0,None,2.0,intronic positions are not resolvable in sequence.,7
+34,Variation,None,379.0,0,0.0,unsupported hgvs expression.,6
+35,Insertion,None,12982.0,None,1.0,repeat expressions are not supported.,5
+36,fusion,0,0.0,0,0.0,No viable variation members identified.,5
+37,Deletion,None,159681.0,None,779.0,repeat expressions are not supported.,5
+38,Variation,None,379.0,0,0.0,sequence for accession not supported by vrs-python release,4
+39,Variation,None,379.0,0,0.0,repeat expressions are not supported.,4
+40,Deletion,None,159681.0,None,779.0,expression contains unbalaned paretheses.,3
+41,copy number gain,None,21484.0,None,3245.0,No viable variation members identified.,3
+42,single nucleotide variant,None,3388754.0,None,80.0,intronic positions are not resolvable in sequence.,2
+43,Complex,0,0.0,0,0.0,unsupported hgvs expression.,2
+44,single nucleotide variant,None,3388754.0,None,80.0,unsupported hgvs expression.,2
+45,Variation,None,379.0,0,0.0,intronic positions are not resolvable in sequence.,2
+46,Duplication,None,73241.0,None,407.0,repeat expressions are not supported.,2
+47,Complex,0,0.0,0,0.0,sequence for accession not supported by vrs-python release,1
+48,Indel,None,17018.0,None,2.0,repeat expressions are not supported.,1
+49,copy number gain,None,21484.0,None,3245.0,repeat expressions are not supported.,1
+50,Translocation,0,0.0,0,0.0,unsupported hgvs expression.,1
+51,Distinct chromosomes,0,0.0,0,0.0,haplotype and genotype variations are not supported.,1
+52,Tandem duplication,0,0.0,0,0.0,No viable variation members identified.,1
+53,Microsatellite,None,36028.0,0,0.0,intronic positions are not resolvable in sequence.,1
