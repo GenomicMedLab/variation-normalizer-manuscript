@@ -120,6 +120,16 @@ Verify that this works in [SeqRepo Verification](#seqrepo-verification).
 
 #### 2. Variation Normalizer: Docker Container
 
+> [!IMPORTANT]
+> This section assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
+installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
+please update add a `SEQREPO_ROOT_DIR` environment variable in
+[compose.yaml](./compose.yaml).\
+> If you're using Docker Desktop, you'll want to go to Settings -> Resources -> File sharing
+and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Otherwise,
+you will get the following error:
+`OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
+
 To build, (re)create, and start containers
 
 ```shell
@@ -130,16 +140,6 @@ docker compose \
   -f compose.yaml \
   up
 ```
-
-> [!IMPORTANT]
-> This assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
-installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
-please update add a `SEQREPO_ROOT_DIR` environment variable in
-[compose.yaml](./compose.yaml).\
-> If you're using Docker Desktop, you'll want to go to Settings -> Resources -> File sharing
-and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Otherwise,
-you will get the following error:
-`OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
 
 > [!TIP]
 > If you want a clean slate, run `docker compose down -v` to remove containers and
