@@ -11,7 +11,7 @@ import os
 BUCKET_NAME = "nch-igm-wagner-lab-public"
 PREFIX = "variation-normalizer-manuscript/2025/cool_seq_tool/"
 WAGS_TAIL_DIR = Path("wags_tails")
-# Cool-Seq-Tool environment variables, subdirectory, file name mappings
+# Cool-Seq-Tool file name to environment variable path and subdirectory
 CST_MAPPINGS = MappingProxyType(
     {
         "ncbi_mane_summary_1.4.txt": ("MANE_SUMMARY_PATH", "ncbi_mane_summary"),
