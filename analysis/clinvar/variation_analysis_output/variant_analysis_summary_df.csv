@@ -1,10 +1,10 @@
 support_status,in.issue,Allele,CopyNumberChange,CopyNumberCount,NONE,NormalizedPercent
-False,No viable variation members identified.,0,0,0,2093,0.0%
+False,No viable variation members identified.,0,0,0,2095,0.0%
 False,expression contains unbalaned paretheses.,0,0,0,3,0.0%
 False,haplotype and genotype variations are not supported.,0,0,0,1540,0.0%
-False,intronic positions are not resolvable in sequence.,0,0,0,272,0.0%
+False,intronic positions are not resolvable in sequence.,0,0,0,271,0.0%
 False,range copies are not supported.,0,0,0,95,0.0%
 False,repeat expressions are not supported.,0,0,0,474,0.0%
-False,sequence for accession not supported by vrs-python release,0,0,0,668,0.0%
-False,unsupported hgvs expression.,0,0,0,457,0.0%
-True,None,3659725,32230,39379,6758,99.82%
+False,sequence for accession not supported by vrs-python release,0,0,0,669,0.0%
+False,unsupported hgvs expression.,0,113,0,344,24.73%
+True,None,3673493,32241,39379,6750,99.82%

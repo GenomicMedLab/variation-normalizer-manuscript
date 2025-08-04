@@ -11,12 +11,12 @@
 9,Deletion,intronic positions are not resolvable in sequence.,220
 10,Deletion,unsupported hgvs expression.,193
 11,Duplication,sequence for accession not supported by vrs-python release,157
-12,Variation,No viable variation members identified.,156
+12,Variation,No viable variation members identified.,157
 13,Insertion,sequence for accession not supported by vrs-python release,137
 14,Duplication,No viable variation members identified.,116
 15,Indel,No viable variation members identified.,102
 16,protein only,No viable variation members identified.,93
-17,Complex,No viable variation members identified.,86
+17,Complex,No viable variation members identified.,87
 18,copy number gain,range copies are not supported.,76
 19,Insertion,unsupported hgvs expression.,69
 20,Inversion,No viable variation members identified.,69
@@ -41,15 +41,16 @@
 39,Variation,repeat expressions are not supported.,4
 40,Deletion,expression contains unbalaned paretheses.,3
 41,copy number gain,No viable variation members identified.,3
-42,single nucleotide variant,intronic positions are not resolvable in sequence.,2
-43,Complex,unsupported hgvs expression.,2
-44,single nucleotide variant,unsupported hgvs expression.,2
-45,Variation,intronic positions are not resolvable in sequence.,2
-46,Duplication,repeat expressions are not supported.,2
-47,Complex,sequence for accession not supported by vrs-python release,1
-48,Indel,repeat expressions are not supported.,1
-49,copy number gain,repeat expressions are not supported.,1
-50,Translocation,unsupported hgvs expression.,1
-51,Distinct chromosomes,haplotype and genotype variations are not supported.,1
-52,Tandem duplication,No viable variation members identified.,1
-53,Microsatellite,intronic positions are not resolvable in sequence.,1
+42,Complex,unsupported hgvs expression.,2
+43,single nucleotide variant,unsupported hgvs expression.,2
+44,Variation,intronic positions are not resolvable in sequence.,2
+45,Duplication,repeat expressions are not supported.,2
+46,Complex,sequence for accession not supported by vrs-python release,1
+47,Indel,repeat expressions are not supported.,1
+48,copy number gain,repeat expressions are not supported.,1
+49,Translocation,unsupported hgvs expression.,1
+50,Distinct chromosomes,haplotype and genotype variations are not supported.,1
+51,Tandem duplication,No viable variation members identified.,1
+52,single nucleotide variant,intronic positions are not resolvable in sequence.,1
+53,single nucleotide variant,sequence for accession not supported by vrs-python release,1
+54,Microsatellite,intronic positions are not resolvable in sequence.,1

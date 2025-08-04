@@ -1,11 +1,11 @@
 ,in.variation_type,in.issue,count
-0,single nucleotide variant,None,3388754
-1,Deletion,None,159681
-2,Duplication,None,73241
-3,Microsatellite,None,36028
+0,single nucleotide variant,None,3401625
+1,Deletion,None,160232
+2,Duplication,None,73474
+3,Microsatellite,None,36095
 4,copy number gain,None,21484
 5,copy number loss,None,20367
-6,Indel,None,17018
-7,Insertion,None,12982
+6,Indel,None,17038
+7,Insertion,None,13019
 8,Inversion,None,1401
 9,Variation,None,379

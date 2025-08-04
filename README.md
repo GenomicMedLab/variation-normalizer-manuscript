@@ -120,8 +120,6 @@ Verify that this works in [SeqRepo Verification](#seqrepo-verification).
 
 #### 2. Variation Normalizer: Docker Container
 
-<<<<<<< HEAD
-=======
 > [!IMPORTANT]
 > This section assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
 installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
@@ -132,7 +130,6 @@ and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Othe
 you will get the following error:
 `OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
 
->>>>>>> main
 To build, (re)create, and start containers
 
 ```shell
@@ -144,19 +141,6 @@ docker compose \
   up
 ```
 
-<<<<<<< HEAD
-> [!IMPORTANT]
-> This assumes you have a local [SeqRepo](https://github.com/biocommons/biocommons.seqrepo)
-installed at `/usr/local/share/seqrepo/2024-12-20`. If you have it installed elsewhere,
-please update add a `SEQREPO_ROOT_DIR` environment variable in
-[compose.yaml](./compose.yaml).\
-> If you're using Docker Desktop, you'll want to go to Settings -> Resources -> File sharing
-and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Otherwise,
-you will get the following error:
-`OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
-
-=======
->>>>>>> main
 > [!TIP]
 > If you want a clean slate, run `docker compose down -v` to remove containers and
 > volumes, then `docker compose -p variation-normalizer-manuscript -f submodules/compose.yaml -f compose.yaml up` to rebuild and start fresh containers.
@@ -165,20 +149,7 @@ you will get the following error:
 
 This section provides information about the notebooks and the order that they should be run in.
 
-<<<<<<< HEAD
 1. Run the following notebooks (order does not matter):
-=======
-1. Run the following notebook:
-    * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
-      * Downloads files from public s3 bucket that are needed for the notebooks.
-        * Downloads ClinVar CNV, MANE Ensembl GFF, and NCH CNV data
-          * The following notebooks were used to create the files that are downloaded in this notebook (order does not matter):
-            * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
-              * Creates `ClinVar-CNVs-normalized.csv`
-            * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
-              * Creates `NCH-microarray-CNVs-cleaned.csv`
-2. Run the following notebooks (order does not matter):
->>>>>>> main
    * [analysis/civic/variation_analysis/civic_variation_analysis.ipynb](./analysis/civic/variation_analysis/civic_variation_analysis.ipynb)
      * Runs CIViC variant data through the Variation Normalizer
    * [analysis/clinvar/clinvar_variation_analysis.ipynb](./analysis/clinvar/clinvar_variation_analysis.ipynb)
@@ -192,11 +163,7 @@ This section provides information about the notebooks and the order that they sh
   > You must have the [Docker containers](#2-variation-normalizer-docker-container)
   > running for these notebooks.
 
-<<<<<<< HEAD
 2. Run the following notebooks (order does not matter):
-=======
-3. Run the following notebooks (order does not matter):
->>>>>>> main
     * [analysis/civic/variation_analysis/transcript_variation_analysis.ipynb](./analysis/civic/variation_analysis/transcript_variation_analysis.ipynb)
       * Analysis on CIViC variants in the Transcript category
     * [analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb](./analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb)
