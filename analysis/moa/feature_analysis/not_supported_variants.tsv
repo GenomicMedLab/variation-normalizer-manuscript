@@ -1,0 +1,257 @@
+variant_id	query	moa_feature_type	category
+1	BCR--ABL1 Fusion	rearrangement	Rearrangement Variants
+9	ALK Fusion	rearrangement	Rearrangement Variants
+12	ALK	rearrangement	Rearrangement Variants
+15	ALK Translocation	rearrangement	Rearrangement Variants
+18	BRD4 t(15;19) Translocation	rearrangement	Rearrangement Variants
+19	CCND1 t(11;14) Translocation	rearrangement	Rearrangement Variants
+21	CCND3 t(6;14) Translocation	rearrangement	Rearrangement Variants
+22	COL1A1--PDGFB Fusion	rearrangement	Rearrangement Variants
+23	EML4--ALK Fusion	rearrangement	Rearrangement Variants
+25	ESRP1--RAF1 Fusion	rearrangement	Rearrangement Variants
+27	EWSR1--FLI1 Fusion	rearrangement	Rearrangement Variants
+28	FGFR2--TACC3 Fusion	rearrangement	Rearrangement Variants
+29	FGFR2 Fusion	rearrangement	Rearrangement Variants
+30	FGFR2	rearrangement	Sequence Variants
+32	FGFR3 Fusion	rearrangement	Rearrangement Variants
+33	FGFR3--NSD2 Fusion	rearrangement	Rearrangement Variants
+34	IGH t(11;14)(q13;q32) Translocation	rearrangement	Rearrangement Variants
+35	IGH t(4;14)(q16;q32) Translocation	rearrangement	Rearrangement Variants
+36	NTRK1 Fusion	rearrangement	Rearrangement Variants
+39	NTRK2 Fusion	rearrangement	Rearrangement Variants
+42	NTRK3 Fusion	rearrangement	Rearrangement Variants
+45	PDGFRA	rearrangement	Rearrangement Variants
+46	FIP1L1--PDGFRA Fusion	rearrangement	Rearrangement Variants
+47	BCR--PDGFRA Fusion	rearrangement	Rearrangement Variants
+48	PDGFRB	rearrangement	Rearrangement Variants
+49	ETV6--PDGFRB Fusion	rearrangement	Rearrangement Variants
+50	RET	rearrangement	Rearrangement Variants
+52	RET Fusion	rearrangement	Rearrangement Variants
+57	ROS1 Fusion	rearrangement	Rearrangement Variants
+59	RUNX1--RUNX1T1 Fusion	rearrangement	Rearrangement Variants
+60	SLC45A3--BRAF Fusion	rearrangement	Rearrangement Variants
+62	TMPRSS2--ERG Fusion	rearrangement	Rearrangement Variants
+67	ABL1	somatic_variant	Sequence Variants
+74	ABL1	somatic_variant	Sequence Variants
+106	AKT1	somatic_variant	Sequence Variants
+108	AKT2	somatic_variant	Sequence Variants
+109	AKT3	somatic_variant	Sequence Variants
+118	ARID1A	somatic_variant	Gene Function Variants
+119	ARID1A	somatic_variant	Sequence Variants
+120	ARID1A	somatic_variant	Region-Defined Variants
+121	ASXL1	somatic_variant	Sequence Variants
+122	ASXL1	somatic_variant	Sequence Variants
+123	ATM	somatic_variant	Sequence Variants
+124	ATM	somatic_variant	Other Variants
+125	ATM	somatic_variant	Gene Function Variants
+130	ATM	somatic_variant	Region-Defined Variants
+131	BARD1	somatic_variant	Sequence Variants
+138	BCOR	somatic_variant	Gene Function Variants
+139	BCOR	somatic_variant	Sequence Variants
+140	BCOR	somatic_variant	Other Variants
+142	BCR	somatic_variant	Region-Defined Variants
+143	BLM	somatic_variant	Region-Defined Variants
+166	BRAF	somatic_variant	Region-Defined Variants
+185	BRCA1	somatic_variant	Sequence Variants
+201	BRCA2	somatic_variant	Sequence Variants
+214	BRCA2	somatic_variant	Sequence Variants
+219	BRIP1	somatic_variant	Sequence Variants
+226	CDK12	somatic_variant	Sequence Variants
+227	CHEK1	somatic_variant	Sequence Variants
+234	CHEK2	somatic_variant	Sequence Variants
+241	CTNNB1	somatic_variant	Sequence Variants
+243	EGFR	somatic_variant	Region-Defined Variants
+248	EGFR	somatic_variant	Sequence Variants
+267	EGFR	somatic_variant	Gene Function Variants
+270	EGFR	somatic_variant	Gene Function Variants
+272	EGFR	somatic_variant	Sequence Variants
+276	ERBB2	somatic_variant	Sequence Variants
+277	ERBB2	somatic_variant	Sequence Variants
+278	ERBB3	somatic_variant	Sequence Variants
+279	ERCC2	somatic_variant	Sequence Variants
+282	ESR1	somatic_variant	Sequence Variants
+283	ETV6	somatic_variant	Sequence Variants
+284	ETV6	somatic_variant	Sequence Variants
+285	EZH2	somatic_variant	Sequence Variants
+286	EZH2	somatic_variant	Sequence Variants
+292	FANCL	somatic_variant	Region-Defined Variants
+293	FBXW7	somatic_variant	Sequence Variants
+298	FLCN	somatic_variant	Gene Function Variants
+301	FLCN	somatic_variant	Sequence Variants
+307	IDH1	somatic_variant	Sequence Variants
+319	IDH2	somatic_variant	Sequence Variants
+324	JAK1	somatic_variant	Sequence Variants
+327	JAK2	somatic_variant	Sequence Variants
+335	KIT	somatic_variant	Region-Defined Variants
+345	KIT	somatic_variant	Region-Defined Variants
+346	KIT	somatic_variant	Region-Defined Variants
+354	KIT	somatic_variant	Region-Defined Variants
+358	KIT	somatic_variant	Region-Defined Variants
+364	KRAS	somatic_variant	Region-Defined Variants
+366	KRAS	somatic_variant	Region-Defined Variants
+368	KRAS	somatic_variant	Region-Defined Variants
+370	KRAS	somatic_variant	Region-Defined Variants
+375	KRAS p.G12	somatic_variant	Sequence Variants
+376	KRAS p.G13	somatic_variant	Sequence Variants
+377	KRAS p.Q61	somatic_variant	Sequence Variants
+396	MC1R	somatic_variant	Region-Defined Variants
+398	MET	somatic_variant	Other Variants
+399	MET	somatic_variant	Sequence Variants
+402	MLH3	somatic_variant	Sequence Variants
+404	MSH2	somatic_variant	Sequence Variants
+405	MSH6	somatic_variant	Sequence Variants
+406	MTOR	somatic_variant	Region-Defined Variants
+407	MYH	somatic_variant	Region-Defined Variants
+408	NFE2L2	somatic_variant	Sequence Variants
+409	NRAS	somatic_variant	Region-Defined Variants
+441	PALB2	somatic_variant	Sequence Variants
+449	PBRM1	somatic_variant	Sequence Variants
+450	PDGFRA	somatic_variant	Region-Defined Variants
+453	PDGFRA	somatic_variant	Region-Defined Variants
+455	PBRM1	somatic_variant	Sequence Variants
+456	PIK3CA	somatic_variant	Region-Defined Variants
+457	PIK3CA	somatic_variant	Region-Defined Variants
+483	POLD1	somatic_variant	Sequence Variants
+487	POLE	somatic_variant	Region-Defined Variants
+490	PTEN	somatic_variant	Gene Function Variants
+491	PTEN	somatic_variant	Sequence Variants
+492	PTEN	somatic_variant	Other Variants
+496	PTEN	somatic_variant	Region-Defined Variants
+501	PTPN11	somatic_variant	Sequence Variants
+502	RAD51B	somatic_variant	Region-Defined Variants
+503	RAD51C	somatic_variant	Region-Defined Variants
+510	RAD51D	somatic_variant	Region-Defined Variants
+517	RAD54L	somatic_variant	Region-Defined Variants
+518	RBM10	somatic_variant	Sequence Variants
+521	RET	somatic_variant	Region-Defined Variants
+522	RUNX1	somatic_variant	Sequence Variants
+523	RUNX1	somatic_variant	Sequence Variants
+550	SMARCA4	somatic_variant	Sequence Variants
+551	SMARCA4	somatic_variant	Sequence Variants
+552	SMARCA4	somatic_variant	Sequence Variants
+553	SPOP	somatic_variant	Sequence Variants
+556	STAG2	somatic_variant	Sequence Variants
+557	STAG2	somatic_variant	Sequence Variants
+558	STAG2	somatic_variant	Sequence Variants
+559	TET2	somatic_variant	Sequence Variants
+560	TP53	somatic_variant	Sequence Variants
+561	TP53	somatic_variant	Sequence Variants
+562	TP53	somatic_variant	Sequence Variants
+563	TP53	somatic_variant	Sequence Variants
+568	TP53	somatic_variant	Sequence Variants
+571	TSC1	somatic_variant	Sequence Variants
+572	TSC1	somatic_variant	Sequence Variants
+573	TSC1	somatic_variant	Sequence Variants
+577	TSC2	somatic_variant	Sequence Variants
+579	TSC2	somatic_variant	Sequence Variants
+580	TSC2	somatic_variant	Sequence Variants
+583	ZRSR2	somatic_variant	Sequence Variants
+584	ZRSR2	somatic_variant	Sequence Variants
+585	ATM	germline_variant	Region-Defined Variants
+586	ATM	germline_variant	Region-Defined Variants
+587	ATM	germline_variant	Region-Defined Variants
+588	BARD1	germline_variant	Sequence Variants
+594	BRCA1	germline_variant	Sequence Variants
+602	BRCA1	germline_variant	Sequence Variants
+612	BRCA2	germline_variant	Sequence Variants
+624	BRCA2	germline_variant	Sequence Variants
+628	CHEK1	germline_variant	Sequence Variants
+634	CHEK2	germline_variant	Sequence Variants
+640	CHEK2	germline_variant	Sequence Variants
+641	EPCAM	germline_variant	Region-Defined Variants
+644	LIMK2 p.G574Rfs*12	germline_variant	Sequence Variants
+645	LIMK2 p.C582Lfs*4	germline_variant	Sequence Variants
+646	LIMK2 p.G684Tfs*16	germline_variant	Sequence Variants
+647	MLH1	germline_variant	Sequence Variants
+648	MLH3	germline_variant	Sequence Variants
+650	MRE11 p.H356Tfs*34	germline_variant	Sequence Variants
+651	MRE11 p.L7fs*18	germline_variant	Sequence Variants
+652	MSH2	germline_variant	Sequence Variants
+654	MSH6	germline_variant	Sequence Variants
+656	NF1	germline_variant	Sequence Variants
+657	PALB2	germline_variant	Sequence Variants
+664	PALB2	germline_variant	Sequence Variants
+665	PMS2	germline_variant	Sequence Variants
+666	POLE2 p.L469Ffs*17	germline_variant	Sequence Variants
+667	POT1 p.D617Efs*9	germline_variant	Sequence Variants
+669	POT1 p.N75Kfs*16	germline_variant	Sequence Variants
+670	RAD51C	germline_variant	Region-Defined Variants
+676	RAD51D	germline_variant	Region-Defined Variants
+682	RB1	germline_variant	Sequence Variants
+683	TP53	germline_variant	Sequence Variants
+688	ARID1A Deletion	copy_number	Copy Number Variants
+694	BRCA2 Deletion	copy_number	Copy Number Variants
+708	CDKN2A Deletion	copy_number	Copy Number Variants
+710	CDKN2C Deletion	copy_number	Copy Number Variants
+711	CDKN2C Deletion	copy_number	Copy Number Variants
+733	FBXW7 Deletion	copy_number	Copy Number Variants
+743	KEAP1 Deletion	copy_number	Copy Number Variants
+751	MIR17HG Deletion	copy_number	Copy Number Variants
+757	PBRM1 Deletion	copy_number	Copy Number Variants
+759	PTEN Deletion	copy_number	Copy Number Variants
+765	RB1 Deletion	copy_number	Copy Number Variants
+766	TP53 Deletion	copy_number	Copy Number Variants
+768	MSI-High	microsatellite_stability	Other Variants
+774	COSMIC Signature SBS10a	mutational_signature	Other Variants
+775	COSMIC Signature SBS10b	mutational_signature	Other Variants
+780	COSMIC Signature SBS2	mutational_signature	Sequence Variants
+782	COSMIC Signature SBS3	mutational_signature	Sequence Variants
+788	COSMIC Signature SBS4	mutational_signature	Sequence Variants
+790	COSMIC Signature SBS5	mutational_signature	Sequence Variants
+794	High	mutational_burden	Other Variants
+796	High (>= 178 mutations)	mutational_burden	Other Variants
+797	High (>= 100 mutations)	mutational_burden	Other Variants
+799	High (>= 10 mutations/Mb)	mutational_burden	Other Variants
+800	ATM (shRNA)	knockdown	Expression Variants
+801	B2M (CRISPR-Cas9)	knockdown	Expression Variants
+802	CDK12 (shRNA)	knockdown	Expression Variants
+803	CDK12 (siRNA)	knockdown	Expression Variants
+804	CPT1A (shRNA)	knockdown	Expression Variants
+805	RAD17 (shRNA)	knockdown	Expression Variants
+807	RAD50 (shRNA)	knockdown	Expression Variants
+808	TAP2 (CRISPR-Cas9)	knockdown	Expression Variants
+809	PPARGC1A (CRSPR-Cas9)	knockdown	Expression Variants
+810	Whole genome doubling	aneuploidy	Copy Number Variants
+824	RB1 (shRNA)	knockdown	Expression Variants
+825	USP11 (siRNA)	knockdown	Expression Variants
+827	BRCA1	somatic_variant	Sequence Variants
+828	BRCA1	somatic_variant	Sequence Variants
+832	BRCA2	somatic_variant	Sequence Variants
+837	RB1	somatic_variant	Sequence Variants
+838	RB1	somatic_variant	Sequence Variants
+839	ATRX Deletion	copy_number	Copy Number Variants
+840	BRCA1 Deletion	copy_number	Copy Number Variants
+844	CDKN2C Deletion	copy_number	Copy Number Variants
+853	RB1 Deletion	copy_number	Copy Number Variants
+854	FGFR1	rearrangement	Sequence Variants
+864	ESR1	somatic_variant	Sequence Variants
+875	ATR	somatic_variant	Region-Defined Variants
+880	FANCA	somatic_variant	Region-Defined Variants
+881	MLH1	somatic_variant	Sequence Variants
+883	NBN	somatic_variant	Region-Defined Variants
+892	RB1	somatic_variant	Sequence Variants
+901	BAP1 Deletion	copy_number	Copy Number Variants
+902	FANCA Deletion	copy_number	Copy Number Variants
+903	BARD1 Deletion	copy_number	Copy Number Variants
+904	CHEK2 Deletion	copy_number	Copy Number Variants
+905	TP53 Deletion	copy_number	Copy Number Variants
+906	ATM Deletion	copy_number	Copy Number Variants
+908	IDH1	somatic_variant	Sequence Variants
+916	FLT3	somatic_variant	Sequence Variants
+917	FLT3	somatic_variant	Sequence Variants
+918	FLT3	somatic_variant	Sequence Variants
+919	FLT3	somatic_variant	Sequence Variants
+920	NPM1 p.W288Cfs*12	somatic_variant	Sequence Variants
+926	WT1	somatic_variant	Sequence Variants
+927	WT1	somatic_variant	Sequence Variants
+928	WT1	somatic_variant	Sequence Variants
+938	AKT1	somatic_variant	Sequence Variants
+939	PTEN	somatic_variant	Gene Function Variants
+940	PTEN	somatic_variant	Sequence Variants
+941	PTEN	somatic_variant	Other Variants
+955	ROS1	rearrangement	Sequence Variants
+956	MRE11	somatic_variant	Sequence Variants
+964	BRAF	rearrangement	Rearrangement Variants
+965	BRAF Fusion	rearrangement	Rearrangement Variants
+1001	KMT2A Translocation	rearrangement	Rearrangement Variants
+1003	NRG1 Fusion	rearrangement	Rearrangement Variants
