@@ -4,6 +4,8 @@ import zipfile
 from enum import StrEnum
 from pathlib import Path
 from typing import List, Dict
+import requests
+from pathlib import Path
 
 from civicpy import civic as civicpy
 
@@ -81,3 +83,26 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
         items = json.load(f)
 
     return items
+
+MANUSCRIPT_S3_URL = "https://nch-igm-wagner-lab-public.s3.us-east-2.amazonaws.com/variation-normalizer-manuscript/2025"
+
+def download_s3(url: str, outfile_path: Path) -> None:
+    """Download objects from public s3 bucket
+
+    :param url: URL for file in s3 bucket
+    :param outfile_path: Path where file should be saved
+    """
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(outfile_path, "wb") as h:
+            for chunk in r.iter_content(chunk_size=8192):
+                if chunk:
+                    h.write(chunk)
+
+base_dir = Path(__file__).parent.resolve()
+clinvar_dir = base_dir / "clinvar"
+clinvar_dir.mkdir(exist_ok=True)
+
+url = f"{MANUSCRIPT_S3_URL}/clinvar/vi-normalized-with-liftover.jsonl.gz"
+outfile_path = clinvar_dir / "vi-normalized-with-liftover.jsonl.gz"
+download_s3(url, outfile_path)
