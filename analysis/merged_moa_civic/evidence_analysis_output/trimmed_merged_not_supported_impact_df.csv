@@ -1,12 +1,13 @@
 Category,Sum Evidence Items,Sum Variants,Sum Impact Score,Ratio of MOA Features to MOA+CIVIC per Category
-Sequence Variants,612,257,3492.75,0.48249027237354086
-Genotype Variants,27,16,312.5,0.0
-Fusion Variants,1218,294,6576.25,0.0
-Rearrangement Variants,602,151,3055.0,0.23178807947019867
+Sequence Variants,628,260,3369.25,0.48846153846153845
+Genotypes/Haplotypes,39,22,312.5,0.0
+Fusion Variants,1590,313,8112.75,0.0
+Rearrangement Variants,678,157,3597.0,0.2229299363057325
 Epigenetic Modification,23,14,285.5,0.0
-Copy Number Variants,96,51,269.5,0.3333333333333333
-Expression Variants,622,298,3629.0,0.03691275167785235
-Gene Function Variants,364,101,1872.5,0.09900990099009901
-Region-Defined Variants,675,171,6477.5,0.24561403508771928
-Other Variants,167,93,729.5,0.10752688172043011
-Transcript Variants,446,366,356.5,0.0
+Copy Number Variants,114,55,260.0,0.41818181818181815
+Expression Variants,635,305,3639.0,0.036065573770491806
+Gene Function Variants,400,119,1925.75,0.06722689075630252
+Region-Defined Variants,891,295,6832.0,0.13559322033898305
+Genome Features,25,10,0.0,0.0
+Other Variants,157,91,653.0,0.13186813186813187
+Transcript Variants,435,362,349.0,0.0
