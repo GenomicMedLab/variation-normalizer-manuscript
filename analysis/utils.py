@@ -24,7 +24,7 @@ class NotSupportedVariantCategory(StrEnum):
     """
 
     SEQUENCE_VARS = "Sequence Variants"
-    GENOTYPES = "Genotype Variants"
+    GENOTYPES_AND_HAPLOTYPES = "Genotypes/Haplotypes"
     FUSION = "Fusion Variants"
     REARRANGEMENTS = "Rearrangement Variants"
     EPIGENETIC_MODIFICATION = "Epigenetic Modification"
@@ -32,6 +32,7 @@ class NotSupportedVariantCategory(StrEnum):
     EXPRESSION = "Expression Variants"
     GENE_FUNC = "Gene Function Variants"
     REGION_DEFINED_VAR = "Region-Defined Variants"
+    GENOME_FEATURES = "Genome Features"
     OTHER = "Other Variants"
     TRANSCRIPT_VAR = "Transcript Variants"  # no attempt to normalize these ones, since there is no query we could use
 
