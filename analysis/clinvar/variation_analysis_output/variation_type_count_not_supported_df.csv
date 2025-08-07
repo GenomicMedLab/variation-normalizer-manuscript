@@ -1,6 +1,6 @@
 ,in.variation_type,in.issue,count
-0,copy number gain,None,2807
-1,copy number loss,None,1706
+0,copy number gain,Variant not described on GRCh37/GRCh38 assembly,2807
+1,copy number loss,Variant not described on GRCh37/GRCh38 assembly,1706
 2,Haplotype,haplotype and genotype variations are not supported.,617
 3,Diplotype,haplotype and genotype variations are not supported.,596
 4,Deletion,No viable variation members identified.,593
@@ -22,9 +22,9 @@
 20,copy number gain,range copies are not supported.,76
 21,Insertion,unsupported hgvs expression.,69
 22,Inversion,No viable variation members identified.,69
-23,Deletion,None,68
+23,Deletion,Variant not described on GRCh37/GRCh38 assembly,68
 24,Microsatellite,unsupported hgvs expression.,67
-25,Duplication,None,50
+25,Duplication,Variant not described on GRCh37/GRCh38 assembly,50
 26,Indel,unsupported hgvs expression.,43
 27,Duplication,unsupported hgvs expression.,42
 28,Microsatellite,No viable variation members identified.,33

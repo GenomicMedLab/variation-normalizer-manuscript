@@ -1,6 +1,6 @@
 support_status,in.issue,Allele,CopyNumberChange,CopyNumberCount,NONE,NormalizedPercent
 False,No viable variation members identified.,0,0,0,2095,0.0%
-False,None,0,0,0,4631,0.0%
+False,Variant not described on GRCh37/GRCh38 assembly,0,0,0,4631,0.0%
 False,expression contains unbalaned paretheses.,0,0,0,3,0.0%
 False,haplotype and genotype variations are not supported.,0,0,0,1540,0.0%
 False,intronic positions are not resolvable in sequence.,0,0,0,271,0.0%
