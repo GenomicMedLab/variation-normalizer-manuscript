@@ -4,8 +4,6 @@ import zipfile
 from enum import StrEnum
 from pathlib import Path
 from typing import List, Dict
-import requests
-from pathlib import Path
 
 from civicpy import civic as civicpy
 
