@@ -1,10 +1,8 @@
-,in.variation_type,in.vrs_xform_plan.policy,count
-0,copy number loss,Absolute copy count,475
-1,copy number gain,Absolute copy count,344
-2,Deletion,Copy number change (cn loss|del and cn gain|dup),89
-3,Duplication,Copy number change (cn loss|del and cn gain|dup),72
-4,copy number loss,Copy number change (cn loss|del and cn gain|dup),31
-5,copy number gain,Copy number change (cn loss|del and cn gain|dup),17
-6,single nucleotide variant,Remaining valid hgvs alleles,11
-7,Insertion,Remaining valid hgvs alleles,1
-8,Variation,Remaining valid hgvs alleles,1
+,in.variation_type,in.issue,count
+0,Deletion,None,711
+1,copy number loss,None,538
+2,copy number gain,None,438
+3,Duplication,None,357
+4,single nucleotide variant,None,71
+5,Indel,None,2
+6,Insertion,None,1
