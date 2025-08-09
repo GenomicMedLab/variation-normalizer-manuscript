@@ -1,4 +1,5 @@
 """Module containing utility functions and enums"""
+
 import json
 import zipfile
 from enum import StrEnum
@@ -23,18 +24,18 @@ class NotSupportedVariantCategory(StrEnum):
     Note: Order matters for performance final figure.
     """
 
-    SEQUENCE_VARS = "Sequence Variants"
-    GENOTYPES_AND_HAPLOTYPES = "Genotypes/Haplotypes"
-    FUSION = "Fusion Variants"
-    REARRANGEMENTS = "Rearrangement Variants"
+    SEQUENCE = "Sequence"
+    GENOTYPE_AND_HAPLOTYPE = "Genotype/Haplotype"
+    FUSION = "Fusion"
+    REARRANGEMENT = "Rearrangement"
     EPIGENETIC_MODIFICATION = "Epigenetic Modification"
-    COPY_NUMBER = "Copy Number Variants"
-    EXPRESSION = "Expression Variants"
-    GENE_FUNC = "Gene Function Variants"
-    REGION_DEFINED_VAR = "Region-Defined Variants"
-    GENOME_FEATURES = "Genome Features"
-    OTHER = "Other Variants"
-    TRANSCRIPT_VAR = "Transcript Variants"  # no attempt to normalize these ones, since there is no query we could use
+    COPY_NUMBER = "Copy Number"
+    EXPRESSION = "Expression"
+    GENE_FUNCTION = "Gene Function"
+    REGION_DEFINED = "Region-Defined"
+    GENOME_FEATURE = "Genome Feature"
+    OTHER = "Other"
+    TRANSCRIPT = "Transcript"  # no attempt to normalize these ones, since there is no query we could use
 
 
 NOT_SUPPORTED_VARIANT_CATEGORY_VALUES = [

@@ -1,197 +1,197 @@
 variant_id	query	moa_feature_type	category
-66	ABL1 p.T315I	somatic_variant	Sequence Variants
-68	ABL1 p.T315A	somatic_variant	Sequence Variants
-70	ABL1 p.F317L	somatic_variant	Sequence Variants
-71	ABL1 p.F317V	somatic_variant	Sequence Variants
-72	ABL1 p.F317I	somatic_variant	Sequence Variants
-73	ABL1 p.F317C	somatic_variant	Sequence Variants
-75	ABL1 p.E255K	somatic_variant	Sequence Variants
-76	ABL1 p.E255V	somatic_variant	Sequence Variants
-77	ABL1 p.Y253H	somatic_variant	Sequence Variants
-78	ABL1 p.F359V	somatic_variant	Sequence Variants
-79	ABL1 p.F359C	somatic_variant	Sequence Variants
-80	ABL1 p.F359I	somatic_variant	Sequence Variants
-92	ABL1 p.V299L	somatic_variant	Sequence Variants
-107	AKT1 p.E17K	somatic_variant	Sequence Variants
-110	ALK p.G1202R	somatic_variant	Sequence Variants
-111	ALK p.F1174C	somatic_variant	Sequence Variants
-112	ALK p.L1196M	somatic_variant	Sequence Variants
-113	ALK p.G1269A	somatic_variant	Sequence Variants
-114	ALK p.S1206Y	somatic_variant	Sequence Variants
-115	AR p.T878A	somatic_variant	Sequence Variants
-116	AR p.L702H	somatic_variant	Sequence Variants
-117	ARAF p.S214C	somatic_variant	Sequence Variants
-129	ATM p.A1127D	somatic_variant	Sequence Variants
-141	BCOR p.N1425S	somatic_variant	Sequence Variants
-144	BRAF p.V600E	somatic_variant	Sequence Variants
-146	BRAF p.V600K	somatic_variant	Sequence Variants
-242	EGFR p.T790M	somatic_variant	Sequence Variants
-254	EGFR p.L858R	somatic_variant	Sequence Variants
-281	ERRFI1 p.E384*	somatic_variant	Gene Function Variants
-287	EZH2 p.Y646*	somatic_variant	Gene Function Variants
-288	EZH2 p.Y646F	somatic_variant	Sequence Variants
-289	EZH2 p.Y646N	somatic_variant	Sequence Variants
-290	EZH2 p.A682G	somatic_variant	Sequence Variants
-291	EZH2 p.A692V	somatic_variant	Sequence Variants
-294	FGFR3 p.R248C	somatic_variant	Sequence Variants
-295	FGFR3 p.S249C	somatic_variant	Sequence Variants
-296	FGFR3 p.G370C	somatic_variant	Sequence Variants
-297	FGFR3 p.Y373C	somatic_variant	Sequence Variants
-304	FLT3 p.F691L	somatic_variant	Sequence Variants
-305	FLT3 p.K663Q	somatic_variant	Sequence Variants
-306	GATA3 p.M294K	somatic_variant	Sequence Variants
-310	IDH1 p.R132H	somatic_variant	Sequence Variants
-311	IDH1 p.R132C	somatic_variant	Sequence Variants
-316	IDH2 p.R140Q	somatic_variant	Sequence Variants
-317	IDH2 p.R172S	somatic_variant	Sequence Variants
-318	IDH2 p.R172K	somatic_variant	Sequence Variants
-321	IDH2 p.R140Q	somatic_variant	Sequence Variants
-325	JAK1 p.V656F	somatic_variant	Sequence Variants
-326	JAK1 p.A634D	somatic_variant	Sequence Variants
-328	JAK2 p.V617F	somatic_variant	Sequence Variants
-329	JAK3 p.A572T	somatic_variant	Sequence Variants
-330	JAK3 p.M511I	somatic_variant	Sequence Variants
-331	JAK3 p.L857Q	somatic_variant	Sequence Variants
-339	KIT p.T670I	somatic_variant	Sequence Variants
-340	KIT p.V654A	somatic_variant	Sequence Variants
-347	KIT p.W557C	somatic_variant	Sequence Variants
-348	KIT p.W557G	somatic_variant	Sequence Variants
-349	KIT p.W557R	somatic_variant	Sequence Variants
-350	KIT p.V559A	somatic_variant	Sequence Variants
-351	KIT p.V559G	somatic_variant	Sequence Variants
-352	KIT p.L576P	somatic_variant	Sequence Variants
-353	KIT p.K642E	somatic_variant	Sequence Variants
-355	KIT p.D816H	somatic_variant	Sequence Variants
-360	KIT p.D816V	somatic_variant	Sequence Variants
-372	KRAS p.G12C	somatic_variant	Sequence Variants
-374	KRAS p.G12D	somatic_variant	Sequence Variants
-386	MAP2K1 p.P124L	somatic_variant	Sequence Variants
-387	MAP2K1 p.Q56P	somatic_variant	Sequence Variants
-392	MAP2K1 p.C121S	somatic_variant	Sequence Variants
-394	MAP2K2 p.Q60P	somatic_variant	Sequence Variants
-395	MAPK1 p.E322K	somatic_variant	Sequence Variants
-397	MET p.T1010I	somatic_variant	Sequence Variants
-403	MPL p.W515L	somatic_variant	Sequence Variants
-411	NRAS p.G12A	somatic_variant	Sequence Variants
-412	NRAS p.G12C	somatic_variant	Sequence Variants
-413	NRAS p.G12D	somatic_variant	Sequence Variants
-414	NRAS p.G12R	somatic_variant	Sequence Variants
-415	NRAS p.G12S	somatic_variant	Sequence Variants
-416	NRAS p.G12V	somatic_variant	Sequence Variants
-417	NRAS p.G13A	somatic_variant	Sequence Variants
-418	NRAS p.G13D	somatic_variant	Sequence Variants
-419	NRAS p.G13R	somatic_variant	Sequence Variants
-420	NRAS p.G13V	somatic_variant	Sequence Variants
-421	NRAS p.Q61E	somatic_variant	Sequence Variants
-422	NRAS p.Q61H	somatic_variant	Sequence Variants
-423	NRAS p.Q61L	somatic_variant	Sequence Variants
-424	NRAS p.Q61P	somatic_variant	Sequence Variants
-425	NRAS p.Q61R	somatic_variant	Sequence Variants
-451	PDGFRA p.D842V	somatic_variant	Sequence Variants
-459	PIK3CA p.E545Q	somatic_variant	Sequence Variants
-460	PIK3CA p.C420R	somatic_variant	Sequence Variants
-461	PIK3CA p.E542K	somatic_variant	Sequence Variants
-462	PIK3CA p.E542Q	somatic_variant	Sequence Variants
-463	PIK3CA p.E545A	somatic_variant	Sequence Variants
-464	PIK3CA p.E545D	somatic_variant	Sequence Variants
-466	PIK3CA p.E545G	somatic_variant	Sequence Variants
-467	PIK3CA p.E545K	somatic_variant	Sequence Variants
-468	PIK3CA p.G1049R	somatic_variant	Sequence Variants
-469	PIK3CA p.G1049S	somatic_variant	Sequence Variants
-470	PIK3CA p.H1047L	somatic_variant	Sequence Variants
-471	PIK3CA p.H1047R	somatic_variant	Sequence Variants
-472	PIK3CA p.H1047Y	somatic_variant	Sequence Variants
-473	PIK3CA p.H701P	somatic_variant	Sequence Variants
-474	PIK3CA p.M1043I	somatic_variant	Sequence Variants
-476	PIK3CA p.P539R	somatic_variant	Sequence Variants
-477	PIK3CA p.Q546K	somatic_variant	Sequence Variants
-478	PIK3CA p.Y1021C	somatic_variant	Sequence Variants
-479	POLD1 p.D316H	somatic_variant	Sequence Variants
-480	POLD1 p.D316G	somatic_variant	Sequence Variants
-481	POLD1 p.R409W	somatic_variant	Sequence Variants
-482	POLD1 p.L474P	somatic_variant	Sequence Variants
-486	POLE p.L424V	somatic_variant	Sequence Variants
-519	RET p.V804M	somatic_variant	Sequence Variants
-520	RET p.M918T	somatic_variant	Sequence Variants
-524	SETBP1 p.E858K	somatic_variant	Sequence Variants
-525	SETBP1 p.T864M	somatic_variant	Sequence Variants
-526	SETBP1 p.I865N	somatic_variant	Sequence Variants
-527	SETBP1 p.D868N	somatic_variant	Sequence Variants
-528	SETBP1 p.D868Y	somatic_variant	Sequence Variants
-529	SETBP1 p.S869C	somatic_variant	Sequence Variants
-530	SETBP1 p.G870S	somatic_variant	Sequence Variants
-531	SF3B1 p.E622Q	somatic_variant	Sequence Variants
-532	SF3B1 p.E622D	somatic_variant	Sequence Variants
-533	SF3B1 p.Y623C	somatic_variant	Sequence Variants
-534	SF3B1 p.R625C	somatic_variant	Sequence Variants
-535	SF3B1 p.R625H	somatic_variant	Sequence Variants
-536	SF3B1 p.N626H	somatic_variant	Sequence Variants
-537	SF3B1 p.N626Y	somatic_variant	Sequence Variants
-538	SF3B1 p.N626D	somatic_variant	Sequence Variants
-539	SF3B1 p.H662R	somatic_variant	Sequence Variants
-540	SF3B1 p.T663P	somatic_variant	Sequence Variants
-541	SF3B1 p.K666N	somatic_variant	Sequence Variants
-542	SF3B1 p.K666T	somatic_variant	Sequence Variants
-543	SF3B1 p.K666E	somatic_variant	Sequence Variants
-544	SF3B1 p.K700E	somatic_variant	Sequence Variants
-545	SF3B1 p.I704S	somatic_variant	Sequence Variants
-546	SF3B1 p.G740E	somatic_variant	Sequence Variants
-547	SF3B1 p.G740V	somatic_variant	Sequence Variants
-548	SF3B1 p.G742D	somatic_variant	Sequence Variants
-549	SF3B1 p.D781E	somatic_variant	Sequence Variants
-642	IL12RB1 p.Q32*	germline_variant	Gene Function Variants
-643	IL12RB1 p.Q542*	germline_variant	Gene Function Variants
-649	MRE11 p.R576*	germline_variant	Gene Function Variants
-668	POT1 p.R363*	germline_variant	Gene Function Variants
-684	AR Amplification	copy_number	Copy Number Variants
-689	AURKA Amplification	copy_number	Copy Number Variants
-691	AURKB Amplification	copy_number	Copy Number Variants
-692	BRAF Amplification	copy_number	Copy Number Variants
-695	CCND1 Amplification	copy_number	Copy Number Variants
-696	CCND1 Amplification	copy_number	Copy Number Variants
-697	CCNE1 Amplification	copy_number	Copy Number Variants
-698	CD274 Amplification	copy_number	Copy Number Variants
-704	CDK4 Amplification	copy_number	Copy Number Variants
-712	CRKL Amplification	copy_number	Copy Number Variants
-713	EGFR Amplification	copy_number	Copy Number Variants
-714	ERBB2 Amplification	copy_number	Copy Number Variants
-732	ESR1 Amplification	copy_number	Copy Number Variants
-734	FGFR1 Amplification	copy_number	Copy Number Variants
-738	FGFR2 Amplification	copy_number	Copy Number Variants
-742	HIF1a Amplification	copy_number	Copy Number Variants
-744	KIT Amplification	copy_number	Copy Number Variants
-745	MDM2 Amplification	copy_number	Copy Number Variants
-746	MET Amplification	copy_number	Copy Number Variants
-750	MIR17HG Amplification	copy_number	Copy Number Variants
-752	MRE11 Amplification	copy_number	Copy Number Variants
-753	MYC Amplification	copy_number	Copy Number Variants
-754	MYC Amplification	copy_number	Copy Number Variants
-755	PAK1 Amplification	copy_number	Copy Number Variants
-758	PIK3CA Amplification	copy_number	Copy Number Variants
-767	TPX2 Amplification	copy_number	Copy Number Variants
-845	MAP2K4 Amplification	copy_number	Copy Number Variants
-848	MAPK7 Amplification	copy_number	Copy Number Variants
-849	MYOCD Amplification	copy_number	Copy Number Variants
-850	PDGFRA Amplification	copy_number	Copy Number Variants
-859	IDH1 p.R132G	somatic_variant	Sequence Variants
-860	IDH1 p.R132S	somatic_variant	Sequence Variants
-861	IDH1 p.R132L	somatic_variant	Sequence Variants
-897	CCNE1 Amplification	copy_number	Copy Number Variants
-912	FLT3 p.D835A	somatic_variant	Sequence Variants
-913	FLT3 p.D835E	somatic_variant	Sequence Variants
-914	FLT3 p.D835H	somatic_variant	Sequence Variants
-915	FLT3 p.D835Y	somatic_variant	Sequence Variants
-921	SRSF2 p.P95H	somatic_variant	Sequence Variants
-922	SRSF2 p.P95L	somatic_variant	Sequence Variants
-923	SRSF2 p.P95R	somatic_variant	Sequence Variants
-924	SRSF2 p.P95A	somatic_variant	Sequence Variants
-925	SRSF2 p.P95_R102del	somatic_variant	Sequence Variants
-929	U2AF1 p.S34A	somatic_variant	Sequence Variants
-930	U2AF1 p.S34F	somatic_variant	Sequence Variants
-931	U2AF1 p.S34F	somatic_variant	Sequence Variants
-932	U2AF1 p.S34Y	somatic_variant	Sequence Variants
-933	U2AF1 p.Q157P	somatic_variant	Sequence Variants
-934	U2AF1 p.Q157P	somatic_variant	Sequence Variants
-935	U2AF1 p.Q157R	somatic_variant	Sequence Variants
-982	IDH2 p.R172G	somatic_variant	Sequence Variants
-1010	KRAS p.G12V	somatic_variant	Sequence Variants
+66	ABL1 p.T315I	somatic_variant	Sequence
+68	ABL1 p.T315A	somatic_variant	Sequence
+70	ABL1 p.F317L	somatic_variant	Sequence
+71	ABL1 p.F317V	somatic_variant	Sequence
+72	ABL1 p.F317I	somatic_variant	Sequence
+73	ABL1 p.F317C	somatic_variant	Sequence
+75	ABL1 p.E255K	somatic_variant	Sequence
+76	ABL1 p.E255V	somatic_variant	Sequence
+77	ABL1 p.Y253H	somatic_variant	Sequence
+78	ABL1 p.F359V	somatic_variant	Sequence
+79	ABL1 p.F359C	somatic_variant	Sequence
+80	ABL1 p.F359I	somatic_variant	Sequence
+92	ABL1 p.V299L	somatic_variant	Sequence
+107	AKT1 p.E17K	somatic_variant	Sequence
+110	ALK p.G1202R	somatic_variant	Sequence
+111	ALK p.F1174C	somatic_variant	Sequence
+112	ALK p.L1196M	somatic_variant	Sequence
+113	ALK p.G1269A	somatic_variant	Sequence
+114	ALK p.S1206Y	somatic_variant	Sequence
+115	AR p.T878A	somatic_variant	Sequence
+116	AR p.L702H	somatic_variant	Sequence
+117	ARAF p.S214C	somatic_variant	Sequence
+129	ATM p.A1127D	somatic_variant	Sequence
+141	BCOR p.N1425S	somatic_variant	Sequence
+144	BRAF p.V600E	somatic_variant	Sequence
+146	BRAF p.V600K	somatic_variant	Sequence
+242	EGFR p.T790M	somatic_variant	Sequence
+254	EGFR p.L858R	somatic_variant	Sequence
+281	ERRFI1 p.E384*	somatic_variant	Gene Function
+287	EZH2 p.Y646*	somatic_variant	Gene Function
+288	EZH2 p.Y646F	somatic_variant	Sequence
+289	EZH2 p.Y646N	somatic_variant	Sequence
+290	EZH2 p.A682G	somatic_variant	Sequence
+291	EZH2 p.A692V	somatic_variant	Sequence
+294	FGFR3 p.R248C	somatic_variant	Sequence
+295	FGFR3 p.S249C	somatic_variant	Sequence
+296	FGFR3 p.G370C	somatic_variant	Sequence
+297	FGFR3 p.Y373C	somatic_variant	Sequence
+304	FLT3 p.F691L	somatic_variant	Sequence
+305	FLT3 p.K663Q	somatic_variant	Sequence
+306	GATA3 p.M294K	somatic_variant	Sequence
+310	IDH1 p.R132H	somatic_variant	Sequence
+311	IDH1 p.R132C	somatic_variant	Sequence
+316	IDH2 p.R140Q	somatic_variant	Sequence
+317	IDH2 p.R172S	somatic_variant	Sequence
+318	IDH2 p.R172K	somatic_variant	Sequence
+321	IDH2 p.R140Q	somatic_variant	Sequence
+325	JAK1 p.V656F	somatic_variant	Sequence
+326	JAK1 p.A634D	somatic_variant	Sequence
+328	JAK2 p.V617F	somatic_variant	Sequence
+329	JAK3 p.A572T	somatic_variant	Sequence
+330	JAK3 p.M511I	somatic_variant	Sequence
+331	JAK3 p.L857Q	somatic_variant	Sequence
+339	KIT p.T670I	somatic_variant	Sequence
+340	KIT p.V654A	somatic_variant	Sequence
+347	KIT p.W557C	somatic_variant	Sequence
+348	KIT p.W557G	somatic_variant	Sequence
+349	KIT p.W557R	somatic_variant	Sequence
+350	KIT p.V559A	somatic_variant	Sequence
+351	KIT p.V559G	somatic_variant	Sequence
+352	KIT p.L576P	somatic_variant	Sequence
+353	KIT p.K642E	somatic_variant	Sequence
+355	KIT p.D816H	somatic_variant	Sequence
+360	KIT p.D816V	somatic_variant	Sequence
+372	KRAS p.G12C	somatic_variant	Sequence
+374	KRAS p.G12D	somatic_variant	Sequence
+386	MAP2K1 p.P124L	somatic_variant	Sequence
+387	MAP2K1 p.Q56P	somatic_variant	Sequence
+392	MAP2K1 p.C121S	somatic_variant	Sequence
+394	MAP2K2 p.Q60P	somatic_variant	Sequence
+395	MAPK1 p.E322K	somatic_variant	Sequence
+397	MET p.T1010I	somatic_variant	Sequence
+403	MPL p.W515L	somatic_variant	Sequence
+411	NRAS p.G12A	somatic_variant	Sequence
+412	NRAS p.G12C	somatic_variant	Sequence
+413	NRAS p.G12D	somatic_variant	Sequence
+414	NRAS p.G12R	somatic_variant	Sequence
+415	NRAS p.G12S	somatic_variant	Sequence
+416	NRAS p.G12V	somatic_variant	Sequence
+417	NRAS p.G13A	somatic_variant	Sequence
+418	NRAS p.G13D	somatic_variant	Sequence
+419	NRAS p.G13R	somatic_variant	Sequence
+420	NRAS p.G13V	somatic_variant	Sequence
+421	NRAS p.Q61E	somatic_variant	Sequence
+422	NRAS p.Q61H	somatic_variant	Sequence
+423	NRAS p.Q61L	somatic_variant	Sequence
+424	NRAS p.Q61P	somatic_variant	Sequence
+425	NRAS p.Q61R	somatic_variant	Sequence
+451	PDGFRA p.D842V	somatic_variant	Sequence
+459	PIK3CA p.E545Q	somatic_variant	Sequence
+460	PIK3CA p.C420R	somatic_variant	Sequence
+461	PIK3CA p.E542K	somatic_variant	Sequence
+462	PIK3CA p.E542Q	somatic_variant	Sequence
+463	PIK3CA p.E545A	somatic_variant	Sequence
+464	PIK3CA p.E545D	somatic_variant	Sequence
+466	PIK3CA p.E545G	somatic_variant	Sequence
+467	PIK3CA p.E545K	somatic_variant	Sequence
+468	PIK3CA p.G1049R	somatic_variant	Sequence
+469	PIK3CA p.G1049S	somatic_variant	Sequence
+470	PIK3CA p.H1047L	somatic_variant	Sequence
+471	PIK3CA p.H1047R	somatic_variant	Sequence
+472	PIK3CA p.H1047Y	somatic_variant	Sequence
+473	PIK3CA p.H701P	somatic_variant	Sequence
+474	PIK3CA p.M1043I	somatic_variant	Sequence
+476	PIK3CA p.P539R	somatic_variant	Sequence
+477	PIK3CA p.Q546K	somatic_variant	Sequence
+478	PIK3CA p.Y1021C	somatic_variant	Sequence
+479	POLD1 p.D316H	somatic_variant	Sequence
+480	POLD1 p.D316G	somatic_variant	Sequence
+481	POLD1 p.R409W	somatic_variant	Sequence
+482	POLD1 p.L474P	somatic_variant	Sequence
+486	POLE p.L424V	somatic_variant	Sequence
+519	RET p.V804M	somatic_variant	Sequence
+520	RET p.M918T	somatic_variant	Sequence
+524	SETBP1 p.E858K	somatic_variant	Sequence
+525	SETBP1 p.T864M	somatic_variant	Sequence
+526	SETBP1 p.I865N	somatic_variant	Sequence
+527	SETBP1 p.D868N	somatic_variant	Sequence
+528	SETBP1 p.D868Y	somatic_variant	Sequence
+529	SETBP1 p.S869C	somatic_variant	Sequence
+530	SETBP1 p.G870S	somatic_variant	Sequence
+531	SF3B1 p.E622Q	somatic_variant	Sequence
+532	SF3B1 p.E622D	somatic_variant	Sequence
+533	SF3B1 p.Y623C	somatic_variant	Sequence
+534	SF3B1 p.R625C	somatic_variant	Sequence
+535	SF3B1 p.R625H	somatic_variant	Sequence
+536	SF3B1 p.N626H	somatic_variant	Sequence
+537	SF3B1 p.N626Y	somatic_variant	Sequence
+538	SF3B1 p.N626D	somatic_variant	Sequence
+539	SF3B1 p.H662R	somatic_variant	Sequence
+540	SF3B1 p.T663P	somatic_variant	Sequence
+541	SF3B1 p.K666N	somatic_variant	Sequence
+542	SF3B1 p.K666T	somatic_variant	Sequence
+543	SF3B1 p.K666E	somatic_variant	Sequence
+544	SF3B1 p.K700E	somatic_variant	Sequence
+545	SF3B1 p.I704S	somatic_variant	Sequence
+546	SF3B1 p.G740E	somatic_variant	Sequence
+547	SF3B1 p.G740V	somatic_variant	Sequence
+548	SF3B1 p.G742D	somatic_variant	Sequence
+549	SF3B1 p.D781E	somatic_variant	Sequence
+642	IL12RB1 p.Q32*	germline_variant	Gene Function
+643	IL12RB1 p.Q542*	germline_variant	Gene Function
+649	MRE11 p.R576*	germline_variant	Gene Function
+668	POT1 p.R363*	germline_variant	Gene Function
+684	AR Amplification	copy_number	Copy Number
+689	AURKA Amplification	copy_number	Copy Number
+691	AURKB Amplification	copy_number	Copy Number
+692	BRAF Amplification	copy_number	Copy Number
+695	CCND1 Amplification	copy_number	Copy Number
+696	CCND1 Amplification	copy_number	Copy Number
+697	CCNE1 Amplification	copy_number	Copy Number
+698	CD274 Amplification	copy_number	Copy Number
+704	CDK4 Amplification	copy_number	Copy Number
+712	CRKL Amplification	copy_number	Copy Number
+713	EGFR Amplification	copy_number	Copy Number
+714	ERBB2 Amplification	copy_number	Copy Number
+732	ESR1 Amplification	copy_number	Copy Number
+734	FGFR1 Amplification	copy_number	Copy Number
+738	FGFR2 Amplification	copy_number	Copy Number
+742	HIF1a Amplification	copy_number	Copy Number
+744	KIT Amplification	copy_number	Copy Number
+745	MDM2 Amplification	copy_number	Copy Number
+746	MET Amplification	copy_number	Copy Number
+750	MIR17HG Amplification	copy_number	Copy Number
+752	MRE11 Amplification	copy_number	Copy Number
+753	MYC Amplification	copy_number	Copy Number
+754	MYC Amplification	copy_number	Copy Number
+755	PAK1 Amplification	copy_number	Copy Number
+758	PIK3CA Amplification	copy_number	Copy Number
+767	TPX2 Amplification	copy_number	Copy Number
+845	MAP2K4 Amplification	copy_number	Copy Number
+848	MAPK7 Amplification	copy_number	Copy Number
+849	MYOCD Amplification	copy_number	Copy Number
+850	PDGFRA Amplification	copy_number	Copy Number
+859	IDH1 p.R132G	somatic_variant	Sequence
+860	IDH1 p.R132S	somatic_variant	Sequence
+861	IDH1 p.R132L	somatic_variant	Sequence
+897	CCNE1 Amplification	copy_number	Copy Number
+912	FLT3 p.D835A	somatic_variant	Sequence
+913	FLT3 p.D835E	somatic_variant	Sequence
+914	FLT3 p.D835H	somatic_variant	Sequence
+915	FLT3 p.D835Y	somatic_variant	Sequence
+921	SRSF2 p.P95H	somatic_variant	Sequence
+922	SRSF2 p.P95L	somatic_variant	Sequence
+923	SRSF2 p.P95R	somatic_variant	Sequence
+924	SRSF2 p.P95A	somatic_variant	Sequence
+925	SRSF2 p.P95_R102del	somatic_variant	Sequence
+929	U2AF1 p.S34A	somatic_variant	Sequence
+930	U2AF1 p.S34F	somatic_variant	Sequence
+931	U2AF1 p.S34F	somatic_variant	Sequence
+932	U2AF1 p.S34Y	somatic_variant	Sequence
+933	U2AF1 p.Q157P	somatic_variant	Sequence
+934	U2AF1 p.Q157P	somatic_variant	Sequence
+935	U2AF1 p.Q157R	somatic_variant	Sequence
+982	IDH2 p.R172G	somatic_variant	Sequence
+1010	KRAS p.G12V	somatic_variant	Sequence
