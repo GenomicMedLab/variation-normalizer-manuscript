@@ -1,13 +1,13 @@
 Category,CIVIC Total Sum Impact Score,Average Impact Score per Variant,Average Impact Score per Evidence Item,Total Number Evidence Items,% Accepted Evidence Items,Total Number Variants
-Sequence Variants,2601.75,7.19,5.98,300,64.00%,133
-Genotypes/Haplotypes,312.5,0.86,0.72,39,48.72%,22
-Fusion Variants,8112.75,22.41,18.65,1590,63.46%,313
-Rearrangement Variants,3336.0,9.22,7.67,593,39.80%,122
+Sequence,2601.75,7.19,5.98,300,64.00%,133
+Genotype/Haplotype,312.5,0.86,0.72,39,48.72%,22
+Fusion,8112.75,22.41,18.65,1590,63.46%,313
+Rearrangement,3336.0,9.22,7.67,593,39.80%,122
 Epigenetic Modification,285.5,0.79,0.66,23,95.65%,14
-Copy Number Variants,210.0,0.58,0.48,77,45.45%,32
-Expression Variants,3628.0,10.02,8.34,623,55.38%,294
-Gene Function Variants,1878.75,5.19,4.32,386,43.78%,111
-Region-Defined Variants,6565.0,18.14,15.09,782,56.52%,255
-Genome Features,0.0,0.0,0.0,25,20.00%,10
-Other Variants,576.0,1.59,1.32,126,33.33%,79
-Transcript Variants,349.0,0.96,0.8,435,13.33%,362
+Copy Number,210.0,0.58,0.48,77,45.45%,32
+Expression,3628.0,10.02,8.34,623,55.38%,294
+Gene Function,1878.75,5.19,4.32,386,43.78%,111
+Region-Defined,6565.0,18.14,15.09,782,56.52%,255
+Genome Feature,0.0,0.0,0.0,25,20.00%,10
+Other,576.0,1.59,1.32,126,33.33%,79
+Transcript,349.0,0.96,0.8,435,13.33%,362
