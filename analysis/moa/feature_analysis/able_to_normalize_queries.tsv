@@ -1,197 +1,197 @@
 variant_id	query	moa_feature_type	category	vrs_id
-66	ABL1 p.T315I	somatic_variant	Sequence Variants	ga4gh:VA.D6NzpWXKqBnbcZZrXNSXj4tMUwROKbsQ
-68	ABL1 p.T315A	somatic_variant	Sequence Variants	ga4gh:VA.37YVc2HpRgXOq3HtsjcL1eiyLhDXLmYy
-70	ABL1 p.F317L	somatic_variant	Sequence Variants	ga4gh:VA.ZJZc_8PkTSu-twmaJvj6yQXvPJHElPZc
-71	ABL1 p.F317V	somatic_variant	Sequence Variants	ga4gh:VA.SnGz3wUT2JaIid12PoI6OHc4t7LgHVj1
-72	ABL1 p.F317I	somatic_variant	Sequence Variants	ga4gh:VA.wDDVWfpuxnuYkLj5_0OrnaBvrJAXYcJA
-73	ABL1 p.F317C	somatic_variant	Sequence Variants	ga4gh:VA.qm_zti_uhENk10RV6-usf5CEKRGSHbm8
-75	ABL1 p.E255K	somatic_variant	Sequence Variants	ga4gh:VA.y7kX_U01bDeLnxvbo1BcNTnELH7f_x7V
-76	ABL1 p.E255V	somatic_variant	Sequence Variants	ga4gh:VA.v-kV7I4CYEDwUUB60OXG1kJDs5jXzAzj
-77	ABL1 p.Y253H	somatic_variant	Sequence Variants	ga4gh:VA.74tNeU5kbvRxbJbZ4y4HkTh0zV8u18IW
-78	ABL1 p.F359V	somatic_variant	Sequence Variants	ga4gh:VA.whkYT34c9xLuVqgpE0_pETIIQGkrgb8c
-79	ABL1 p.F359C	somatic_variant	Sequence Variants	ga4gh:VA.m9irj_tUdc3UiH7iFOINzZzHZTCEAyCi
-80	ABL1 p.F359I	somatic_variant	Sequence Variants	ga4gh:VA.B6uOm51_KWfoJlGO61ui7ltRfb4sG092
-92	ABL1 p.V299L	somatic_variant	Sequence Variants	ga4gh:VA.EhSHoRNbPVLi2cIM8uy9iiZQFnVc2QPp
-107	AKT1 p.E17K	somatic_variant	Sequence Variants	ga4gh:VA.GfY89Zy-DJcnWtthBcoVV6PyuE4qkP8F
-110	ALK p.G1202R	somatic_variant	Sequence Variants	ga4gh:VA.dW4kfzuGNeteFlDekXpEbr8I7sNkpdRn
-111	ALK p.F1174C	somatic_variant	Sequence Variants	ga4gh:VA.qqPMMbmP3yREVCmNl-t9uErZKUttYH79
-112	ALK p.L1196M	somatic_variant	Sequence Variants	ga4gh:VA.E8YabWqHYiNl5g4GUBxOIR3qT2Ni2hDX
-113	ALK p.G1269A	somatic_variant	Sequence Variants	ga4gh:VA.sfyM358Q8Jtl1wrMJOanYiOsDM3BVQPn
-114	ALK p.S1206Y	somatic_variant	Sequence Variants	ga4gh:VA.nq_fGAlsZnu7zjlISka1b1upudZGFuea
-115	AR p.T878A	somatic_variant	Sequence Variants	ga4gh:VA.7f_c_kjvXs4sK9YEZXytxMRNhtOhfyrx
-116	AR p.L702H	somatic_variant	Sequence Variants	ga4gh:VA.mXrc5IR5TO9WipB3sLeWDtzAYVHCFYki
-117	ARAF p.S214C	somatic_variant	Sequence Variants	ga4gh:VA.mipQFzApQNp2KyVXcZig8b4uu7kFofIZ
-129	ATM p.A1127D	somatic_variant	Sequence Variants	ga4gh:VA.F81AHXva7dDDRrTA5kxObhJ4dQ8GQ6B8
-141	BCOR p.N1425S	somatic_variant	Sequence Variants	ga4gh:VA.pDuCLNI3mHF25uUPNSDM8LbP8p4Fsuay
-144	BRAF p.V600E	somatic_variant	Sequence Variants	ga4gh:VA.j4XnsLZcdzDIYa5pvvXM7t1wn9OITr0L
-146	BRAF p.V600K	somatic_variant	Sequence Variants	ga4gh:VA.pfWn9x9oFBRzGda1xXcOrE-BrX0R__N8
-242	EGFR p.T790M	somatic_variant	Sequence Variants	ga4gh:VA.sMA9h8fzDi0RvweMlxtD0_Oi8B-JZ1V-
-254	EGFR p.L858R	somatic_variant	Sequence Variants	ga4gh:VA.S41CcMJT2bcd8R4-qXZWH1PoHWNtG2PZ
-281	ERRFI1 p.E384*	somatic_variant	Gene Function Variants	ga4gh:VA.v5Jc64GQjTPVlsjiINmmlWmNRFfDDnoO
-287	EZH2 p.Y646*	somatic_variant	Gene Function Variants	ga4gh:VA.XKHskuwaF4N1kY26E5A1RWt12H4dl_c9
-288	EZH2 p.Y646F	somatic_variant	Sequence Variants	ga4gh:VA.oYK6HfZD2veVeRV_OCMXdMY8mM2k8riu
-289	EZH2 p.Y646N	somatic_variant	Sequence Variants	ga4gh:VA.F3wf8X4pXaRvx55F_jvVkK258q-JoDni
-290	EZH2 p.A682G	somatic_variant	Sequence Variants	ga4gh:VA.0XRkkEA2HWTplj8pneW7IzKzkJh_VTdi
-291	EZH2 p.A692V	somatic_variant	Sequence Variants	ga4gh:VA.Asy9WpmrMOSunO4H7D3OU7t4MvIbBWK9
-294	FGFR3 p.R248C	somatic_variant	Sequence Variants	ga4gh:VA.6fDQOuVnlKrDjTq3rkMY-1UHbT41h332
-295	FGFR3 p.S249C	somatic_variant	Sequence Variants	ga4gh:VA.lCQZ8ie3k9M8N7wpd4BxHSpFYLKd0fVI
-296	FGFR3 p.G370C	somatic_variant	Sequence Variants	ga4gh:VA.jN7GBCtzW-TeO8Oj6sXOTBkb5RpqsnhE
-297	FGFR3 p.Y373C	somatic_variant	Sequence Variants	ga4gh:VA.UHA6S3oE8Ts_WI51w5noSpXhSlvNEjHu
-304	FLT3 p.F691L	somatic_variant	Sequence Variants	ga4gh:VA.fV8iAY2E_DdmWWtXswj2lJ4EP-DOasSU
-305	FLT3 p.K663Q	somatic_variant	Sequence Variants	ga4gh:VA.WGJhl7dROPj4jGUTJ3OS3-N5WX9F7rRR
-306	GATA3 p.M294K	somatic_variant	Sequence Variants	ga4gh:VA.GmoEzlSokba5nA-T6hqd5PEHPrW1SGRI
-310	IDH1 p.R132H	somatic_variant	Sequence Variants	ga4gh:VA.2VAvTmPON2L7JffxjE68jAmmmwxyzDpB
-311	IDH1 p.R132C	somatic_variant	Sequence Variants	ga4gh:VA.lAST62ntkEaXy6RDDOF1V4C3jd-jaAJ5
-316	IDH2 p.R140Q	somatic_variant	Sequence Variants	ga4gh:VA.HK1caYli9110rSKDTqSXAgzjzajRFBBv
-317	IDH2 p.R172S	somatic_variant	Sequence Variants	ga4gh:VA.GcEWQeOqTVsh88PUGeuMNT2jNcjCzshC
-318	IDH2 p.R172K	somatic_variant	Sequence Variants	ga4gh:VA.YqiDFzE2K6fcXhXkCGYHIQ75RgutPq_7
-321	IDH2 p.R140Q	somatic_variant	Sequence Variants	ga4gh:VA.HK1caYli9110rSKDTqSXAgzjzajRFBBv
-325	JAK1 p.V656F	somatic_variant	Sequence Variants	ga4gh:VA.SR-Evc_MyfZ8NclBLvfIGIUzMokxIeml
-326	JAK1 p.A634D	somatic_variant	Sequence Variants	ga4gh:VA.wh8gAcHF3JV7Gpq_p0v01r_dzRanXE7Z
-328	JAK2 p.V617F	somatic_variant	Sequence Variants	ga4gh:VA.DcGYwTryaNE4EgROJNB0WM5d-ca9XwRv
-329	JAK3 p.A572T	somatic_variant	Sequence Variants	ga4gh:VA.oyUFpvfnbP8yHzNo4pg8FrAKQAdKDH5e
-330	JAK3 p.M511I	somatic_variant	Sequence Variants	ga4gh:VA.F3npQ3_FkJH_NcJMichVGTR7f0564jQf
-331	JAK3 p.L857Q	somatic_variant	Sequence Variants	ga4gh:VA.D6yhVNhktggdS7WvEMP8E7Xn-eIAdMTe
-339	KIT p.T670I	somatic_variant	Sequence Variants	ga4gh:VA.w6K7bKlqZC_cCZOk9W0IBVh4EZrcSv3o
-340	KIT p.V654A	somatic_variant	Sequence Variants	ga4gh:VA.6mOBrBWsfWLavxBwhR3tMyJEW9UNc6fk
-347	KIT p.W557C	somatic_variant	Sequence Variants	ga4gh:VA.vCHkLX559PRJOxY5nYLNi-0hqOXsMeYp
-348	KIT p.W557G	somatic_variant	Sequence Variants	ga4gh:VA.aPCOkvmQ8zzAvdoKCE-6mjuY_BBCp-U8
-349	KIT p.W557R	somatic_variant	Sequence Variants	ga4gh:VA.OjmqirAj5nGJsnlhajIto0yqlHtTzzG5
-350	KIT p.V559A	somatic_variant	Sequence Variants	ga4gh:VA.KaXTQ-4MiJHF5w1ug1Vaku64sh9Y6Bdh
-351	KIT p.V559G	somatic_variant	Sequence Variants	ga4gh:VA.dl4OeK6gWyW0u4C-FxAxCT8O08WWM9WV
-352	KIT p.L576P	somatic_variant	Sequence Variants	ga4gh:VA.e3X8c8KxGdRvkl8YWKRk1o-84nRdiE3u
-353	KIT p.K642E	somatic_variant	Sequence Variants	ga4gh:VA.Dsrq3AJXo4UQCiCnQCcrb2t551o9Dhv8
-355	KIT p.D816H	somatic_variant	Sequence Variants	ga4gh:VA._qkz7l_SgFuuJ56dAKEVzVpavXwrkC8u
-360	KIT p.D816V	somatic_variant	Sequence Variants	ga4gh:VA.nhiDwIq1klrGm3wtWO4a4BiS0jdW79Wd
-372	KRAS p.G12C	somatic_variant	Sequence Variants	ga4gh:VA.udBCHwlrf8xNiRy_19bLi-h5LhnZLgCt
-374	KRAS p.G12D	somatic_variant	Sequence Variants	ga4gh:VA.cdcXITbBWUXPjy3zPdhs7xjU1yvlkSrj
-386	MAP2K1 p.P124L	somatic_variant	Sequence Variants	ga4gh:VA.8wkCi_XxSPbnuf_zYV1_SCcZ_pXVziQd
-387	MAP2K1 p.Q56P	somatic_variant	Sequence Variants	ga4gh:VA.yHQVVwZjma693Ev6lQtew1axCWVwIi8K
-392	MAP2K1 p.C121S	somatic_variant	Sequence Variants	ga4gh:VA.FkanRNmwHE0Hf6xRjR2MElkUvP5kPMDC
-394	MAP2K2 p.Q60P	somatic_variant	Sequence Variants	ga4gh:VA.vQTatXhzC7rdpHhUo-55WJmxKtpruDPT
-395	MAPK1 p.E322K	somatic_variant	Sequence Variants	ga4gh:VA.4yqg18xtnJP7cTJI-Z2xS5HjnhxJJg84
-397	MET p.T1010I	somatic_variant	Sequence Variants	ga4gh:VA.hrgriXDdl95CwTxbXpun9v_Ekh_ERDNK
-403	MPL p.W515L	somatic_variant	Sequence Variants	ga4gh:VA.B-ZUAtut--U--BTz42bydkr4FZyHpd7F
-411	NRAS p.G12A	somatic_variant	Sequence Variants	ga4gh:VA.4I8_LCmzTz7jB0bBxN6Egqs8R5L4aaFw
-412	NRAS p.G12C	somatic_variant	Sequence Variants	ga4gh:VA.7nsZiek_H62HpWGKFv1GLciGWv3tKRN5
-413	NRAS p.G12D	somatic_variant	Sequence Variants	ga4gh:VA.Rq3N-YIvM8zB_XQ0jSfgPNbpZpaXRjtd
-414	NRAS p.G12R	somatic_variant	Sequence Variants	ga4gh:VA.8YIGJgiyUBzEbUeLEsiZkMcpSbUDb4-e
-415	NRAS p.G12S	somatic_variant	Sequence Variants	ga4gh:VA.Pj1D4jmWU_aANZDjvMjoG4tEalP7Dyv6
-416	NRAS p.G12V	somatic_variant	Sequence Variants	ga4gh:VA.WwV6JPwcMOAJu-ehDWQWmubmUWlV1ddk
-417	NRAS p.G13A	somatic_variant	Sequence Variants	ga4gh:VA.aJRpUjcUzC-6TDCQpnDuV2umq1la3T1y
-418	NRAS p.G13D	somatic_variant	Sequence Variants	ga4gh:VA.QP0kq1DT5HXfhNPZg7qQUY8zLHQacZ3Y
-419	NRAS p.G13R	somatic_variant	Sequence Variants	ga4gh:VA.B7zZTxypiwSWZpc4LASs-CZL50acW3wA
-420	NRAS p.G13V	somatic_variant	Sequence Variants	ga4gh:VA.xbKrlb4SMoteLcWJKz3pmPtxpiC4fHy-
-421	NRAS p.Q61E	somatic_variant	Sequence Variants	ga4gh:VA.rsuK7OFWP7oiUdFoZerZmFu0nA6QBtSK
-422	NRAS p.Q61H	somatic_variant	Sequence Variants	ga4gh:VA.sUQrnY4jvb7whQHgnS6rkx08Lb44wowM
-423	NRAS p.Q61L	somatic_variant	Sequence Variants	ga4gh:VA.qbbbxC4fGSEGvaT2Q9U8fLShG2YiTZL_
-424	NRAS p.Q61P	somatic_variant	Sequence Variants	ga4gh:VA.uUEOGctP2SXEXsexyo0cRbMNs9-g1kOf
-425	NRAS p.Q61R	somatic_variant	Sequence Variants	ga4gh:VA.CpnlaV2B8565obATF-UlE706sBYp0D6M
-451	PDGFRA p.D842V	somatic_variant	Sequence Variants	ga4gh:VA.Dy7soaZQU1vH9Eb93xG_pJyhu7xTDDC9
-459	PIK3CA p.E545Q	somatic_variant	Sequence Variants	ga4gh:VA.zDDKySmgMwFwLtAqrBXvNpQA_CQ5hToT
-460	PIK3CA p.C420R	somatic_variant	Sequence Variants	ga4gh:VA.FaMueqbbjnxuzxylH-4jpkaWfp6pLH98
-461	PIK3CA p.E542K	somatic_variant	Sequence Variants	ga4gh:VA.ju5WwTji4SvLPzJqUB7EzSEF2DKtIusY
-462	PIK3CA p.E542Q	somatic_variant	Sequence Variants	ga4gh:VA.WEA3Ixj_PrlgYlLocLDoaY2xgDeTqhF0
-463	PIK3CA p.E545A	somatic_variant	Sequence Variants	ga4gh:VA.dbKVUlhIwe3YS-B4Rhs5QsEI08yv0Xhk
-464	PIK3CA p.E545D	somatic_variant	Sequence Variants	ga4gh:VA.E09IUKElemW2uoVRT5qacU7RMqT8Um5m
-466	PIK3CA p.E545G	somatic_variant	Sequence Variants	ga4gh:VA.w50kYfxdOa7XBtTO7E3GrpFf0o-maldE
-467	PIK3CA p.E545K	somatic_variant	Sequence Variants	ga4gh:VA.-dMnJf9oUBfl9De0llc3LqJaGdFzfATK
-468	PIK3CA p.G1049R	somatic_variant	Sequence Variants	ga4gh:VA.Llpd98XgE-ewhN4n29ycYLN8bW3fHAI_
-469	PIK3CA p.G1049S	somatic_variant	Sequence Variants	ga4gh:VA.GZ-HgAcZqv_Af6wmQPpEx9-cHdVHViC6
-470	PIK3CA p.H1047L	somatic_variant	Sequence Variants	ga4gh:VA.3ybIkH_QhR6C7QmnTeD2-P6U1Pu7M__0
-471	PIK3CA p.H1047R	somatic_variant	Sequence Variants	ga4gh:VA.5GEqm-zIzvvPheyGb9rlu5DyIueIubXm
-472	PIK3CA p.H1047Y	somatic_variant	Sequence Variants	ga4gh:VA.H9BsFCFdYyh8KDICE_3wSsjLy66SWFYS
-473	PIK3CA p.H701P	somatic_variant	Sequence Variants	ga4gh:VA.e9nTDXWkejhFpPUKdRxAn89wET-ZUv9N
-474	PIK3CA p.M1043I	somatic_variant	Sequence Variants	ga4gh:VA.A8crPBRvgFrkcWWnszjqT26E08kr0wV0
-476	PIK3CA p.P539R	somatic_variant	Sequence Variants	ga4gh:VA.zS_-FFo-cPjizcBEraRCMJ-wfCLNXM9F
-477	PIK3CA p.Q546K	somatic_variant	Sequence Variants	ga4gh:VA.jW54ta30v7-SnUy7YFCuq4niqSws7FSt
-478	PIK3CA p.Y1021C	somatic_variant	Sequence Variants	ga4gh:VA.8aRynLgwo0OYPIuCyiw6BGNd8oLxoGXx
-479	POLD1 p.D316H	somatic_variant	Sequence Variants	ga4gh:VA.Gya3mQHZ-kS-NpeAFdYlmnnUgiR6sa-J
-480	POLD1 p.D316G	somatic_variant	Sequence Variants	ga4gh:VA.dmEHsdOQTF_v6f4w_do2S8woYhnai2mX
-481	POLD1 p.R409W	somatic_variant	Sequence Variants	ga4gh:VA.kPpC8KLaB03uySRm9GfvN3JpZdz75mUm
-482	POLD1 p.L474P	somatic_variant	Sequence Variants	ga4gh:VA.wsZaHlxPruQYnlTZTx5n_oLUKWcGVVGd
-486	POLE p.L424V	somatic_variant	Sequence Variants	ga4gh:VA.sEaBdWcXHgdgG_P-pi6e0iknFbzEgsHy
-519	RET p.V804M	somatic_variant	Sequence Variants	ga4gh:VA.1oFFaTlmKzBPBb4fiyAGEilaWJ4sce8_
-520	RET p.M918T	somatic_variant	Sequence Variants	ga4gh:VA.hEybNB_CeKflfFhT5AKOU5i1lgZPP-aS
-524	SETBP1 p.E858K	somatic_variant	Sequence Variants	ga4gh:VA.uFPuLPYKXGgq3Bo0BLpbls_HOUNWNuPt
-525	SETBP1 p.T864M	somatic_variant	Sequence Variants	ga4gh:VA.02PR5HOZxjB-IeILGvSdzU_RQiZUtq1m
-526	SETBP1 p.I865N	somatic_variant	Sequence Variants	ga4gh:VA.wc9nLllFhK30wRBQEBfsfAGKk4-d42KV
-527	SETBP1 p.D868N	somatic_variant	Sequence Variants	ga4gh:VA.zQSbEOEp5aAT17qmRGP5s61x0GFdqX7h
-528	SETBP1 p.D868Y	somatic_variant	Sequence Variants	ga4gh:VA.0Ahcpu4Fim4jeu1lpgBq9aInzcpwQ2uI
-529	SETBP1 p.S869C	somatic_variant	Sequence Variants	ga4gh:VA.WHuzljKiEe3Kgd_6OspuL9azjgQgs-Vq
-530	SETBP1 p.G870S	somatic_variant	Sequence Variants	ga4gh:VA.dN6ljLlOSzt8ktlVPONDiykp5NXsQK13
-531	SF3B1 p.E622Q	somatic_variant	Sequence Variants	ga4gh:VA.k_Le4X1lXAo8MgYH5LxZS1nhQvhLPNNZ
-532	SF3B1 p.E622D	somatic_variant	Sequence Variants	ga4gh:VA.53EXGCEm1KH4W4ygbovgD_fFWskECrAJ
-533	SF3B1 p.Y623C	somatic_variant	Sequence Variants	ga4gh:VA.ZsvZayoiQlcITj3K1ErhWBf1AQjoBAbb
-534	SF3B1 p.R625C	somatic_variant	Sequence Variants	ga4gh:VA.-tKHnZboncUsfbSqTWB1gDw49HVxJRpa
-535	SF3B1 p.R625H	somatic_variant	Sequence Variants	ga4gh:VA.2ZHmuedsS7hEYwcS3NHLk1DdBGa9ea81
-536	SF3B1 p.N626H	somatic_variant	Sequence Variants	ga4gh:VA.vNWX2A_boWNNZ9eq1Gmy4b1byeHhfhEL
-537	SF3B1 p.N626Y	somatic_variant	Sequence Variants	ga4gh:VA.B8yGrU2xBkcsa3cbwezeoYEOjj0NmKes
-538	SF3B1 p.N626D	somatic_variant	Sequence Variants	ga4gh:VA.glFw5OYTW_2MMESNdsr9GuHeGk1XWylS
-539	SF3B1 p.H662R	somatic_variant	Sequence Variants	ga4gh:VA.oUwrMLw4_9mqkUd4SKzLRsFO-0aR2K4H
-540	SF3B1 p.T663P	somatic_variant	Sequence Variants	ga4gh:VA.F7-ZfgzaD-q9ioY-VhTvdH-PQ2dOG6Hi
-541	SF3B1 p.K666N	somatic_variant	Sequence Variants	ga4gh:VA.kAGPt1E_uh-nw6Em95sF1DFmgu7gmmTH
-542	SF3B1 p.K666T	somatic_variant	Sequence Variants	ga4gh:VA.eavhkFY9EcozVq7qrVHy_Ap-FR-WuBCl
-543	SF3B1 p.K666E	somatic_variant	Sequence Variants	ga4gh:VA.DCMnUXLDnrdAka6KCa_9z4hpvcuQm2TW
-544	SF3B1 p.K700E	somatic_variant	Sequence Variants	ga4gh:VA.-a3_v6Gn4oXIXp4YI_qmdapWJuZJzv8G
-545	SF3B1 p.I704S	somatic_variant	Sequence Variants	ga4gh:VA.kp1ITOJTlbyy0YD0iW_P3K0pHUARSbFG
-546	SF3B1 p.G740E	somatic_variant	Sequence Variants	ga4gh:VA.LOox_HtWZRcuC5uo-Xc7kTHep1pfwDYo
-547	SF3B1 p.G740V	somatic_variant	Sequence Variants	ga4gh:VA.AwwoJP0bgdVZD_O4a3RBDbHMn92O24Cf
-548	SF3B1 p.G742D	somatic_variant	Sequence Variants	ga4gh:VA.kSDROf0fN2PsAAhd4VuzfRFimyMXniBY
-549	SF3B1 p.D781E	somatic_variant	Sequence Variants	ga4gh:VA.BBSURHdGJkE5IXSa_xYylUw0uYQ6g7tc
-642	IL12RB1 p.Q32*	germline_variant	Gene Function Variants	ga4gh:VA.qLrYDJivIUPoYhSb1P0gk4c8hzY1-bxL
-643	IL12RB1 p.Q542*	germline_variant	Gene Function Variants	ga4gh:VA.gJmUvZtGFjT5r7_zNq3ANoEIHlR7ziD_
-649	MRE11 p.R576*	germline_variant	Gene Function Variants	ga4gh:VA.bSEwbbgAGlD5WgDVnfzsfhKBEVhKrGgQ
-668	POT1 p.R363*	germline_variant	Gene Function Variants	ga4gh:VA.Tc2jArNu4WwCZcXVOzpCNPOPHPRP8Chw
-684	AR Amplification	copy_number	Copy Number Variants	ga4gh:CX.F8_t3Y5C1XeGCjxX06FB6V-tDbN1avc9
-689	AURKA Amplification	copy_number	Copy Number Variants	ga4gh:CX.TVg_lE6G0qQokBfrQaBCj3E4jxg-hiyh
-691	AURKB Amplification	copy_number	Copy Number Variants	ga4gh:CX.I2fyjbief_B7R1eIfKxhYZb7crsxcf0J
-692	BRAF Amplification	copy_number	Copy Number Variants	ga4gh:CX.h7unj-f_djER28-h2Q6Prvo3C90O4d3M
-695	CCND1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.UwgdcAU0pNu7qUFuxvQVrvk8OxVzBhHg
-696	CCND1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.UwgdcAU0pNu7qUFuxvQVrvk8OxVzBhHg
-697	CCNE1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.cIIRUV_gZNxiROua0cGWSp6ZG2yutWuQ
-698	CD274 Amplification	copy_number	Copy Number Variants	ga4gh:CX.Mr1X0EOIytHP-4BE2d5rmP_it3Cbeccf
-704	CDK4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.TiCUc65z68O-7FMPd10hHBM3zrx0iEgA
-712	CRKL Amplification	copy_number	Copy Number Variants	ga4gh:CX.l1hDG_FZG08tsfH740pY2GwNGf9-m1fl
-713	EGFR Amplification	copy_number	Copy Number Variants	ga4gh:CX.w32DvcdIz1wCwBEftUIc61FR5zqh1KyG
-714	ERBB2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.kInH07BNpq3m-uFPJ4KmcySosRHuPE3k
-732	ESR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.cN8C_oDOKvb6vQbzSBWLf5wgKo_3DnlJ
-734	FGFR1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.umVSb-D0coIUT2xpGqjgze9Q9FIHTgRW
-738	FGFR2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.H3n1nXQpuoaFQggsjKJGkDwuBFwBBz2i
-742	HIF1a Amplification	copy_number	Copy Number Variants	ga4gh:CX.k1dljT4hYrmRRlZWmqV0ZIW9UrOOL8RH
-744	KIT Amplification	copy_number	Copy Number Variants	ga4gh:CX.w9r0-KpCXPyu0sU2X8VcY8xyLg1x_nYU
-745	MDM2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.6_PLMm-dOlXsk23WZRaTUR81Zyzw2WLR
-746	MET Amplification	copy_number	Copy Number Variants	ga4gh:CX.R5NJYtqw994M7bFmc9TlSRK645PbArC1
-750	MIR17HG Amplification	copy_number	Copy Number Variants	ga4gh:CX.PGz8069ocVMlmnvGFlJDB-3oUdn4aI81
-752	MRE11 Amplification	copy_number	Copy Number Variants	ga4gh:CX.loO9YE-ta-eKiHnjUmZ_XtwtnkP15xbY
-753	MYC Amplification	copy_number	Copy Number Variants	ga4gh:CX.zzoZX520O7mTQkqgsn1ODK7KQUGooyar
-754	MYC Amplification	copy_number	Copy Number Variants	ga4gh:CX.zzoZX520O7mTQkqgsn1ODK7KQUGooyar
-755	PAK1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.sUUyUwqN9aHQV9IIf7PD3SFa1wMMPNvO
-758	PIK3CA Amplification	copy_number	Copy Number Variants	ga4gh:CX.JkoMtnOMgtXR4nDtWLtVvbqw0cPbXOJa
-767	TPX2 Amplification	copy_number	Copy Number Variants	ga4gh:CX.0Ah7jukfBAG7FxDl6rhwJr2prxBKvvNQ
-845	MAP2K4 Amplification	copy_number	Copy Number Variants	ga4gh:CX.xKw0Yi_9xWU8yS7dEZDOqCmAKyFgbPrd
-848	MAPK7 Amplification	copy_number	Copy Number Variants	ga4gh:CX.5W2ctlMLT_VT5DXTaPxelKDnkgGfZZeW
-849	MYOCD Amplification	copy_number	Copy Number Variants	ga4gh:CX.rux7YiXnkPCXS4HWayg2IRPuMIy_j_OP
-850	PDGFRA Amplification	copy_number	Copy Number Variants	ga4gh:CX.UJm9zvAVKubsyiyBK7YcwNpih_c9tTat
-859	IDH1 p.R132G	somatic_variant	Sequence Variants	ga4gh:VA.aAXNeFGBgeJUGbun-bKvgoW204tC1xdp
-860	IDH1 p.R132S	somatic_variant	Sequence Variants	ga4gh:VA.y-ioX4e_ySwP_LlplLNp0cz04a8BBr9H
-861	IDH1 p.R132L	somatic_variant	Sequence Variants	ga4gh:VA.2zh_S3hn7AWJd00rhirLhhDW8VcVBo9N
-897	CCNE1 Amplification	copy_number	Copy Number Variants	ga4gh:CX.cIIRUV_gZNxiROua0cGWSp6ZG2yutWuQ
-912	FLT3 p.D835A	somatic_variant	Sequence Variants	ga4gh:VA.3LKVcwmmyezzaaWmtcmAI63SZC5jSzMg
-913	FLT3 p.D835E	somatic_variant	Sequence Variants	ga4gh:VA.Nv1XTacktYzkx3bUln7SzYVpMCmHnl34
-914	FLT3 p.D835H	somatic_variant	Sequence Variants	ga4gh:VA.O7RZ2CIwnmP_Qva5ar5MjmbHGbn5SFdr
-915	FLT3 p.D835Y	somatic_variant	Sequence Variants	ga4gh:VA.5IlCMFNnlu-2_HkwIZZSXGH2e6okHl2W
-921	SRSF2 p.P95H	somatic_variant	Sequence Variants	ga4gh:VA.g8tnFUkVr2rCknZbSSJ77GJumihRujQe
-922	SRSF2 p.P95L	somatic_variant	Sequence Variants	ga4gh:VA.SwUhSOl46WxBAvpS2UANfxWd5apX5yp9
-923	SRSF2 p.P95R	somatic_variant	Sequence Variants	ga4gh:VA.nMfMrGou50Vom77G0GEx_cS1I6yAv8f8
-924	SRSF2 p.P95A	somatic_variant	Sequence Variants	ga4gh:VA.mZC5OYJ7W5TYi4hD0c8ofRvJRWbSAOCK
-925	SRSF2 p.P95_R102del	somatic_variant	Sequence Variants	ga4gh:VA.p-XsoXXZzQG2BqlAwevFiR0ENHLbWi5U
-929	U2AF1 p.S34A	somatic_variant	Sequence Variants	ga4gh:VA.WMRUaxt87HrkvvoMSYgFPpKaHcdZ4VXN
-930	U2AF1 p.S34F	somatic_variant	Sequence Variants	ga4gh:VA.bmYmmyJlyeM405Fw6sLMP42VVWbChRJj
-931	U2AF1 p.S34F	somatic_variant	Sequence Variants	ga4gh:VA.bmYmmyJlyeM405Fw6sLMP42VVWbChRJj
-932	U2AF1 p.S34Y	somatic_variant	Sequence Variants	ga4gh:VA.NaCpxzfdn882A-Ad05GWU0TTs9WmKLMg
-933	U2AF1 p.Q157P	somatic_variant	Sequence Variants	ga4gh:VA.YZB-axAEhDjlTdXQOT9yd2MWc_01Zo0x
-934	U2AF1 p.Q157P	somatic_variant	Sequence Variants	ga4gh:VA.YZB-axAEhDjlTdXQOT9yd2MWc_01Zo0x
-935	U2AF1 p.Q157R	somatic_variant	Sequence Variants	ga4gh:VA.jKAN7kOdWcqE0xUYrUWxxUiO1KyCdEfs
-982	IDH2 p.R172G	somatic_variant	Sequence Variants	ga4gh:VA.txHJtzV2lyBzSL2ojpjSYksGmi6310O7
-1010	KRAS p.G12V	somatic_variant	Sequence Variants	ga4gh:VA.AhXGahW4SCTEgBSXlABoqX7N4mWXL-MD
+66	ABL1 p.T315I	somatic_variant	Sequence	ga4gh:VA.D6NzpWXKqBnbcZZrXNSXj4tMUwROKbsQ
+68	ABL1 p.T315A	somatic_variant	Sequence	ga4gh:VA.37YVc2HpRgXOq3HtsjcL1eiyLhDXLmYy
+70	ABL1 p.F317L	somatic_variant	Sequence	ga4gh:VA.ZJZc_8PkTSu-twmaJvj6yQXvPJHElPZc
+71	ABL1 p.F317V	somatic_variant	Sequence	ga4gh:VA.SnGz3wUT2JaIid12PoI6OHc4t7LgHVj1
+72	ABL1 p.F317I	somatic_variant	Sequence	ga4gh:VA.wDDVWfpuxnuYkLj5_0OrnaBvrJAXYcJA
+73	ABL1 p.F317C	somatic_variant	Sequence	ga4gh:VA.qm_zti_uhENk10RV6-usf5CEKRGSHbm8
+75	ABL1 p.E255K	somatic_variant	Sequence	ga4gh:VA.y7kX_U01bDeLnxvbo1BcNTnELH7f_x7V
+76	ABL1 p.E255V	somatic_variant	Sequence	ga4gh:VA.v-kV7I4CYEDwUUB60OXG1kJDs5jXzAzj
+77	ABL1 p.Y253H	somatic_variant	Sequence	ga4gh:VA.74tNeU5kbvRxbJbZ4y4HkTh0zV8u18IW
+78	ABL1 p.F359V	somatic_variant	Sequence	ga4gh:VA.whkYT34c9xLuVqgpE0_pETIIQGkrgb8c
+79	ABL1 p.F359C	somatic_variant	Sequence	ga4gh:VA.m9irj_tUdc3UiH7iFOINzZzHZTCEAyCi
+80	ABL1 p.F359I	somatic_variant	Sequence	ga4gh:VA.B6uOm51_KWfoJlGO61ui7ltRfb4sG092
+92	ABL1 p.V299L	somatic_variant	Sequence	ga4gh:VA.EhSHoRNbPVLi2cIM8uy9iiZQFnVc2QPp
+107	AKT1 p.E17K	somatic_variant	Sequence	ga4gh:VA.GfY89Zy-DJcnWtthBcoVV6PyuE4qkP8F
+110	ALK p.G1202R	somatic_variant	Sequence	ga4gh:VA.dW4kfzuGNeteFlDekXpEbr8I7sNkpdRn
+111	ALK p.F1174C	somatic_variant	Sequence	ga4gh:VA.qqPMMbmP3yREVCmNl-t9uErZKUttYH79
+112	ALK p.L1196M	somatic_variant	Sequence	ga4gh:VA.E8YabWqHYiNl5g4GUBxOIR3qT2Ni2hDX
+113	ALK p.G1269A	somatic_variant	Sequence	ga4gh:VA.sfyM358Q8Jtl1wrMJOanYiOsDM3BVQPn
+114	ALK p.S1206Y	somatic_variant	Sequence	ga4gh:VA.nq_fGAlsZnu7zjlISka1b1upudZGFuea
+115	AR p.T878A	somatic_variant	Sequence	ga4gh:VA.7f_c_kjvXs4sK9YEZXytxMRNhtOhfyrx
+116	AR p.L702H	somatic_variant	Sequence	ga4gh:VA.mXrc5IR5TO9WipB3sLeWDtzAYVHCFYki
+117	ARAF p.S214C	somatic_variant	Sequence	ga4gh:VA.mipQFzApQNp2KyVXcZig8b4uu7kFofIZ
+129	ATM p.A1127D	somatic_variant	Sequence	ga4gh:VA.F81AHXva7dDDRrTA5kxObhJ4dQ8GQ6B8
+141	BCOR p.N1425S	somatic_variant	Sequence	ga4gh:VA.pDuCLNI3mHF25uUPNSDM8LbP8p4Fsuay
+144	BRAF p.V600E	somatic_variant	Sequence	ga4gh:VA.j4XnsLZcdzDIYa5pvvXM7t1wn9OITr0L
+146	BRAF p.V600K	somatic_variant	Sequence	ga4gh:VA.pfWn9x9oFBRzGda1xXcOrE-BrX0R__N8
+242	EGFR p.T790M	somatic_variant	Sequence	ga4gh:VA.sMA9h8fzDi0RvweMlxtD0_Oi8B-JZ1V-
+254	EGFR p.L858R	somatic_variant	Sequence	ga4gh:VA.S41CcMJT2bcd8R4-qXZWH1PoHWNtG2PZ
+281	ERRFI1 p.E384*	somatic_variant	Gene Function	ga4gh:VA.v5Jc64GQjTPVlsjiINmmlWmNRFfDDnoO
+287	EZH2 p.Y646*	somatic_variant	Gene Function	ga4gh:VA.XKHskuwaF4N1kY26E5A1RWt12H4dl_c9
+288	EZH2 p.Y646F	somatic_variant	Sequence	ga4gh:VA.oYK6HfZD2veVeRV_OCMXdMY8mM2k8riu
+289	EZH2 p.Y646N	somatic_variant	Sequence	ga4gh:VA.F3wf8X4pXaRvx55F_jvVkK258q-JoDni
+290	EZH2 p.A682G	somatic_variant	Sequence	ga4gh:VA.0XRkkEA2HWTplj8pneW7IzKzkJh_VTdi
+291	EZH2 p.A692V	somatic_variant	Sequence	ga4gh:VA.Asy9WpmrMOSunO4H7D3OU7t4MvIbBWK9
+294	FGFR3 p.R248C	somatic_variant	Sequence	ga4gh:VA.6fDQOuVnlKrDjTq3rkMY-1UHbT41h332
+295	FGFR3 p.S249C	somatic_variant	Sequence	ga4gh:VA.lCQZ8ie3k9M8N7wpd4BxHSpFYLKd0fVI
+296	FGFR3 p.G370C	somatic_variant	Sequence	ga4gh:VA.jN7GBCtzW-TeO8Oj6sXOTBkb5RpqsnhE
+297	FGFR3 p.Y373C	somatic_variant	Sequence	ga4gh:VA.UHA6S3oE8Ts_WI51w5noSpXhSlvNEjHu
+304	FLT3 p.F691L	somatic_variant	Sequence	ga4gh:VA.fV8iAY2E_DdmWWtXswj2lJ4EP-DOasSU
+305	FLT3 p.K663Q	somatic_variant	Sequence	ga4gh:VA.WGJhl7dROPj4jGUTJ3OS3-N5WX9F7rRR
+306	GATA3 p.M294K	somatic_variant	Sequence	ga4gh:VA.GmoEzlSokba5nA-T6hqd5PEHPrW1SGRI
+310	IDH1 p.R132H	somatic_variant	Sequence	ga4gh:VA.2VAvTmPON2L7JffxjE68jAmmmwxyzDpB
+311	IDH1 p.R132C	somatic_variant	Sequence	ga4gh:VA.lAST62ntkEaXy6RDDOF1V4C3jd-jaAJ5
+316	IDH2 p.R140Q	somatic_variant	Sequence	ga4gh:VA.HK1caYli9110rSKDTqSXAgzjzajRFBBv
+317	IDH2 p.R172S	somatic_variant	Sequence	ga4gh:VA.GcEWQeOqTVsh88PUGeuMNT2jNcjCzshC
+318	IDH2 p.R172K	somatic_variant	Sequence	ga4gh:VA.YqiDFzE2K6fcXhXkCGYHIQ75RgutPq_7
+321	IDH2 p.R140Q	somatic_variant	Sequence	ga4gh:VA.HK1caYli9110rSKDTqSXAgzjzajRFBBv
+325	JAK1 p.V656F	somatic_variant	Sequence	ga4gh:VA.SR-Evc_MyfZ8NclBLvfIGIUzMokxIeml
+326	JAK1 p.A634D	somatic_variant	Sequence	ga4gh:VA.wh8gAcHF3JV7Gpq_p0v01r_dzRanXE7Z
+328	JAK2 p.V617F	somatic_variant	Sequence	ga4gh:VA.DcGYwTryaNE4EgROJNB0WM5d-ca9XwRv
+329	JAK3 p.A572T	somatic_variant	Sequence	ga4gh:VA.oyUFpvfnbP8yHzNo4pg8FrAKQAdKDH5e
+330	JAK3 p.M511I	somatic_variant	Sequence	ga4gh:VA.F3npQ3_FkJH_NcJMichVGTR7f0564jQf
+331	JAK3 p.L857Q	somatic_variant	Sequence	ga4gh:VA.D6yhVNhktggdS7WvEMP8E7Xn-eIAdMTe
+339	KIT p.T670I	somatic_variant	Sequence	ga4gh:VA.w6K7bKlqZC_cCZOk9W0IBVh4EZrcSv3o
+340	KIT p.V654A	somatic_variant	Sequence	ga4gh:VA.6mOBrBWsfWLavxBwhR3tMyJEW9UNc6fk
+347	KIT p.W557C	somatic_variant	Sequence	ga4gh:VA.vCHkLX559PRJOxY5nYLNi-0hqOXsMeYp
+348	KIT p.W557G	somatic_variant	Sequence	ga4gh:VA.aPCOkvmQ8zzAvdoKCE-6mjuY_BBCp-U8
+349	KIT p.W557R	somatic_variant	Sequence	ga4gh:VA.OjmqirAj5nGJsnlhajIto0yqlHtTzzG5
+350	KIT p.V559A	somatic_variant	Sequence	ga4gh:VA.KaXTQ-4MiJHF5w1ug1Vaku64sh9Y6Bdh
+351	KIT p.V559G	somatic_variant	Sequence	ga4gh:VA.dl4OeK6gWyW0u4C-FxAxCT8O08WWM9WV
+352	KIT p.L576P	somatic_variant	Sequence	ga4gh:VA.e3X8c8KxGdRvkl8YWKRk1o-84nRdiE3u
+353	KIT p.K642E	somatic_variant	Sequence	ga4gh:VA.Dsrq3AJXo4UQCiCnQCcrb2t551o9Dhv8
+355	KIT p.D816H	somatic_variant	Sequence	ga4gh:VA._qkz7l_SgFuuJ56dAKEVzVpavXwrkC8u
+360	KIT p.D816V	somatic_variant	Sequence	ga4gh:VA.nhiDwIq1klrGm3wtWO4a4BiS0jdW79Wd
+372	KRAS p.G12C	somatic_variant	Sequence	ga4gh:VA.udBCHwlrf8xNiRy_19bLi-h5LhnZLgCt
+374	KRAS p.G12D	somatic_variant	Sequence	ga4gh:VA.cdcXITbBWUXPjy3zPdhs7xjU1yvlkSrj
+386	MAP2K1 p.P124L	somatic_variant	Sequence	ga4gh:VA.8wkCi_XxSPbnuf_zYV1_SCcZ_pXVziQd
+387	MAP2K1 p.Q56P	somatic_variant	Sequence	ga4gh:VA.yHQVVwZjma693Ev6lQtew1axCWVwIi8K
+392	MAP2K1 p.C121S	somatic_variant	Sequence	ga4gh:VA.FkanRNmwHE0Hf6xRjR2MElkUvP5kPMDC
+394	MAP2K2 p.Q60P	somatic_variant	Sequence	ga4gh:VA.vQTatXhzC7rdpHhUo-55WJmxKtpruDPT
+395	MAPK1 p.E322K	somatic_variant	Sequence	ga4gh:VA.4yqg18xtnJP7cTJI-Z2xS5HjnhxJJg84
+397	MET p.T1010I	somatic_variant	Sequence	ga4gh:VA.hrgriXDdl95CwTxbXpun9v_Ekh_ERDNK
+403	MPL p.W515L	somatic_variant	Sequence	ga4gh:VA.B-ZUAtut--U--BTz42bydkr4FZyHpd7F
+411	NRAS p.G12A	somatic_variant	Sequence	ga4gh:VA.4I8_LCmzTz7jB0bBxN6Egqs8R5L4aaFw
+412	NRAS p.G12C	somatic_variant	Sequence	ga4gh:VA.7nsZiek_H62HpWGKFv1GLciGWv3tKRN5
+413	NRAS p.G12D	somatic_variant	Sequence	ga4gh:VA.Rq3N-YIvM8zB_XQ0jSfgPNbpZpaXRjtd
+414	NRAS p.G12R	somatic_variant	Sequence	ga4gh:VA.8YIGJgiyUBzEbUeLEsiZkMcpSbUDb4-e
+415	NRAS p.G12S	somatic_variant	Sequence	ga4gh:VA.Pj1D4jmWU_aANZDjvMjoG4tEalP7Dyv6
+416	NRAS p.G12V	somatic_variant	Sequence	ga4gh:VA.WwV6JPwcMOAJu-ehDWQWmubmUWlV1ddk
+417	NRAS p.G13A	somatic_variant	Sequence	ga4gh:VA.aJRpUjcUzC-6TDCQpnDuV2umq1la3T1y
+418	NRAS p.G13D	somatic_variant	Sequence	ga4gh:VA.QP0kq1DT5HXfhNPZg7qQUY8zLHQacZ3Y
+419	NRAS p.G13R	somatic_variant	Sequence	ga4gh:VA.B7zZTxypiwSWZpc4LASs-CZL50acW3wA
+420	NRAS p.G13V	somatic_variant	Sequence	ga4gh:VA.xbKrlb4SMoteLcWJKz3pmPtxpiC4fHy-
+421	NRAS p.Q61E	somatic_variant	Sequence	ga4gh:VA.rsuK7OFWP7oiUdFoZerZmFu0nA6QBtSK
+422	NRAS p.Q61H	somatic_variant	Sequence	ga4gh:VA.sUQrnY4jvb7whQHgnS6rkx08Lb44wowM
+423	NRAS p.Q61L	somatic_variant	Sequence	ga4gh:VA.qbbbxC4fGSEGvaT2Q9U8fLShG2YiTZL_
+424	NRAS p.Q61P	somatic_variant	Sequence	ga4gh:VA.uUEOGctP2SXEXsexyo0cRbMNs9-g1kOf
+425	NRAS p.Q61R	somatic_variant	Sequence	ga4gh:VA.CpnlaV2B8565obATF-UlE706sBYp0D6M
+451	PDGFRA p.D842V	somatic_variant	Sequence	ga4gh:VA.Dy7soaZQU1vH9Eb93xG_pJyhu7xTDDC9
+459	PIK3CA p.E545Q	somatic_variant	Sequence	ga4gh:VA.zDDKySmgMwFwLtAqrBXvNpQA_CQ5hToT
+460	PIK3CA p.C420R	somatic_variant	Sequence	ga4gh:VA.FaMueqbbjnxuzxylH-4jpkaWfp6pLH98
+461	PIK3CA p.E542K	somatic_variant	Sequence	ga4gh:VA.ju5WwTji4SvLPzJqUB7EzSEF2DKtIusY
+462	PIK3CA p.E542Q	somatic_variant	Sequence	ga4gh:VA.WEA3Ixj_PrlgYlLocLDoaY2xgDeTqhF0
+463	PIK3CA p.E545A	somatic_variant	Sequence	ga4gh:VA.dbKVUlhIwe3YS-B4Rhs5QsEI08yv0Xhk
+464	PIK3CA p.E545D	somatic_variant	Sequence	ga4gh:VA.E09IUKElemW2uoVRT5qacU7RMqT8Um5m
+466	PIK3CA p.E545G	somatic_variant	Sequence	ga4gh:VA.w50kYfxdOa7XBtTO7E3GrpFf0o-maldE
+467	PIK3CA p.E545K	somatic_variant	Sequence	ga4gh:VA.-dMnJf9oUBfl9De0llc3LqJaGdFzfATK
+468	PIK3CA p.G1049R	somatic_variant	Sequence	ga4gh:VA.Llpd98XgE-ewhN4n29ycYLN8bW3fHAI_
+469	PIK3CA p.G1049S	somatic_variant	Sequence	ga4gh:VA.GZ-HgAcZqv_Af6wmQPpEx9-cHdVHViC6
+470	PIK3CA p.H1047L	somatic_variant	Sequence	ga4gh:VA.3ybIkH_QhR6C7QmnTeD2-P6U1Pu7M__0
+471	PIK3CA p.H1047R	somatic_variant	Sequence	ga4gh:VA.5GEqm-zIzvvPheyGb9rlu5DyIueIubXm
+472	PIK3CA p.H1047Y	somatic_variant	Sequence	ga4gh:VA.H9BsFCFdYyh8KDICE_3wSsjLy66SWFYS
+473	PIK3CA p.H701P	somatic_variant	Sequence	ga4gh:VA.e9nTDXWkejhFpPUKdRxAn89wET-ZUv9N
+474	PIK3CA p.M1043I	somatic_variant	Sequence	ga4gh:VA.A8crPBRvgFrkcWWnszjqT26E08kr0wV0
+476	PIK3CA p.P539R	somatic_variant	Sequence	ga4gh:VA.zS_-FFo-cPjizcBEraRCMJ-wfCLNXM9F
+477	PIK3CA p.Q546K	somatic_variant	Sequence	ga4gh:VA.jW54ta30v7-SnUy7YFCuq4niqSws7FSt
+478	PIK3CA p.Y1021C	somatic_variant	Sequence	ga4gh:VA.8aRynLgwo0OYPIuCyiw6BGNd8oLxoGXx
+479	POLD1 p.D316H	somatic_variant	Sequence	ga4gh:VA.Gya3mQHZ-kS-NpeAFdYlmnnUgiR6sa-J
+480	POLD1 p.D316G	somatic_variant	Sequence	ga4gh:VA.dmEHsdOQTF_v6f4w_do2S8woYhnai2mX
+481	POLD1 p.R409W	somatic_variant	Sequence	ga4gh:VA.kPpC8KLaB03uySRm9GfvN3JpZdz75mUm
+482	POLD1 p.L474P	somatic_variant	Sequence	ga4gh:VA.wsZaHlxPruQYnlTZTx5n_oLUKWcGVVGd
+486	POLE p.L424V	somatic_variant	Sequence	ga4gh:VA.sEaBdWcXHgdgG_P-pi6e0iknFbzEgsHy
+519	RET p.V804M	somatic_variant	Sequence	ga4gh:VA.1oFFaTlmKzBPBb4fiyAGEilaWJ4sce8_
+520	RET p.M918T	somatic_variant	Sequence	ga4gh:VA.hEybNB_CeKflfFhT5AKOU5i1lgZPP-aS
+524	SETBP1 p.E858K	somatic_variant	Sequence	ga4gh:VA.uFPuLPYKXGgq3Bo0BLpbls_HOUNWNuPt
+525	SETBP1 p.T864M	somatic_variant	Sequence	ga4gh:VA.02PR5HOZxjB-IeILGvSdzU_RQiZUtq1m
+526	SETBP1 p.I865N	somatic_variant	Sequence	ga4gh:VA.wc9nLllFhK30wRBQEBfsfAGKk4-d42KV
+527	SETBP1 p.D868N	somatic_variant	Sequence	ga4gh:VA.zQSbEOEp5aAT17qmRGP5s61x0GFdqX7h
+528	SETBP1 p.D868Y	somatic_variant	Sequence	ga4gh:VA.0Ahcpu4Fim4jeu1lpgBq9aInzcpwQ2uI
+529	SETBP1 p.S869C	somatic_variant	Sequence	ga4gh:VA.WHuzljKiEe3Kgd_6OspuL9azjgQgs-Vq
+530	SETBP1 p.G870S	somatic_variant	Sequence	ga4gh:VA.dN6ljLlOSzt8ktlVPONDiykp5NXsQK13
+531	SF3B1 p.E622Q	somatic_variant	Sequence	ga4gh:VA.k_Le4X1lXAo8MgYH5LxZS1nhQvhLPNNZ
+532	SF3B1 p.E622D	somatic_variant	Sequence	ga4gh:VA.53EXGCEm1KH4W4ygbovgD_fFWskECrAJ
+533	SF3B1 p.Y623C	somatic_variant	Sequence	ga4gh:VA.ZsvZayoiQlcITj3K1ErhWBf1AQjoBAbb
+534	SF3B1 p.R625C	somatic_variant	Sequence	ga4gh:VA.-tKHnZboncUsfbSqTWB1gDw49HVxJRpa
+535	SF3B1 p.R625H	somatic_variant	Sequence	ga4gh:VA.2ZHmuedsS7hEYwcS3NHLk1DdBGa9ea81
+536	SF3B1 p.N626H	somatic_variant	Sequence	ga4gh:VA.vNWX2A_boWNNZ9eq1Gmy4b1byeHhfhEL
+537	SF3B1 p.N626Y	somatic_variant	Sequence	ga4gh:VA.B8yGrU2xBkcsa3cbwezeoYEOjj0NmKes
+538	SF3B1 p.N626D	somatic_variant	Sequence	ga4gh:VA.glFw5OYTW_2MMESNdsr9GuHeGk1XWylS
+539	SF3B1 p.H662R	somatic_variant	Sequence	ga4gh:VA.oUwrMLw4_9mqkUd4SKzLRsFO-0aR2K4H
+540	SF3B1 p.T663P	somatic_variant	Sequence	ga4gh:VA.F7-ZfgzaD-q9ioY-VhTvdH-PQ2dOG6Hi
+541	SF3B1 p.K666N	somatic_variant	Sequence	ga4gh:VA.kAGPt1E_uh-nw6Em95sF1DFmgu7gmmTH
+542	SF3B1 p.K666T	somatic_variant	Sequence	ga4gh:VA.eavhkFY9EcozVq7qrVHy_Ap-FR-WuBCl
+543	SF3B1 p.K666E	somatic_variant	Sequence	ga4gh:VA.DCMnUXLDnrdAka6KCa_9z4hpvcuQm2TW
+544	SF3B1 p.K700E	somatic_variant	Sequence	ga4gh:VA.-a3_v6Gn4oXIXp4YI_qmdapWJuZJzv8G
+545	SF3B1 p.I704S	somatic_variant	Sequence	ga4gh:VA.kp1ITOJTlbyy0YD0iW_P3K0pHUARSbFG
+546	SF3B1 p.G740E	somatic_variant	Sequence	ga4gh:VA.LOox_HtWZRcuC5uo-Xc7kTHep1pfwDYo
+547	SF3B1 p.G740V	somatic_variant	Sequence	ga4gh:VA.AwwoJP0bgdVZD_O4a3RBDbHMn92O24Cf
+548	SF3B1 p.G742D	somatic_variant	Sequence	ga4gh:VA.kSDROf0fN2PsAAhd4VuzfRFimyMXniBY
+549	SF3B1 p.D781E	somatic_variant	Sequence	ga4gh:VA.BBSURHdGJkE5IXSa_xYylUw0uYQ6g7tc
+642	IL12RB1 p.Q32*	germline_variant	Gene Function	ga4gh:VA.qLrYDJivIUPoYhSb1P0gk4c8hzY1-bxL
+643	IL12RB1 p.Q542*	germline_variant	Gene Function	ga4gh:VA.gJmUvZtGFjT5r7_zNq3ANoEIHlR7ziD_
+649	MRE11 p.R576*	germline_variant	Gene Function	ga4gh:VA.bSEwbbgAGlD5WgDVnfzsfhKBEVhKrGgQ
+668	POT1 p.R363*	germline_variant	Gene Function	ga4gh:VA.Tc2jArNu4WwCZcXVOzpCNPOPHPRP8Chw
+684	AR Amplification	copy_number	Copy Number	ga4gh:CX.F8_t3Y5C1XeGCjxX06FB6V-tDbN1avc9
+689	AURKA Amplification	copy_number	Copy Number	ga4gh:CX.TVg_lE6G0qQokBfrQaBCj3E4jxg-hiyh
+691	AURKB Amplification	copy_number	Copy Number	ga4gh:CX.I2fyjbief_B7R1eIfKxhYZb7crsxcf0J
+692	BRAF Amplification	copy_number	Copy Number	ga4gh:CX.h7unj-f_djER28-h2Q6Prvo3C90O4d3M
+695	CCND1 Amplification	copy_number	Copy Number	ga4gh:CX.UwgdcAU0pNu7qUFuxvQVrvk8OxVzBhHg
+696	CCND1 Amplification	copy_number	Copy Number	ga4gh:CX.UwgdcAU0pNu7qUFuxvQVrvk8OxVzBhHg
+697	CCNE1 Amplification	copy_number	Copy Number	ga4gh:CX.cIIRUV_gZNxiROua0cGWSp6ZG2yutWuQ
+698	CD274 Amplification	copy_number	Copy Number	ga4gh:CX.Mr1X0EOIytHP-4BE2d5rmP_it3Cbeccf
+704	CDK4 Amplification	copy_number	Copy Number	ga4gh:CX.TiCUc65z68O-7FMPd10hHBM3zrx0iEgA
+712	CRKL Amplification	copy_number	Copy Number	ga4gh:CX.l1hDG_FZG08tsfH740pY2GwNGf9-m1fl
+713	EGFR Amplification	copy_number	Copy Number	ga4gh:CX.w32DvcdIz1wCwBEftUIc61FR5zqh1KyG
+714	ERBB2 Amplification	copy_number	Copy Number	ga4gh:CX.kInH07BNpq3m-uFPJ4KmcySosRHuPE3k
+732	ESR1 Amplification	copy_number	Copy Number	ga4gh:CX.cN8C_oDOKvb6vQbzSBWLf5wgKo_3DnlJ
+734	FGFR1 Amplification	copy_number	Copy Number	ga4gh:CX.umVSb-D0coIUT2xpGqjgze9Q9FIHTgRW
+738	FGFR2 Amplification	copy_number	Copy Number	ga4gh:CX.H3n1nXQpuoaFQggsjKJGkDwuBFwBBz2i
+742	HIF1a Amplification	copy_number	Copy Number	ga4gh:CX.k1dljT4hYrmRRlZWmqV0ZIW9UrOOL8RH
+744	KIT Amplification	copy_number	Copy Number	ga4gh:CX.w9r0-KpCXPyu0sU2X8VcY8xyLg1x_nYU
+745	MDM2 Amplification	copy_number	Copy Number	ga4gh:CX.6_PLMm-dOlXsk23WZRaTUR81Zyzw2WLR
+746	MET Amplification	copy_number	Copy Number	ga4gh:CX.R5NJYtqw994M7bFmc9TlSRK645PbArC1
+750	MIR17HG Amplification	copy_number	Copy Number	ga4gh:CX.PGz8069ocVMlmnvGFlJDB-3oUdn4aI81
+752	MRE11 Amplification	copy_number	Copy Number	ga4gh:CX.loO9YE-ta-eKiHnjUmZ_XtwtnkP15xbY
+753	MYC Amplification	copy_number	Copy Number	ga4gh:CX.zzoZX520O7mTQkqgsn1ODK7KQUGooyar
+754	MYC Amplification	copy_number	Copy Number	ga4gh:CX.zzoZX520O7mTQkqgsn1ODK7KQUGooyar
+755	PAK1 Amplification	copy_number	Copy Number	ga4gh:CX.sUUyUwqN9aHQV9IIf7PD3SFa1wMMPNvO
+758	PIK3CA Amplification	copy_number	Copy Number	ga4gh:CX.JkoMtnOMgtXR4nDtWLtVvbqw0cPbXOJa
+767	TPX2 Amplification	copy_number	Copy Number	ga4gh:CX.0Ah7jukfBAG7FxDl6rhwJr2prxBKvvNQ
+845	MAP2K4 Amplification	copy_number	Copy Number	ga4gh:CX.xKw0Yi_9xWU8yS7dEZDOqCmAKyFgbPrd
+848	MAPK7 Amplification	copy_number	Copy Number	ga4gh:CX.5W2ctlMLT_VT5DXTaPxelKDnkgGfZZeW
+849	MYOCD Amplification	copy_number	Copy Number	ga4gh:CX.rux7YiXnkPCXS4HWayg2IRPuMIy_j_OP
+850	PDGFRA Amplification	copy_number	Copy Number	ga4gh:CX.UJm9zvAVKubsyiyBK7YcwNpih_c9tTat
+859	IDH1 p.R132G	somatic_variant	Sequence	ga4gh:VA.aAXNeFGBgeJUGbun-bKvgoW204tC1xdp
+860	IDH1 p.R132S	somatic_variant	Sequence	ga4gh:VA.y-ioX4e_ySwP_LlplLNp0cz04a8BBr9H
+861	IDH1 p.R132L	somatic_variant	Sequence	ga4gh:VA.2zh_S3hn7AWJd00rhirLhhDW8VcVBo9N
+897	CCNE1 Amplification	copy_number	Copy Number	ga4gh:CX.cIIRUV_gZNxiROua0cGWSp6ZG2yutWuQ
+912	FLT3 p.D835A	somatic_variant	Sequence	ga4gh:VA.3LKVcwmmyezzaaWmtcmAI63SZC5jSzMg
+913	FLT3 p.D835E	somatic_variant	Sequence	ga4gh:VA.Nv1XTacktYzkx3bUln7SzYVpMCmHnl34
+914	FLT3 p.D835H	somatic_variant	Sequence	ga4gh:VA.O7RZ2CIwnmP_Qva5ar5MjmbHGbn5SFdr
+915	FLT3 p.D835Y	somatic_variant	Sequence	ga4gh:VA.5IlCMFNnlu-2_HkwIZZSXGH2e6okHl2W
+921	SRSF2 p.P95H	somatic_variant	Sequence	ga4gh:VA.g8tnFUkVr2rCknZbSSJ77GJumihRujQe
+922	SRSF2 p.P95L	somatic_variant	Sequence	ga4gh:VA.SwUhSOl46WxBAvpS2UANfxWd5apX5yp9
+923	SRSF2 p.P95R	somatic_variant	Sequence	ga4gh:VA.nMfMrGou50Vom77G0GEx_cS1I6yAv8f8
+924	SRSF2 p.P95A	somatic_variant	Sequence	ga4gh:VA.mZC5OYJ7W5TYi4hD0c8ofRvJRWbSAOCK
+925	SRSF2 p.P95_R102del	somatic_variant	Sequence	ga4gh:VA.p-XsoXXZzQG2BqlAwevFiR0ENHLbWi5U
+929	U2AF1 p.S34A	somatic_variant	Sequence	ga4gh:VA.WMRUaxt87HrkvvoMSYgFPpKaHcdZ4VXN
+930	U2AF1 p.S34F	somatic_variant	Sequence	ga4gh:VA.bmYmmyJlyeM405Fw6sLMP42VVWbChRJj
+931	U2AF1 p.S34F	somatic_variant	Sequence	ga4gh:VA.bmYmmyJlyeM405Fw6sLMP42VVWbChRJj
+932	U2AF1 p.S34Y	somatic_variant	Sequence	ga4gh:VA.NaCpxzfdn882A-Ad05GWU0TTs9WmKLMg
+933	U2AF1 p.Q157P	somatic_variant	Sequence	ga4gh:VA.YZB-axAEhDjlTdXQOT9yd2MWc_01Zo0x
+934	U2AF1 p.Q157P	somatic_variant	Sequence	ga4gh:VA.YZB-axAEhDjlTdXQOT9yd2MWc_01Zo0x
+935	U2AF1 p.Q157R	somatic_variant	Sequence	ga4gh:VA.jKAN7kOdWcqE0xUYrUWxxUiO1KyCdEfs
+982	IDH2 p.R172G	somatic_variant	Sequence	ga4gh:VA.txHJtzV2lyBzSL2ojpjSYksGmi6310O7
+1010	KRAS p.G12V	somatic_variant	Sequence	ga4gh:VA.AhXGahW4SCTEgBSXlABoqX7N4mWXL-MD
