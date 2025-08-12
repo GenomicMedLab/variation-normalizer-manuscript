@@ -1,10 +1,10 @@
 category,number_of_variants,#_evidence_items,impact,average_impact_per_variant
-Fusion,195,1009,3366.5,17.26
-Region-Defined,102,442,2092.0,20.51
+Fusion,203,1028,3475.5,17.12
+Region-Defined,105,459,2197.0,20.92
 Expression,181,345,1249.0,6.9
-Rearrangement,52,236,1104.0,21.23
-Sequence,70,192,839.5,11.99
-Gene Function,57,169,603.5,10.59
+Rearrangement,52,238,1114.0,21.42
+Sequence,70,193,844.5,12.06
+Gene Function,59,171,613.5,10.4
 Other,37,42,198.0,5.35
 Transcript,56,58,168.0,3.0
 Copy Number,19,35,113.0,5.95
