@@ -82,3 +82,4 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
         items = json.load(f)
 
     return items
+
