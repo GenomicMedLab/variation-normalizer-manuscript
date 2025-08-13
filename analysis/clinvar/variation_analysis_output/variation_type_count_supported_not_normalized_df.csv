@@ -1,8 +1,8 @@
 ,in.variation_type,in.issue,count
-0,copy number gain,None,3245
-1,copy number loss,None,2243
-2,Deletion,None,779
-3,Duplication,None,407
-4,single nucleotide variant,None,80
+0,Deletion,None,711
+1,copy number loss,None,538
+2,copy number gain,None,438
+3,Duplication,None,357
+4,single nucleotide variant,None,71
 5,Indel,None,2
 6,Insertion,None,1
