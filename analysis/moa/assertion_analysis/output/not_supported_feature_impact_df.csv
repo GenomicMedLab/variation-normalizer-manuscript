@@ -1,12 +1,13 @@
 Category,MOA Total Sum Impact Score,Average Impact Score per Feature,Average Impact Score per Assertion,Total Number Assertions,Total Number Features
-Sequence Variants,746.0,6.02,6.02,310,124
-Genotype Variants,0.0,0,0,0,0
-Fusion Variants,0.0,0,0,0,0
-Rearrangement Variants,261.0,7.46,7.46,71,35
+Sequence,767.5,6.04,6.04,328,127
+Genotype/Haplotype,0.0,0,0,0,0
+Fusion,0.0,0,0,0,0
+Rearrangement,261.0,7.46,7.46,85,35
 Epigenetic Modification,0.0,0,0,0,0
-Copy Number Variants,44.5,2.62,2.62,29,17
-Expression Variants,11.0,1.00,1.00,12,11
-Gene Function Variants,67.0,6.70,6.70,19,10
-Region-Defined Variants,278.0,6.62,6.62,109,42
-Other Variants,76.0,7.60,7.60,23,10
-Transcript Variants,0.0,0,0,0,0
+Copy Number,50.0,2.17,2.17,37,23
+Expression,11.0,1.00,1.00,12,11
+Gene Function,47.0,5.88,5.88,14,8
+Region-Defined,267.0,6.67,6.67,109,40
+Genome Feature,0.0,0,0,0,0
+Other,77.0,6.42,6.42,31,12
+Transcript,0.0,0,0,0,0
