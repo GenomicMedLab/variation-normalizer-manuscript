@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import List, Dict
 import ast
 import pandas as pd
+from pandas._libs.missing import NAType
 
 from civicpy import civic as civicpy
 
@@ -86,14 +87,14 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
     return items
 
 
-def get_errors(errors: str) -> str:
+def get_errors(errors: str | NAType) -> str:
     """Takes the values for the errors and represents them as a string
-    :param errors: A string representation of a list of errors or None
-    :return: string or list representing error. If None, the string "Success"
+    :param errors: A string representation of a list of errors or NaN
+    :return: string or list representing error. If NaN, the string "Success"
         is returned
     """
     if pd.isna(errors):
-        return "Success"
+        return "Success" # Return success if there are no errors
 
     # Parse if it's a stringified list/dict
     try:
