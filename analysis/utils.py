@@ -5,6 +5,8 @@ import zipfile
 from enum import StrEnum
 from pathlib import Path
 from typing import List, Dict
+import ast
+import pandas as pd
 
 from civicpy import civic as civicpy
 
@@ -83,3 +85,38 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
 
     return items
 
+
+def get_errors(errors: list) -> str:
+    """Takes the values for the errors and represents them as a string
+    :param errors: list of errors or None
+    :return: string or list representing error. If None, the string "Success"
+        is returned
+    """
+    if pd.isna(errors):
+        return "Success"
+
+    # Parse if it's a stringified list/dict
+    if isinstance(errors, str):
+        try:
+            errors = ast.literal_eval(errors)
+        except Exception:
+            return errors  # return raw string if not a valid list or dict
+
+    errors_out = []
+
+    # Normalize to list
+    if not isinstance(errors, list):
+        errors = [errors]
+
+    for e in errors:
+        if isinstance(e, str):
+            errors_out.append(e)
+        elif isinstance(e, dict):
+            for k, v in e.items():
+                if k not in ["msg", "response-errors"]:
+                    continue
+                if isinstance(v, str):
+                    errors_out.append(v)
+                elif isinstance(v, list):
+                    errors_out.extend(v)  # multiple error messages
+    return "; ".join(errors_out)
