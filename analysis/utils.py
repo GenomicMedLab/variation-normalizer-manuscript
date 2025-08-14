@@ -70,7 +70,7 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
         )[-1]
     else:
         latest_zip_path = sorted(
-            Path(f"{ROOT_PATH}/moa/assertion_analysis").glob("moa_assertions_*.zip")
+            Path(f"{ROOT_PATH}/moa/feature_analysis").glob("moa_assertions_*.zip")
         )[-1]
     json_fn = latest_zip_path.name[:-4]
     print(f"Using {json_fn} for MOA {item_type.value}s")
@@ -82,3 +82,4 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
         items = json.load(f)
 
     return items
+
