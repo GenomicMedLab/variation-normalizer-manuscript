@@ -86,9 +86,9 @@ def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
     return items
 
 
-def get_errors(errors: list) -> str:
+def get_errors(errors: str) -> str:
     """Takes the values for the errors and represents them as a string
-    :param errors: list of errors or None
+    :param errors: A string representation of a list of errors or None
     :return: string or list representing error. If None, the string "Success"
         is returned
     """
@@ -96,11 +96,10 @@ def get_errors(errors: list) -> str:
         return "Success"
 
     # Parse if it's a stringified list/dict
-    if isinstance(errors, str):
-        try:
-            errors = ast.literal_eval(errors)
-        except Exception:
-            return errors  # return raw string if not a valid list or dict
+    try:
+        errors = ast.literal_eval(errors)
+    except Exception:
+        return errors  # return raw string if not a valid list or dict
 
     errors_out = []
 
