@@ -44,6 +44,7 @@ analysis/genie/pre_variant_analysis/*.txt
 analysis/genie/pre_variant_analysis/*.zip
 analysis/genie/pre_variant_analysis/variation_normalizer_output/
 analysis/genie/variant_analysis/variant_analysis_output
+analysis/clinvar/vi-normalized-with-liftover.jsonl.gz
 
 # html files
 *.html
