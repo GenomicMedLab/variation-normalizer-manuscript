@@ -149,7 +149,7 @@ docker compose \
 
 This section provides information about the notebooks and the order that they should be run in.
 
-1. Run the following notebook:
+1. Run the following notebooks (order does matter):
     * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
       * Downloads files from public s3 bucket that are needed for the notebooks.
         * Downloads ClinVar CNV and NCH CNV data
@@ -158,37 +158,37 @@ This section provides information about the notebooks and the order that they sh
               * Creates `ClinVar-CNVs-normalized.csv`
             * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
               * Creates `NCH-microarray-CNVs-cleaned.csv`
-2. Run the following notebooks (order does not matter):
-   * [analysis/civic/variation_analysis/civic_variation_analysis.ipynb](./analysis/civic/variation_analysis/civic_variation_analysis.ipynb)
-     * Runs CIViC variant data through the Variation Normalizer
-   * [analysis/clinvar/clinvar_variation_analysis.ipynb](./analysis/clinvar/clinvar_variation_analysis.ipynb)
-     * Analysis on ClinVar variant data
-   * [analysis/genie/pre_variant_analysis/genie_pre_variant_analysis.ipynb](./analysis/genie/pre_variant_analysis/genie_pre_variant_analysis.ipynb)
-     * Runs GENIE variant data through the Variation Normalizer
-   * [analysis/moa/feature_analysis/moa_feature_analysis.ipynb](./analysis/moa/feature_analysis/moa_feature_analysis.ipynb)
-     * Runs MOA feature data through the Variation Normalizer
+  2. Run the following notebooks (order does not matter):
+    * [analysis/civic/variation_analysis/civic_variation_analysis.ipynb](./analysis/civic/variation_analysis/civic_variation_analysis.ipynb)
+      * Runs CIViC variant data through the Variation Normalizer
+    * [analysis/clinvar/clinvar_variation_analysis.ipynb](./analysis/clinvar/clinvar_variation_analysis.ipynb)
+      * Analysis on ClinVar variant data
+    * [analysis/genie/pre_variant_analysis/genie_pre_variant_analysis.ipynb](./analysis/genie/pre_variant_analysis/genie_pre_variant_analysis.ipynb)
+      * Runs GENIE variant data through the Variation Normalizer
+    * [analysis/moa/feature_analysis/moa_feature_analysis.ipynb](./analysis/moa/feature_analysis/moa_feature_analysis.ipynb)
+      * Runs MOA feature data through the Variation Normalizer
 
-  > [!IMPORTANT]
-  > You must have the [Docker containers](#2-variation-normalizer-docker-container)
-  > running for these notebooks.
+    > [!IMPORTANT]
+    > You must have the [Docker containers](#2-variation-normalizer-docker-container)
+    > running for these notebooks.
 
-3. Run the following notebooks (order does not matter):
-    * [analysis/civic/variation_analysis/transcript_variation_analysis.ipynb](./analysis/civic/variation_analysis/transcript_variation_analysis.ipynb)
-      * Analysis on CIViC variants in the Transcript category
-    * [analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb](./analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb)
-      * Analysis on CIViC evidence items
-    * [analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb](./analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb)
-      * Analysis on feature overlap in NCH and ClinVar CNVs
-    * [analysis/genie/variant_analysis/genie_search_analysis.ipynb](./analysis/genie/variant_analysis/genie_search_analysis.ipynb)
-      * Analysis on matched normalized GENIE variants and normalized variants from CIViC, MOA, and ClinVar
-    * [analysis/moa/assertion_analysis/moa_assertion_analysis.ipynb](./analysis/moa/assertion_analysis/moa_assertion_analysis.ipynb)
-      * Analysis on MOA assertions
-4. Run the following notebook:
-    * [analysis/merged_moa_civic/merged_moa_civic_evidence_analysis.ipynb](./analysis/merged_moa_civic/merged_moa_civic_evidence_analysis.ipynb)
-      * Combined analysis on CIViC evidence items and MOA assertions
-5. Run the following notebook:
-    * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
-      * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
+  3. Run the following notebooks (order does not matter):
+      * [analysis/civic/variation_analysis/transcript_variation_analysis.ipynb](./analysis/civic/variation_analysis/transcript_variation_analysis.ipynb)
+        * Analysis on CIViC variants in the Transcript category
+      * [analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb](./analysis/civic/evidence_analysis/civic_evidence_analysis.ipynb)
+        * Analysis on CIViC evidence items
+      * [analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb](./analysis/cnvs/query_match_nch_clinvar_cnvs.ipynb)
+        * Analysis on feature overlap in NCH and ClinVar CNVs
+      * [analysis/genie/variant_analysis/genie_search_analysis.ipynb](./analysis/genie/variant_analysis/genie_search_analysis.ipynb)
+        * Analysis on matched normalized GENIE variants and normalized variants from CIViC, MOA, and ClinVar
+      * [analysis/moa/assertion_analysis/moa_assertion_analysis.ipynb](./analysis/moa/assertion_analysis/moa_assertion_analysis.ipynb)
+        * Analysis on MOA assertions
+  4. Run the following notebook:
+      * [analysis/merged_moa_civic/merged_moa_civic_evidence_analysis.ipynb](./analysis/merged_moa_civic/merged_moa_civic_evidence_analysis.ipynb)
+        * Combined analysis on CIViC evidence items and MOA assertions
+  5. Run the following notebook:
+      * [analysis/performance_analysis/merged_performance_analysis.ipynb](./analysis/performance_analysis/merged_performance_analysis.ipynb)
+        * Analysis on Variation Normalizer performance on CIViC, MOA, and ClinVar
 
 ### Running Notebooks in Visual Studio Code (VS Code)
 
