@@ -6,7 +6,7 @@ Small output files can be found in this repo. Larger files can be found in our p
 
 After running the notebooks, users will be able to create figures such as these that demonstrate the results of the analysis, such as the below figure.
 
-Variant normalization allows patient data from AACR Project GENIE to be matched to normalized variants in the CIViC, MOAlmanac, and ClinVar knowledgebases.
+Variant normalization allows patient samples from AACR Project GENIE to be matched to normalized variants in the CIViC, MOAlmanac, and ClinVar knowledgebases.
 
 ![Patient Matching with GENIE](./analysis/genie/variant_analysis/genie_patient_matching.png)
 
