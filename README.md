@@ -7,8 +7,8 @@ s3 bucket: `s3://nch-igm-wagner-lab-public/variation-normalizer-manuscript/2025`
 are notebooks that provide functions for programmatically downloading files from the s3
 bucket.
 
-After running the notebooks, users will be able to create figures such as these that
-demonstrate the results of the analysis, such as the below figure.
+After running the notebooks, users will be able to create figures that demonstrate the
+results of the analysis, such as the below figure.
 
 Variant normalization allows patient samples from AACR Project GENIE to be matched to
 normalized variants in the CIViC, MOAlmanac, and ClinVar knowledgebases.
