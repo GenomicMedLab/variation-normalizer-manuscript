@@ -165,8 +165,8 @@ This section provides information about the notebooks and the order that they sh
 1. Run the following notebook:
     * [analysis/download_s3_files.ipynb](./analysis/download_s3_files.ipynb)
       * Downloads ClinVar CNV and NCH CNV from public s3 bucket that are needed for the notebooks.
-        * The following notebooks were used to create the files that are downloaded in this notebook.
-          You do not need to re-run these notebooks, but if you do order does not matter:
+        * The following notebooks were used to create the files that are downloaded in this notebook.\
+        You do not need to re-run these notebooks. Order does not matter if you do choose to re-run:
           * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
             * Creates `ClinVar-CNVs-normalized.csv` and `NCH-normalizer-results.json`
           * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
