@@ -148,6 +148,13 @@ docker compose \
 [Variation Normalizer](https://github.com/cancervariants/variation-normalization/tree/0.15.0).
 > Environment variables can be located at [.env.shared](./.env.shared).
 
+In Docker Desktop, you should see the following for a successful setup:
+
+![Docker Desktop Container](./docker-desktop-container.png)
+
+`cool-seq-tool-data-1` exits after download it is complete. The other three images
+(`api-1`, `uta-1`, and `gene-dynamodb-local-1`) should all be running.
+
 ## Running Notebooks
 
 This section provides information about the notebooks and the order that they should be run in.
