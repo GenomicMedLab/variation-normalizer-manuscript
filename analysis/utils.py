@@ -4,7 +4,6 @@ import json
 import zipfile
 from enum import StrEnum
 from pathlib import Path
-from typing import List, Dict
 import ast
 import pandas as pd
 from pandas._libs.missing import NAType
@@ -61,7 +60,7 @@ def load_civicpy_cache() -> None:
     )
 
 
-def load_latest_moa_zip(item_type: MoaItemType) -> List[Dict]:
+def load_latest_moa_zip(item_type: MoaItemType) -> list[dict]:
     """Load MOA items from latest zip file
 
     :item_type: Type of items to retrieve
@@ -94,7 +93,7 @@ def get_errors(errors: str | NAType) -> str:
         is returned
     """
     if pd.isna(errors):
-        return "Success" # Return success if there are no errors
+        return "Success"  # Return success if there are no errors
 
     # Parse if it's a stringified list/dict
     try:
