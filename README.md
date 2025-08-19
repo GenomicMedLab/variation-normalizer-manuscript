@@ -158,6 +158,8 @@ In Docker Desktop, you should see the following for a successful setup:
 ## Running Notebooks
 
 This section provides information about the notebooks and the order that they should be run in.
+The Table of Contents, in the notebooks that have them, will link to the sections in the notebooks. 
+You must use VS Code in order for Table of Contents links to work.
 
 > [!IMPORTANT]
 > You must have the [Docker containers](#2-variation-normalizer-docker-container) running.
