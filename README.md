@@ -171,7 +171,7 @@ You must use VS Code in order for Table of Contents links to work.
         this notebook. You do not need to re-run these notebooks. Order does not matter
         if you do choose to re-run:
           * [analysis/cnvs/prep_clinvar_cnvs.ipynb](./analysis/cnvs/prep_clinvar_cnvs.ipynb)
-            * Creates `ClinVar-CNVs-normalized.csv` and `NCH-normalizer-results.json`
+            * Creates `ClinVar-CNVs-normalized.csv.gzip` and `NCH-normalizer-results.json`
           * [analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb](./analysis/cnvs/parse_prep_normalize_nch_cnvs.ipynb)
             * Creates `NCH-microarray-CNVs-cleaned.csv`
 2. Run the following notebooks (order does not matter):
