@@ -7,18 +7,42 @@ services:
       LRG_REFSEQGENE_PATH: /app/wags_tails/ncbi_lrg_refseqgene/ncbi_lrg_refseqgene_20250720.tsv
       LIFTOVER_CHAIN_37_TO_38: /app/wags_tails/ucsc-chainfile/chainfile_hg19_to_hg38_.chain
       LIFTOVER_CHAIN_38_TO_37: /app/wags_tails/ucsc-chainfile/chainfile_hg38_to_hg19_.chain
+      SEQREPO_ROOT_DIR: /usr/local/share/seqrepo/2024-12-20
+      # Dummy AWS credentials, don't need to use real ones
+      AWS_ACCESS_KEY_ID: dummy
+      AWS_SECRET_ACCESS_KEY: dummy
+      AWS_DEFAULT_REGION: us-east-2
+      GENE_NORM_DB_URL: http://gene-dynamodb-local:8000
+      UTA_DB_URL: postgresql://anonymous@uta:5432/uta/uta_20241220
+
+    ports:
+      - 127.0.0.1:8001:80
 
     depends_on:
       cool-seq-tool-data:
         condition: service_completed_successfully
+      uta:
+        condition: service_started
+      gene-dynamodb-local:
+        condition: service_started
+
+    working_dir: /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp
 
     volumes:
       - manuscript_data:/app
+      - uta_vol:/var/lib/postgresql/data
+      - /usr/local/share/seqrepo:/usr/local/share/seqrepo
 
   gene-dynamodb-local:
     image: cancervariants/gene-normalizer-ddb:2025-05-08
     ports:
-      - "8000:8000"
+      - 127.0.0.1:8000:8000
 
   cool-seq-tool-data:
     build:
@@ -44,7 +68,7 @@ services:
           create_host_path: false
       - ./uta-setup.sql:/docker-entrypoint-initdb.d/uta-setup.sql
     ports:
-      - 5432:5432
+      - 127.0.0.1:5432:5432
 
 volumes:
   manuscript_data:
