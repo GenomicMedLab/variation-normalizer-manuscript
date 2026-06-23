@@ -55,7 +55,6 @@ uv python pin 3.13
 uv venv
 source .venv/bin/activate
 uv sync --all-extras
-git submodule update --init --recursive
 ```
 
 #### pip
@@ -64,7 +63,6 @@ git submodule update --init --recursive
 python3.13 -m venv .venv
 source .venv/bin/activate
 python3.13 -m pip install -r requirements.txt
-git submodule update --init --recursive
 ```
 
 ### Set Up Backend Services
@@ -127,20 +125,24 @@ and add `/usr/local/share/seqrepo` under the `Virtual file shares` section. Othe
 you will get the following error:
 `OSError: Unable to open SeqRepo directory /usr/local/share/seqrepo/2024-12-20`.
 
+First, you must manually download `uta_20241220.pgd.gz` from <https://dl.biocommons.org/uta/> using a web browser and move it to the root of the repository.
+
+> !NOTE
+> Manually installation is required due to [this UTA issue](https://github.com/biocommons/uta/issues/274).
+
 To build, (re)create, and start containers
 
 ```shell
 docker volume create --name=uta_vol
 docker compose \
   -p variation-normalizer-manuscript \
-  -f submodules/compose.yaml \
   -f compose.yaml \
   up
 ```
 
 > [!TIP]
 > If you want a clean slate, run `docker compose down -v` to remove containers and
-> volumes, then `docker compose -p variation-normalizer-manuscript -f submodules/compose.yaml -f compose.yaml up` to rebuild and start fresh containers.
+> volumes, then `docker compose -p variation-normalizer-manuscript -f compose.yaml up` to rebuild and start fresh containers.
 
 > [!NOTE]
 > We use [python-dotenv](https://pypi.org/project/python-dotenv/) to load environment
@@ -158,7 +160,7 @@ In Docker Desktop, you should see the following for a successful setup:
 ## Running Notebooks
 
 This section provides information about the notebooks and the order that they should be run in.
-The Table of Contents, in the notebooks that have them, will link to the sections in the notebooks. 
+The Table of Contents, in the notebooks that have them, will link to the sections in the notebooks.
 You must use VS Code in order for Table of Contents links to work.
 
 > [!IMPORTANT]

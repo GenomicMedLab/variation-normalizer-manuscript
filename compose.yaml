@@ -18,7 +18,7 @@ services:
   gene-dynamodb-local:
     image: cancervariants/gene-normalizer-ddb:2025-05-08
     ports:
-     - "8000:8000"
+      - "8000:8000"
 
   cool-seq-tool-data:
     build:
@@ -28,5 +28,25 @@ services:
     volumes:
       - manuscript_data:/app
 
+  uta:
+    # Test:
+    # psql -XAt postgres://anonymous@localhost/uta -c 'select count(*) from uta_20241220.transcript'
+    # 329090
+    image: biocommons/uta:uta_20241220
+    environment:
+      - POSTGRES_PASSWORD=some-password-that-you-make-up
+    volumes:
+      - type: bind
+        source: ./uta_20241220.pgd.gz
+        target: /tmp/uta_20241220.pgd.gz
+        read_only: true
+        bind:
+          create_host_path: false
+      - ./uta-setup.sql:/docker-entrypoint-initdb.d/uta-setup.sql
+    ports:
+      - 5432:5432
+
 volumes:
   manuscript_data:
+  uta_vol:
+    external: true
