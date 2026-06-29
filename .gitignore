@@ -65,3 +65,6 @@ analysis/data
 
 # UTA
 uta_20241220.pgd.gz
+
+# dosage sensitivity data
+Analysis/clingen_dosage/*
