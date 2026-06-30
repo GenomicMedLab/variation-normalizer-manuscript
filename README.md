@@ -5,7 +5,7 @@ This repo contains analysis notebooks used in the _The Clinical Genomic Variatio
 Small output files can be found in this repo. Larger files can be found in our public
 s3 bucket: `s3://nch-igm-wagner-lab-public/variation-normalizer-manuscript/2025`. There
 are notebooks that provide functions for programmatically downloading files from the s3
-bucket.
+bucket. These can also be found in our [Zenodo release](https://doi.org/10.5281/zenodo.20813455).
 
 After running the notebooks, users will be able to create figures that demonstrate the
 results of the analysis, such as the below figure.
