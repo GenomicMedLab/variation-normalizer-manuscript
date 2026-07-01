@@ -11,7 +11,7 @@ def get_intervals_from_overlap(cds_overlap_dict: dict) -> list:
             v["overlap"]["start"],
             v["overlap"]["end"],
         )
-        for feature_overlap in cds_overlap_dict["feature_overlap"].values()
+        for feature_overlap in cds_overlap_dict.get("feature_overlap", {}).values()
         for v in feature_overlap
     ]
 
