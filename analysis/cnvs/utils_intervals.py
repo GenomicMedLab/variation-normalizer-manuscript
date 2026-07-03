@@ -1,20 +1,3 @@
-def get_intervals_from_overlap(cds_overlap_dict: dict) -> list:
-    """Get a list of tuples that describe the intervals of coding sequence
-    overlap with a given variant
-
-    :param cds_overlap_dict: A dictionary of contating feature overlap
-        information
-    :return: a list of (start, stop) tuples for the intervals of coding
-        sequence overlap with the given variant"""
-    return [
-        (
-            v["overlap"]["start"],
-            v["overlap"]["end"],
-        )
-        for feature_overlap in cds_overlap_dict.get("feature_overlap", {}).values()
-        for v in feature_overlap
-    ]
-
 def canonicalize(intervals: list) -> list:
     """Process start/stop tuples for downstream analysis
 
@@ -36,8 +19,24 @@ def canonicalize(intervals: list) -> list:
                 intervals_merged.append(
                     [a, b]
                 )  # if the current position is outside the last interval, start a new interval
-
     return intervals_merged
+
+def get_intervals_from_overlap(cds_overlap_dict: dict) -> list:
+    """Get a list of tuples that describe the intervals of coding sequence
+    overlap with a given variant
+
+    :param cds_overlap_dict: A dictionary of contating feature overlap
+        information
+    :return: a list of (start, stop) tuples for the intervals of coding
+        sequence overlap with the given variant"""
+    return canonicalize([
+        (
+            v["overlap"]["start"],
+            v["overlap"]["end"],
+        )
+        for feature_overlap in cds_overlap_dict.get("feature_overlap", {}).values()
+        for v in feature_overlap
+    ])
 
 def calculate_size_of_intervals(intervals: list) -> int:
     """Determine the size of the union of the intervals
@@ -48,7 +47,7 @@ def calculate_size_of_intervals(intervals: list) -> int:
     return sum(
         [
             b - a + 1
-            for (a, b) in canonicalize(intervals)
+            for (a, b) in intervals
             if (a is not None) and (b is not None)
         ]
     )
@@ -69,10 +68,10 @@ def make_interlaced_endpoints(intervals1: list, intervals2: list) -> list:
     if not isinstance(intervals2, list):
         intervals2 = []
     intervals1_tag = [(interval[0], 0, 0) for interval in intervals1] + [
-        (interval[-1], 1, 0) for interval in canonicalize(intervals1)
+        (interval[-1], 1, 0) for interval in intervals1
     ]
     intervals2_tag = [(interval[0], 0, 1) for interval in intervals2] + [
-        (interval[-1], 1, 1) for interval in canonicalize(intervals2)
+        (interval[-1], 1, 1) for interval in intervals2
     ]
     return sorted(intervals1_tag + intervals2_tag)
 
@@ -113,16 +112,35 @@ def calculate_intersection_of_overlap_intervals(
 
         if (
             state > prev_state
-        ):  # if the state has increased, we've reached part of the intersection; this is an intersection interval start pos
+        ):  # if the state has increased, we've reached part of the intersection;
+            # this is an intersection interval start pos
             a = pos
 
         elif (
             state < prev_state
-        ):  # if the state has decreased, we've left part of the intersection; this is an intersection interval stop pos
+        ):  # if the state has decreased, we've left part of the intersection;
+            # this is an intersection interval stop pos
             b = pos
             result_intervals.append((a, b))
 
     return result_intervals
+
+def calculate_intersection_size(intervals1, intervals2):
+    i = j = 0
+    overlap = 0
+
+    while i < len(intervals1) and j < len(intervals2):
+        a0, a1 = intervals1[i]
+        b0, b1 = intervals2[j]
+
+        overlap += max(0, min(a1, b1) - max(a0, b0) + 1)
+
+        if a1 <= b1:
+            i += 1
+        else:
+            j += 1
+
+    return overlap
 
 def calculate_cds_jaccard(var1_overlap: dict, var2_overlap: dict) -> float:
     """Calculate CDS Jaccard score for two variants
@@ -148,6 +166,17 @@ def calculate_cds_jaccard(var1_overlap: dict, var2_overlap: dict) -> float:
     )
     union_size = calculate_size_of_intervals(canonicalize(intervals1 + intervals2))
     return intersection_size / union_size
+
+def calculate_cds_jaccard1(
+    intervals1, intervals2
+):
+    inter = intersection_size(intervals1, intervals2)
+    union = (
+        calculate_size_of_intervals(intervals1)
+        + calculate_size_of_intervals(intervals2)
+        - inter
+    )
+    return inter / union
 
 def calculate_cds_overlap_fraction(start: int, stop: int, overlap_dict: dict) -> float:
     """Calculate CDS overlap fraction
