@@ -37,7 +37,6 @@ class NotSupportedVariantCategory(StrEnum):
     REGION_DEFINED = "Region-Defined"
     GENOME_FEATURE = "Genome Feature"
     OTHER = "Other"
-    TRANSCRIPT = "Transcript"  # no attempt to normalize these ones, since there is no query we could use
 
 
 NOT_SUPPORTED_VARIANT_CATEGORY_VALUES = [
