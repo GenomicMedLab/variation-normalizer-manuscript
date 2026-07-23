@@ -1,4 +1,4 @@
-variant_id	query	variant_type	variant_accepted	civic_variant_types	exception_raised	message	warnings
+variant_id	query	query_type	variant_accepted	civic_variant_types	exception_raised	message	warnings
 4170	VHL 3'UTR alteration (c.*70C>T)	cdna_genomic	False	Not provided	False	unable to normalize	"['Unable to tokenize: (c.*70C>T)', ""Unable to tokenize: 3'UTR"", 'Unable to tokenize: alteration']"
 4232	BRCA1 c.212+1G>T	cdna_genomic	False	Not provided	False	unable to normalize	['Unable to tokenize: c.212+1G>T']
 2489	VHL *214C (c.641_642insC)	cdna_genomic	True	Stop Lost	False	unable to normalize	['Unable to tokenize: *214C']

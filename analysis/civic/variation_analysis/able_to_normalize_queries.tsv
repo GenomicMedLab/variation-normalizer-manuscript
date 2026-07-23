@@ -1,4 +1,4 @@
-variant_id	query	variant_type	variant_accepted	civic_variant_types	vrs_id	succeeded_endpoint
+variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeeded_endpoint
 4214	VHL T124I (c.371C>T)	cdna_genomic	False	Not provided	ga4gh:VA.TwreSFSBYw5mYawHh6fO_LucAcWF9iYT	translate_from
 4216	VHL W8* (c.23G>A)	cdna_genomic	False	Not provided	ga4gh:VA.uYpVvsPs0LGWoTt5YUV1hKxGLt9BOxK6	translate_from
 4278	VHL Y112C (c.335A>G)	cdna_genomic	False	Not provided	ga4gh:VA.5rsDls4Q4KHIzKzlhUROqt1BcdyYoaek	translate_from

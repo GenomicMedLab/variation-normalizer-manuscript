@@ -13,8 +13,8 @@ from utils import NotSupportedVariantCategory  # noqa: E402
 from hgvs.assemblymapper import AssemblyMapper
 
 
-class VariantType(StrEnum):
-    """Define variant types"""
+class VariantQueryType(StrEnum):
+    """Define variant query types"""
 
     CDNA_GENOMIC = (
         "cdna_genomic"  # these are civic variants that have 'c.' in their name
@@ -29,7 +29,7 @@ class CsvWriter(Protocol):
         """Write one CSV row."""
 
 
-CountTotals: TypeAlias = dict[VariantType, dict[str, int]]
+CountTotals: TypeAlias = dict[VariantQueryType, dict[str, int]]
 
 
 @dataclass
@@ -69,7 +69,7 @@ class VariantNormalizationInput:
     :param variant: CIViC variant being processed.
     :param query: Query submitted to the variation normalizer.
     :param variant_name: Parsed CIViC variant name.
-    :param variant_type: Parsed CIViC variant type.
+    :param query_type: Type of variation query
     :param gene_name: Associated gene symbol, if available.
     :param civic_variant_types: Semicolon-delimited CIViC variant types.
     :param is_accepted: Whether the variant has accepted evidence.
@@ -79,7 +79,7 @@ class VariantNormalizationInput:
     variant: civicpy.Variant
     query: str
     variant_name: str
-    variant_type: VariantType
+    query_type: VariantQueryType
     gene_name: str | None
     civic_variant_types: str
     is_accepted: bool
@@ -89,8 +89,8 @@ class VariantNormalizationInput:
 def total_counts() -> dict:
     """Return initial total counts for genomic and protein variants"""
     return {
-        VariantType.PROTEIN: {"accepted": 0, "submitted": 0, "count": 0},
-        VariantType.CDNA_GENOMIC: {"accepted": 0, "submitted": 0, "count": 0},
+        VariantQueryType.PROTEIN: {"accepted": 0, "submitted": 0, "count": 0},
+        VariantQueryType.CDNA_GENOMIC: {"accepted": 0, "submitted": 0, "count": 0},
     }
 
 
@@ -107,7 +107,7 @@ def is_accepted_variant(v: civicpy.Variant) -> bool:
     return False
 
 
-def get_variant_name_and_type(variant: civicpy.Variant) -> tuple[str, VariantType]:
+def get_variant_name_and_type(variant: civicpy.Variant) -> tuple[str, VariantQueryType]:
     """Get transformed variant name and type
 
     :param variant: CIViC variant record
@@ -117,9 +117,9 @@ def get_variant_name_and_type(variant: civicpy.Variant) -> tuple[str, VariantTyp
     v_name = variant.name.strip()
 
     if "c." in variant.name:
-        v_q_type = VariantType.CDNA_GENOMIC
+        v_q_type = VariantQueryType.CDNA_GENOMIC
     else:
-        v_q_type = VariantType.PROTEIN
+        v_q_type = VariantQueryType.PROTEIN
 
     return v_name, v_q_type
 
@@ -287,7 +287,9 @@ def get_not_supported_categories(
     return categories
 
 
-def increment_total(totals: dict, v_q_type: VariantType, accepted_key: str) -> None:
+def increment_total(
+    totals: dict, v_q_type: VariantQueryType, accepted_key: str
+) -> None:
     """Increment totals dictionary in-place
 
     :param totals: Totals dictionary
@@ -364,14 +366,14 @@ def write_normalization_success(
     """
     increment_total(
         context.can_normalize_totals,
-        item.variant_type,
+        item.query_type,
         item.accepted_key,
     )
     context.able_writer.writerow(
         [
             item.variant.id,
             item.query,
-            item.variant_type,
+            item.query_type,
             item.is_accepted,
             item.civic_variant_types,
             vrs_id,
@@ -400,7 +402,7 @@ def write_normalization_failure(
         [
             item.variant.id,
             item.query,
-            item.variant_type,
+            item.query_type,
             item.is_accepted,
             item.civic_variant_types,
             raised_exception,
@@ -433,7 +435,7 @@ def write_expected_failure(
     )
     increment_total(
         context.unable_to_normalize_totals,
-        item.variant_type,
+        item.query_type,
         item.accepted_key,
     )
 
@@ -458,7 +460,7 @@ def write_exception(
     )
     increment_total(
         context.exception_totals,
-        item.variant_type,
+        item.query_type,
         item.accepted_key,
     )
 
@@ -521,7 +523,7 @@ async def normalize_variant(
             category = None
 
             if (
-                item.variant_type == VariantType.PROTEIN
+                item.query_type == VariantQueryType.PROTEIN
                 and len(item.variant_name.split()) == 1
             ):
                 category = get_gene_query_category(
@@ -541,7 +543,7 @@ async def normalize_variant(
             )
             return
 
-        if item.variant_type == VariantType.CDNA_GENOMIC:
+        if item.query_type == VariantQueryType.CDNA_GENOMIC:
             await normalize_cdna_variant(item, variation, context)
             return
 
