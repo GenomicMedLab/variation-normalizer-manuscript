@@ -149,6 +149,7 @@ docker compose \
 > variables needed for analysis notebooks that run the
 [Variation Normalizer](https://github.com/cancervariants/variation-normalization/tree/0.15.0).
 > Environment variables can be located at [.env.shared](./.env.shared).
+> All notebooks use v0.15.0 except for `analysis/civic/variation_analysis/civic_variation_analysis.ipynb`, which uses v0.16.0 due to changes requested for reviewer comments (Dependencies can be found [requirements-reviewer-comments.txt](./requirements-reviewer-comments.txt)).
 
 In Docker Desktop, you should see the following for a successful setup:
 
