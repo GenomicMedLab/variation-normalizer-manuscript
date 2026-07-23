@@ -12,6 +12,8 @@ from typing import Any, Protocol, TypeAlias
 from utils import NotSupportedVariantCategory  # noqa: E402
 from hgvs.assemblymapper import AssemblyMapper
 
+CDNA_CHANGE_PATTERN = re.compile(r"^(?!.*c\..*c\.).*?(?:\((c\.[^)]+)\)|(c\.\S+))$")
+
 
 class VariantQueryType(StrEnum):
     """Define variant query types"""
@@ -124,6 +126,28 @@ def get_variant_name_and_type(variant: civicpy.Variant) -> tuple[str, VariantQue
     return v_name, v_q_type
 
 
+def get_gene_cdna_query(gene: str | None, variant_name: str) -> str | None:
+    """Attempt to get gene cDNA only change from name
+
+    :param gene: Gene name
+    :param variant_name: Variant name
+    """
+    if not gene:
+        return
+
+    if len(variant_name.split(" ")) > 2:
+        # this may be something like 'Deletion AND I151S(c.452T>G)' which we dont support
+        return
+
+    match = CDNA_CHANGE_PATTERN.fullmatch(variant_name)
+    cdna_change = (match.group(1) or match.group(2)) if match else None
+
+    if not cdna_change:
+        return
+
+    return f"{gene} {cdna_change}"
+
+
 async def map_transcript_to_genomic(
     query_handler: QueryHandler,
     hgvs_tools: HgvsTools,
@@ -148,12 +172,10 @@ async def map_transcript_to_genomic(
     except Exception as e:
         return {"vrs_id": None, "error": str(e)}
 
-    # These are not ordered
     for cdna_hgvs_expr in cdna_hgvs_expressions:
-        var_c = hgvs_tools.parser.parse_hgvs_variant(cdna_hgvs_expr)
-        var_g = am.c_to_g(var_c)
-
         try:
+            var_c = hgvs_tools.parser.parse_hgvs_variant(cdna_hgvs_expr)
+            var_g = am.c_to_g(var_c)
             g_variation_norm_resp = await query_handler.normalize_handler.normalize(
                 str(var_g)
             )
@@ -315,7 +337,6 @@ def get_gene_query_category(
     :return: Unsupported category when all tokens are recognized genes.
         Otherwise, `None`.
     """
-    # Determine if fusion or gene name (which actually aren't supported)
     genes = variant_name.split("-")
 
     if not all(gene_query_handler.normalize(gene).match_type != 0 for gene in genes):
@@ -469,12 +490,15 @@ async def normalize_cdna_variant(
     item: VariantNormalizationInput,
     variation: Any,
     context: NormalizationContext,
+    normalized_as_is: bool = True,
 ) -> None:
     """Map a normalized transcript allele to genomic coordinates.
 
     :param item: Variant-specific normalization input.
     :param variation: Variation returned by the normalizer.
     :param context: Shared handlers, counters, and CSV writers.
+    :param normalized_as_is: Whether or not civic variant name normalized as is,
+        or if modifications needed to be made
     """
     if not isinstance(variation, Allele):
         write_expected_failure(
@@ -498,10 +522,15 @@ async def normalize_cdna_variant(
         )
         return
 
+    if normalized_as_is:
+        method = "normalize"
+    else:
+        method = "normalize_cdna_change_only"
+
     write_normalization_success(
         item,
         vrs_id,
-        "translate_from",
+        method,
         context,
     )
 
@@ -518,6 +547,24 @@ async def normalize_variant(
     try:
         response = await context.query_handler.normalize_handler.normalize(item.query)
         variation = response.variation
+        normalized_as_is = True
+
+        if item.query_type == VariantQueryType.CDNA_GENOMIC and not variation:
+            # If cDNA, let's try to normalize just on the gene and cDNA change
+            # Sometimes the normalizer will fail if it doesn't recognize a protein token.
+            # For example, 'VHL *214C (c.641_642insC)' will fail in the normalizer.
+            # Second pass will attempt 'VHL (c.641_642insC)' which should succeed.
+
+            cdna_only_query = get_gene_cdna_query(item.gene_name, item.variant_name)
+
+            if cdna_only_query and (cdna_only_query != item.query):
+                cdna_only_response = (
+                    await context.query_handler.normalize_handler.normalize(
+                        cdna_only_query
+                    )
+                )
+                variation = cdna_only_response.variation
+                normalized_as_is = False
 
         if not variation:
             category = None
@@ -526,6 +573,7 @@ async def normalize_variant(
                 item.query_type == VariantQueryType.PROTEIN
                 and len(item.variant_name.split()) == 1
             ):
+                # Determine if fusion or gene name (which actually aren't supported)
                 category = get_gene_query_category(
                     item.variant_name,
                     context.gene_query_handler,
@@ -544,7 +592,7 @@ async def normalize_variant(
             return
 
         if item.query_type == VariantQueryType.CDNA_GENOMIC:
-            await normalize_cdna_variant(item, variation, context)
+            await normalize_cdna_variant(item, variation, context, normalized_as_is)
             return
 
         write_normalization_success(
