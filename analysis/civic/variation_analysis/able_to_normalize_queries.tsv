@@ -957,7 +957,6 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 1798	VHL L118P (c.353T>C)	cdna_genomic	True	Missense Variant	ga4gh:VA.PH7aA07NiPQDQvXZtysBrcM43ZXedVTG	normalize
 1822	VHL L118R (c.353T>G)	cdna_genomic	False	Missense Variant	ga4gh:VA.MXoQpT7kXmHNz9lEHhZJlSvXx9KJyDRE	normalize
 2313	VHL L118fs (c.349_350insG)	cdna_genomic	False	Not provided	ga4gh:VA.VCVV2ghGkZ2mTDDSKzhlLy8SMOAxVyKs	normalize
-1841	VHL L118fs (c.352_353insA)	cdna_genomic	True	Plus 1 Frameshift Variant	ga4gh:VA.7WlzFwxWdM8WGLmJNHz36-p6jbZqG5if	normalize
 4324	ALK L1196M	protein	True	Missense Variant	ga4gh:VA.E8YabWqHYiNl5g4GUBxOIR3qT2Ni2hDX	normalize
 1553	ALK L1196Q	protein	False	Missense Variant	ga4gh:VA.N9-OADUiLOy-yhrzfAde-x4A9KalT7hA	normalize
 1275	ALK L1198F	protein	True	Missense Variant	ga4gh:VA.DQswi9Ax2N6UbK8zCNQ-X-NlgwS9Do5F	normalize
@@ -1142,7 +1141,6 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 3965	BRCA1 M1652I	protein	False	Not provided	ga4gh:VA.JAK3aNiSa0MKOWREZ0XWahLt18Pqd-Nl	normalize
 4401	BRCA1 M1775K	protein	False	Not provided	ga4gh:VA.6jC861V0e4McGNm2Yn_5VV1wZ8GSTy1_	normalize
 4400	BRCA1 M1775R	protein	False	Not provided	ga4gh:VA.TNN5ScOeZ2HpQdrxjpQZo9xJTUUKo40E	normalize
-848	VHL M1? (c.3G>A)	cdna_genomic	True	Start Lost	ga4gh:VA.gv5hheuoqZ-DTgDPfL1ezjZ_0lBeRIh-	normalize_cdna_change_only
 1248	BRCA2 M1I	protein	True	Missense Variant	ga4gh:VA.taz2x-9OYHUXcFKgmq4pf6MYxbOm4YOI	normalize
 747	MLH1 M1L	protein	True	Missense Variant	ga4gh:VA.DufBPujpQWrwEvV_NO9_N9ClpPUYJ_e-	normalize
 2868	VHL M211L (c.631A>C)	cdna_genomic	False	Missense Variant	ga4gh:VA.85LGbTVlVjYEVeu2sQQ7uSg3Yj7YEkm7	normalize
@@ -1374,7 +1372,6 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 1760	VHL P86L (c.257C>T)	cdna_genomic	True	Missense Variant	ga4gh:VA.EiDpMmXdObLDpdpK7o14nmcX4_OrBO0b	normalize
 1849	VHL P86R (c.257C>G)	cdna_genomic	True	Missense Variant	ga4gh:VA.WjXtSqRuV-qwODAID9nCOHUhnFq-LswX	normalize
 1902	VHL P86S (c.256C>T)	cdna_genomic	True	Missense Variant	ga4gh:VA.Ws902Tcs-RceKF0tRXVV_zboCKBcdof2	normalize
-1758	VHL P86fs (c.254_255insC)	cdna_genomic	True	Plus 1 Frameshift Variant;Frameshift Truncation	ga4gh:VA.4QAQ8NOXjxiID_7wMJ-oApiSK6uiDKnR	normalize
 2306	VHL P86fs (c.255_256delGC)	cdna_genomic	False	Not provided	ga4gh:VA.x4P6WboQF3p5sXfZMF6-1ztZLRl0ov_X	normalize
 3348	SPOP P94A	protein	False	Not provided	ga4gh:VA.8UyKVDepokYwbRySxGw7x8zGxSpmX1ay	normalize
 4304	SRSF2 P95H	protein	True	Missense Variant	ga4gh:VA.g8tnFUkVr2rCknZbSSJ77GJumihRujQe	normalize
@@ -2031,7 +2028,6 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 2068	VHL V87A (c.260T>C)	cdna_genomic	False	Missense Variant	ga4gh:VA.ZaRfkQ2Wgpn8FAdDFk0pu8IGZ6ogisuR	normalize
 2513	VHL V87E (c.260T>A)	cdna_genomic	False	Missense Variant	ga4gh:VA.aajKICXoFVcEKQKNV_mFqrnSILHAcTO9	normalize
 3741	VHL V87fs (c.255_256insC)	cdna_genomic	True	Not provided	ga4gh:VA.Wvw9Zm83rnKqjffmFcFidO8mMlS_NCjc	normalize
-2432	VHL V87fs (c.259_260insA)	cdna_genomic	True	Plus 1 Frameshift Variant;Frameshift Truncation	ga4gh:VA.aQUQCHhoKXzJRcY9BikdiDu9ns5g6Ehx	normalize
 3668	PIK3CA V955G	protein	True	Not provided	ga4gh:VA.zcoSW-OomzdWl_n-IsvpHj2DUqJB5c5t	normalize
 3001	PIK3CA V955I	protein	True	Missense Variant	ga4gh:VA.cBlAyLn0GKRsY77Njm7rH-7T4gVVovxO	normalize
 1521	CDKN2A W110*	protein	False	Stop Gained	ga4gh:VA.GHAG3O0lxhpbL_epRRTRQefurbOzUodK	normalize

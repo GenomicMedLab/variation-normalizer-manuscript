@@ -1,9 +1,7 @@
 variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
-4170	VHL	3'UTR alteration (c.*70C>T)	False	Not provided
 4214	VHL	T124I (c.371C>T)	False	Not provided
 4216	VHL	W8* (c.23G>A)	False	Not provided
 4278	VHL	Y112C (c.335A>G)	False	Not provided
-4232	BRCA1	c.212+1G>T	False	Not provided
 2489	VHL	*214C (c.641_642insC)	True	Stop Lost
 1988	VHL	*214C (c.642A>T)	True	Stop Lost
 2488	VHL	*214G (c.640T>G)	True	Stop Lost
@@ -12,37 +10,27 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1987	VHL	*214W (c.642A>G)	True	Stop Lost
 2930	VHL	106insR (c.316insGCC)	True	Not provided
 3083	VHL	180fs*22 (c.540delC)	False	Not provided
-3102	VHL	3' UTR alteration (c.*1149A>G)	False	Not provided
-2152	VHL	3'UTR alteration (c.*70C>A)	True	3 Prime UTR Variant
-2024	VHL	3'UTR alteration (c.639+10C>G)	True	3 Prime UTR Variant
 2028	VHL	A122I (c.364_365GC>AT)	True	Missense Variant
 3194	VHL	A122V (c.365C>T)	False	Missense Variant
 820	VHL	A149S (c.445G>T)	True	Missense Variant
 1744	VHL	A149T (c.445G>A)	True	Missense Variant
-3195	VHL	A149fs (c.444dup)	False	Plus 1 Frameshift Variant;Frameshift Truncation
 2042	VHL	A149fs (c.445delG)	True	Frameshift Variant;Minus 1 Frameshift Variant
 2482	VHL	A149fs (c.446delG)	False	Not provided
-2023	VHL	A149fs (c.449del14-nt)	True	Not provided
 2962	RUNX1	A28fsX109 (c.83insG)	False	Not provided
 3173	VHL	A50= (c.150C>G)	False	Synonymous Variant
-2442	VHL	A50= (c.150C>G) and Splice Site (c.463-1G>T)	False	Not provided
 771	VHL	A56FS (c.164_165insG)	True	Frameshift Truncation
 2265	VHL	A56_P59del (c.166_178del)	True	Not provided
 793	VHL	A56fs (c.164_165insA)	True	Frameshift Truncation
 1785	VHL	A56fs (c.166_167insA)	True	Frameshift Truncation
-2144	VHL	A56fs (c.166dup)	True	Plus 1 Frameshift Variant
 2528	VHL	C162* (c.486C>A)	False	Stop Gained
 1773	VHL	C162F (c.485G>T)	True	Missense Variant
 1772	VHL	C162R (c.484T>C)	True	Missense Variant
 1774	VHL	C162W (c.486C>G)	True	Missense Variant
-3170	VHL	C162Wfs*12(c.485dupG)	False	Not provided
 1824	VHL	C162Y (c.485G>A)	True	Missense Variant
-4181	VHL	C162Y(c.486C>G) and L188V(c.562C>G) and P81S(c.241C>T) and F119L(c.357C>G)	False	Not provided
 2035	VHL	C162fs (c.483del)	True	Frameshift Truncation;Minus 1 Frameshift Variant
 4108	VHL	C77Sfs*82 (c.230del)	False	Not provided
 3096	VHL	C77_N78insL (c.230_231insTCT)	True	Disruptive Inframe Insertion
 2123	VHL	C77del (c.229_231delTGC)	False	Conservative Inframe Deletion
-2132	VHL	C77fs (c.228dup)	True	Not provided
 3245	VHL	C77fs (c.230del)	True	Not provided
 1813	VHL	D121G (c.362A>G)	True	Missense Variant
 2154	VHL	D121H (c.361G>C)	False	Missense Variant
@@ -56,14 +44,12 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2533	VHL	D126N (c.376G>A)	False	Missense Variant
 2053	VHL	D126Y (c.376G>T)	False	Missense Variant
 3040	VHL	D143= (c.429C>T)	False	Synonymous Variant
-4207	VHL	D143= (c.429C>T) and c.340+770T>C	False	Not provided
 4153	VHL	D143Efs*13 (c.429_438del)	False	Not provided
 1844	VHL	D143fs (c.430delG)	True	Not provided
 3123	VHL	D179N (c.535G>A)	False	Missense Variant
 2579	IKZF1	D186fs (c.556del)	False	Minus 1 Frameshift Variant
 2141	VHL	D197FS (c.589delG)	True	Frameshift Truncation
 2105	VHL	D197N (c.589G>A)	False	Missense Variant
-2479	VHL	D197Rfs* (c.588_588dupA)	False	Not provided
 2126	VHL	D198fs (c.592_593delCT)	False	Frameshift Truncation
 3260	VHL	D213E (c.639T>G)	False	Not provided
 2673	EPHB2	D679N (c.2035G>A)	False	Not provided
@@ -71,9 +57,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3360	VHL	D92V (c.275A>T)	False	Not provided
 2514	VHL	D92fs (c.275delinsCC)	False	Not provided
 2963	RUNX1	D96H (c.238G>C)	False	Not provided
-4192	VHL	Deletion AND I151S(c.452T>G)	False	Not provided
-4193	VHL	Deletion AND R200W (c.598C>T)	False	Not provided
-4194	VHL	Deletion AND R69C (c.205C>T)	False	Not provided
 1694	VHL	E12D (c.36G>C)	False	Missense Variant
 1884	VHL	E134* (c.400G>T)	False	Stop Gained
 2524	VHL	E134_V142del (c.402_428del)	False	Disruptive Inframe Deletion
@@ -98,11 +81,9 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1736	VHL	E55* (c.163G>T)	True	Stop Gained
 794	VHL	E55= (c.165G>A)	True	Synonymous Variant
 764	VHL	E55FS (c.163_164delGA)	True	Frameshift Truncation
-4077	VHL	E55Gfs*77 (c.163dup)	False	Not provided
 766	VHL	E55RfsTer11 (c.163delG)	True	Frameshift Truncation
 2301	VHL	E55fs (c.162delG)	False	Not provided
 3744	VHL	E55fs (c.163delG)	True	Not provided
-3654	VHL	E55fs (c.163dupG)	False	Not provided
 1834	VHL	E70* (c.208G>T)	True	Stop Gained
 3036	VHL	E70Dfs(c.210delG)	False	Not provided
 1956	VHL	E70K (c.208G>A)	True	Missense Variant
@@ -112,8 +93,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2127	VHL	E94FS (c.279delC)	True	Frameshift Truncation
 2173	VHL	E94K (c.280G>A)	False	Missense Variant
 2310	VHL	E94_P97del (c.281_291del)	False	Not provided
-4169	VHL	Exon 1-3 Deletion and Splice Region (c.340+5G>C)	False	Not provided
-4250	VHL	Exon 3 deletion (c.464-11 T>A)	False	Not provided
 2475	VHL	F119L (c.355T>C)	False	Missense Variant
 1743	VHL	F119L (c.357C>G)	True	Missense Variant
 2119	VHL	F119S (c.356T>C)	False	Missense Variant
@@ -126,13 +105,11 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2558	VHL	F137fs (c.408insT)	False	Not provided
 3143	VHL	F148* (c.443_455delinsA)	True	Not provided
 3129	VHL	F148Lfs*11 (c.444del)	False	Not provided
-4083	VHL	F76* (c.227T>A; c.228C>A)	False	Not provided
 2107	VHL	F76L (c.228C>G)	False	Missense Variant
 1835	VHL	F76S (c.227T>C)	True	Missense Variant
 4082	VHL	F76_C77del (c.226_231del)	False	Not provided
 2271	VHL	F76_N78del (c.226_232del)	False	Not provided
 2088	VHL	F76del (c.227_229del)	True	Inframe Deletion
-2158	VHL	F76fs (c.222_225dup)	False	Plus 1 Frameshift Variant
 1912	VHL	F76fs (c.223_224insT)	True	Frameshift Truncation
 3632	VHL	F76fs (c.224_225insA)	False	Not provided
 1893	VHL	F91* (c.272_273delinsAA)	True	Not provided
@@ -148,13 +125,10 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4084	VHL	G106Tfs*54 (c.315_316insAC)	False	Not provided
 2073	VHL	G106fs (c.316insA)	False	Not provided
 1797	VHL	G114C (c.340G>T)	True	Missense Variant
-4174	VHL	G114D (c.340+1G>A)	False	Not provided
 1857	VHL	G114R (c.340G>C)	True	Missense Variant
 2026	VHL	G114S (c.340G>A)	True	Missense Variant
 2491	VHL	G114V (c.341G>T)	False	Missense Variant
 2455	VHL	G114Vfs*45 (c.339delA)	True	Not provided
-2129	VHL	G114dup (c.342dupGGT)	True	Not provided
-2153	VHL	G114fs (c.326_339dupTCCACAGCTACCGA)	False	Not provided
 2135	VHL	G123fs (c.369_375delGACACAC)	True	Frameshift Variant
 3099	VHL	G127_L128delinsGF (c.381_382delinsTT)	False	Not provided
 2555	VHL	G127fs (c.381delG)	False	Frameshift Truncation
@@ -162,7 +136,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4172	VHL	G144Dfs*15 (c.431del)	False	Not provided
 2290	VHL	G144E (c.431G>A)	True	Not provided
 2059	VHL	G144R (c.430G>A)	False	Missense Variant
-4211	VHL	G144R (c.430G>A) and c.340+694_340+711dup	False	Not provided
 3197	VHL	G144R (c.430G>C)	False	Missense Variant
 2319	VHL	G144fs (c.429_430insGGAC)	False	Not provided
 3247	VHL	G144fs (c.429_439del)	True	Frameshift Truncation;Minus 2 Frameshift Variant
@@ -186,7 +159,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2516	VHL	H110PFS*49 (c.329delA)	False	Frameshift Truncation
 2520	VHL	H115FS (c.343delC)	False	Frameshift Truncation
 1885	VHL	H115P (c.344A>C)	True	Missense Variant
-4185	VHL	H115Pfs*44(c.344delA) and P61=(c.183C>G)	False	Not provided
 1742	VHL	H115Q (c.345C>A)	True	Missense Variant
 1957	VHL	H115Q (c.345C>G)	True	Missense Variant
 2000	VHL	H115R (c.344A>G)	True	Missense Variant
@@ -216,14 +188,11 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3146	VHL	I75S (c.224T>G)	False	Missense Variant
 3136	VHL	I75Sfs*84 (c.223del)	False	Not provided
 2487	VHL	I75del (c.221delTCA)	False	Not provided
-2134	VHL	Intronic deletion (c.341-13delCGTTTCCAACAATTTCTCGGTGT)	True	Not provided
 2311	VHL	K114fs (c.339_340delAG)	False	Not provided
 3354	VHL	K159* (c.474_475insT)	False	Not provided
 1862	VHL	K159E (c.475A>G)	False	Missense Variant
-4088	VHL	K159Efs*15 (c.473dup)	False	Not provided
 4089	VHL	K159delinsI* (c.475_476insTTT)	False	Not provided
 4100	VHL	K159fs (c.472_473insT)	False	Not provided
-1872	VHL	K159fs (c.473dup)	True	Frameshift Variant
 2137	VHL	K159fs (c.474_476delGAAinsC)	True	Frameshift Variant
 2040	VHL	K159fs (c.477_478insCA)	True	Frameshift Variant
 2327	VHL	K171fs (c.512_516delAGCCT)	False	Not provided
@@ -237,10 +206,8 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1820	VHL	L116V (c.346C>G)	True	Missense Variant
 2312	VHL	L116fs (c.347delT)	False	Frameshift Truncation
 1798	VHL	L118P (c.353T>C)	True	Missense Variant
-2381	VHL	L118P (c.353T>C) and R107G  (c.319C>G)	False	Not provided
 1822	VHL	L118R (c.353T>G)	False	Missense Variant
 2313	VHL	L118fs (c.349_350insG)	False	Not provided
-1841	VHL	L118fs (c.352_353insA)	True	Plus 1 Frameshift Variant
 1851	VHL	L128F (c.381_382delinsTT)	False	Missense Variant
 3066	VHL	L128F (c.382C>T)	True	Missense Variant
 2157	VHL	L128P (c.383T>C)	False	Missense Variant
@@ -253,9 +220,7 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1769	VHL	L135* (c.404T>A)	True	Stop Gained
 1906	VHL	L135fs (c.404del)	True	Frameshift Truncation;Minus 1 Frameshift Variant
 2557	VHL	L135fs (c.405delA)	False	Not provided
-3119	VHL	L140PfsX4 (c.418dup)	False	Not provided
 4087	VHL	L140Qfs*3 (c.419_420del)	False	Not provided
-3753	VHL	L140Sfs*4 (c.417dup)	False	Not provided
 1960	VHL	L140fs (c.417_418delTC)	True	Not provided
 2559	VHL	L140fs*158 (c.419delT)	False	Frameshift Truncation
 3513	VHL	L140fs*3 (c.419_420delTC)	False	Not provided
@@ -267,7 +232,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1803	VHL	L158V (c.472C>G)	True	Missense Variant
 2324	VHL	L158_K159del (c.472_477del)	False	Not provided
 4160	VHL	L158dup (c.473_474insTTT)	False	Not provided
-1783	VHL	L158fs (c.471dupT)	True	Frameshift Variant
 2505	VHL	L163F (c.487C>T)	False	Missense Variant
 2033	VHL	L163H (c.488T>A)	True	Missense Variant
 3198	VHL	L163I (c.487C>A)	False	Missense Variant
@@ -295,7 +259,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1828	VHL	L188fs (c.563del)	False	Minus 1 Frameshift Variant
 4156	VHL	L198Gfs*57 (c.592_593del)	False	Not provided
 2501	VHL	L198P (c.593T>C)	False	Missense Variant
-3480	VHL	L198P (c.593T>C) and P25L (c.74C>T)	False	Not provided
 2010	VHL	L198Q  (c.593T>A)	True	Missense Variant
 2247	VHL	L198R (c.593T>G)	False	Missense Variant
 2543	VHL	L198fs (c.592del)	False	Minus 1 Frameshift Variant;Frameshift Truncation
@@ -310,20 +273,14 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2308	VHL	L89H (c.266T>A)	False	Missense Variant
 1793	VHL	L89P (c.266T>C)	True	Missense Variant
 2549	VHL	L89R (c.266T>G)	False	Missense Variant
-847	VHL	M1? (c.1-1_20del21)	True	Start Lost
-848	VHL	M1? (c.3G>A)	True	Start Lost
-846	VHL	M1FS (c.1_17del17)	True	Start Lost
 2868	VHL	M211L (c.631A>C)	False	Missense Variant
-3720	VHL	M3I(c.3G>A) and M211L (c.631A>C)	False	Not provided
 2497	VHL	M54Gfs*77 (c.160_161delAT)	False	Not provided
 2177	VHL	M54I (c.162G>C)	False	Missense Variant
 829	VHL	M54IFS (c.162_166delGGAGG)	True	Frameshift Truncation
 2269	VHL	M54_A56del (c.159_168del)	False	Not provided
 2545	VHL	M54fs (c.160_175del)	False	Not provided
 2473	VHL	M54fs (c.160delA)	False	Not provided
-1889	VHL	M54fs (c.161dup)	True	Plus 1 Frameshift Variant;Frameshift Truncation
 1981	VHL	N100fsX131 (c.298_299InsA)	False	Not provided
-4271	VHL	N131*(c.390dupT)	False	Not provided
 1953	VHL	N131K (c.393C>A)	True	Missense Variant
 2460	VHL	N131K (c.393C>G)	False	Missense Variant
 2001	VHL	N131S (c.392A>G)	True	Missense Variant
@@ -362,9 +319,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2149	VHL	N90I (c.269A>T)	False	Missense Variant
 4201	VHL	N90del (c.268_270del)	False	Not provided
 2309	VHL	N90fs (c.269delA)	False	Not provided
-1978	VHL	Null (c.-678-?_340+?del)	False	Not provided
-1979	VHL	Null (c.-678-?_642+?del)	False	Not provided
-4264	VHL	Null (c.341+1_341–1)	False	Not provided
 2058	VHL	P102fs (c.305delC)	True	Frameshift Truncation
 1927	VHL	P103A (c.307C>G)	False	Missense Variant
 1795	VHL	P103FS (c.309_310delTG)	True	Frameshift Variant
@@ -375,7 +329,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2120	VHL	P138L (c.413C>T)	False	Missense Variant
 2440	VHL	P138R (c.413C>G)	True	Missense Variant
 1928	VHL	P138T (c.412C>A)	True	Missense Variant
-2495	VHL	P138fs (c.410dup)	False	Plus 1 Frameshift Variant;Frameshift Truncation
 2526	VHL	P146Gfs*14 (c.435_436insGG)	False	Not provided
 2055	VHL	P146fs (c.437del)	True	Frameshift Truncation;Minus 1 Frameshift Variant
 1962	VHL	P154= (c.462A>C)	True	Synonymous Variant
@@ -392,10 +345,7 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2064	VHL	P192S (c.574C>T)	False	Missense Variant
 1864	VHL	P192fs (c.575delC)	False	Missense Variant
 850	VHL	P25L (c.74C>T)	True	Missense Variant
-4165	VHL	P25L (c.74C>T) AND D126Rfs*6 (c.375_376insA) AND E55Rfs(c.163delG)	False	Not provided
-3087	VHL	P25L (c.74C>T) and P86T (c.256C>A)	False	Not provided
 3491	VHL	P2=(c.6C>G)	False	Not provided
-4176	VHL	P2=(c.6C>G) and P81S(c.241C>T)	False	Not provided
 2430	VHL	P40R (c.119C>G)	False	Missense Variant
 2090	VHL	P40fs (c.118ins)	True	Not provided
 4233	VHL	P45R (c.134C>G)	False	Not provided
@@ -417,24 +367,19 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4097	VHL	P76del (c.227_229del)	False	Not provided
 2084	VHL	P81L (c.242C>T)	False	Missense Variant
 1837	VHL	P81S (c.241C>T)	True	Missense Variant
-3298	VHL	P81S (c.241C>T) and L188V (c.562C>G)	True	Not provided
 1759	VHL	P86A (c.256C>G)	True	Missense Variant
 3185	VHL	P86Afs*46 (c.254_255insC)	False	Not provided
 2307	VHL	P86H (c.257C>A)	False	Missense Variant
 1760	VHL	P86L (c.257C>T)	True	Missense Variant
 1849	VHL	P86R (c.257C>G)	True	Missense Variant
 1902	VHL	P86S (c.256C>T)	True	Missense Variant
-1758	VHL	P86fs (c.254_255insC)	True	Plus 1 Frameshift Variant;Frameshift Truncation
 2306	VHL	P86fs (c.255_256delGC)	False	Not provided
 2117	VHL	P95R (c.284C>G)	False	Missense Variant
 3190	VHL	P95Rfs*64 (c.284del)	False	Not provided
 2128	VHL	P97= (c.291C>G)	False	Synonymous Variant
 2515	VHL	P97Afs*35 (c.287_288insA)	False	Not provided
 2069	VHL	P97L (c.290C>T)	False	Missense Variant
-3199	VHL	P97L (c.290C>T) and L116P (c.347T>C)	False	Not provided
-4189	VHL	Partial Deletion and P61=( c.183C>G)	False	Not provided
 1994	VHL	Q132* (c.394C>T)	True	Stop Gained
-2443	VHL	Q132Hfs*45 (c.343_395dup)	False	Not provided
 2125	VHL	Q132P (c.395A>C)	True	Missense Variant
 2267	VHL	Q132fs (c.395_396delAA)	False	Not provided
 1883	VHL	Q145* (c.433C>T)	True	Stop Gained
@@ -445,17 +390,14 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1845	VHL	Q164* (c.490C>T)	True	Stop Gained
 1943	VHL	Q164H (c.492G>C)	False	Missense Variant
 2880	VHL	Q164H (c.492G>T)	False	Missense Variant
-4212	VHL	Q164H (c.492G>T) and c.340+574A>T	False	Not provided
 2079	VHL	Q164L (c.491A>T)	True	Missense Variant
 1856	VHL	Q164R (c.491A>G)	True	Missense Variant
 1810	VHL	Q195* (c.583C>T)	True	Stop Gained
 4094	VHL	Q203Gfs*52 (c.607_608del)	False	Not provided
-2383	VHL	Q203TfsX53 (c.606dupA)	False	Not provided
 3657	VHL	Q203fs (c.607_608delCA)	False	Not provided
 1752	VHL	Q73* (c.217C>T)	True	Stop Gained
 2002	VHL	Q73FS (c.215delC)	False	Frameshift Variant
 2041	VHL	Q73FS (c.217delC)	True	Frameshift Truncation
-2444	VHL	Q73Pfs*59 (c.217dupC)	False	Not provided
 2131	VHL	Q73fs (c.214insGCCC)	True	Not provided
 1848	VHL	Q96* (c.286C>T)	True	Stop Gained
 1818	VHL	Q96P (c.287A>C)	False	Missense Variant
@@ -469,8 +411,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 4227	VHL	R107S (c.319C>A)	False	Not provided
 3132	VHL	R108Hfs*23 (c.323_324del)	False	Not provided
 4085	VHL	R108Lfs*52 (c.322_323insTG)	False	Not provided
-2021	VHL	R108dup (c.322_324dup)	True	Conservative Inframe Insertion
-3633	VHL	R108dup (c.322_324dupCGC)	False	Not provided
 3656	VHL	R108fs (c.322_323insTG)	False	Not provided
 2537	VHL	R108fs (c.323delGC)	False	Not provided
 1796	VHL	R113* (c.337C>T)	True	Stop Gained
@@ -482,7 +422,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2552	VHL	R120fs*158 (c.359delG)	False	Not provided
 2996	ARID2	R1273* (c.3817C>T)	False	Not provided
 1804	VHL	R161* (c.481C>T)	True	Missense Variant
-4096	VHL	R161* (c.481C>T) AND R200fs (c.598del)	False	Not provided
 2148	VHL	R161= (c.481C>A)	True	Synonymous Variant
 1915	VHL	R161G (c.481C>G)	True	Missense Variant
 1855	VHL	R161P (c.482G>C)	True	Missense Variant
@@ -492,8 +431,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1916	VHL	R167L (c.500G>T)	True	Missense Variant
 2458	VHL	R167P (c.500G>C)	True	Missense Variant
 1739	VHL	R167Q (c.500G>A)	True	Missense Variant
-4167	VHL	R167Q (c.500G>A) and I151N (c.452T>A)	False	Not provided
-4210	VHL	R167Q(c.500G>A) and c.464-94T>A	False	Not provided
 1747	VHL	R167W (c.499C>T)	True	Missense Variant
 2486	VHL	R167fs (c.501insTTGTCCGT)	False	Not provided
 1779	VHL	R167fs (c.502insTTGTCCGT)	True	Not provided
@@ -506,10 +443,7 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3191	VHL	R177_L178ins6 (c.531_532ins18)	False	Not provided
 1907	VHL	R177fs (c.528del)	True	Frameshift Truncation;Minus 1 Frameshift Variant
 2181	VHL	R177ins (c.531insCTGAGAGTAAAGCCTGAA)	True	Not provided
-3044	VHL	R197_L198ins7(c.572_592dup)	False	Not provided
 631	VHL	R200W (c.598C>T)	True	Missense Variant
-4190	VHL	R200W (c.598C>T) and V130L (c.388G>C)	False	Not provided
-4208	VHL	R200W (c.598C>T) and c.340+694_340+711dup	False	Not provided
 4095	VHL	R205Hfs*50 (c.614_615del)	False	Not provided
 3658	VHL	R205fs (c.614_615delGC)	False	Not provided
 2965	RUNX1	R292X (c.877C>T)	False	Not provided
@@ -519,7 +453,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2302	VHL	R60fs (c.178_179del)	False	Frameshift Truncation;Minus 2 Frameshift Variant
 1867	VHL	R64P (c.191G>C)	True	Missense Variant
 2510	VHL	R69AFS*63 (c.204_205insG)	False	Frameshift Variant
-4079	VHL	R69Afs*63 (c.204dup)	False	Not provided
 1948	VHL	R69fs (c.204insG)	True	Not provided
 2175	VHL	R79C (c.235C>T)	False	Missense Variant
 4204	VHL	R79G (c.235C>G)	False	Not provided
@@ -555,7 +488,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2100	VHL	S183fs (c.548delC)	False	Frameshift Variant
 3135	VHL	S38P (c.112T>C)	False	Missense Variant
 4076	VHL	S43_E47del (c.123_137del)	False	Not provided
-4231	VHL	S43_E47dup (c.123_137dup)	False	Not provided
 4099	VHL	S65* (c.189_192del)	False	Not provided
 1811	VHL	S65* (c.194C>A)	True	Stop Gained
 2011	VHL	S65A (c.193T>G)	True	Missense Variant
@@ -577,66 +509,11 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1757	VHL	S80I (c.239G>T)	True	Missense Variant
 4109	VHL	S80Ifs*79 (c.239del)	False	Not provided
 1874	VHL	S80N (c.239G>A)	True	Missense Variant
-4184	VHL	S80N (c.239G>A) and P25L (c.74C>T)	False	Not provided
 1963	VHL	S80R (c.238A>C)	True	Missense Variant
 1792	VHL	S80R (c.240T>G)	True	Missense Variant
 2512	VHL	S80fs (c.239_245del)	False	Frameshift Truncation;Minus 1 Frameshift Variant
 2511	VHL	S80fs (c.239del)	True	Frameshift Truncation;Minus 1 Frameshift Variant
-2518	VHL	Splice Region (c.340 3_340 10delACGGGCCCinsCG)	False	Not provided
-4162	VHL	Splice Region (c.340+1_340+5del)	False	Not provided
-4226	VHL	Splice Region (c.340+2T>C)	False	Not provided
-2534	VHL	Splice Region (c.340+3_340+10delinsCG)	False	Splice Donor Variant
-2104	VHL	Splice Region (c.340+5G>C)	True	Intron Variant
-2461	VHL	Splice Region (c.463+3A>C)	False	Not provided
-2065	VHL	Splice Region (c.463+3A>G)	False	Splice Donor Region Variant
-2146	VHL	Splice Region (c.463+3A>T)	False	Splice Donor Region Variant
-2292	VHL	Splice Region (c.463+8C>T)	True	Splicing Variant
-3107	VHL	Splice Region (c.464-3C>T)	False	Not provided
-1681	JAK2	Splice Site (c.1641+2T>G)	True	Splice Donor Variant
-5091	NF1	Splice Site (c.1845+1G>A)	False	Not provided
-5090	NF1	Splice Site (c.205-1G>C)	False	Not provided
-5123	NF1	Splice Site (c.2850+1G>A)	False	Not provided
-4540	MET	Splice Site (c.2888-21_2888-20delinsGC)	False	Not provided
-4539	MET	Splice Site (c.2888_2919del)	False	Not provided
-4538	MET	Splice Site (c.2888_3028del)	False	Not provided
-4521	MET	Splice Site (c.3025_3028+5del)	False	Not provided
-4642	MET	Splice Site (c.3027_3028+21delAGGTATATTTCAGTTTATTGTTC	False	Not provided
-4374	MET	Splice Site (c.3028+1G>T)	False	Splice Donor Variant
-4377	MET	Splice Site (c.3028+2T>C)	False	Splice Donor Variant
-4544	MET	Splice Site (c.3028+3A>G)	False	Not provided
-4386	MET	Splice Site (c.3028G>A)	True	Splice Donor Variant
-5132	NF1	Splice Site (c.3113+1G>A)	False	Not provided
-2114	VHL	Splice Site (c.340+1G>A)	True	Splice Donor Variant
-2074	VHL	Splice Site (c.340+1G>T)	False	Splice Donor Variant
-4086	VHL	Splice Site (c.340+2_340+6del)	False	Not provided
-4254	VHL	Splice Site (c.340+563C>T)	False	Not provided
-4255	VHL	Splice Site (c.340+578C>T)	False	Not provided
-4256	VHL	Splice Site (c.340+617C>G)	False	Not provided
-4257	VHL	Splice Site (c.340+682T>C)	False	Not provided
-4258	VHL	Splice Site (c.340+725A>T)	False	Not provided
-4259	VHL	Splice Site (c.340+866C>A)	False	Not provided
-2017	VHL	Splice Site (c.341-1G>A)	False	Splice Acceptor Variant
-2454	VHL	Splice Site (c.341-1G>T)	False	Splice Acceptor Variant
-2133	VHL	Splice Site (c.341-2A>C)	True	Splice Acceptor Variant
-2504	VHL	Splice Site (c.341-2A>G)	False	Not provided
-4243	VHL	Splice Site (c.341-3T>G)	False	Not provided
-3436	VHL	Splice Site (c.341-6C>T)	False	Not provided
-5125	NF1	Splice Site (c.3871-1G>C)	False	Not provided
-5126	NF1	Splice Site (c.4110+1G>T)	False	Not provided
-1972	VHL	Splice Site (c.463+1G>A)	False	Splice Donor Variant
-1998	VHL	Splice Site (c.463+1G>C)	True	Splice Donor Variant
-2048	VHL	Splice Site (c.463+1G>T)	False	Splice Donor Variant
-2075	VHL	Splice Site (c.463+2T>C)	True	Splice Donor Variant
-1974	VHL	Splice Site (c.464-1G>A)	True	Splice Acceptor Variant
-2077	VHL	Splice Site (c.464-1G>C)	True	Splice Acceptor Variant
-1990	VHL	Splice Site (c.464-1G>T)	True	Splice Acceptor Variant
-2093	VHL	Splice Site (c.464-2A>C)	False	Splice Acceptor Variant
-2078	VHL	Splice Site (c.464-2A>G)	True	Splice Acceptor Variant
-1992	VHL	Splice Site (c.464-2A>T)	True	Splice Acceptor Variant
-5094	NF1	Splice Site (c.654+2T>A)	False	Not provided
-3370	VHL	Splice site (c.463+2A>C)	False	Not provided
 2248	VHL	T100A (c.298A>G)	False	Missense Variant
-3150	VHL	T100Nfs*32 (c.298dupA)	False	Not provided
 2471	VHL	T104fs (c.313_315delC)	False	Not provided
 4235	VHL	T105M (c.314C>T)	False	Not provided
 1839	VHL	T105P (c.313A>C)	True	Missense Variant
@@ -645,7 +522,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3479	VHL	T124del (c.369_371del)	False	Not provided
 1905	VHL	T124fs (c.369del)	False	Frameshift Truncation;Minus 1 Frameshift Variant
 2314	VHL	T124fs (c.370_371insTGCAGGA)	False	Not provided
-3738	VHL	T133Nfs*2 (c.397dup)	False	Not provided
 1843	VHL	T133fs (c.397del)	True	Minus 1 Frameshift Variant;Frameshift Truncation
 2556	VHL	T133fs*157 (c.397_400delACTG)	False	Frameshift Truncation
 2085	VHL	T152I (c.455C>T)	False	Missense Variant
@@ -659,7 +535,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2380	VHL	V130I (c.388G>A)	False	Missense Variant
 1970	VHL	V130L (c.388G>C)	True	Missense Variant
 4246	VHL	V130P (c.388G>T)	False	Not provided
-3366	VHL	V130Wfs*30 (c.385_386dup)	False	Not provided
 4198	VHL	V155= (c.465G>C)	False	Not provided
 1909	VHL	V155E (c.464T>A)	True	Missense Variant
 1934	VHL	V155G (c.464T>G)	True	Missense Variant
@@ -702,9 +577,7 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2548	VHL	V84fs (c.249_255del)	False	Not provided
 2068	VHL	V87A (c.260T>C)	False	Missense Variant
 2513	VHL	V87E (c.260T>A)	False	Missense Variant
-4179	VHL	V87Gfs*71(c.260_263del) and P81S(c.241C>T)	False	Not provided
 3741	VHL	V87fs (c.255_256insC)	True	Not provided
-2432	VHL	V87fs (c.259_260insA)	True	Plus 1 Frameshift Variant;Frameshift Truncation
 2249	VHL	W117* (c.350G>A)	False	Stop Gained
 1821	VHL	W117* (c.351G>A)	False	Stop Gained
 1767	VHL	W117C (c.351G>T)	True	Missense Variant
@@ -714,8 +587,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2522	VHL	W117R (c.349T>A)	False	Missense Variant
 3715	VHL	W117R (c.349T>C)	False	Not provided
 2523	VHL	W117S (c.350G>C)	False	Missense Variant
-2027	VHL	W117fs (c.349dup)	True	Plus 1 Frameshift Variant;Frameshift Truncation
-3634	VHL	W117fs (c.349dupT)	False	Not provided
 1294	VHL	W8* (c.24G>A)	True	Stop Gained
 2151	VHL	W88* (c.263G>A)	True	Stop Gained
 1908	VHL	W88* (c.264G>A)	True	Stop Gained
@@ -725,7 +596,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1761	VHL	W88R (c.262T>A)	True	Missense Variant
 2056	VHL	W88R (c.262T>C)	True	Missense Variant
 1966	VHL	W88S (c.263G>C)	True	Missense Variant
-2299	VHL	W88fs (c.261dup)	True	Plus 1 Frameshift Variant;Frameshift Truncation
 1766	VHL	Y112* (c.336C>A)	True	Stop Gained
 2818	VHL	Y112C (c.355A>G)	False	Missense Variant
 1865	VHL	Y112H (c.334T>C)	True	Missense Variant
@@ -747,7 +617,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2115	VHL	Y185* (c.555C>A)	False	Stop Gained
 1809	VHL	Y185* (c.555C>G)	True	Stop Gained
 3125	VHL	Y98* (c.294C>G)	False	Stop Gained
-3352	VHL	Y98Afs(c.282_291dup)	False	Not provided
 1933	VHL	Y98C  (c.293A>G)	True	Missense Variant
 2450	VHL	Y98C (c.293A>G)	False	Not provided
 852	VHL	Y98FS (c.291_310del20)	True	Frameshift Truncation
@@ -755,45 +624,12 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 1741	VHL	Y98H (c.292T>C)	True	Missense Variant
 2484	VHL	Y98N (c.292T>A)	False	Missense Variant
 2480	VHL	Y98S (c.293A>C)	False	Missense Variant
-3022	VHL	c.*294G>A	False	3 Prime UTR Variant
-4466	TERT	c.-124C.T	False	Not provided
-3021	VHL	c.-195G>A	False	Not provided
-2634	VHL	c.-61_-51dup11	False	Not provided
-3174	VHL	c.-65_-55dup11	False	Not provided
-2633	VHL	c.-77_-32del	False	Not provided
-2373	VHL	c.128-?_250+?	True	Not provided
-3727	FLCN	c.1285dupC	True	Not provided
 3002	NF2	c.1396C>T	True	Not provided
 3267	CBL	c.1477C>T	False	Not provided
-2884	CDKN2A	c.151-1G>C	True	Not provided
-615	JAK2	c.1641+1dup	True	Not provided
 4581	ND1	c.1971T>G	False	Not provided
-3404	PTEN	c.209+5G>A	False	Not provided
-2374	VHL	c.251-?_429+?	False	Not provided
 4151	VHL	c.329ins2	False	Not provided
-4228	VHL	c.340+384G>C	False	Not provided
-4213	VHL	c.340+617C>G and c.340+648T>C	False	Not provided
-3041	VHL	c.340+770T>C	False	Not provided
-4178	VHL	c.340+770T>C and R200W (c.598C>T)	False	Not provided
-3161	VHL	c.340+7G>A	False	Not provided
-2435	VHL	c.341-59_341-14del	True	Not provided
-4197	VHL	c.341-59_341-14del AND F136fs (c.408delT)	False	Not provided
 4152	VHL	c.358ins2	False	Not provided
 877	GNAS	c.393T>C	True	Synonymous Variant
-3365	VHL	c.463+37_463+39del	False	Not provided
-3159	VHL	c.463+43A>G	False	Not provided
 4173	VHL	c.502ins8bp	False	Not provided
-2507	VHL	c.516_517dupGTCAAGCCT and c.532_542delCTGGACATCGTinsATTA	False	Not provided
-4556	EPCAM	c.556‐490_*8438del	False	Not provided
 4157	VHL	c.563ins20	False	Not provided
-3047	VHL	c.56_57DupInvCGGGAGGC	False	Not provided
 3039	VHL	c.652T>A	False	Not provided
-3050	ATM	c.7089+1del	True	Not provided
-3051	ATM	c.7515+1_2del	True	Not provided
-731	MLH1	c.790+1G>A	True	Splice Donor Variant
-3049	ATM	c.902-1G>T	True	Not provided
-3101	VHL	c.–65_–55dup11	False	Not provided
-4191	VHL	c.–65_–55dup11 AND  3' UTR alteration (c.*1149A>G)	False	Not provided
-2431	VHL	c.−213− ?_463 ?del	True	Not provided
-2411	SDHB	p.193_196dupSTSC (c.577_588dupAGCACCAGCTGC)	True	Inframe Insertion
-4247	VHL	p.L159Es*15 (c.473dup)	False	Not provided

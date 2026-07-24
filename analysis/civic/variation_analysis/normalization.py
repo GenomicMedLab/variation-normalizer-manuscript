@@ -191,13 +191,13 @@ async def map_transcript_to_genomic(
     }
 
 
-def get_not_supported_categories(
+def get_not_supported_protein_categories(
     gene_query_handler: GeneQueryHandler,
     v_name: str,
     variant: civicpy.Variant,
     not_supported: dict,
 ) -> set[NotSupportedVariantCategory]:
-    """Get not supported categories for a CIViC variant.
+    """Get not supported categories for a CIViC protein variant.
 
     :param gene_query_handler: Handler used to normalize gene symbols.
     :param v_name: Variant query to provide to the variation-normalizer
@@ -301,6 +301,99 @@ def get_not_supported_categories(
         for k, v in not_supported.items():
             if {x for x in v if x in v_name_lower}:
                 categories.add(k)
+
+    if len(categories) > 1:
+        # Those with multiple categories will be classified as other
+        categories = {NotSupportedVariantCategory.OTHER}
+
+    return categories
+
+
+def get_not_supported_cdna_genomic_categories(
+    v_name: str, civic_variant_types: str
+) -> set[NotSupportedVariantCategory]:
+    """Get not supported categories for a CIViC cDNA/genomic variant.
+
+    :param v_name: Variant query to provide to the variation-normalizer
+    :param civic_variant_types: CIViC variant types
+    :return: Set of associated NotSupportedVariantCategory for a variant. If supported,
+        empty set will be returned
+    """
+    categories = set()
+
+    if civic_variant_types in [
+        "3 Prime UTR Variant",
+        "Intron Variant",
+        "Splice Acceptor Variant",
+        "Splice Donor Region Variant",
+        "Splice Donor Variant",
+        "Splicing Variant",
+    ]:
+        categories.add(NotSupportedVariantCategory.REGION_DEFINED)
+
+    if civic_variant_types in [
+        "Conservative Inframe Insertion",
+        "Plus 1 Frameshift Variant",
+        "Plus 1 Frameshift Variant;Frameshift Truncation",
+    ]:
+        categories.add(NotSupportedVariantCategory.SEQUENCE)
+
+    if civic_variant_types == "Start Lost":
+        categories.add(NotSupportedVariantCategory.GENE_FUNCTION)
+
+    v_name_lower = v_name.lower()
+
+    if "c.-" in v_name_lower:
+        categories.add(NotSupportedVariantCategory.OTHER)
+
+    # these should really be complex MPs in civic
+    #  (c.227T>A; c.228C>A)
+    if "and" in v_name_lower or ";" in v_name_lower:
+        categories.add(NotSupportedVariantCategory.GENOTYPE_AND_HAPLOTYPE)
+
+    if "splic" in v_name_lower or "exon" in v_name_lower:
+        categories.add(NotSupportedVariantCategory.REGION_DEFINED)
+
+    if re.search(r"c\.\d+(?:_\d+)?dup.*", v_name, re.IGNORECASE):  # dups
+        categories.add(NotSupportedVariantCategory.SEQUENCE)
+
+    if re.search(
+        r"c\.(?:\*\d+|\d+[+-]\d+)[ACGT]>[ACGT]", v_name, re.IGNORECASE
+    ):  # c.463+3A>T, c.463-2G>C, c.*70C>T
+        categories.add(NotSupportedVariantCategory.REGION_DEFINED)
+
+    if re.search(r"c\.\d+del\d+-nt", v_name, re.IGNORECASE):  # c.449del14-nt
+        categories.add(NotSupportedVariantCategory.SEQUENCE)
+
+    if re.search(
+        r"(?:"
+        r"c\.-\d+-\?_\d+\+\?del"  # c.-678-?_642+?del
+        r"|c\.\d+\+\d+_\d+[–-]\d+"  # c.341+1_341–1
+        r"|c\.\d+-\d+del[ACGT]+"  # c.341-13delCGTTTCCAACAATTTCTCGGTGT
+        r")",
+        v_name,
+        re.IGNORECASE,
+    ):
+        categories.add(NotSupportedVariantCategory.REGION_DEFINED)
+
+    # c.128-?_250+?, c.1641+1dup, c.251-?_429+?, c.341-59_341-14del, c.463+37_463+39del, c.556-490_*8438del, c.7089+1del, c.7515+1_2del, c.-65_-55dup11
+    # c.-213-?_463?del
+    if re.search(
+        r"c\.(?:"
+        r"\d+[-–−‐]\?_\d+\+\?"
+        r"|\d+\+\d+dup"
+        r"|\d+[-–−‐]\d+_\d+[-–−‐]\d+del"
+        r"|\d+\+\d+_\d+\+\d+del"
+        r"|\d+[-–−‐]\d+_\*\d+del"
+        r"|\d+\+\d+del"
+        r"|\d+\+\d+_\d+del"
+        r"|[-–−‐]\d+_[-–−‐]\d+dup\d+"
+        r"|[-–−‐]\d+[-–−‐]\s*\?_\d+\s*\?del"
+        r")",
+        v_name,
+        re.IGNORECASE,
+    ):
+        categories.add(NotSupportedVariantCategory.REGION_DEFINED)
 
     if len(categories) > 1:
         # Those with multiple categories will be classified as other
