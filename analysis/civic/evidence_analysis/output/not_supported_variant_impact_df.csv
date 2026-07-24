@@ -1,12 +1,12 @@
 Category,CIVIC Total Sum Impact Score,Average Impact Score per Variant,Average Impact Score per Evidence Item,Total Number Evidence Items,% Accepted Evidence Items,Total Number Variants
-Sequence,2716.75,28.3,18.11,361,58.17%,174
+Sequence,2721.75,28.35,18.14,365,58.08%,178
 Genotype/Haplotype,312.5,3.26,2.08,68,29.41%,44
 Fusion,8112.75,84.51,54.08,1590,64.65%,313
 Rearrangement,3336.0,34.75,22.24,593,40.13%,122
 Epigenetic Modification,285.5,2.97,1.9,23,95.65%,14
 Copy Number,125.0,1.3,0.83,52,44.23%,19
 Expression,3628.0,37.79,24.19,623,55.38%,294
-Gene Function,1886.25,19.65,12.58,390,44.62%,114
-Region-Defined,6791.5,70.74,45.28,961,51.61%,336
+Gene Function,1878.75,19.57,12.52,386,44.30%,111
+Region-Defined,6794.0,70.77,45.29,962,51.66%,337
 Genome Feature,0.0,0.0,0.0,25,20.00%,10
 Other,576.0,6.0,3.84,150,28.00%,96

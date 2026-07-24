@@ -1141,6 +1141,7 @@ variant_id	query	query_type	variant_accepted	civic_variant_types	vrs_id	succeede
 3965	BRCA1 M1652I	protein	False	Not provided	ga4gh:VA.JAK3aNiSa0MKOWREZ0XWahLt18Pqd-Nl	normalize
 4401	BRCA1 M1775K	protein	False	Not provided	ga4gh:VA.6jC861V0e4McGNm2Yn_5VV1wZ8GSTy1_	normalize
 4400	BRCA1 M1775R	protein	False	Not provided	ga4gh:VA.TNN5ScOeZ2HpQdrxjpQZo9xJTUUKo40E	normalize
+848	VHL M1? (c.3G>A)	cdna_genomic	True	Start Lost	ga4gh:VA.gv5hheuoqZ-DTgDPfL1ezjZ_0lBeRIh-	normalize_cdna_change_only
 1248	BRCA2 M1I	protein	True	Missense Variant	ga4gh:VA.taz2x-9OYHUXcFKgmq4pf6MYxbOm4YOI	normalize
 747	MLH1 M1L	protein	True	Missense Variant	ga4gh:VA.DufBPujpQWrwEvV_NO9_N9ClpPUYJ_e-	normalize
 2868	VHL M211L (c.631A>C)	cdna_genomic	False	Missense Variant	ga4gh:VA.85LGbTVlVjYEVeu2sQQ7uSg3Yj7YEkm7	normalize

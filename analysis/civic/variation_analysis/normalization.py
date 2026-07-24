@@ -338,9 +338,6 @@ def get_not_supported_cdna_genomic_categories(
     ]:
         categories.add(NotSupportedVariantCategory.SEQUENCE)
 
-    if civic_variant_types == "Start Lost":
-        categories.add(NotSupportedVariantCategory.GENE_FUNCTION)
-
     v_name_lower = v_name.lower()
 
     if "c.-" in v_name_lower:
@@ -358,12 +355,14 @@ def get_not_supported_cdna_genomic_categories(
         categories.add(NotSupportedVariantCategory.SEQUENCE)
 
     if re.search(
+        r"c\.\d+(?:_\d+)?del\d+(?:-nt)?", v_name, re.IGNORECASE
+    ):  # c.449del14-nt, c.1_17del17
+        categories.add(NotSupportedVariantCategory.SEQUENCE)
+
+    if re.search(
         r"c\.(?:\*\d+|\d+[+-]\d+)[ACGT]>[ACGT]", v_name, re.IGNORECASE
     ):  # c.463+3A>T, c.463-2G>C, c.*70C>T
         categories.add(NotSupportedVariantCategory.REGION_DEFINED)
-
-    if re.search(r"c\.\d+del\d+-nt", v_name, re.IGNORECASE):  # c.449del14-nt
-        categories.add(NotSupportedVariantCategory.SEQUENCE)
 
     if re.search(
         r"(?:"
@@ -377,7 +376,7 @@ def get_not_supported_cdna_genomic_categories(
         categories.add(NotSupportedVariantCategory.REGION_DEFINED)
 
     # c.128-?_250+?, c.1641+1dup, c.251-?_429+?, c.341-59_341-14del, c.463+37_463+39del, c.556-490_*8438del, c.7089+1del, c.7515+1_2del, c.-65_-55dup11
-    # c.-213-?_463?del
+    # c.-213-?_463?del, c.1-1_20del21
     if re.search(
         r"c\.(?:"
         r"\d+[-–−‐]\?_\d+\+\?"
@@ -389,6 +388,7 @@ def get_not_supported_cdna_genomic_categories(
         r"|\d+\+\d+_\d+del"
         r"|[-–−‐]\d+_[-–−‐]\d+dup\d+"
         r"|[-–−‐]\d+[-–−‐]\s*\?_\d+\s*\?del"
+        r"|\d+[-–−‐]\d+_\d+del\d+"
         r")",
         v_name,
         re.IGNORECASE,

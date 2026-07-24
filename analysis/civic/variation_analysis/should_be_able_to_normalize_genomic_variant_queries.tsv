@@ -121,7 +121,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2252	VHL	G104fs (c.309delT)	False	Not provided
 2266	VHL	G104fs (c.310delG)	False	Not provided
 2551	VHL	G104fs*158 (c.311delC)	False	Not provided
-3085	VHL	G104fs*23 (c.309_322del14)	False	Not provided
 4084	VHL	G106Tfs*54 (c.315_316insAC)	False	Not provided
 2073	VHL	G106fs (c.316insA)	False	Not provided
 1797	VHL	G114C (c.340G>T)	True	Missense Variant
@@ -267,12 +266,12 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 2262	VHL	L63fs (c.187delC)	False	Not provided
 2087	VHL	L63fs (c.189_192delGCGC)	False	Not provided
 2020	VHL	L85P (c.254T>C)	True	Missense Variant
-2506	VHL	L85_E94del (c.254_283del30bp)	False	Not provided
 1925	VHL	L85fs (c.253_254ins38)	False	Not provided
 2305	VHL	L85fs (c.253delC)	False	Not provided
 2308	VHL	L89H (c.266T>A)	False	Missense Variant
 1793	VHL	L89P (c.266T>C)	True	Missense Variant
 2549	VHL	L89R (c.266T>G)	False	Missense Variant
+848	VHL	M1? (c.3G>A)	True	Start Lost
 2868	VHL	M211L (c.631A>C)	False	Missense Variant
 2497	VHL	M54Gfs*77 (c.160_161delAT)	False	Not provided
 2177	VHL	M54I (c.162G>C)	False	Missense Variant
@@ -619,7 +618,6 @@ variant_id	gene_name	variant_name	variant_accepted	civic_variant_types
 3125	VHL	Y98* (c.294C>G)	False	Stop Gained
 1933	VHL	Y98C  (c.293A>G)	True	Missense Variant
 2450	VHL	Y98C (c.293A>G)	False	Not provided
-852	VHL	Y98FS (c.291_310del20)	True	Frameshift Truncation
 2160	VHL	Y98FS (c.291delC)	True	Frameshift Truncation
 1741	VHL	Y98H (c.292T>C)	True	Missense Variant
 2484	VHL	Y98N (c.292T>A)	False	Missense Variant
