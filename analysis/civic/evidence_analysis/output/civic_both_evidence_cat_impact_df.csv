@@ -1,12 +1,12 @@
 category,number_of_variants,#_evidence_items,impact,average_impact_per_variant
 Fusion,312,1625,5552.0,17.79
-Region-Defined,258,833,3413.5,13.23
-Rearrangement,123,602,2376.5,19.32
-Sequence,369,633,2225.0,6.03
+Region-Defined,336,1008,3932.5,11.7
+Rearrangement,122,601,2373.5,19.45
 Expression,294,626,2117.0,7.2
-Gene Function,114,407,1371.5,12.03
-Other,162,323,1091.5,6.74
-Genotype/Haplotype,22,42,232.0,10.55
-Copy Number,37,70,204.0,5.51
+Sequence,178,372,1438.0,8.08
+Gene Function,111,404,1362.5,12.27
+Other,96,152,578.5,6.03
+Genotype/Haplotype,44,71,319.0,7.25
+Copy Number,19,52,150.0,7.89
 Genome Feature,10,25,120.0,12.0
 Epigenetic Modification,14,23,92.0,6.57
